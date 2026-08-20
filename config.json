@@ -1,0 +1,69 @@
+{
+  "_comment": "Single source of truth for all configurable parameters in spec.md. Roles read this; nothing re-derives these values independently. See harness spec.md Generation Rules for this requirement.",
+
+  "players": {
+    "min_players": 3,
+    "max_players": 10
+  },
+
+  "rounds": {
+    "round_window_hours": 24,
+    "rotations_target": 2,
+    "_note": "one round timer for the whole game; every round advances import-open, export-close, and winner-resolution in lockstep (spec #9-#12)"
+  },
+
+  "imports": {
+    "allow_repeat_category_across_cities": true,
+    "allow_repeat_category_for_same_city": false,
+    "_note": "spec #14, #22 -- same category may go to different cities but not to the same city twice, by default"
+  },
+
+  "exports": {
+    "max_submissions_per_player_per_import_per_round": 1
+  },
+
+  "economy": {
+    "profit_roll": "2d6",
+    "leaderboard_visible_in_newspaper": true,
+    "_note": "spec #20-#22 -- exposure policy is intentionally config-driven so it can be iterated on; non-winning submission origin must never be exposed regardless of this config (spec #21, not overridable)"
+  },
+
+  "facilitator_questions": {
+    "enabled": true,
+    "max_per_player_per_round": 1,
+    "fill_second_slot_only_if_no_second_game_action_pending": true,
+    "scope": "freeform_getting_to_know_you",
+    "framing": "questions_to_about_the_mayor",
+    "answers_shared_in_newspaper": true,
+    "aggregate_phrasing_style": "clever_group_patterns",
+    "_note": "spec #23-#25; scope is configurable for a future domain-specific harness run (e.g. 'coding_preferences')"
+  },
+
+  "newspaper": {
+    "publish_cadence": "per_round",
+    "archive_prior_editions": true,
+    "player_identity_style": "city_mayor_only",
+    "image_per_edition": true,
+    "tone": {
+      "funny": true,
+      "colorful": true,
+      "allow_pointed_humor": true,
+      "disallow_snide_or_mean": true
+    },
+    "_note": "spec #26-#30; player_identity_style may later support more anonymity per decisions Q26"
+  },
+
+  "endgame": {
+    "crown_cumulative_profit_winner": true,
+    "publish_twist_article": true,
+    "generate_per_city_description_and_image": true,
+    "per_city_excess_uses_non_chosen_exports": true,
+    "_note": "spec #31-#32"
+  },
+
+  "roles": {
+    "generator_model": "opus",
+    "evaluator_model": "sonnet",
+    "_note": "Generator gets the more creative-leaning model (game content, newspaper prose, city descriptions/images are the bulk of its work). Evaluator gets a model tuned for strict, literal rule-checking against spec.md. Both invoked via `claude --model <alias>`. Revisit if either role's output quality suggests a swap."
+  }
+}
