@@ -1,7 +1,13 @@
-# Game Night (deliverable repo)
+# Sister Cities (deliverable repo)
 
 This is the **deliverable** for the game-night-harness project — the
 actual game being built, not the harness that builds it.
+
+The game is **Sister Cities**. Its in-fiction newspaper is **The Daily
+Manifest**. See [`NAME.md`](NAME.md) for why, and [`content/`](content)
+for the seeded game content (import needs, city gazetteer, mayor
+questions). All configurable parameters live in
+[`config.json`](config.json).
 
 - Harness (process, spec, decisions): https://github.com/badralbudur/game-night-harness
 - This repo tracks the deliverable's own build history independently, per

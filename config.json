@@ -6,6 +6,24 @@
     "max_players": 10
   },
 
+  "cities": {
+    "enforce_unique_city_names": true,
+    "duplicate_pick_resolution": "nearest_available_from_gazetteer",
+    "suggestions_offered_on_join": 6,
+    "max_reassignment_search_radius_km": 800,
+    "allow_off_gazetteer_picks": true,
+    "_note": "spec #2 -- city names unique per game, duplicates reassigned to a geographically close alternative (never silently allowed to collide), players may still pick freely. The data and the resolution procedure live in content/gazetteer.json; these are the knobs that procedure reads."
+  },
+
+  "content": {
+    "import_needs_file": "content/import_needs.json",
+    "gazetteer_file": "content/gazetteer.json",
+    "questions_file": "content/questions.json",
+    "question_set_id": "getting_to_know_you_v1",
+    "allow_player_suggested_import_needs": true,
+    "_note": "spec #13, #33 -- seeded game content lives in content/ and is extended by players during play, not re-derived per role."
+  },
+
   "rounds": {
     "round_window_hours": 24,
     "rotations_target": 2,
@@ -36,6 +54,7 @@
     "framing": "questions_to_about_the_mayor",
     "answers_shared_in_newspaper": true,
     "aggregate_phrasing_style": "clever_group_patterns",
+    "aggregate_phrasing_ladder": "default",
     "_note": "spec #23-#25; scope is configurable for a future domain-specific harness run (e.g. 'coding_preferences')"
   },
 
