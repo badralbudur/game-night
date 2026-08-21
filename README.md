@@ -27,7 +27,18 @@ snapshot.
 | Milestone | Status |
 | --- | --- |
 | **M1** — seeded game content ([`content/`](content), [`NAME.md`](NAME.md)) | built |
+| **M2** — core round-flow engine ([`engine/`](engine), [`tests/`](tests)) | built — see [`docs/m2-engine.md`](docs/m2-engine.md) |
 
-Game-flow logic — round timing, the city queue, export collection, blind
-voting, scoring, the newspaper and the endgame — is later milestones.
-Nothing in this repo implements them yet.
+The engine covers the round timer and its lockstep, the city order queue and its
+two rotations, the import/export/winner cycle with every fallback, the import
+repetition rule, and blind-voting data handling. Run its tests with:
+
+```
+python3 run_tests.py
+```
+
+Still later milestones: the newspaper and its private hosting, generated images,
+the phrasing and aggregation of mayor questions, the endgame articles and
+per-city portraits, and the duplicate-city reassignment procedure. The engine
+marks each of those with an explicit `[[M5 ...]]`-style stub where its data
+would otherwise carry the finished thing.

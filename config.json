@@ -33,29 +33,36 @@
   "imports": {
     "allow_repeat_category_across_cities": true,
     "allow_repeat_category_for_same_city": false,
-    "_note": "spec #14, #22 -- same category may go to different cities but not to the same city twice, by default"
+    "reuse_same_need_within_game": false,
+    "_note": "spec #14, #22 -- same category may go to different cities but not to the same city twice, by default. reuse_same_need_within_game governs the individual need rather than its category: with 48 seeds and at most 20 needs in a maximum game, replaying the exact same brief verbatim is never necessary, so it is off."
   },
 
   "exports": {
-    "max_submissions_per_player_per_import_per_round": 1
+    "max_submissions_per_player_per_import_per_round": 1,
+    "importer_may_export_to_own_need": false,
+    "_note": "spec #15. importer_may_export_to_own_need is not settled by the spec either way; false is the sane default because a mayor exporting to their own import need would be judging their own entry, which blind voting (spec #18) cannot survive. Exposed rather than hardcoded so a facilitator can decide otherwise."
   },
 
   "economy": {
     "profit_roll": "2d6",
     "leaderboard_visible_in_newspaper": true,
-    "_note": "spec #20-#22 -- exposure policy is intentionally config-driven so it can be iterated on; non-winning submission origin must never be exposed regardless of this config (spec #21, not overridable)"
+    "even_split_mode": "exact_fraction",
+    "profit_display_decimals": 2,
+    "_note": "spec #20-#22 -- exposure policy is intentionally config-driven so it can be iterated on; non-winning submission origin must never be exposed regardless of this config (spec #21, not overridable). profit_roll is parsed as NdS rather than assumed to be two six-sided dice. even_split_mode decides what spec #19's 'split evenly' means when the roll does not divide cleanly: 'exact_fraction' (each city gets total/n exactly, the parts sum to the whole) or 'floor_discard_remainder' (integer-only ledgers, remainder unawarded)."
   },
 
   "facilitator_questions": {
     "enabled": true,
+    "ask_every_n_rounds": 1,
     "max_per_player_per_round": 1,
+    "_max_per_player_note": "How many of a mayor's two check-in slots may be a question. Spec #23 allows at most one, so the engine accepts 1 (ask) or 0 (suppress questions for a mayor while leaving the round's question asked of others) and refuses anything higher rather than silently capping it.",
     "fill_second_slot_only_if_no_second_game_action_pending": true,
     "scope": "freeform_getting_to_know_you",
     "framing": "questions_to_about_the_mayor",
     "answers_shared_in_newspaper": true,
     "aggregate_phrasing_style": "clever_group_patterns",
     "aggregate_phrasing_ladder": "default",
-    "_note": "spec #23-#25; scope is configurable for a future domain-specific harness run (e.g. 'coding_preferences')"
+    "_note": "spec #23-#25; scope is configurable for a future domain-specific harness run (e.g. 'coding_preferences'). ask_every_n_rounds is spec #23's 'not every round necessarily needs a question' -- 1 asks every round, 2 every other round, and `enabled: false` never. One question per round is asked of every mayor who checks in, because aggregate phrasing ('the world', 'some countries') is only meaningful when everyone was asked the same thing."
   },
 
   "newspaper": {
@@ -78,6 +85,11 @@
     "generate_per_city_description_and_image": true,
     "per_city_excess_uses_non_chosen_exports": true,
     "_note": "spec #31-#32"
+  },
+
+  "engine": {
+    "rng_seed": null,
+    "_note": "Seeds every random draw the engine makes -- import-need selection, ballot shuffling and profit rolls, each on its own derived stream. null means a genuinely random game, which is what a real game night wants. Set an integer to replay a game move-for-move; the test suite does exactly that. It lives here rather than in code because 'is this game reproducible' is a facilitator's decision, and because a reproducible game is the only way to re-examine a disputed round after the fact."
   },
 
   "roles": {
