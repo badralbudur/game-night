@@ -75,6 +75,41 @@ jq -c '(.regions|map(.id)) as $R |
 # => [148,true,0,0,4,0,[],32,12]
 ```
 
+Every reassignment candidate is **unambiguous on its own**. A `nearby` entry is
+handed to a player with no surrounding context, so a bare toponym shared by two
+real cities is a live hazard: an unqualified `"Athens"` under Atlanta reassigns
+a Georgian mayor to Greece — well-formed data, 9,994 km wrong, and a silent
+failure of #2's "geographically close". Names that collide take a parenthetical
+qualifier (`Athens (Georgia)`, `Toledo (Ohio)`, `San Antonio (Chile)`), per
+`resolution_rules.naming_convention`. No `nearby` string now resolves to a
+gazetteer city or alias outside its own region, and no bare toponym is listed
+by cities in two different regions:
+
+```sh
+jq -c '. as $g
+  | ($g.cities|map({key:.name,value:.region})|from_entries) as $reg
+  | ([$g.cities[]|{n:.name,a:.aliases}]|map(.a[] as $x|{key:$x,value:.n})|from_entries) as $al
+  | [ ([$g.cities[]|. as $c|$c.nearby[]|select($reg[.]!=null and $reg[.]!=$c.region)]|unique),
+      ([$g.cities[]|. as $c|$c.nearby[]|select($al[.]!=null)]|unique),
+      ([$g.cities[]|. as $c|$c.nearby[]|{n:.,r:$c.region}]
+         |group_by(.n)|map(select((map(.r)|unique|length)>1))|map(.[0].n)) ]' \
+   content/gazetteer.json
+# => [[],[],[]]
+```
+
+Every gazetteer-internal `nearby` link is also genuinely near — the longest is
+596 km (Hobart → Melbourne), inside
+`config.cities.max_reassignment_search_radius_km` (800):
+
+```sh
+jq -c '. as $g | ($g.cities|map({key:.name,value:{lat:.lat,lon:.lon}})|from_entries) as $m
+  | [ $g.cities[] | . as $c | $c.nearby[] | select($m[.]!=null)
+      | ((($m[.].lat-$c.lat)*111.0) as $dy
+         | (($m[.].lon-$c.lon)*111.0*(($c.lat*3.14159/180)|cos)) as $dx
+         | (($dy*$dy+$dx*$dx)|sqrt|round)) ] | max' content/gazetteer.json
+# => 596
+```
+
 **Questions** — `36` questions (≥ the 20 rounds of a maximum-size game, so
 none ever repeats), ids and texts unique, every entry fully specified with all
 three aggregate registers, every question mayor-framed, ladder tiers strictly
