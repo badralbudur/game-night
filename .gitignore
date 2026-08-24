@@ -1,0 +1,3 @@
+# Running `python3 run_tests.py` leaves bytecode behind; none of it is game state.
+__pycache__/
+*.py[cod]

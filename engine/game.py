@@ -371,9 +371,17 @@ class GameEngine:
             for submission in submissions:
                 submission.is_winner = True
             winners = list(submissions)
-            cities = [
-                self.ledger.city_for(s.submission_id, READ_AWARD) for s in winners
-            ]
+            # Among their *cities*, not among their submissions. The two differ
+            # only when config raises the #15 cap above one submission per
+            # player -- and then splitting per submission would pay a city that
+            # submitted twice a double share, making export spam profitable.
+            # That is the incentive the cap exists to remove, so the split is
+            # per distinct city, in first-submission order.
+            cities = []
+            for submission in winners:
+                city = self.ledger.city_for(submission.submission_id, READ_AWARD)
+                if city not in cities:
+                    cities.append(city)
             shares = money.even_split(
                 roll.total, len(cities), self.config.require_str("economy.even_split_mode")
             )
@@ -528,7 +536,7 @@ class GameEngine:
         )
         second_game_action_pending = len(applicable) > 1
         if not (gate and second_game_action_pending):
-            question_slot = self._question_slot(player_id, used)
+            question_slot = self._question_slot(player_id, used, deadline)
             if question_slot is not None:
                 if slots[1] is None:
                     slots[1] = question_slot
@@ -595,7 +603,7 @@ class GameEngine:
             return self.config.require_bool("exports.importer_may_export_to_own_need")
         return True
 
-    def _question_slot(self, player_id, used):
+    def _question_slot(self, player_id, used, deadline):
         record = self.rounds[self.current_round]
         if record.question_id is None or used.get(SLOT_QUESTION, 0):
             return None
@@ -617,6 +625,9 @@ class GameEngine:
             "text": question["text"],
             "framing": question.get("framing", "to_the_mayor"),
             "answer_shape": question.get("answer_shape"),
+            # The same round deadline the game-action slots carry: a question is
+            # part of the one check-in, not a phase with a clock of its own (#9).
+            "deadline": deadline.isoformat(),
             "optional": True,
             "note": "[[M6 owns how this is asked and M5 how the answers are "
                     "aggregated; the engine only allocates the slot and stores "
