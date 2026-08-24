@@ -2,7 +2,7 @@
 
 import unittest
 
-from harness import make_config, new_game, play_out
+from harness import make_config, new_game, play_out, question_doc
 from engine import Content, GameEngine
 from engine.clock import utc
 from engine.errors import NoEligibleImportNeed
@@ -27,11 +27,15 @@ def tiny_content(category_count, needs_per_category, questions=6):
                     "source": "seed",
                 }
             )
-    question_bank = [
-        {"id": "q%d" % index, "text": "Mayor, question %d?" % index}
-        for index in range(questions)
-    ]
-    return Content(needs, categories, question_bank, {"cities": []}, root=".")
+    doc = question_doc(
+        [
+            {"id": "q%d" % index, "text": "Mayor, question %d?" % index}
+            for index in range(questions)
+        ]
+    )
+    return Content(
+        needs, categories, doc["questions"], {"cities": []}, root=".", question_doc=doc
+    )
 
 
 def game_with(content, config=None, **overrides):

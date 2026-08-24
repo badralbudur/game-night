@@ -9,10 +9,14 @@ point:
   will write from. Winners are named; everyone else's submission appears with its
   origin withheld, permanently (spec #21).
 
-These are data, not prose. Headlines, copy, images and the aggregate phrasing of
-mayor answers belong to M5/M6; every place one is due carries an explicit
-``[[M5 ...]]``/``[[M6 ...]]`` stub so a missing piece reads as a milestone
-boundary rather than as finished work.
+* :func:`newspaper_mayor_question` -- the round's question item, gated by the
+  configured exposure policy, carrying the aggregate as *numbers* (see
+  :mod:`engine.aggregate`) rather than as a sentence.
+
+These are data, not prose. Headlines, copy, images and the wording of the
+aggregate item belong to M5; every place one is due carries an explicit
+``[[M5 ...]]``-style stub so a missing piece reads as a milestone boundary
+rather than as finished work.
 """
 
 from . import ballot, money
@@ -55,6 +59,49 @@ def newspaper_leaderboard(engine):
     view that forgot to check.
     """
     return engine.leaderboard() if engine.economy.leaderboard_visible else None
+
+
+def newspaper_mayor_question(engine, round_index):
+    """The round's question item as the newspaper may print it, or ``None``.
+
+    The one place ``facilitator_questions.answers_shared_in_newspaper`` (spec
+    #25's "shared in the newspaper by default (not private)") is consulted, for
+    the same reason :func:`newspaper_leaderboard` is the only place the
+    leaderboard exposure decision is taken: an exposure policy enforced in two
+    views is an exposure policy one of them will forget.
+
+    The payload is the full aggregate report -- the distribution, the selected
+    outcome and the wordings that outcome licenses (spec #25's data side). The
+    sentence written from it is M5's. Answers are keyed by city throughout
+    (spec #28), and nothing here touches the export side of the game: the
+    questions channel and the blind-voting channel never cross-reference each
+    other (#18, #21).
+    """
+    shared = engine.config.require_bool("facilitator_questions.answers_shared_in_newspaper")
+    if not shared:
+        return None
+    return engine.mayor_question_report(round_index)
+
+
+def facilitator_question_report(engine, round_index):
+    """The facilitator's view of a round's question -- **not** a newspaper payload.
+
+    Complete regardless of the exposure policy, for the same reason
+    :func:`standings` is: the facilitator runs the game and needs to see what
+    came back whether or not the paper prints it. ``newspaper_visible`` says at a
+    glance that this is not the gated view -- that one is
+    :func:`newspaper_mayor_question`.
+    """
+    report = engine.mayor_question_report(round_index)
+    if report is None:
+        return None
+    return dict(
+        report,
+        audience="facilitator",
+        newspaper_visible=engine.config.require_bool(
+            "facilitator_questions.answers_shared_in_newspaper"
+        ),
+    )
 
 
 def _submission_line(engine, submission, reveal):
@@ -156,21 +203,7 @@ def round_briefing(engine, round_index):
         elif event["op"] == "RESOLVE":
             briefing["resolved"] = need_briefing(engine, need)
 
-    if record.question_id is not None:
-        question = engine.content.question_by_id(record.question_id)
-        briefing["mayor_question"] = {
-            "question_id": question["id"],
-            "text": question["text"],
-            "newspaper_hook": question.get("newspaper_hook"),
-            # Answers are keyed by city, never by handle (spec #28).
-            "answers_by_city": {
-                engine.players[pid].city: answer for pid, answer in record.answers.items()
-            },
-            "answered": len(record.answers),
-            "asked_of": sum(1 for p in engine.players.values() if p.joined_round <= record.index),
-            "aggregate_phrasing_stub": "[[M5/M6: aggregate these into 'the world' / "
-                                       "'most nations' / 'some countries' phrasing]]",
-        }
+    briefing["mayor_question"] = newspaper_mayor_question(engine, round_index)
     leaderboard = newspaper_leaderboard(engine)
     if leaderboard is not None:
         briefing["leaderboard"] = leaderboard

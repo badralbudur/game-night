@@ -182,25 +182,44 @@ def find_ledger_misuse(engine):
     return misuse
 
 
-def find_exposure_violations(engine, payload):
-    """Anything ``payload`` publishes that config.json says to withhold (#22).
+#: Payload keys that only exist to publish something, mapped to the config flag
+#: that decides whether they may be published at all (spec #22, #25). Checked
+#: over the payload rather than over the view that builds it, so a newspaper
+#: surface added later is covered without being enumerated here.
+_GATED_KEYS = {
+    "leaderboard": (
+        # Read through Economy, which is where that decision is already taken --
+        # the audit checks the same value the views check, not a second reading
+        # of the same key that could drift from it.
+        lambda engine: engine.economy.leaderboard_visible,
+        "economy.leaderboard_visible_in_newspaper",
+        "#22",
+    ),
+    "answers_by_city": (
+        lambda engine: engine.config.require_bool(
+            "facilitator_questions.answers_shared_in_newspaper"
+        ),
+        "facilitator_questions.answers_shared_in_newspaper",
+        "#25",
+    ),
+}
 
-    Today that is one thing -- the leaderboard -- but the check is written over
-    the payload rather than over the one view that builds it, so a second
-    newspaper surface added later is covered without being enumerated here.
-    """
-    if engine.economy.leaderboard_visible:
-        return []
+
+def find_exposure_violations(engine, payload):
+    """Anything ``payload`` publishes that config.json says to withhold (#22, #25)."""
     offenders = []
-    for path, node in _walk(payload):
-        if isinstance(node, dict) and "leaderboard" in node:
-            offenders.append(
-                {
-                    "path": "%s.leaderboard" % path,
-                    "reason": "economy.leaderboard_visible_in_newspaper is false",
-                    "spec": "#22",
-                }
-            )
+    for key, (visible, dotted, spec) in _GATED_KEYS.items():
+        if visible(engine):
+            continue
+        for path, node in _walk(payload):
+            if isinstance(node, dict) and key in node:
+                offenders.append(
+                    {
+                        "path": "%s.%s" % (path, key),
+                        "reason": "%s is false" % dotted,
+                        "spec": spec,
+                    }
+                )
     return offenders
 
 

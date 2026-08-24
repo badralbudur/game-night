@@ -14,10 +14,23 @@ import os
 import unicodedata
 
 from .config import repo_root
-from .errors import ContentError, NoEligibleImportNeed
+from .errors import ConfigError, ContentError, NoEligibleImportNeed
 
 SOURCE_SEED = "seed"
 SOURCE_PLAYER = "player"
+
+#: What ``config.facilitator_questions.framing`` permits a question to be.
+#:
+#: Spec #24 requires v1's questions to be framed as questions *to or about "the
+#: mayor"* -- the persona, never the person behind it -- and says the framing is
+#: configurable for a future domain-specific run. So the config key names a
+#: *mode*, and a mode says which per-question ``framing`` values are legal. A
+#: mode this table does not know is refused rather than treated as "anything
+#: goes": that is how an unnoticed typo in config.json would quietly switch off
+#: the one requirement this key exists to enforce.
+FRAMING_MODES = {
+    "questions_to_about_the_mayor": ("to_the_mayor", "about_the_mayor"),
+}
 
 
 def normalize_city(name):
@@ -48,12 +61,16 @@ def _read_json(path, what):
 class Content:
     """The seeded content, plus anything players added during play."""
 
-    def __init__(self, needs, categories, questions, gazetteer, root):
+    def __init__(self, needs, categories, questions, gazetteer, root, question_doc=None):
         self.needs = list(needs)
         self.categories = {c["id"]: c for c in categories}
         self.questions = list(questions)
         self.gazetteer = gazetteer
         self.root = root
+        #: The whole questions document. The engine needs more of it than the
+        #: question list -- the aggregate phrasing ladder (spec #25) lives here
+        #: too, and is content, not code.
+        self.question_doc = question_doc or {"questions": self.questions}
         self._validate()
 
     @classmethod
@@ -75,13 +92,19 @@ class Content:
                 "questions file declares set_id %r but config.content.question_set_id "
                 "is %r" % (q_doc.get("set_id"), expected_set)
             )
-        return cls(
+        content = cls(
             needs=needs_doc.get("needs", []),
             categories=needs_doc.get("categories", []),
             questions=q_doc.get("questions", []),
             gazetteer=gaz_doc,
             root=root,
+            question_doc=q_doc,
         )
+        # Checked at load, so a question bank that does not match the configured
+        # scope or framing refuses to start a game rather than being discovered
+        # in round 3, when the aggregate it feeds is already half-built.
+        content.check_question_policy(config)
+        return content
 
     def _validate(self):
         if not self.needs:
@@ -183,6 +206,78 @@ class Content:
         }
 
     # -- questions --------------------------------------------------------
+
+    def check_question_policy(self, config):
+        """The question bank must match what config.json asks for (spec #23-#25).
+
+        Three things, none of which the engine may decide for itself:
+
+        * ``facilitator_questions.scope`` -- v1 is freeform getting-to-know-you
+          (spec #24) and a later domain-specific run points config at a
+          different bank. Pointing it at a bank of the wrong scope is a
+          misconfiguration, not a silent downgrade.
+        * ``facilitator_questions.framing`` -- names a mode in
+          :data:`FRAMING_MODES`; every question must declare one of the framings
+          that mode allows, so spec #24's "to/about the mayor" is checked over
+          the whole bank rather than trusted per question.
+        * every question actually declares a framing. There is no default: a
+          question with no framing would silently inherit one, which is how an
+          unframed question ends up addressed to the person rather than the
+          persona.
+        """
+        scope = config.require_str("facilitator_questions.scope")
+        declared = self.question_doc.get("scope")
+        if declared != scope:
+            raise ContentError(
+                "questions file declares scope %r but config.facilitator_questions.scope "
+                "is %r; point config at a bank of the right scope rather than reusing "
+                "this one (spec #24)" % (declared, scope)
+            )
+        mode = config.require_str("facilitator_questions.framing")
+        try:
+            allowed = FRAMING_MODES[mode]
+        except KeyError:
+            raise ConfigError(
+                "config.facilitator_questions.framing is %r; known modes are %s"
+                % (mode, sorted(FRAMING_MODES))
+            )
+        for question in self.questions:
+            framing = question.get("framing")
+            if framing not in allowed:
+                raise ContentError(
+                    "question %r is framed %r; config.facilitator_questions.framing=%r "
+                    "allows only %s -- spec #24 requires questions to/about the mayor, "
+                    "never to the person behind them"
+                    % (question["id"], framing, mode, list(allowed))
+                )
+        return True
+
+    def phrasing_ladder(self, ladder_id):
+        """One aggregate-phrasing ladder from the questions file (spec #25).
+
+        Returned raw; :class:`engine.aggregate.Ladder` is what validates and
+        executes it. The ladder is content -- the wordings and the thresholds are
+        writing decisions -- so it lives here and not in code.
+        """
+        ladders = (self.question_doc.get("aggregate_phrasing") or {}).get("ladders") or {}
+        try:
+            return ladders[ladder_id]
+        except KeyError:
+            raise ContentError(
+                "config.facilitator_questions.aggregate_phrasing_ladder names %r, but "
+                "%s ships ladders %s"
+                % (ladder_id, self.question_doc.get("set_id"), sorted(ladders))
+            )
+
+    def phrasing_integrity_rules(self):
+        """The rules a written aggregate item must not break (spec #25, #30)."""
+        return list((self.question_doc.get("aggregate_phrasing") or {}).get(
+            "integrity_rules", []
+        ))
+
+    def asking_rules(self):
+        """The content-side rules the check-in and the aggregate implement."""
+        return list((self.question_doc.get("asking_rules") or {}).get("rules", []))
 
     def draw_question(self, rng, asked_ids):
         """One unasked question (content/questions.json asking_rules)."""
