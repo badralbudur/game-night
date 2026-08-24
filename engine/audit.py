@@ -8,7 +8,8 @@ enumerating known payload shapes.
 """
 
 from . import state
-from .errors import BlindVotingViolation
+from .economy import NON_WINNER_ORIGIN_EXPOSURE, exposure_knob_match
+from .errors import BlindVotingViolation, ExposurePolicyViolation
 from .state import READ_AUDIT, READ_WINNER_REVEAL
 
 #: Attribute names that would mean a second timer exists (spec #9).
@@ -179,6 +180,65 @@ def find_ledger_misuse(engine):
         if submission is not None and not submission.is_winner:
             misuse.append(access)
     return misuse
+
+
+def find_exposure_violations(engine, payload):
+    """Anything ``payload`` publishes that config.json says to withhold (#22).
+
+    Today that is one thing -- the leaderboard -- but the check is written over
+    the payload rather than over the one view that builds it, so a second
+    newspaper surface added later is covered without being enumerated here.
+    """
+    if engine.economy.leaderboard_visible:
+        return []
+    offenders = []
+    for path, node in _walk(payload):
+        if isinstance(node, dict) and "leaderboard" in node:
+            offenders.append(
+                {
+                    "path": "%s.leaderboard" % path,
+                    "reason": "economy.leaderboard_visible_in_newspaper is false",
+                    "spec": "#22",
+                }
+            )
+    return offenders
+
+
+def find_origin_exposure_knobs(config_data):
+    """Config keys that would make spec #21 configurable. There must be none.
+
+    Spec #22 says exposure policy is config-driven; spec #21 is the one carve-out
+    -- a losing export's origin is never exposed, so no knob may exist that
+    could turn it on. This walks the raw config document rather than the keys the
+    engine happens to read, because a knob nothing reads yet is still a knob
+    somebody will wire up.
+    """
+    offenders = []
+    for path, node in _walk(config_data):
+        if not isinstance(node, dict):
+            continue
+        for key in node:
+            if not isinstance(key, str):
+                continue
+            matched = exposure_knob_match(key)
+            if matched:
+                offenders.append(
+                    {"path": "%s.%s" % (path, key), "matched": matched, "spec": "#21"}
+                )
+    return offenders
+
+
+def assert_exposure_policy(engine, payload):
+    """Raise if a newspaper payload exposes something #21/#22 forbid."""
+    problems = {"exposure_violations": find_exposure_violations(engine, payload)}
+    if NON_WINNER_ORIGIN_EXPOSURE:  # pragma: no cover - False, permanently (#21)
+        problems["non_winner_origin_exposure"] = [
+            "engine.economy.NON_WINNER_ORIGIN_EXPOSURE is True; spec #21 forbids it"
+        ]
+    failing = {key: value for key, value in problems.items() if value}
+    if failing:
+        raise ExposurePolicyViolation("exposure-policy audit failed: %r" % failing)
+    return True
 
 
 def assert_blind(engine, payload, ballots=()):

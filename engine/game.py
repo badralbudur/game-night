@@ -31,12 +31,12 @@ game without exception.
 
 import random
 from datetime import timedelta
-from fractions import Fraction
 
-from . import ballot, dice, money
+from . import ballot
 from .clock import ManualClock, RoundTimer, SystemClock, ensure_aware
 from .config import Config
 from .content import Content, normalize_city
+from .economy import Economy
 from .errors import (
     CheckInExhausted,
     ConfigError,
@@ -87,6 +87,9 @@ class GameEngine:
     def __init__(self, config=None, content=None, clock=None, rng_seed=_UNSET):
         self.config = config if config is not None else Config.load()
         self.content = content if content is not None else Content.load(self.config)
+        # Built here, before a round exists, so a malformed dice expression or
+        # split mode is a startup error rather than a round-3 crash (spec #20).
+        self.economy = Economy(self.config)
         self.clock = clock if clock is not None else SystemClock()
         self._seed = (
             self.config.require_nullable_int("engine.rng_seed")
@@ -343,31 +346,30 @@ class GameEngine:
 
     def _resolve(self, need, round_index):
         submissions = self.submissions_for(need.need_key)
-        expression = self.config.require_str("economy.profit_roll")
-        decimals = self.config.require_int("economy.profit_display_decimals")
+        economy = self.economy
         rng = self._rng("profit", need.need_key)
 
         if not submissions:
             # Spec #17: nobody exported, so the importing city ramps up its own
             # industry and the importing mayor still takes the rolled profit.
-            roll = dice.roll(rng, expression)
-            awards = [(need.importing_city, Fraction(roll.total))]
+            roll = economy.roll(rng)
+            awards = economy.whole(need.importing_city, roll)
             mode = RAMP_UP
             winners = []
         elif need.pick is not None:
             # Spec #18/#20: the importer chose; the winning city takes the roll.
-            roll = dice.roll(rng, expression)
+            roll = economy.roll(rng)
             winner = ballot.resolve_ref(submissions, need.pick["ballot_ref"])
             winner.is_winner = True
             winners = [winner]
-            awards = [
-                (self.ledger.city_for(winner.submission_id, READ_AWARD), Fraction(roll.total))
-            ]
+            awards = economy.whole(
+                self.ledger.city_for(winner.submission_id, READ_AWARD), roll
+            )
             mode = WINNER_PICK
         else:
             # Spec #19: the picking window lapsed, so every submission wins and
             # the profit is split evenly among their cities.
-            roll = dice.roll(rng, expression)
+            roll = economy.roll(rng)
             for submission in submissions:
                 submission.is_winner = True
             winners = list(submissions)
@@ -382,27 +384,21 @@ class GameEngine:
                 city = self.ledger.city_for(submission.submission_id, READ_AWARD)
                 if city not in cities:
                     cities.append(city)
-            shares = money.even_split(
-                roll.total, len(cities), self.config.require_str("economy.even_split_mode")
-            )
-            awards = list(zip(cities, shares))
+            awards = economy.split(cities, roll)
             mode = EVEN_SPLIT
 
         for city, amount in awards:
             earner = self.player_for_city(city)
             if earner is None:  # pragma: no cover - cities are registered players
                 raise RuleViolation("cannot credit profit to unknown city %r" % city)
-            earner.cumulative_profit += amount
+            economy.credit(earner, amount)
 
         need.status = RESOLVED
         need.resolved_round = round_index
         need.resolution = {
             "mode": mode,
             "roll": roll.to_dict(),
-            "awards": [
-                {"city": city, "profit": money.to_json(amount, decimals)}
-                for city, amount in awards
-            ],
+            "awards": economy.render_awards(awards),
             "submission_count": len(submissions),
             "winning_ballot_refs": [s.ballot_ref for s in winners],
             "spec": {
@@ -814,21 +810,15 @@ class GameEngine:
     # -- reporting --------------------------------------------------------
 
     def leaderboard(self):
-        """Cumulative per-city profit (spec #20). Whether the newspaper *shows*
-        this is a separate, config-driven exposure decision (spec #22)."""
-        decimals = self.config.require_int("economy.profit_display_decimals")
-        ranked = sorted(
-            self.players.values(), key=lambda p: (-p.cumulative_profit, p.city)
-        )
-        return [
-            {
-                "rank": index + 1,
-                "city": player.city,
-                "mayor": player.mayor,
-                "profit": money.to_json(player.cumulative_profit, decimals),
-            }
-            for index, player in enumerate(ranked)
-        ]
+        """Cumulative per-city profit (spec #20).
+
+        Whether the *newspaper* shows this is a separate, config-driven exposure
+        decision (spec #22) taken in one place: ``views.newspaper_leaderboard``.
+        This method is the facilitator's own view and is always populated --
+        gating it here too would mean a hidden leaderboard also stops the engine
+        from being able to crown a winner at the end (#31).
+        """
+        return self.economy.leaderboard(self.players.values())
 
     def describe(self):
         return {

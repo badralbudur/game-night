@@ -48,7 +48,7 @@
     "leaderboard_visible_in_newspaper": true,
     "even_split_mode": "exact_fraction",
     "profit_display_decimals": 2,
-    "_note": "spec #20-#22 -- exposure policy is intentionally config-driven so it can be iterated on; non-winning submission origin must never be exposed regardless of this config (spec #21, not overridable). profit_roll is parsed as NdS rather than assumed to be two six-sided dice. even_split_mode decides what spec #19's 'split evenly' means when the roll does not divide cleanly: 'exact_fraction' (each city gets total/n exactly, the parts sum to the whole) or 'floor_discard_remainder' (integer-only ledgers, remainder unawarded)."
+    "_note": "spec #20-#22 -- exposure policy is intentionally config-driven so it can be iterated on; non-winning submission origin must never be exposed regardless of this config (spec #21, not overridable, and deliberately absent from this file: engine/economy.py holds it as a constant and tests/test_economy.py fails if a knob for it ever appears here). profit_roll is parsed as NdS rather than assumed to be two six-sided dice. even_split_mode decides what spec #19's 'split evenly' means when the roll does not divide cleanly: 'exact_fraction' (each city gets total/n exactly, the parts sum to the whole) or 'floor_discard_remainder' (integer-only ledgers, remainder unawarded). Every value in this block is validated when a game is constructed, not at the first roll, so a typo here refuses to start a game rather than crashing it three rounds in."
   },
 
   "facilitator_questions": {

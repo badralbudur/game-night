@@ -16,6 +16,7 @@ boundary rather than as finished work.
 """
 
 from . import ballot, money
+from .economy import NON_WINNER_ORIGIN_EXPOSURE
 from .errors import PickRejected
 from .state import (
     COLLECTING,
@@ -45,18 +46,38 @@ def importer_ballot(engine, player_id, need_key=None):
     }
 
 
+def newspaper_leaderboard(engine):
+    """The leaderboard as the newspaper may print it, or ``None`` (spec #22).
+
+    The single place the exposure decision is taken. Every newspaper-facing
+    payload asks this rather than reading the config key itself, so switching
+    ``economy.leaderboard_visible_in_newspaper`` off cannot be defeated by one
+    view that forgot to check.
+    """
+    return engine.leaderboard() if engine.economy.leaderboard_visible else None
+
+
 def _submission_line(engine, submission, reveal):
     """One submission as the outside world may see it.
 
     Built from a whitelist. A winner's city is named; a non-winner has no city
     field at all -- not ``None``, not an id, absent -- so there is nothing for a
     downstream template to accidentally render.
+
+    ``reveal`` only ever widens as far as *winners*. There is no argument, and
+    no config key, that names a losing export's city: spec #21 is absolute, and
+    :data:`engine.economy.NON_WINNER_ORIGIN_EXPOSURE` records that on purpose.
     """
     line = {
         "ballot_ref": submission.ballot_ref,
         "export": submission.text,
         "won": bool(submission.is_winner),
     }
+    if NON_WINNER_ORIGIN_EXPOSURE:  # pragma: no cover - False, permanently (#21)
+        raise AssertionError(
+            "engine.economy.NON_WINNER_ORIGIN_EXPOSURE was flipped on; spec #21 "
+            "does not permit a losing export's origin to be published"
+        )
     if reveal and submission.is_winner:
         line["origin_city"] = engine.ledger.city_for(
             submission.submission_id, READ_WINNER_REVEAL
@@ -150,8 +171,9 @@ def round_briefing(engine, round_index):
             "aggregate_phrasing_stub": "[[M5/M6: aggregate these into 'the world' / "
                                        "'most nations' / 'some countries' phrasing]]",
         }
-    if engine.config.require_bool("economy.leaderboard_visible_in_newspaper"):
-        briefing["leaderboard"] = engine.leaderboard()
+    leaderboard = newspaper_leaderboard(engine)
+    if leaderboard is not None:
+        briefing["leaderboard"] = leaderboard
     return briefing
 
 
@@ -168,9 +190,20 @@ def archive(engine):
 
 
 def standings(engine):
-    decimals = engine.config.require_int("economy.profit_display_decimals")
+    """The facilitator's own view of the economy -- **not** a newspaper payload.
+
+    Always complete, regardless of ``economy.leaderboard_visible_in_newspaper``:
+    the facilitator runs the game and needs the totals whether or not the paper
+    prints them. It carries ``newspaper_visible`` so a caller building an
+    edition can see at a glance that this is not the gated view it wants --
+    that one is :func:`newspaper_leaderboard`.
+    """
+    economy = engine.economy
     total = sum(p.cumulative_profit for p in engine.players.values())
     return {
+        "audience": "facilitator",
+        "newspaper_visible": economy.leaderboard_visible,
         "leaderboard": engine.leaderboard(),
-        "total_profit_awarded": money.to_json(total, decimals),
+        "total_profit_awarded": money.to_json(total, economy.decimals),
+        "economy": economy.describe(),
     }
