@@ -28,10 +28,13 @@ snapshot.
 | --- | --- |
 | **M1** — seeded game content ([`content/`](content), [`NAME.md`](NAME.md)) | built |
 | **M2** — core round-flow engine ([`engine/`](engine), [`tests/`](tests)) | built — see [`docs/m2-engine.md`](docs/m2-engine.md) |
+| **M3** — economy: profit rolls, leaderboard, exposure ([`engine/economy.py`](engine/economy.py)) | built — see [`docs/m3-economy.md`](docs/m3-economy.md) |
 
 The engine covers the round timer and its lockstep, the city order queue and its
 two rotations, the import/export/winner cycle with every fallback, the import
-repetition rule, and blind-voting data handling. Run its tests with:
+repetition rule, blind-voting data handling, and the economy — profit rolls, the
+cumulative per-city leaderboard, and the exposure policy around both. Run its
+tests with:
 
 ```
 python3 run_tests.py

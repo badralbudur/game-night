@@ -99,3 +99,13 @@ class BlindVotingViolation(GameError):
     Raised by the audit in ``engine.audit``. Reaching this means a *code* bug,
     not a player mistake -- it is a tripwire, not a game rule.
     """
+
+
+class ExposurePolicyViolation(GameError):
+    """A payload publishes something config.json says to withhold (spec #22).
+
+    The sibling of :class:`BlindVotingViolation`, and the distinction between
+    them is the point: this one is about a *configured* exposure decision being
+    ignored, while that one is about the exporter anonymity that spec #21 puts
+    beyond configuration entirely.
+    """
