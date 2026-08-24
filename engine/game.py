@@ -1,9 +1,9 @@
 """The Sister Cities round-flow engine.
 
-Implements spec #4, #5, #9-#12, #14-#19 and #21. Newspaper prose, generated
-images and the phrasing of mayor questions belong to later milestones; where
-this engine would need them it emits a clearly marked stub instead (see
-``resolution["newspaper"]``).
+Implements spec #4, #5, #9-#12, #14-#19, #21 and #23-#25. Newspaper prose,
+generated images and the *wording* of the mayor-question items belong to later
+milestones; where this engine would need them it emits a clearly marked stub
+instead (see ``resolution["newspaper"]``).
 
 The lockstep (spec #9)
 ----------------------
@@ -32,7 +32,8 @@ game without exception.
 import random
 from datetime import timedelta
 
-from . import ballot
+from . import aggregate, ballot
+from .aggregate import Ladder
 from .clock import ManualClock, RoundTimer, SystemClock, ensure_aware
 from .config import Config
 from .content import Content, normalize_city
@@ -90,6 +91,12 @@ class GameEngine:
         # Built here, before a round exists, so a malformed dice expression or
         # split mode is a startup error rather than a round-3 crash (spec #20).
         self.economy = Economy(self.config)
+        # Same reason: the phrasing ladder spec #25's aggregate is selected from
+        # is content, and a malformed one must not surface as a broken newspaper
+        # item three rounds in. Building it here also means every game validates
+        # its question bank, however its Content was constructed.
+        self.content.check_question_policy(self.config)
+        self.phrasing_ladder = Ladder.from_config(self.config, self.content)
         self.clock = clock if clock is not None else SystemClock()
         self._seed = (
             self.config.require_nullable_int("engine.rng_seed")
@@ -456,6 +463,116 @@ class GameEngine:
     def asked_question_ids(self):
         return list(self._asked_question_ids)
 
+    def _round_record(self, round_index):
+        try:
+            return self.rounds[round_index]
+        except KeyError:
+            raise RuleViolation("round %r has not happened" % (round_index,))
+
+    def answers_by_city(self, round_index):
+        """A round's answers keyed by city -- never by handle (spec #28).
+
+        The city is the identity the newspaper and the aggregate both use; the
+        player id and handle exist only so the facilitator's agent can route a
+        check-in, and neither leaves the engine through this door.
+        """
+        record = self._round_record(round_index)
+        return {
+            self.players[player_id].city: answer
+            for player_id, answer in record.answers.items()
+        }
+
+    def mayors_asked(self, round_index):
+        """How many mayors this round's question was put to.
+
+        Every mayor seated by that round. Deliberately the wider count: it is the
+        denominator for the integrity rule that says an aggregate over some of
+        the mayors must admit as much ("of the nine who replied..."), so counting
+        a mayor whose two game actions crowded the question out errs toward
+        disclosure rather than away from it.
+        """
+        record = self._round_record(round_index)
+        return sum(1 for p in self.players.values() if p.joined_round <= record.index)
+
+    def record_answer_buckets(self, round_index, buckets_by_city, source="facilitator"):
+        """Cluster a round's answers, as ``{city: bucket label}`` (spec #25).
+
+        The engine cannot do this itself and does not pretend to: deciding that
+        "the fish counter" and "the market" are the same answer is a judgement.
+        What it *can* do is refuse a clustering that would corrupt the aggregate
+        -- one that drops a respondent or invents one -- and then do the
+        arithmetic exactly, which is what
+        :meth:`mayor_question_report` returns.
+
+        Re-clustering is allowed while the game runs; whether an already
+        published edition may be revised is the newspaper's rule (see the
+        questions file's asking_rules on late answers), not this method's.
+        """
+        record = self._round_record(round_index)
+        if record.question_id is None:
+            raise RuleViolation("no mayor question was asked in round %d" % round_index)
+        answers = self.answers_by_city(round_index)
+        if not answers:
+            raise RuleViolation(
+                "nobody answered round %d's question, so there is nothing to cluster"
+                % round_index
+            )
+        record.answer_buckets = aggregate.validate_bucketing(
+            answers, self._resolve_bucket_cities(buckets_by_city)
+        )
+        record.bucket_source = source
+        return dict(record.answer_buckets)
+
+    def _resolve_bucket_cities(self, buckets_by_city):
+        """Key a supplied clustering by the city names the game actually holds.
+
+        "Reykjavik" and "Reykjavík" are the same city everywhere else in this
+        engine (see :func:`engine.content.normalize_city`), so a clustering that
+        spells one of them differently is accepted rather than reported as a
+        mayor who both failed to answer and answered twice. Two spellings of the
+        *same* city are refused, though -- collapsing them silently would drop
+        one of the labels and change the distribution.
+        """
+        if not isinstance(buckets_by_city, dict):
+            return buckets_by_city  # validate_bucketing owns this complaint
+        resolved = {}
+        for city, label in buckets_by_city.items():
+            key = city
+            if isinstance(city, str) and city.strip():
+                player = self.player_for_city(city)
+                if player is not None:
+                    key = player.city
+            if key in resolved:
+                raise RuleViolation(
+                    "%r and another key both name %s; a city gets one bucket" % (city, key)
+                )
+            resolved[key] = label
+        return resolved
+
+    def mayor_question_report(self, round_index):
+        """One round's question, its answers, and what they add up to (spec #25).
+
+        The facilitator's own view: always complete, whatever
+        ``facilitator_questions.answers_shared_in_newspaper`` says. The gated,
+        newspaper-facing version is
+        :func:`engine.views.newspaper_mayor_question`, and that one function is
+        where the exposure decision is taken.
+
+        Returns ``None`` when the round asked no question at all.
+        """
+        record = self._round_record(round_index)
+        if record.question_id is None:
+            return None
+        return aggregate.summarize(
+            self.phrasing_ladder,
+            round_index,
+            self.content.question_by_id(record.question_id),
+            self.answers_by_city(round_index),
+            record.answer_buckets,
+            self.mayors_asked(round_index),
+            bucket_source=record.bucket_source,
+        )
+
     # -- lookups ----------------------------------------------------------
 
     def _need_opened_in(self, round_index):
@@ -619,15 +736,19 @@ class GameEngine:
             "kind": SLOT_QUESTION,
             "question_id": question["id"],
             "text": question["text"],
-            "framing": question.get("framing", "to_the_mayor"),
+            # Present on every question in the bank, and checked against
+            # config.facilitator_questions.framing at load rather than defaulted
+            # here (spec #24).
+            "framing": question["framing"],
             "answer_shape": question.get("answer_shape"),
             # The same round deadline the game-action slots carry: a question is
             # part of the one check-in, not a phase with a clock of its own (#9).
             "deadline": deadline.isoformat(),
             "optional": True,
-            "note": "[[M6 owns how this is asked and M5 how the answers are "
-                    "aggregated; the engine only allocates the slot and stores "
-                    "the answer.]]",
+            "note": "Answering is optional; a mayor who skips leaves the "
+                    "denominator rather than counting as a null answer. What the "
+                    "answers add up to is decided in engine.aggregate; "
+                    "[[M5 writes the sentence.]]",
         }
 
     def _guard_checkin(self, player_id, kind):
@@ -855,7 +976,8 @@ class GameEngine:
             "rounds": {
                 index: {"ops": record.ops, "events": record.events,
                         "question_id": record.question_id,
-                        "answer_count": len(record.answers)}
+                        "answer_count": len(record.answers),
+                        "answers_clustered": record.answer_buckets is not None}
                 for index, record in self.rounds.items()
             },
         }

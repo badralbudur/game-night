@@ -41,6 +41,27 @@ EXPECTED_READS = {
     "facilitator_questions.ask_every_n_rounds",
     "facilitator_questions.max_per_player_per_round",
     "facilitator_questions.fill_second_slot_only_if_no_second_game_action_pending",
+    "facilitator_questions.scope",
+    "facilitator_questions.framing",
+    "facilitator_questions.answers_shared_in_newspaper",
+    "facilitator_questions.aggregate_phrasing_ladder",
+}
+
+#: Parameters that belong to a later milestone's surface, listed so their absence
+#: from :data:`EXPECTED_READS` reads as a milestone boundary rather than as an
+#: oversight. ``aggregate_phrasing_style`` selects a *register* for prose, and
+#: this engine writes no prose: M4 decides which outcome is true of the answers
+#: (see :mod:`engine.aggregate`) and M5 chooses the wording.
+NOT_YET_READ = {
+    "facilitator_questions.aggregate_phrasing_style",
+    "newspaper.publish_cadence",
+    "newspaper.archive_prior_editions",
+    "newspaper.player_identity_style",
+    "newspaper.image_per_edition",
+    "endgame.crown_cumulative_profit_winner",
+    "endgame.publish_twist_article",
+    "endgame.generate_per_city_description_and_image",
+    "endgame.per_city_excess_uses_non_chosen_exports",
 }
 
 
@@ -78,6 +99,25 @@ class ReadTrackingTest(unittest.TestCase):
 
         missing = EXPECTED_READS - set(config.keys_read())
         self.assertEqual(missing, set(), "not read from config.json: %s" % sorted(missing))
+
+    def test_the_deferred_parameters_really_are_still_deferred(self):
+        """A key in NOT_YET_READ that the engine now reads belongs in EXPECTED_READS.
+
+        Without this, the deferred list would quietly become a list of things
+        nobody rechecks -- which is how a parameter ends up half-wired.
+        """
+        from engine import views
+
+        config = make_config()
+        game = new_game(config=config)
+        for player_id in sorted(game.players):
+            game.checkin(player_id)
+        play_out(game)
+        views.archive(game)
+        overlap = NOT_YET_READ & set(config.keys_read())
+        self.assertEqual(
+            overlap, set(), "now read; move to EXPECTED_READS: %s" % sorted(overlap)
+        )
 
     def test_every_key_the_engine_reads_actually_exists_in_config_json(self):
         config = make_config()
@@ -134,6 +174,19 @@ class NoInlineDefaultsTest(unittest.TestCase):
     def test_question_cadence_has_no_inline_default(self):
         self._assert_needs(
             "facilitator_questions.ask_every_n_rounds", lambda c: new_game(config=c)
+        )
+
+    def test_the_answer_exposure_policy_has_no_inline_default(self):
+        from engine import views
+
+        def act(config):
+            views.round_briefing(new_game(config=config), 1)
+
+        self._assert_needs("facilitator_questions.answers_shared_in_newspaper", act)
+
+    def test_the_phrasing_ladder_choice_has_no_inline_default(self):
+        self._assert_needs(
+            "facilitator_questions.aggregate_phrasing_ladder", lambda c: new_game(config=c)
         )
 
     def test_content_paths_have_no_inline_default(self):

@@ -189,7 +189,10 @@ class ImportNeed:
 class RoundRecord:
     """What the lockstep did in one round, in order (spec #9)."""
 
-    __slots__ = ("index", "starts_at", "ends_at", "events", "question_id", "answers")
+    __slots__ = (
+        "index", "starts_at", "ends_at", "events", "question_id", "answers",
+        "answer_buckets", "bucket_source",
+    )
 
     def __init__(self, index, starts_at, ends_at):
         self.index = index
@@ -198,6 +201,12 @@ class RoundRecord:
         self.events = []
         self.question_id = None
         self.answers = {}
+        # The clustering spec #25's aggregate is measured over, keyed by city:
+        # ``None`` until somebody supplies one, because grouping freeform
+        # answers is a judgement the engine will not make up (see
+        # :mod:`engine.aggregate`).
+        self.answer_buckets = None
+        self.bucket_source = None
 
     def log(self, op, **detail):
         entry = {"op": op}

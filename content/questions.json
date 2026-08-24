@@ -19,7 +19,8 @@
   },
 
   "aggregate_phrasing": {
-    "_comment": "Spec #25: answers are shared in the newspaper phrased in clever aggregate ways. This ladder is what makes 'clever' checkable -- the outcome (a tier, or tie_case, or fragmented_case, or the low-respondent floor) is selected by arithmetic on the actual answers, and the wording follows the outcome. Referenced by config.facilitator_questions.aggregate_phrasing_ladder.",
+    "_comment": "Spec #25: answers are shared in the newspaper phrased in clever aggregate ways. This ladder is what makes 'clever' checkable -- the outcome (a tier, or tie_case, or fragmented_case, or the low-respondent floor) is selected by arithmetic on the actual answers, and the wording follows the outcome. Referenced by config.facilitator_questions.aggregate_phrasing_ladder and executed by engine/aggregate.py, which validates this document's shape at startup: a ladder whose tiers are misordered, or whose lowest tier could leave a distribution with no outcome, refuses to start a game.",
+    "_only_if_test_note": "Every conditional_phrases entry carries both an English 'only_if' (for whoever writes the sentence) and an 'only_if_test' (the same condition as an expression over R, largest, buckets and tied, which engine/aggregate.py evaluates against the actual counts). They must say the same thing; the test is what makes 'check the only_if first' an enforced step rather than an instruction that can be skipped. A conditional phrase without an only_if_test is a content error, so a new wording cannot be added here without stating when it is true.",
     "ladders": {
       "default": {
         "denominator": "mayors who answered this round's question, not all mayors in the game",
@@ -42,15 +43,15 @@
             "_comment": "R of 1 or 2 -- common in early rounds and in a 3-player game where somebody skips. Aggregate language over two answers is a false claim about the world, which integrity_rules forbid, so the paper reports them as what they are.",
             "phrases": ["a thin postbag this week", "the delegations that did reply", "this paper's small and unrepresentative sample"],
             "conditional_phrases": [
-              { "phrase": "the only two delegations to reply", "only_if": "R == 2" },
-              { "phrase": "the single city hall that answered", "only_if": "R == 1" }
+              { "phrase": "the only two delegations to reply", "only_if": "R == 2", "only_if_test": "R == 2" },
+              { "phrase": "the single city hall that answered", "only_if": "R == 1", "only_if_test": "R == 1" }
             ],
             "example": "Only two city halls answered, so this paper declines to speak for the world: Reykjavík says the water, Kampala says the market."
           }
         },
         "tiers": [
           { "id": "unanimous", "min_share": 1.0, "min_respondents": 3, "phrases": ["the world", "every nation on record", "the entire community of cities"], "example": "The world rises at seven." },
-          { "id": "near_unanimous", "min_share": 0.8, "min_respondents": 4, "phrases": ["nearly every nation", "all but a stubborn minority", "the world, give or take a dissenter or two"], "conditional_phrases": [{ "phrase": "the world, with one hold-out", "only_if": "exactly one respondent falls outside the largest bucket (R - largest == 1)" }], "example": "Nearly every nation agrees; one delegation has asked that its dissent be minuted." },
+          { "id": "near_unanimous", "min_share": 0.8, "min_respondents": 4, "phrases": ["nearly every nation", "all but a stubborn minority", "the world, give or take a dissenter or two"], "conditional_phrases": [{ "phrase": "the world, with one hold-out", "only_if": "exactly one respondent falls outside the largest bucket (R - largest == 1)", "only_if_test": "R - largest == 1" }], "example": "Nearly every nation agrees; one delegation has asked that its dissent be minuted." },
           { "id": "supermajority", "min_share": 0.6, "min_respondents": 3, "phrases": ["most nations", "the great majority of city halls", "the prevailing international view"], "example": "Most nations would show you the water first." },
           { "id": "plurality", "min_share": 0.4, "min_respondents": 3, "phrases": ["a good many countries", "more capitals than name anything else", "the largest single bloc"], "example": "A good many countries name the same street." }
         ],
@@ -58,13 +59,13 @@
           "_comment": "Reached only via step 4, and only when the largest bucket is not unique. It exists because the plurality register can otherwise overclaim at exactly S = 0.5: with 4 respondents split 2-2 there is no bloc that leads, so no plurality phrase is true of it.",
           "when": "S >= 0.4 and two or more buckets tie for the largest bucket (4 respondents split 2-2, 6 split 3-3, and so on). Exactly two buckets can ever be tied here -- three buckets at 0.4 or more would need a share above 1 -- though smaller buckets may sit underneath them, as in a 2-2-1 split.",
           "phrases": ["two camps of exactly equal size", "level pegging, and the levelness is the story", "a tie that neither side will concede"],
-          "conditional_phrases": [{ "phrase": "the world is split down the middle", "only_if": "the two tied buckets account for every respondent (2 * largest == R)" }],
+          "conditional_phrases": [{ "phrase": "the world is split down the middle", "only_if": "the two tied buckets account for every respondent (2 * largest == R)", "only_if_test": "2 * largest == R" }],
           "example": "Four city halls answered and split two-two: half the world takes the bus, half the world walks, and neither half will concede a metre."
         },
         "fragmented_case": {
           "when": "S < 0.4 -- no bucket reaches the plurality floor -- with R >= min_respondents_for_aggregate. The 3+ threshold is deliberate: a 3-respondent three-way split (1/1/1, S = 0.33) belongs here, not in a 'some countries' register, because there is no agreeing sub-group to point at.",
           "phrases": ["the world is divided", "the community of cities has failed to reach consensus", "as many answers as there are answerers, very nearly"],
-          "conditional_phrases": [{ "phrase": "no two nations agree", "only_if": "every bucket has exactly one member (largest == 1)" }],
+          "conditional_phrases": [{ "phrase": "no two nations agree", "only_if": "every bucket has exactly one member (largest == 1)", "only_if_test": "largest == 1" }],
           "example": "On the matter of coriander, the world is divided, and the world would like that on the record."
         },
         "subgroup_phrasing": {

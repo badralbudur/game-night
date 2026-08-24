@@ -30,6 +30,28 @@ def make_config(**overrides):
     return config.overridden(**overrides) if overrides else config
 
 
+def question_doc(questions, config=None):
+    """Wrap a hand-made question bank in a document a game will accept.
+
+    Scope, per-question framing and the aggregate-phrasing ladder are policy the
+    engine validates before a game starts (spec #24, #25). A test that only
+    cares about, say, import repetition still needs a bank that satisfies it, so
+    it borrows the shipped file's scope and ladder rather than restating them --
+    which also means such a test cannot drift out of sync with the real content.
+    """
+    real = Content.load(config or make_config()).question_doc
+    return {
+        "set_id": real["set_id"],
+        "scope": real["scope"],
+        "asking_rules": real.get("asking_rules"),
+        "aggregate_phrasing": real["aggregate_phrasing"],
+        "questions": [
+            dict(question, framing=question.get("framing", "to_the_mayor"))
+            for question in questions
+        ],
+    }
+
+
 def new_game(founders=None, seed=1, config=None, start=True, **overrides):
     config = config if config is not None else make_config(**overrides)
     content = Content.load(config)
