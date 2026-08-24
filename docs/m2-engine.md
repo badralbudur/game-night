@@ -166,6 +166,16 @@ under-determined. Each is resolved *and stated*, not silently assumed.
    leaderboard reporting `11.699999999999999` is a bug the newspaper would
    faithfully print.
 
+   #19 also says "split evenly among their **cities**", and the split is
+   implemented per distinct city rather than per submission. The two only differ
+   when config raises #15's cap above one submission per player — and there,
+   splitting per submission would pay a city that submitted twice a double
+   share, making export spam profitable. That is the incentive the cap exists to
+   remove, so the city is the unit. (Found by probing the raised-cap
+   configuration during this milestone's verification pass; the per-submission
+   split was the original behaviour.
+   `test_a_city_that_submitted_twice_does_not_take_a_double_share` pins it.)
+
 6. **`facilitator_questions.max_per_player_per_round` above 1** has no meaning
    under #23's two-slot check-in. The engine refuses such a config rather than
    silently capping it, so a misconfiguration surfaces as an error instead of as
@@ -180,3 +190,17 @@ python3 run_tests.py blind_voting    # one module
 
 Standard library only — no install step, no pytest. Every game in the suite runs
 on a hand-advanced clock with a fixed seed, so nothing waits and nothing flakes.
+
+Executed state: 140 tests, all passing, ~0.24s, on CPython 3.11.16. Repeated runs
+produce byte-identical output — there is no wall clock and no unseeded RNG
+anywhere in the suite, so a failure here means a real regression, not a flake.
+
+Beyond the suite, this milestone's verification pass drove games the suite does
+not: nobody exporting at all (the facilitator takes two ramp-ups, nobody else is
+ever queued — correct under #5), a full ten-mayor game (20 needs over 22 rounds,
+two import turns each, no same-city category repeat, no identity leak in the
+archive), a mayor registering during a drain round (accepted, never queued, and
+their export correctly refused because no window is open), and a mayor joining in
+the round rotation 1 closes (allotted one turn, and served it). The one defect
+these turned up — the even split paying per submission rather than per city — is
+fixed above.

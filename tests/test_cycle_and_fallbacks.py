@@ -211,6 +211,32 @@ class EvenSplitFallbackTest(unittest.TestCase):
         advance(game, 2)
         self.assertEqual(game.players["p1"].cumulative_profit, Fraction(0))
 
+    def test_a_city_that_submitted_twice_does_not_take_a_double_share(self):
+        """#19 splits among *cities*, so submitting twice cannot buy a bigger cut.
+
+        Only reachable when config lifts the #15 cap above one submission, which
+        is exactly when a per-submission split would make export spam pay.
+        """
+        game = new_game(
+            exports__max_submissions_per_player_per_import_per_round=2,
+            economy__profit_roll="1d1",
+        )
+        game.submit_export("p2", "first from Valparaíso")
+        game.submit_export("p2", "second from Valparaíso")
+        game.submit_export("p3", "the only one from Hobart")
+        advance(game, 2)  # p1 never picks
+        resolution = resolved(game, "in-001")
+        self.assertEqual(resolution["mode"], EVEN_SPLIT)
+        # All three exports won (#19), but there are two cities to pay.
+        self.assertEqual(len(resolution["winning_ballot_refs"]), 3)
+        awards = awarded(resolution)
+        self.assertEqual(len(resolution["awards"]), 2, "a city was paid twice")
+        self.assertEqual(awards, {"Valparaíso": Fraction(1, 2), "Hobart": Fraction(1, 2)})
+        self.assertEqual(sum(awards.values()), Fraction(1))
+        self.assertEqual(
+            game.players["p2"].cumulative_profit, game.players["p3"].cumulative_profit
+        )
+
 
 class SubmissionRulesTest(unittest.TestCase):
     def test_one_export_per_player_per_need_per_round(self):
