@@ -243,6 +243,10 @@ class GameEngine:
         return advanced
 
     def _begin_round(self, index):
+        # The previous round is over the instant this one starts, so this is where
+        # its closing standing is fixed -- after every check-in it was going to
+        # get, including a mayor who joined part-way through it.
+        self._close_standings(index - 1)
         record = RoundRecord(index, self.timer.round_start(index), self.timer.round_end(index))
         self.rounds[index] = record
         self.current_round = index
@@ -257,7 +261,21 @@ class GameEngine:
         if self._game_is_over():
             self.phase = ENDED
             self.ended_round = index
+            # No round follows this one, so nothing else will close its standing.
+            self._close_standings(index)
         return record
+
+    def _close_standings(self, index):
+        """Freeze one round's cumulative leaderboard, once (see RoundRecord).
+
+        An edition is a historical document: the paper for round 3 must go on
+        saying what round 3's table was, whatever happens afterwards (spec #26,
+        #27). Without this, an archive of twelve editions prints the final table
+        twelve times.
+        """
+        record = self.rounds.get(index)
+        if record is not None and record.standings is None:
+            record.standings = self.leaderboard()
 
     def _game_is_over(self):
         if not self.needs:
@@ -413,15 +431,15 @@ class GameEngine:
                 RAMP_UP: "#17",
                 EVEN_SPLIT: "#19",
             }[mode],
-            # Prose, headline and image are the newspaper milestone's job; the
-            # engine states the fact and the framing it needs, and stops.
+            # Prose, headline and image belong to the :mod:`newspaper` package;
+            # the engine states the fact and the framing it needs, and stops.
             "newspaper": {
                 "framing_hint": {
                     WINNER_PICK: "winner_chosen_by_importing_mayor",
                     RAMP_UP: "import_city_ramped_up_its_own_industry",
                     EVEN_SPLIT: "no_pick_by_deadline_every_submission_wins",
                 }[mode],
-                "stub": "[[M5 newspaper copy: %s for %s]]" % (mode, need.importing_city),
+                "written_by": "newspaper.departments.arrivals",
             },
         }
         return need.resolution
@@ -748,7 +766,7 @@ class GameEngine:
             "note": "Answering is optional; a mayor who skips leaves the "
                     "denominator rather than counting as a null answer. What the "
                     "answers add up to is decided in engine.aggregate; "
-                    "[[M5 writes the sentence.]]",
+                    "newspaper.wire writes the sentence from that.",
         }
 
     def _guard_checkin(self, player_id, kind):

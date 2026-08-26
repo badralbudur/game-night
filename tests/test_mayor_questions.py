@@ -390,7 +390,7 @@ class UnclusteredAnswersTest(unittest.TestCase):
         self.assertIsNone(result["outcome"])
         self.assertIsNone(result["measure"])
         self.assertEqual(result["buckets"], [])
-        self.assertNotIn("fragmented", result["aggregate_phrasing_stub"])
+        self.assertNotIn("fragmented", result["written_by"])
 
     def test_nobody_answering_is_reported_as_such(self):
         result = aggregate.summarize(ladder(), 1, a_question(), {}, None, 4)

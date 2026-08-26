@@ -14,9 +14,9 @@ point:
   :mod:`engine.aggregate`) rather than as a sentence.
 
 These are data, not prose. Headlines, copy, images and the wording of the
-aggregate item belong to M5; every place one is due carries an explicit
-``[[M5 ...]]``-style stub so a missing piece reads as a milestone boundary
-rather than as finished work.
+aggregate item are the :mod:`newspaper` package's job (M5), and it reads this
+module rather than the engine's internals -- which is what keeps the redaction
+rules in one place instead of one per template.
 """
 
 from . import ballot, money
@@ -50,15 +50,27 @@ def importer_ballot(engine, player_id, need_key=None):
     }
 
 
-def newspaper_leaderboard(engine):
+def newspaper_leaderboard(engine, round_index=None):
     """The leaderboard as the newspaper may print it, or ``None`` (spec #22).
 
     The single place the exposure decision is taken. Every newspaper-facing
     payload asks this rather than reading the config key itself, so switching
     ``economy.leaderboard_visible_in_newspaper`` off cannot be defeated by one
     view that forgot to check.
+
+    With a ``round_index``, it returns that round's *closing* standing rather
+    than the live one, so an edition stays true after the game moves on (see
+    :class:`engine.state.RoundRecord`). A round still in progress has no closing
+    standing yet and reports the live table, which is the same thing to anyone
+    reading it at the time.
     """
-    return engine.leaderboard() if engine.economy.leaderboard_visible else None
+    if not engine.economy.leaderboard_visible:
+        return None
+    if round_index is not None:
+        record = engine.rounds.get(round_index)
+        if record is not None and record.standings is not None:
+            return record.standings
+    return engine.leaderboard()
 
 
 def newspaper_mayor_question(engine, round_index):
@@ -137,11 +149,19 @@ def _submission_line(engine, submission, reveal):
 def need_briefing(engine, need):
     """One import need's public record, redacted for its current status."""
     submissions = engine.submissions_for(need.need_key)
+    category = engine.content.categories.get(need.category) or {}
     out = {
         "need": need.need_key,
         "importing_city": need.importing_city,
         "importing_mayor": engine.players[need.importing_player_id].mayor,
         "category": need.category,
+        # The label and the exporter prompt are already public -- the prompt is
+        # shown to every exporting mayor in their check-in -- and the newspaper
+        # needs both to print the notice. Carried here rather than read off
+        # ``need.rendered`` by the paper, so every consumer sees the same
+        # redaction decisions taken in one module.
+        "category_label": category.get("label", need.category),
+        "exporter_prompt": need.rendered["exporter_prompt"],
         "title": need.rendered["title"],
         "need_brief": need.rendered["need_brief"],
         "opened_round": need.opened_round,
@@ -183,9 +203,28 @@ def round_briefing(engine, round_index):
         "closed": None,
         "resolved": None,
         "mayor_question": None,
+        # Whether a question went out at all, which is not an answer and so is
+        # not gated by ``answers_shared_in_newspaper``. The paper needs the two
+        # facts separately: an absent question and a withheld answer set both
+        # leave ``mayor_question`` empty, and only one of them is something the
+        # paper may remark on.
+        "mayor_question_asked": record.question_id is not None,
+        # City-only, never a handle (spec #28). The paper's corrections column
+        # needs to know when the world grew, and "who is on the register" is
+        # public in a way "who is behind the register" never is.
+        "roster": {
+            "cities": sorted(
+                p.city for p in engine.players.values() if p.joined_round <= record.index
+            ),
+            "new_this_round": sorted(
+                p.city for p in engine.players.values() if p.joined_round == record.index
+            ),
+            "mayors_seated": sum(
+                1 for p in engine.players.values() if p.joined_round <= record.index
+            ),
+        },
         "newspaper": {
-            "edition_stub": "[[M5: edition for round %d -- headline, copy and one "
-                            "generated image go here]]" % record.index,
+            "rendered_by": "newspaper.edition.build_edition(engine, %d)" % record.index,
         },
     }
     for event in record.events:
@@ -204,7 +243,7 @@ def round_briefing(engine, round_index):
             briefing["resolved"] = need_briefing(engine, need)
 
     briefing["mayor_question"] = newspaper_mayor_question(engine, round_index)
-    leaderboard = newspaper_leaderboard(engine)
+    leaderboard = newspaper_leaderboard(engine, round_index)
     if leaderboard is not None:
         briefing["leaderboard"] = leaderboard
     return briefing
@@ -217,8 +256,8 @@ def archive(engine):
         "publication": "The Daily Manifest",
         "editions": [round_briefing(engine, index) for index in sorted(engine.rounds)],
         "phase": engine.phase,
-        "hosting_stub": "[[M5: unguessable subdomain + robots noindex, per the "
-                        "fulcra-dashboard pattern (spec #26)]]",
+        "hosting_stub": "[[M6: unguessable subdomain + robots noindex, per the "
+                        "fulcra-dashboard pattern (spec #26, #27)]]",
     }
 
 

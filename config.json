@@ -19,9 +19,10 @@
     "import_needs_file": "content/import_needs.json",
     "gazetteer_file": "content/gazetteer.json",
     "questions_file": "content/questions.json",
+    "newspaper_file": "content/newspaper.json",
     "question_set_id": "getting_to_know_you_v1",
     "allow_player_suggested_import_needs": true,
-    "_note": "spec #13, #33 -- seeded game content lives in content/ and is extended by players during play, not re-derived per role."
+    "_note": "spec #13, #33 -- seeded game content lives in content/ and is extended by players during play, not re-derived per role. newspaper_file holds The Daily Manifest's own copy: mastheads, department frames, the wire styles, image palettes and the tone register. It is content for the same reason the phrasing ladder is -- the wordings are writing decisions, and the renderer is their implementation."
   },
 
   "rounds": {
@@ -70,13 +71,33 @@
     "archive_prior_editions": true,
     "player_identity_style": "city_mayor_only",
     "image_per_edition": true,
+    "masthead_id": "daily_manifest_v1",
+    "prose": {
+      "renderer": "deterministic_template",
+      "asides_per_edition": 1,
+      "max_quoted_answers_per_item": 3,
+      "max_declined_exports_printed": 3,
+      "_note": "renderer names a writer registered in newspaper/prose.py. 'deterministic_template' assembles each edition from content/newspaper.json's frames and the round's actual facts: no network, no provider, reproducible from the game seed, and every sentence a checkable function of game state -- which is what lets tests assert that an aggregate claim is true of its distribution (spec #25) rather than merely well-phrased. A future model-backed writer registers alongside it under its own id and is selected here; the interface it must satisfy is `write(edition_context) -> departments`. max_declined_exports_printed caps how many non-winning exports an Arrivals column reprints; their origin city is never printed at any setting (spec #21) and an export whose own text names a city is withheld instead of reprinted."
+    },
+    "image": {
+      "modality_preference": ["raster", "svg_procedural"],
+      "raster_providers": [],
+      "width": 1200,
+      "height": 700,
+      "_note": "spec #29 and the user decision of 2026-08-24: a fun, colorful raster image is preferred, and a deterministic, game-state-informed SVG is an explicitly permitted fallback when no raster provider is available. modality_preference is that policy, in order. raster_providers names adapters registered in newspaper/imagery.py; it is empty because this deployment has no image-generation provider, so every edition falls back to svg_procedural and says so in its own image.provenance. Naming a provider that is not registered is a config error rather than a silent fallback -- a facilitator who wires up a provider should hear about a typo, not quietly get SVGs."
+    },
+    "output": {
+      "editions_dir": "editions",
+      "formats": ["json", "markdown", "image"],
+      "_note": "Where a rendered edition lands on disk. M5 renders locally; serving these at an unguessable, noindex URL with the archive browsable (spec #26, #27) is M6's separate integration boundary."
+    },
     "tone": {
       "funny": true,
       "colorful": true,
       "allow_pointed_humor": true,
       "disallow_snide_or_mean": true
     },
-    "_note": "spec #26-#30; player_identity_style may later support more anonymity per decisions Q26"
+    "_note": "spec #26-#30; player_identity_style may later support more anonymity per decisions Q26. The four tone flags are load-bearing, not decorative: `funny` false drops the editorial asides and leaves the paper reporting facts, `colorful` false switches the edition image to the monochrome palette, `allow_pointed_humor` false filters out every frame content marks `pointed`, and `disallow_snide_or_mean` runs content/newspaper.json's forbidden register over the finished prose and refuses to publish an edition that trips it."
   },
 
   "endgame": {
