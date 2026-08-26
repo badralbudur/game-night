@@ -47,17 +47,38 @@ EXPECTED_READS = {
     "facilitator_questions.aggregate_phrasing_ladder",
 }
 
-#: Parameters that belong to a later milestone's surface, listed so their absence
-#: from :data:`EXPECTED_READS` reads as a milestone boundary rather than as an
-#: oversight. ``aggregate_phrasing_style`` selects a *register* for prose, and
-#: this engine writes no prose: M4 decides which outcome is true of the answers
-#: (see :mod:`engine.aggregate`) and M5 chooses the wording.
-NOT_YET_READ = {
-    "facilitator_questions.aggregate_phrasing_style",
+#: Parameters the *newspaper* takes from config.json rather than from a literal.
+#: A separate set from :data:`EXPECTED_READS` because it is a separate consumer:
+#: the engine never reads these, and the paper reads them all in the course of
+#: publishing one game.
+NEWSPAPER_READS = {
+    "content.newspaper_file",
+    "newspaper.masthead_id",
     "newspaper.publish_cadence",
     "newspaper.archive_prior_editions",
     "newspaper.player_identity_style",
     "newspaper.image_per_edition",
+    "newspaper.prose.renderer",
+    "newspaper.prose.asides_per_edition",
+    "newspaper.prose.max_quoted_answers_per_item",
+    "newspaper.prose.max_declined_exports_printed",
+    "newspaper.image.modality_preference",
+    "newspaper.image.raster_providers",
+    "newspaper.image.width",
+    "newspaper.image.height",
+    "newspaper.output.editions_dir",
+    "newspaper.output.formats",
+    "newspaper.tone.funny",
+    "newspaper.tone.colorful",
+    "newspaper.tone.allow_pointed_humor",
+    "newspaper.tone.disallow_snide_or_mean",
+    "facilitator_questions.aggregate_phrasing_style",
+}
+
+#: Parameters that belong to a later milestone's surface, listed so their absence
+#: from :data:`EXPECTED_READS` and :data:`NEWSPAPER_READS` reads as a milestone
+#: boundary rather than as an oversight.
+NOT_YET_READ = {
     "endgame.crown_cumulative_profit_winner",
     "endgame.publish_twist_article",
     "endgame.generate_per_city_description_and_image",
@@ -118,6 +139,19 @@ class ReadTrackingTest(unittest.TestCase):
         self.assertEqual(
             overlap, set(), "now read; move to EXPECTED_READS: %s" % sorted(overlap)
         )
+
+    def test_the_newspaper_reads_every_parameter_it_should_from_config(self):
+        import tempfile
+
+        from newspaper.publish import publish_game
+        from newspaper.sample import sample_game
+
+        config = make_config()
+        game = sample_game(config=config)
+        with tempfile.TemporaryDirectory() as out:
+            publish_game(game, label="conformance", out_dir=out)
+        missing = NEWSPAPER_READS - set(config.keys_read())
+        self.assertEqual(missing, set(), "not read from config.json: %s" % sorted(missing))
 
     def test_every_key_the_engine_reads_actually_exists_in_config_json(self):
         config = make_config()

@@ -1,0 +1,79 @@
+# The Daily Manifest
+
+*All the news that fits in the hold.*
+
+**Vol. I, No. 1** · Thursday, 3 September 2026 · Price: free to city halls, exorbitant to everyone else
+
+Weather: warm in the chamber, cold in the corridor.
+
+_Published once per round by the Sister Cities desk. Mayors are named by city and office only._
+
+![A harbour scene in the Daily Manifest's colours, stamped education & knowledge, an empty quay, a skyline of 4 city towers ranked by profit.](round-01.svg)
+
+*No cargo today. The harbour, pictured, is unbothered.*
+
+---
+
+## Wanted
+
+*One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
+
+### A subject that didn't exist last year
+
+**PUBLIC NOTICE**. The Mayor of Reykjavík has taken out an advertisement. This paper has read it three times and remains impressed.
+
+Reykjavík's schools have one free period on the timetable and a standing instruction to teach something useful in it. So far it has been used for supervised silence.
+
+The office asks, and the paper repeats verbatim: *Tell Reykjavík what to teach in the empty period.*
+
+The rules, as ever: one offer per city, anything at all, in by 4 September, 09:00 UTC, and nobody's name on anything.
+
+_The desk has been asked not to speculate. The desk has speculated._
+
+## Sealed Bids
+
+Nothing to report from the bids desk, which has used the time to reorganise the pile.
+
+## Arrivals
+
+Nothing cleared customs today. The harbour is quiet, the clerks are up to date, and the paper has been reduced to describing the weather, which it has done above.
+
+## The Wire
+
+*Correspondence from the mayors, counted before it was quoted.*
+
+### From the postbag
+
+This paper put the same question to every city hall: *“Who taught you how to do this job — not the person who was supposed to?”*
+
+The postbag was empty. The paper has re-read the question and concedes it may have been a lot to ask on a busy round.
+
+_The paper would like it noted that it asked a simple question._
+
+## The Ledger
+
+*The running total. Compiled carefully, printed reluctantly.*
+
+| # | City | Profit |
+| --- | --- | --- |
+| 1 | Hobart | 0 |
+| 2 | Kampala | 0 |
+| 3 | Reykjavík | 0 |
+| 4 | Valparaíso | 0 |
+
+4 cities are level on 0 and each has written in separately to say they are not.
+
+Several cities are still on nothing at all. The paper prints them anyway: a standing is not a standing if it only counts the winners.
+
+_Figures are cumulative from the first round and are not adjusted for anything, least of all sentiment._
+
+## Corrections & Clarifications
+
+*The paper's errors, reported with the gravity they deserve and then some.*
+
+- This paper is called The Daily Manifest and publishes once per round. The two facts are only occasionally the same fact.
+- The masthead reads Vol. I, No. 1. There has never been a Vol. II and there is no plan for one.
+
+---
+
+_The Daily Manifest. Round 1. Offers for the current notice close 4 September, 09:00 UTC._

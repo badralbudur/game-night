@@ -160,7 +160,7 @@ class AnswerRecordingTest(unittest.TestCase):
         self.assertEqual(briefing["answers_by_city"], {"Valparaíso": "the water"})
         self.assertNotIn("@bo", str(briefing))
         self.assertEqual(briefing["answered"], 1)
-        self.assertIn("[[M5/M6", briefing["aggregate_phrasing_stub"])
+        self.assertIn("newspaper.wire", briefing["written_by"])
 
 
 if __name__ == "__main__":

@@ -191,7 +191,7 @@ class RoundRecord:
 
     __slots__ = (
         "index", "starts_at", "ends_at", "events", "question_id", "answers",
-        "answer_buckets", "bucket_source",
+        "answer_buckets", "bucket_source", "standings",
     )
 
     def __init__(self, index, starts_at, ends_at):
@@ -201,6 +201,13 @@ class RoundRecord:
         self.events = []
         self.question_id = None
         self.answers = {}
+        # The cumulative leaderboard as it stood when this round's lockstep
+        # finished. An edition is a historical document: round 3's paper must go
+        # on saying what round 3's standing was, however the game ends (spec #26,
+        # #27). Taken once, at the end of the round, rather than recomputed when
+        # somebody asks -- recomputing is how an archive of twelve editions ends
+        # up printing the final table twelve times.
+        self.standings = None
         # The clustering spec #25's aggregate is measured over, keyed by city:
         # ``None`` until somebody supplies one, because grouping freeform
         # answers is a judgement the engine will not make up (see

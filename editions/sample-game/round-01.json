@@ -1,0 +1,285 @@
+{
+  "publication": "The Daily Manifest",
+  "game": "Sister Cities",
+  "round": 1,
+  "edition_line": "Vol. I, No. 1",
+  "motto": "All the news that fits in the hold.",
+  "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
+  "dateline": "Thursday, 3 September 2026",
+  "closes": "4 September, 09:00 UTC",
+  "price_line": "Price: free to city halls, exorbitant to everyone else",
+  "weather_line": "Weather: warm in the chamber, cold in the corridor.",
+  "departments": [
+    {
+      "id": "wanted",
+      "title": "Wanted",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "One city wants something. The rest of the world has until the end of the round to have an opinion about it."
+        },
+        {
+          "kind": "heading",
+          "level": 3,
+          "text": "A subject that didn't exist last year"
+        },
+        {
+          "kind": "para",
+          "text": "**PUBLIC NOTICE**. The Mayor of Reykjavík has taken out an advertisement. This paper has read it three times and remains impressed."
+        },
+        {
+          "kind": "para",
+          "text": "Reykjavík's schools have one free period on the timetable and a standing instruction to teach something useful in it. So far it has been used for supervised silence."
+        },
+        {
+          "kind": "para",
+          "text": "The office asks, and the paper repeats verbatim: *Tell Reykjavík what to teach in the empty period.*"
+        },
+        {
+          "kind": "para",
+          "text": "The rules, as ever: one offer per city, anything at all, in by 4 September, 09:00 UTC, and nobody's name on anything."
+        },
+        {
+          "kind": "aside",
+          "text": "The desk has been asked not to speculate. The desk has speculated."
+        }
+      ],
+      "provenance": {
+        "need": "in-001",
+        "category": "education_and_knowledge",
+        "rotation": 1,
+        "spec": "#9, #13, #14"
+      }
+    },
+    {
+      "id": "sealed_bids",
+      "title": "Sealed Bids",
+      "blocks": [
+        {
+          "kind": "para",
+          "text": "Nothing to report from the bids desk, which has used the time to reorganise the pile."
+        }
+      ],
+      "provenance": {
+        "closed": null,
+        "spec": "#9"
+      }
+    },
+    {
+      "id": "arrivals",
+      "title": "Arrivals",
+      "blocks": [
+        {
+          "kind": "para",
+          "text": "Nothing cleared customs today. The harbour is quiet, the clerks are up to date, and the paper has been reduced to describing the weather, which it has done above."
+        }
+      ],
+      "provenance": {
+        "resolved": null,
+        "spec": "#9"
+      }
+    },
+    {
+      "id": "the_wire",
+      "title": "The Wire",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "Correspondence from the mayors, counted before it was quoted."
+        },
+        {
+          "kind": "heading",
+          "level": 3,
+          "text": "From the postbag"
+        },
+        {
+          "kind": "para",
+          "text": "This paper put the same question to every city hall: *“Who taught you how to do this job — not the person who was supposed to?”*"
+        },
+        {
+          "kind": "para",
+          "text": "The postbag was empty. The paper has re-read the question and concedes it may have been a lot to ask on a busy round."
+        },
+        {
+          "kind": "aside",
+          "text": "The paper would like it noted that it asked a simple question."
+        }
+      ],
+      "provenance": {
+        "outcome": null,
+        "no_item_reason": "no_responses",
+        "answered": 0,
+        "asked_of": 4,
+        "bucketing": "not_needed",
+        "aggregate_heading_used": false,
+        "spec": "#25"
+      }
+    },
+    {
+      "id": "the_ledger",
+      "title": "The Ledger",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "The running total. Compiled carefully, printed reluctantly."
+        },
+        {
+          "kind": "table",
+          "columns": [
+            "#",
+            "City",
+            "Profit"
+          ],
+          "rows": [
+            [
+              1,
+              "Hobart",
+              "0"
+            ],
+            [
+              2,
+              "Kampala",
+              "0"
+            ],
+            [
+              3,
+              "Reykjavík",
+              "0"
+            ],
+            [
+              4,
+              "Valparaíso",
+              "0"
+            ]
+          ]
+        },
+        {
+          "kind": "para",
+          "text": "4 cities are level on 0 and each has written in separately to say they are not."
+        },
+        {
+          "kind": "para",
+          "text": "Several cities are still on nothing at all. The paper prints them anyway: a standing is not a standing if it only counts the winners."
+        },
+        {
+          "kind": "note",
+          "text": "Figures are cumulative from the first round and are not adjusted for anything, least of all sentiment."
+        }
+      ],
+      "provenance": {
+        "cities": 4,
+        "spec": "#20, #22"
+      }
+    },
+    {
+      "id": "corrections",
+      "title": "Corrections & Clarifications",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "The paper's errors, reported with the gravity they deserve and then some."
+        },
+        {
+          "kind": "list",
+          "items": [
+            "This paper is called The Daily Manifest and publishes once per round. The two facts are only occasionally the same fact.",
+            "The masthead reads Vol. I, No. 1. There has never been a Vol. II and there is no plan for one."
+          ]
+        }
+      ],
+      "provenance": {
+        "derived_items": 0,
+        "evergreen_items": 2
+      }
+    }
+  ],
+  "provenance": {
+    "renderer": {
+      "id": "deterministic_template",
+      "implementation": "newspaper.departments + newspaper.wire",
+      "source_of_wording": "content/newspaper.json",
+      "deterministic": true,
+      "needs_network": false,
+      "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
+    },
+    "cadence": {
+      "value": "per_round",
+      "means": "one edition per completed round, not batched (spec #26)"
+    },
+    "identity_style": {
+      "value": "city_mayor_only",
+      "prints": "the city's name and the office of its mayor",
+      "never_prints": "a real name, a handle, or a player id",
+      "spec": "#28"
+    },
+    "tone_policy": {
+      "funny": true,
+      "colorful": true,
+      "allow_pointed_humor": true,
+      "disallow_snide_or_mean": true,
+      "forbidden_register_terms": 33,
+      "spec": "#30",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+    },
+    "lockstep": [
+      {
+        "op": "OPEN",
+        "need": "in-001",
+        "city": "Reykjavík",
+        "category": "education_and_knowledge",
+        "rotation": 1
+      },
+      {
+        "op": "CLOSE",
+        "need": null
+      },
+      {
+        "op": "RESOLVE",
+        "need": null
+      }
+    ],
+    "spec": "#25, #26, #28, #29, #30"
+  },
+  "image": {
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped education & knowledge, an empty quay, a skyline of 4 city towers ranked by profit.",
+    "cutline": "No cargo today. The harbour, pictured, is unbothered.",
+    "extension": "svg",
+    "mime": "image/svg+xml",
+    "palette": {
+      "paper": "#f6f3ea",
+      "ink": "#1f1b26",
+      "sky": "#cfc3a4",
+      "water": "#453a5e",
+      "accent": "#d1622a",
+      "spot": "#6d5c96",
+      "spot_alt": "#a99ac4"
+    },
+    "colorful": true,
+    "provenance": {
+      "modality": "svg_procedural",
+      "provider": "builtin_svg",
+      "preference": [
+        "raster",
+        "svg_procedural"
+      ],
+      "considered": [
+        {
+          "modality": "raster",
+          "provider": null,
+          "available": false,
+          "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
+        },
+        {
+          "modality": "svg_procedural",
+          "provider": "builtin_svg",
+          "available": true,
+          "reason": null
+        }
+      ],
+      "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
+      "spec": "#29"
+    },
+    "filename": "round-01.svg",
+    "file": "round-01.svg"
+  }
+}

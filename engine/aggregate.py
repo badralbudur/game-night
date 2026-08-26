@@ -7,8 +7,9 @@ whether it is *true of the distribution it describes*: present-looking language
 over an actually-wrong aggregate is a fail.
 
 So the choice is made here, arithmetically, before any prose exists. This module
-owns the numbers and the set of wordings those numbers license; M5 owns the
-sentence it writes from them. Nothing in here returns a sentence.
+owns the numbers and the set of wordings those numbers license;
+:mod:`newspaper.wire` owns the sentence it writes from them, and may use no
+wording this module has not licensed. Nothing in here returns a sentence.
 
 The rules are not invented here either. ``content/questions.json`` ships the
 ladder -- ordered selection steps, tiers, the tie and fragmented cases, the
@@ -614,12 +615,12 @@ def summarize(
         "must_disclose_partial_response": respondents < asked_of,
         "rules": list(ladder.integrity_rules),
     }
-    report["aggregate_phrasing_stub"] = (
-        "[[M5/M6: no item to write this round -- %s]]" % report["no_item_reason"]
+    report["written_by"] = (
+        "newspaper.wire: no item to write this round -- %s" % report["no_item_reason"]
         if report["outcome"] is None
-        else "[[M5/M6: write this item in the register of outcome %r, using one of its "
-             "licensed phrases; the aggregate itself is already decided here "
-             "(spec #25)]]" % report["outcome"]["id"]
+        else "newspaper.wire: write this item in the register of outcome %r, using one "
+             "of its licensed phrases; the aggregate itself is already decided here "
+             "(spec #25)" % report["outcome"]["id"]
     )
     return report
 

@@ -1,0 +1,373 @@
+{
+  "publication": "The Daily Manifest",
+  "game": "Sister Cities",
+  "round": 5,
+  "edition_line": "Vol. I, No. 5",
+  "motto": "All the news that fits in the hold.",
+  "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
+  "dateline": "Monday, 7 September 2026",
+  "closes": "8 September, 09:00 UTC",
+  "price_line": "Price: free to city halls, exorbitant to everyone else",
+  "weather_line": "Weather: unsettled, like the minutes of the last session.",
+  "departments": [
+    {
+      "id": "wanted",
+      "title": "Wanted",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "Today's notice, printed in full and without comment, followed immediately by comment."
+        },
+        {
+          "kind": "heading",
+          "level": 3,
+          "text": "A second verse for the anthem"
+        },
+        {
+          "kind": "para",
+          "text": "**PUBLIC NOTICE**, lodged at this paper's counter by the office of the Mayor of Bergen, who declined to elaborate."
+        },
+        {
+          "kind": "para",
+          "text": "Bergen's anthem has exactly one verse. At every civic occasion the band reaches the end, hesitates, and plays it again, slightly louder, while everyone stares straight ahead."
+        },
+        {
+          "kind": "para",
+          "text": "The Mayor of Bergen would like an answer to this: *Give Bergen something to sing after the first verse.*"
+        },
+        {
+          "kind": "para",
+          "text": "Offers close at the end of this round (8 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Bergen either."
+        },
+        {
+          "kind": "aside",
+          "text": "The desk has been asked not to speculate. The desk has speculated."
+        }
+      ],
+      "provenance": {
+        "need": "in-005",
+        "category": "culture_and_arts",
+        "rotation": 1,
+        "spec": "#9, #13, #14"
+      }
+    },
+    {
+      "id": "sealed_bids",
+      "title": "Sealed Bids",
+      "blocks": [
+        {
+          "kind": "para",
+          "text": "Not one offer arrived for Kampala. The desk of the Mayor of Kampala is clear, which is a thing a desk can be."
+        }
+      ],
+      "provenance": {
+        "need": "in-004",
+        "offers": 0,
+        "origins_available_to_this_department": false,
+        "spec": "#9, #18"
+      }
+    },
+    {
+      "id": "arrivals",
+      "title": "Arrivals",
+      "blocks": [
+        {
+          "kind": "para",
+          "text": "**Valparaíso has picked.**"
+        },
+        {
+          "kind": "para",
+          "text": "The Mayor of Valparaíso read 4 unsigned offers and marked one of them:"
+        },
+        {
+          "kind": "quote",
+          "text": "Rain. Enormous quantities of rain, and the civic infrastructure to shrug at it."
+        },
+        {
+          "kind": "para",
+          "text": "Bergen sent it, and Bergen takes 3 — the dice said 2 and 1."
+        },
+        {
+          "kind": "para",
+          "text": "Not chosen, and not attributed:"
+        },
+        {
+          "kind": "list",
+          "role": "declined_exports",
+          "items": [
+            "A market's worth of Saturday, transplanted whole, noise included.",
+            "Six weeks of the municipal brass band, and the sheet music for one more."
+          ]
+        },
+        {
+          "kind": "para",
+          "text": "This paper is not saying who sent those, now or ever. Neither is the Mayor of Valparaíso, who does not know."
+        },
+        {
+          "kind": "para",
+          "text": "One further offer arrived with its own city written into it. The paper has declined to reprint it and has burned the envelope with some ceremony."
+        }
+      ],
+      "provenance": {
+        "need": "in-003",
+        "mode": "winner_pick",
+        "spec": "#18, #20",
+        "roll": {
+          "expression": "2d6",
+          "dice": [
+            2,
+            1
+          ],
+          "total": 3
+        },
+        "awarded": [
+          [
+            "Bergen",
+            "3"
+          ]
+        ],
+        "winner_city": "Bergen"
+      }
+    },
+    {
+      "id": "the_wire",
+      "title": "The Wire",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "Correspondence from the mayors, counted before it was quoted."
+        },
+        {
+          "kind": "heading",
+          "level": 3,
+          "text": "The world's compulsory syllabus"
+        },
+        {
+          "kind": "para",
+          "text": "The question, put to all of them and answered by rather fewer: *“One book, film or album becomes mandatory for the entire council. Which?”*"
+        },
+        {
+          "kind": "para",
+          "text": "Put to most nations, the answer comes back: a book."
+        },
+        {
+          "kind": "para",
+          "text": "Every one of the 5 delegations wrote back, and 3 landed on a book."
+        },
+        {
+          "kind": "para",
+          "text": "A handful of nations took a different view: a film."
+        },
+        {
+          "kind": "aside",
+          "text": "The paper would like it noted that it asked a simple question."
+        }
+      ],
+      "provenance": {
+        "outcome": "supermajority",
+        "kind": "tier",
+        "phrase_used": "most nations",
+        "phrase_source": "phrases",
+        "licensed": true,
+        "selection": "step 5: share 3/5 >= 3/5 and R 5 >= 3 selects tier supermajority",
+        "answered": 5,
+        "asked_of": 5,
+        "silent": 0,
+        "measure": {
+          "largest_bucket_size": 3,
+          "share": {
+            "exact": "3/5",
+            "approx": 0.6,
+            "percent": 60.0
+          },
+          "largest_is_tied": false,
+          "tied_buckets": 1,
+          "bucket_count": 2,
+          "denominator": "respondents (5), not all mayors (5)"
+        },
+        "headline_labels": [
+          "a book"
+        ],
+        "aggregate_heading_used": true,
+        "partial_response_disclosed": true,
+        "must_disclose_partial_response": false,
+        "spec": "#25"
+      }
+    },
+    {
+      "id": "the_ledger",
+      "title": "The Ledger",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "Where everybody stands, in the only currency this game recognises."
+        },
+        {
+          "kind": "table",
+          "columns": [
+            "#",
+            "City",
+            "Profit"
+          ],
+          "rows": [
+            [
+              1,
+              "Valparaíso",
+              "11"
+            ],
+            [
+              2,
+              "Bergen",
+              "3"
+            ],
+            [
+              3,
+              "Hobart",
+              "0"
+            ],
+            [
+              4,
+              "Kampala",
+              "0"
+            ],
+            [
+              5,
+              "Reykjavík",
+              "0"
+            ]
+          ]
+        },
+        {
+          "kind": "para",
+          "text": "Valparaíso is top of the column. The column is long and the game is not over."
+        },
+        {
+          "kind": "para",
+          "text": "Several cities are still on nothing at all. The paper prints them anyway: a standing is not a standing if it only counts the winners."
+        },
+        {
+          "kind": "note",
+          "text": "Figures are cumulative from the first round and are not adjusted for anything, least of all sentiment."
+        }
+      ],
+      "provenance": {
+        "cities": 5,
+        "spec": "#20, #22"
+      }
+    },
+    {
+      "id": "corrections",
+      "title": "Corrections & Clarifications",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "Small retractions, offered at full volume."
+        },
+        {
+          "kind": "list",
+          "items": [
+            "A reader asks how many people work at this paper. The answer is a matter for the paper's own conscience.",
+            "This paper prints mayors by city and office only. A reader who wrote in asking for full names has been thanked for their interest."
+          ]
+        }
+      ],
+      "provenance": {
+        "derived_items": 0,
+        "evergreen_items": 2
+      }
+    }
+  ],
+  "provenance": {
+    "renderer": {
+      "id": "deterministic_template",
+      "implementation": "newspaper.departments + newspaper.wire",
+      "source_of_wording": "content/newspaper.json",
+      "deterministic": true,
+      "needs_network": false,
+      "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
+    },
+    "cadence": {
+      "value": "per_round",
+      "means": "one edition per completed round, not batched (spec #26)"
+    },
+    "identity_style": {
+      "value": "city_mayor_only",
+      "prints": "the city's name and the office of its mayor",
+      "never_prints": "a real name, a handle, or a player id",
+      "spec": "#28"
+    },
+    "tone_policy": {
+      "funny": true,
+      "colorful": true,
+      "allow_pointed_humor": true,
+      "disallow_snide_or_mean": true,
+      "forbidden_register_terms": 33,
+      "spec": "#30",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+    },
+    "lockstep": [
+      {
+        "op": "OPEN",
+        "need": "in-005",
+        "city": "Bergen",
+        "category": "culture_and_arts",
+        "rotation": 1
+      },
+      {
+        "op": "CLOSE",
+        "need": "in-004",
+        "submissions": 0,
+        "city": "Kampala"
+      },
+      {
+        "op": "RESOLVE",
+        "need": "in-003",
+        "mode": "winner_pick",
+        "city": "Valparaíso"
+      }
+    ],
+    "spec": "#25, #26, #28, #29, #30"
+  },
+  "image": {
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped culture & the arts, 4 crates on the quay, 1 of them ribboned, dice showing 2 and 1, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.",
+    "cutline": "4 crates, one ribbon, 3 in the ledger. A good day at the water.",
+    "extension": "svg",
+    "mime": "image/svg+xml",
+    "palette": {
+      "paper": "#f6f0f8",
+      "ink": "#211a2b",
+      "sky": "#c9b6e4",
+      "water": "#4b3b78",
+      "accent": "#eab543",
+      "spot": "#8e5fb8",
+      "spot_alt": "#d38ab5"
+    },
+    "colorful": true,
+    "provenance": {
+      "modality": "svg_procedural",
+      "provider": "builtin_svg",
+      "preference": [
+        "raster",
+        "svg_procedural"
+      ],
+      "considered": [
+        {
+          "modality": "raster",
+          "provider": null,
+          "available": false,
+          "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
+        },
+        {
+          "modality": "svg_procedural",
+          "provider": "builtin_svg",
+          "available": true,
+          "reason": null
+        }
+      ],
+      "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
+      "spec": "#29"
+    },
+    "filename": "round-05.svg",
+    "file": "round-05.svg"
+  }
+}

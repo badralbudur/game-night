@@ -30,21 +30,33 @@ snapshot.
 | **M2** — core round-flow engine ([`engine/`](engine), [`tests/`](tests)) | built — see [`docs/m2-engine.md`](docs/m2-engine.md) |
 | **M3** — economy: profit rolls, leaderboard, exposure ([`engine/economy.py`](engine/economy.py)) | built — see [`docs/m3-economy.md`](docs/m3-economy.md) |
 | **M4** — facilitator questions: two-slot check-in, framing, aggregate data ([`engine/aggregate.py`](engine/aggregate.py)) | built — see [`docs/m4-questions.md`](docs/m4-questions.md) |
+| **M5** — newspaper rendering core: prose, redaction, tone, one image per edition ([`newspaper/`](newspaper), [`content/newspaper.json`](content/newspaper.json)) | built — see [`docs/m5-newspaper.md`](docs/m5-newspaper.md) |
 
 The engine covers the round timer and its lockstep, the city order queue and its
 two rotations, the import/export/winner cycle with every fallback, the import
 repetition rule, blind-voting data handling, the economy — profit rolls, the
 cumulative per-city leaderboard, and the exposure policy around both — and the
 mayor questions: the two-slot check-in, the framing rules, and what a round's
-answers add up to (the numbers behind "the world" / "some countries", not yet
-the sentence). Run its tests with:
+answers add up to.
+
+The newspaper turns that into **The Daily Manifest**: one edition per completed
+round, written from the frames in [`content/newspaper.json`](content/newspaper.json),
+with mayors named by city and office only, the aggregate item written in wording
+the arithmetic actually licenses, and one image per edition. Run the tests with:
 
 ```
 python3 run_tests.py
 ```
 
-Still later milestones: the newspaper and its private hosting, generated images,
-the *wording* of the mayor-question items, the endgame articles and per-city
-portraits, and the duplicate-city reassignment procedure. The engine marks each
-of those with an explicit `[[M5 ...]]`-style stub where its data would otherwise
-carry the finished thing.
+A rendered twelve-round sample game is committed at
+[`editions/sample-game/`](editions/sample-game) —
+[`index.md`](editions/sample-game/index.md) is its archive index. This
+deployment has no image-generation provider configured, so every edition uses
+the permitted deterministic SVG fallback and records that in its own
+`image.provenance`.
+
+Still later milestones: the newspaper's private hosting and archive deployment
+(the unguessable, `noindex` URL of spec #26–#27), the endgame articles and
+per-city portraits, and the duplicate-city reassignment procedure. Where the
+engine's data would otherwise carry a finished piece it does not own yet, it
+carries an explicit `[[M6 ...]]`-style stub instead.
