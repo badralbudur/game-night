@@ -42,9 +42,10 @@ Also offered, and declined:
 
 - A ferry timetable that has survived contact with the actual weather.
 - Six weeks of the municipal brass band, and the sheet music for one more.
-- Forty-one working funicular cars and the man who knows which forty are safe.
 
 This paper is not saying who sent those, now or ever. Neither is the Mayor of Kampala, who does not know.
+
+One offer matched, sentence for sentence, an offer already printed with its sender named. The paper is not going to pretend it cannot see that, and has left the text out.
 
 ## The Wire
 

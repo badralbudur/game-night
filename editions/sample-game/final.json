@@ -1,0 +1,801 @@
+{
+  "publication": "The Daily Manifest",
+  "game": "Sister Cities",
+  "round": 12,
+  "endgame": true,
+  "edition_line": "Vol. I, No. 12 — FINAL EDITION",
+  "motto": "All the news that fits in the hold.",
+  "standing_line": "The last edition of this paper. Mayors are named by city and office only, and no unchosen offer is traced to its sender, today or ever.",
+  "dateline": "Monday, 14 September 2026",
+  "closes": "15 September, 09:00 UTC",
+  "foot_line": "The Daily Manifest. The final edition. There is no notice open, no window closing, and nothing further to send.",
+  "price_line": "Price: free to city halls, exorbitant to everyone else",
+  "weather_line": "Weather: fog. The ferries are running on confidence alone.",
+  "image": {
+    "kind": "endgame_finale",
+    "alt": "The Daily Manifest's closing illustration, a skyline of 5 city towers at their final heights, a crown over Kampala, 20 unlabelled crates stacked on the quay, one per offer the world sent and nobody chose.",
+    "cutline": "The last boat of the season, the standings behind it, and one crown that fits nobody perfectly. Kampala takes it anyway.",
+    "extension": "svg",
+    "mime": "image/svg+xml",
+    "palette": {
+      "paper": "#f1f7f1",
+      "ink": "#15231a",
+      "sky": "#a9dfb4",
+      "water": "#256b47",
+      "accent": "#e8542e",
+      "spot": "#3f9663",
+      "spot_alt": "#8fcfa4"
+    },
+    "colorful": true,
+    "provenance": {
+      "modality": "svg_procedural",
+      "provider": "builtin_svg",
+      "preference": [
+        "raster",
+        "svg_procedural"
+      ],
+      "considered": [
+        {
+          "modality": "raster",
+          "provider": null,
+          "available": false,
+          "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
+        },
+        {
+          "modality": "svg_procedural",
+          "provider": "builtin_svg",
+          "available": true,
+          "reason": null
+        }
+      ],
+      "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
+      "spec": "#29"
+    },
+    "filename": "endgame.svg",
+    "file": "endgame.svg"
+  },
+  "city_images": [
+    {
+      "kind": "city_portrait",
+      "alt": "A portrait of Bergen in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 2 ribboned crates for the offers the world kept, 3 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.",
+      "cutline": "The portrait of Bergen: notices, ribbons, leftovers, and one closed door.",
+      "extension": "svg",
+      "mime": "image/svg+xml",
+      "palette": {
+        "paper": "#f6f0f8",
+        "ink": "#211a2b",
+        "sky": "#c9b6e4",
+        "water": "#4b3b78",
+        "accent": "#eab543",
+        "spot": "#8e5fb8",
+        "spot_alt": "#d38ab5"
+      },
+      "colorful": true,
+      "provenance": {
+        "modality": "svg_procedural",
+        "provider": "builtin_svg",
+        "preference": [
+          "raster",
+          "svg_procedural"
+        ],
+        "considered": [
+          {
+            "modality": "raster",
+            "provider": null,
+            "available": false,
+            "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
+          },
+          {
+            "modality": "svg_procedural",
+            "provider": "builtin_svg",
+            "available": true,
+            "reason": null
+          }
+        ],
+        "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
+        "spec": "#29"
+      },
+      "filename": "city-bergen.svg",
+      "city": "Bergen",
+      "file": "city-bergen.svg"
+    },
+    {
+      "kind": "city_portrait",
+      "alt": "A portrait of Hobart in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 2 ribboned crates for the offers the world kept, 4 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.",
+      "cutline": "The portrait of Hobart: notices, ribbons, leftovers, and one closed door.",
+      "extension": "svg",
+      "mime": "image/svg+xml",
+      "palette": {
+        "paper": "#f7f2e6",
+        "ink": "#221d18",
+        "sky": "#f2c14e",
+        "water": "#3d6b7d",
+        "accent": "#e2571e",
+        "spot": "#8c4a2f",
+        "spot_alt": "#d9a441"
+      },
+      "colorful": true,
+      "provenance": {
+        "modality": "svg_procedural",
+        "provider": "builtin_svg",
+        "preference": [
+          "raster",
+          "svg_procedural"
+        ],
+        "considered": [
+          {
+            "modality": "raster",
+            "provider": null,
+            "available": false,
+            "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
+          },
+          {
+            "modality": "svg_procedural",
+            "provider": "builtin_svg",
+            "available": true,
+            "reason": null
+          }
+        ],
+        "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
+        "spec": "#29"
+      },
+      "filename": "city-hobart.svg",
+      "city": "Hobart",
+      "file": "city-hobart.svg"
+    },
+    {
+      "kind": "city_portrait",
+      "alt": "A portrait of Kampala in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 2 ribboned crates for the offers the world kept, 3 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.",
+      "cutline": "The portrait of Kampala: notices, ribbons, leftovers, and one closed door.",
+      "extension": "svg",
+      "mime": "image/svg+xml",
+      "palette": {
+        "paper": "#fdf3e3",
+        "ink": "#2b1a12",
+        "sky": "#ffd08a",
+        "water": "#a8573b",
+        "accent": "#c5283d",
+        "spot": "#e08e45",
+        "spot_alt": "#7d9b3f"
+      },
+      "colorful": true,
+      "provenance": {
+        "modality": "svg_procedural",
+        "provider": "builtin_svg",
+        "preference": [
+          "raster",
+          "svg_procedural"
+        ],
+        "considered": [
+          {
+            "modality": "raster",
+            "provider": null,
+            "available": false,
+            "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
+          },
+          {
+            "modality": "svg_procedural",
+            "provider": "builtin_svg",
+            "available": true,
+            "reason": null
+          }
+        ],
+        "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
+        "spec": "#29"
+      },
+      "filename": "city-kampala.svg",
+      "city": "Kampala",
+      "file": "city-kampala.svg"
+    },
+    {
+      "kind": "city_portrait",
+      "alt": "A portrait of Reykjavík in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 2 ribboned crates for the offers the world kept, 4 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.",
+      "cutline": "Reykjavík at the end of the game, with 4 declined offers behind it and the shed door shut on the rest.",
+      "extension": "svg",
+      "mime": "image/svg+xml",
+      "palette": {
+        "paper": "#f6f3ea",
+        "ink": "#1f1b26",
+        "sky": "#cfc3a4",
+        "water": "#453a5e",
+        "accent": "#d1622a",
+        "spot": "#6d5c96",
+        "spot_alt": "#a99ac4"
+      },
+      "colorful": true,
+      "provenance": {
+        "modality": "svg_procedural",
+        "provider": "builtin_svg",
+        "preference": [
+          "raster",
+          "svg_procedural"
+        ],
+        "considered": [
+          {
+            "modality": "raster",
+            "provider": null,
+            "available": false,
+            "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
+          },
+          {
+            "modality": "svg_procedural",
+            "provider": "builtin_svg",
+            "available": true,
+            "reason": null
+          }
+        ],
+        "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
+        "spec": "#29"
+      },
+      "filename": "city-reykjavik.svg",
+      "city": "Reykjavík",
+      "file": "city-reykjavik.svg"
+    },
+    {
+      "kind": "city_portrait",
+      "alt": "A portrait of Valparaíso in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 4 ribboned crates for the offers the world kept, 6 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.",
+      "cutline": "The portrait of Valparaíso: notices, ribbons, leftovers, and one closed door.",
+      "extension": "svg",
+      "mime": "image/svg+xml",
+      "palette": {
+        "paper": "#f5f5f0",
+        "ink": "#1b1f24",
+        "sky": "#c8d6dd",
+        "water": "#37525e",
+        "accent": "#e8541e",
+        "spot": "#5c7c8a",
+        "spot_alt": "#a3bcc6"
+      },
+      "colorful": true,
+      "provenance": {
+        "modality": "svg_procedural",
+        "provider": "builtin_svg",
+        "preference": [
+          "raster",
+          "svg_procedural"
+        ],
+        "considered": [
+          {
+            "modality": "raster",
+            "provider": null,
+            "available": false,
+            "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
+          },
+          {
+            "modality": "svg_procedural",
+            "provider": "builtin_svg",
+            "available": true,
+            "reason": null
+          }
+        ],
+        "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
+        "spec": "#29"
+      },
+      "filename": "city-valparaiso.svg",
+      "city": "Valparaíso",
+      "file": "city-valparaiso.svg"
+    }
+  ],
+  "departments": [
+    {
+      "id": "the_crown",
+      "title": "The Crown",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "The final figures, certified by this paper's accountants, who have asked to be described as exhausted."
+        },
+        {
+          "kind": "para",
+          "text": "**The crown goes to Kampala.** 23.75, cumulative, from the first notice to the last."
+        },
+        {
+          "kind": "para",
+          "text": "Valparaíso finished 3 behind — a gap this paper considers both narrow and, now, permanent."
+        },
+        {
+          "kind": "para",
+          "text": "Two of Kampala's offers were chosen over the run of the game, which is a good year at the water."
+        },
+        {
+          "kind": "para",
+          "text": "Kampala also took a full roll for solving its own problem, the world having sent it nothing whatsoever that round."
+        },
+        {
+          "kind": "table",
+          "columns": [
+            "#",
+            "City",
+            "Final profit"
+          ],
+          "rows": [
+            [
+              1,
+              "Kampala",
+              "23.75"
+            ],
+            [
+              2,
+              "Valparaíso",
+              "20.75"
+            ],
+            [
+              3,
+              "Bergen",
+              "12"
+            ],
+            [
+              4,
+              "Reykjavík",
+              "9.75"
+            ],
+            [
+              5,
+              "Hobart",
+              "8.75"
+            ]
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Final figures, cumulative from the first round, unadjusted for luck, weather, or the strength of anybody's feelings."
+        },
+        {
+          "kind": "para",
+          "text": "5 cities played to the end. All 5 are, in this paper's assessment, still standing."
+        },
+        {
+          "kind": "aside",
+          "text": "Of all the parties to this game, only this paper has profited purely in reputation, and it intends to spend that too."
+        }
+      ],
+      "provenance": {
+        "winners": [
+          "Kampala"
+        ],
+        "shared": false,
+        "profit_visible": true,
+        "wins_by_the_crown": 2,
+        "spec": "#31"
+      }
+    },
+    {
+      "id": "consequences",
+      "title": "Consequences",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "A year of international goodwill has had effects. This desk has been asked to look into them."
+        },
+        {
+          "kind": "para",
+          "text": "The trade is finished, the ledger is closed, and 12 things are now permanently in places that were not built for them. This paper has been to see most of them."
+        },
+        {
+          "kind": "quote",
+          "text": "Forty-one working funicular cars and the man who knows which forty are safe."
+        },
+        {
+          "kind": "para",
+          "text": "Valparaíso wrote that. Reykjavík read it, wanted it, and took delivery of it against the notice titled \"A subject that didn't exist last year\"."
+        },
+        {
+          "kind": "para",
+          "text": "Children in Reykjavík are being taught about it and have started asking the follow-up questions."
+        },
+        {
+          "kind": "quote",
+          "text": "A hillside's worth of paint, in colours the council will argue about for years."
+        },
+        {
+          "kind": "para",
+          "text": "Valparaíso wrote that. Hobart read it, wanted it, and took delivery of it against the notice titled \"A junction that ends the argument\"."
+        },
+        {
+          "kind": "para",
+          "text": "Two things in Hobart are now load-bearing that were never asked whether they wanted to be."
+        },
+        {
+          "kind": "quote",
+          "text": "Rain. Enormous quantities of rain, and the civic infrastructure to shrug at it."
+        },
+        {
+          "kind": "para",
+          "text": "Bergen wrote that. Valparaíso read it, wanted it, and took delivery of it against the notice titled \"A bus route people would ride for fun\"."
+        },
+        {
+          "kind": "para",
+          "text": "It arrives in Valparaíso twice a day and is late in a way that has become a local unit of time."
+        },
+        {
+          "kind": "quote",
+          "text": "Two hundred metres of very good rope and somebody who can splice it."
+        },
+        {
+          "kind": "para",
+          "text": "Hobart wrote that. Bergen read it, wanted it, and took delivery of it against the notice titled \"A second verse for the anthem\"."
+        },
+        {
+          "kind": "para",
+          "text": "There is a plaque about it in Bergen now. The plaque is longer than the thing it commemorates."
+        },
+        {
+          "kind": "para",
+          "text": "The industry Kampala ramped up when nobody answered its notice has not been ramped back down. It has a logo, a rota and an opinion about the harbour."
+        },
+        {
+          "kind": "para",
+          "text": "Bergen's lapsed deliberation paid 4 cities at once, and 4 cities have since referred to it as a mandate."
+        },
+        {
+          "kind": "para",
+          "text": "None of the above is the half of it. Over the whole game twenty offers were sent and not chosen, and every one of them went home again: curricula, untaught, right-of-way conventions, mutually incompatible, routes, unrun, timetabled anyway, views, unphotographed, explanations, unconvincing, filed under 'ambience', grudges, unreciprocated, saplings, unplanted, still in their pots and expertise, offered to no one. That is what the world made this year and could not give away."
+        },
+        {
+          "kind": "para",
+          "text": "The senders of the unwanted are not named here. They were not named at the time, they are not named at the end, and the last edition is not a late confession."
+        },
+        {
+          "kind": "aside",
+          "text": "No city hall has accepted responsibility for any of the above, which this paper regards as the most professional conduct of the entire game."
+        }
+      ],
+      "provenance": {
+        "arrivals_available": 12,
+        "arrivals_printed": 4,
+        "cap": 4,
+        "world_excess": 20,
+        "excess_attributed_to_any_city": false,
+        "spec": "#31, #21"
+      }
+    },
+    {
+      "id": "the_excess",
+      "title": "The Excess",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "One portrait per city, drawn from what it asked the world for, what the world kept, and what it could not find a use for."
+        },
+        {
+          "kind": "heading",
+          "level": 3,
+          "text": "Bergen"
+        },
+        {
+          "kind": "figure",
+          "image": "city-bergen.svg",
+          "alt": "A portrait of Bergen in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 2 ribboned crates for the offers the world kept, 3 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.",
+          "caption": "The portrait of Bergen: notices, ribbons, leftovers, and one closed door."
+        },
+        {
+          "kind": "para",
+          "text": "Bergen, third on 12, drawn here from its own record and nobody else's."
+        },
+        {
+          "kind": "para",
+          "text": "Bergen's notices this game: A second verse for the anthem and Somebody who understands the old pipe network. Two in total, each one a problem it could not solve alone."
+        },
+        {
+          "kind": "para",
+          "text": "Two times this game, a city read an unsigned offer and it turned out to be Bergen's."
+        },
+        {
+          "kind": "para",
+          "text": "The world kept this, from Bergen: *Rain. Enormous quantities of rain, and the civic infrastructure to shrug at it.* — chosen in Valparaíso."
+        },
+        {
+          "kind": "para",
+          "text": "Bergen's deliberation once outlasted its own window, and 4 cities were paid for it."
+        },
+        {
+          "kind": "para",
+          "text": "Three offers reached Bergen and went unchosen. Bergen kept the pile anyway — expertise, offered to no one — because nobody has ever worked out how to send an offer back."
+        },
+        {
+          "kind": "para",
+          "text": "Kept in the crate: three offers matching, sentence for sentence, an offer credited by name elsewhere in this edition — the same words having won somewhere and lost here."
+        },
+        {
+          "kind": "para",
+          "text": "Bergen's own unchosen offers exist, are somewhere in Bergen, and are nobody's business. The portrait draws the door and stops there."
+        },
+        {
+          "kind": "para",
+          "text": "Asked *What is on the mayoral desk that has absolutely no business being there?*, the Mayor of Bergen said: “A barometer that has been wrong since April.” This paper has thought about that a good deal since."
+        },
+        {
+          "kind": "heading",
+          "level": 3,
+          "text": "Hobart"
+        },
+        {
+          "kind": "figure",
+          "image": "city-hobart.svg",
+          "alt": "A portrait of Hobart in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 2 ribboned crates for the offers the world kept, 4 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.",
+          "caption": "The portrait of Hobart: notices, ribbons, leftovers, and one closed door."
+        },
+        {
+          "kind": "para",
+          "text": "Hobart finishes fifth, on 8.75, and looks — the illustrator is firm about this — exactly like a city that finished fifth on 8.75."
+        },
+        {
+          "kind": "para",
+          "text": "What Hobart asked for, in order: A junction that ends the argument and An explanation for the humming."
+        },
+        {
+          "kind": "para",
+          "text": "Two times this game, a city read an unsigned offer and it turned out to be Hobart's."
+        },
+        {
+          "kind": "para",
+          "text": "Reykjavík looked at a desk of unsigned offers and took Hobart's: *The southernmost bakery on the register, boxed, with its opening hours.*"
+        },
+        {
+          "kind": "para",
+          "text": "Four offers reached Hobart and went unchosen. Hobart kept the pile anyway — right-of-way conventions, mutually incompatible and explanations, unconvincing, filed under 'ambience' — because nobody has ever worked out how to send an offer back."
+        },
+        {
+          "kind": "para",
+          "text": "From that pile, unattributed as ever:"
+        },
+        {
+          "kind": "list",
+          "role": "declined_exports",
+          "items": [
+            "Seven brass instruments and a licensed procession route.",
+            "A committee that has already failed at this and can save you the time."
+          ]
+        },
+        {
+          "kind": "para",
+          "text": "Kept in the crate: two offers matching, sentence for sentence, an offer credited by name elsewhere in this edition — the same words having won somewhere and lost here."
+        },
+        {
+          "kind": "para",
+          "text": "Hobart's own unchosen offers exist, are somewhere in Hobart, and are nobody's business. The portrait draws the door and stops there."
+        },
+        {
+          "kind": "para",
+          "text": "For the record, the Mayor of Hobart, asked *What was the last thing that made you laugh out loud, on your own?*: “A dog on the ferry who clearly commutes.”"
+        },
+        {
+          "kind": "heading",
+          "level": 3,
+          "text": "Kampala"
+        },
+        {
+          "kind": "figure",
+          "image": "city-kampala.svg",
+          "alt": "A portrait of Kampala in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 2 ribboned crates for the offers the world kept, 3 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.",
+          "caption": "The portrait of Kampala: notices, ribbons, leftovers, and one closed door."
+        },
+        {
+          "kind": "para",
+          "text": "Kampala finishes first, on 23.75, and looks — the illustrator is firm about this — exactly like a city that finished first on 23.75."
+        },
+        {
+          "kind": "para",
+          "text": "Kampala came to the world two times, over Ninety thousand surplus plums and A tree that can take the salt."
+        },
+        {
+          "kind": "para",
+          "text": "Two times this game, a city read an unsigned offer and it turned out to be Kampala's."
+        },
+        {
+          "kind": "para",
+          "text": "Chosen, in Hobart, from Kampala: *Eleven boda riders who know every shortcut and will not be told otherwise.*"
+        },
+        {
+          "kind": "para",
+          "text": "When nobody answered Kampala's notice, Kampala built the answer itself. The shed is in the picture."
+        },
+        {
+          "kind": "para",
+          "text": "The excess at Kampala: three offers, declined, filed under saplings, unplanted, still in their pots, occupying a quay that has other uses."
+        },
+        {
+          "kind": "para",
+          "text": "Two offers, reprinted without a sender, because the writing deserves a second reading:"
+        },
+        {
+          "kind": "list",
+          "role": "declined_exports",
+          "items": [
+            "A ferry timetable that has survived contact with the actual weather.",
+            "Six weeks of the municipal brass band, and the sheet music for one more."
+          ]
+        },
+        {
+          "kind": "para",
+          "text": "Also withheld: one offer reading word for word like something this paper has already credited to a city elsewhere in today's edition. An unattributed reprint would be a riddle with the answer two columns up."
+        },
+        {
+          "kind": "para",
+          "text": "What Kampala sent that nobody chose is not itemised here and cannot be: this paper has never known which offers were Kampala's, and the one ledger that does know is not something the last edition gets to open. There is a shed for it in the portrait, with the door shut."
+        },
+        {
+          "kind": "para",
+          "text": "On the question *Best thing you have ever eaten standing up?*, Kampala's answer was: “Roast maize from a woman on Jinja Road who has never once been wrong.”"
+        },
+        {
+          "kind": "heading",
+          "level": 3,
+          "text": "Reykjavík"
+        },
+        {
+          "kind": "figure",
+          "image": "city-reykjavik.svg",
+          "alt": "A portrait of Reykjavík in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 2 ribboned crates for the offers the world kept, 4 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.",
+          "caption": "Reykjavík at the end of the game, with 4 declined offers behind it and the shed door shut on the rest."
+        },
+        {
+          "kind": "para",
+          "text": "Fourth: Reykjavík, 9.75, and a harbour that has seen things this year."
+        },
+        {
+          "kind": "para",
+          "text": "Reykjavík came to the world two times, over A subject that didn't exist last year and A postcard that isn't the bridge."
+        },
+        {
+          "kind": "para",
+          "text": "Two of Reykjavík's offers were chosen across the game, each of them picked by a mayor who did not know whose it was."
+        },
+        {
+          "kind": "para",
+          "text": "Bergen looked at a desk of unsigned offers and took Reykjavík's: *Geothermal heat, piped, on the understanding that we get the pipes back.*"
+        },
+        {
+          "kind": "para",
+          "text": "Four offers reached Reykjavík and went unchosen. Reykjavík kept the pile anyway — curricula, untaught and views, unphotographed — because nobody has ever worked out how to send an offer back."
+        },
+        {
+          "kind": "para",
+          "text": "From that pile, unattributed as ever:"
+        },
+        {
+          "kind": "list",
+          "role": "declined_exports",
+          "items": [
+            "A ferry timetable that has survived contact with the actual weather.",
+            "A fish counter with a two-hundred-year opinion about freshness."
+          ]
+        },
+        {
+          "kind": "para",
+          "text": "Reykjavík's own unchosen offers exist, are somewhere in Reykjavík, and are nobody's business. The portrait draws the door and stops there."
+        },
+        {
+          "kind": "para",
+          "text": "On the question *What is on the mayoral desk that has absolutely no business being there?*, Reykjavík's answer was: “A pebble from a beach that no longer exists.”"
+        },
+        {
+          "kind": "heading",
+          "level": 3,
+          "text": "Valparaíso"
+        },
+        {
+          "kind": "figure",
+          "image": "city-valparaiso.svg",
+          "alt": "A portrait of Valparaíso in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 4 ribboned crates for the offers the world kept, 6 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.",
+          "caption": "The portrait of Valparaíso: notices, ribbons, leftovers, and one closed door."
+        },
+        {
+          "kind": "para",
+          "text": "Valparaíso finishes second, on 20.75, and looks — the illustrator is firm about this — exactly like a city that finished second on 20.75."
+        },
+        {
+          "kind": "para",
+          "text": "Valparaíso's notices this game: A bus route people would ride for fun and A rival worth having. Two in total, each one a problem it could not solve alone."
+        },
+        {
+          "kind": "para",
+          "text": "Four times this game, a city read an unsigned offer and it turned out to be Valparaíso's."
+        },
+        {
+          "kind": "para",
+          "text": "The world kept this, from Valparaíso: *A hillside's worth of paint, in colours the council will argue about for years.* — chosen in Hobart."
+        },
+        {
+          "kind": "para",
+          "text": "The excess at Valparaíso: six offers, declined, filed under routes, unrun, timetabled anyway and grudges, unreciprocated, occupying a quay that has other uses."
+        },
+        {
+          "kind": "para",
+          "text": "From that pile, unattributed as ever:"
+        },
+        {
+          "kind": "list",
+          "role": "declined_exports",
+          "items": [
+            "A market's worth of Saturday, transplanted whole, noise included.",
+            "Six weeks of the municipal brass band, and the sheet music for one more."
+          ]
+        },
+        {
+          "kind": "para",
+          "text": "Withheld as well: one offer that wrote a city into the text. The rule outlives the game."
+        },
+        {
+          "kind": "para",
+          "text": "What Valparaíso sent that nobody chose is not itemised here and cannot be: this paper has never known which offers were Valparaíso's, and the one ledger that does know is not something the last edition gets to open. There is a shed for it in the portrait, with the door shut."
+        },
+        {
+          "kind": "para",
+          "text": "On the question *Best thing you have ever eaten standing up?*, Valparaíso's answer was: “An empanada from a window on Cerro Alegre, eaten walking.”"
+        },
+        {
+          "kind": "aside",
+          "text": "That is the world, as far as this paper was able to establish it, and establishing it was the whole job."
+        }
+      ],
+      "provenance": {
+        "cities": [
+          "Bergen",
+          "Hobart",
+          "Kampala",
+          "Reykjavík",
+          "Valparaíso"
+        ],
+        "portraits": {
+          "Bergen": "city-bergen.svg",
+          "Hobart": "city-hobart.svg",
+          "Kampala": "city-kampala.svg",
+          "Reykjavík": "city-reykjavik.svg",
+          "Valparaíso": "city-valparaiso.svg"
+        },
+        "excess_material_used": true,
+        "reprint_cap": 2,
+        "sender_side_excess_itemised": false,
+        "spec": "#32, #21"
+      }
+    }
+  ],
+  "provenance": {
+    "renderer": {
+      "id": "deterministic_template",
+      "implementation": "newspaper.departments + newspaper.wire",
+      "source_of_wording": "content/newspaper.json",
+      "deterministic": true,
+      "needs_network": false,
+      "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
+    },
+    "endgame_policy": {
+      "crown_cumulative_profit_winner": true,
+      "publish_twist_article": true,
+      "generate_per_city_description_and_image": true,
+      "per_city_excess_uses_non_chosen_exports": true,
+      "twist_article_items": 4,
+      "max_excess_offers_printed_per_city": 2,
+      "quote_mayor_answers_per_city": 1,
+      "city_image": {
+        "width": 900,
+        "height": 560
+      },
+      "private_excess_dossiers_written": false,
+      "spec": "#31, #32"
+    },
+    "identity_style": {
+      "value": "city_mayor_only",
+      "prints": "the city's name and the office of its mayor",
+      "never_prints": "a real name, a handle, or a player id",
+      "spec": "#28"
+    },
+    "tone_policy": {
+      "funny": true,
+      "colorful": true,
+      "allow_pointed_humor": true,
+      "disallow_snide_or_mean": true,
+      "forbidden_register_terms": 33,
+      "spec": "#30",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+    },
+    "ended_round": 12,
+    "excess_policy": {
+      "published_from": "the importing side -- an offer that arrived and was declined, reprinted with no sender",
+      "never_published": "spec #21: a non-winning offer's origin city is never exposed, so the offers a city sent and nobody chose are not itemised in the paper -- not during the game and not in the last edition",
+      "spec": "#21, #32"
+    },
+    "spec": "#28, #29, #30, #31, #32"
+  }
+}

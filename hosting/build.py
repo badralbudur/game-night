@@ -44,7 +44,9 @@ from newspaper.copy import NewspaperCopy
 from newspaper.edition import Paper
 
 from . import guard, identity as identity_module, page
-from .manifest import PublicationManifest, PublicFile, load_manifest_json, resolve_categories
+from .manifest import (
+    PublicationManifest, PublicFile, edition_key, load_manifest_json, resolve_categories,
+)
 
 #: Name of the audit record, written *beside* the public root and never in it.
 MANIFEST_FILENAME = "publication-manifest.json"
@@ -74,7 +76,8 @@ ARCHIVE_ORDERS = ("newest_first", "oldest_first")
 #: a later milestone is not published until somebody puts it here on purpose.
 PUBLIC_EDITION_FIELDS = (
     "round", "publication", "game", "edition_line", "motto", "dateline", "closes",
-    "price_line", "weather_line", "standing_line", "departments",
+    "price_line", "weather_line", "standing_line", "departments", "endgame",
+    "foot_line",
 )
 
 
@@ -132,7 +135,7 @@ def curated_edition(edition):
     is the file sitting next to it.
     """
     public = {field: edition[field] for field in PUBLIC_EDITION_FIELDS if field in edition}
-    public["page"] = page.edition_page_name(edition["round"])
+    public["page"] = page.page_name_for(edition)
     image = edition.get("image") or {}
     if image.get("filename"):
         provenance = image.get("provenance") or {}
@@ -143,18 +146,36 @@ def curated_edition(edition):
             "modality": provenance.get("modality"),
             "provider": provenance.get("provider"),
         }
+    portraits = [entry for entry in edition.get("city_images") or () if entry.get("filename")]
+    if portraits:
+        # Spec #32's images, named the same way the edition's own is. The city
+        # is public (spec #28 prints cities), the file is public, and neither
+        # says anything about who sent an offer nobody chose.
+        public["city_images"] = [
+            {
+                "city": entry["city"],
+                "file": entry["filename"],
+                "alt": entry["alt"],
+                "cutline": entry["cutline"],
+                "modality": (entry.get("provenance") or {}).get("modality"),
+                "provider": (entry.get("provenance") or {}).get("provider"),
+            }
+            for entry in portraits
+        ]
     return public
 
 
-def curated_archive(archive, editions):
+def curated_archive(archive, editions, final=None):
     return {
         "publication": archive["publication"],
         "game": archive["game"],
         "motto": archive["motto"],
         "cadence": archive["cadence"],
         "archive_prior_editions": archive["archive_prior_editions"],
-        "spec": "#26, #27",
+        "ended": bool(final),
+        "spec": "#26, #27, #31",
         "editions": [curated_edition(edition) for edition in editions],
+        "final": curated_edition(final) if final else None,
     }
 
 
@@ -173,7 +194,15 @@ def build_manifest(archive, copy, config, identity, privacy):
 
     editions = list(archive["editions"])
     rounds = [edition["round"] for edition in editions]
+    # The last edition is published only if the game has ended *and*
+    # `final_edition` is one of the categories this game publishes. It is listed
+    # in the archive alongside the round editions -- it is an issue of the same
+    # paper at the same address (spec #26, #27) -- and it sorts last in reading
+    # order, so newest_first puts it first.
+    final = archive.get("final") if "final_edition" in categories else None
     listed = list(reversed(editions)) if order == "newest_first" else editions
+    if final is not None:
+        listed = [final] + listed if order == "newest_first" else listed + [final]
     # A page may only link a file this build actually publishes. `hosting.publish`
     # can leave the stylesheet or the images out, and a link to something that is
     # not there is a broken page rather than a graceful degradation.
@@ -199,8 +228,9 @@ def build_manifest(archive, copy, config, identity, privacy):
         next_round = rounds[index + 1] if index + 1 < len(rounds) else None
         html = page.edition_page(
             edition, site, privacy, previous_round, next_round, stylesheet, with_images,
+            final_page=final is not None and index == len(editions) - 1,
         )
-        rendered[edition["round"]] = [html]
+        rendered[edition_key(edition)] = [html]
         if "editions" in categories:
             manifest.add(PublicFile(
                 page.edition_page_name(edition["round"]), "editions",
@@ -211,7 +241,7 @@ def build_manifest(archive, copy, config, identity, privacy):
             ))
         image = edition.get("image") or {}
         if "edition_images" in categories and image.get("filename") and image.get("content"):
-            rendered[edition["round"]].append(
+            rendered[edition_key(edition)].append(
                 image["content"] if isinstance(image["content"], str) else ""
             )
             manifest.add(PublicFile(
@@ -222,8 +252,14 @@ def build_manifest(archive, copy, config, identity, privacy):
                 image["content"], round=edition["round"],
             ))
 
+    if final is not None:
+        _add_final_edition(
+            manifest, rendered, final, site, privacy, stylesheet, with_images,
+            categories, rounds,
+        )
+
     if "archive_json" in categories:
-        payload = curated_archive(archive, editions)
+        payload = curated_archive(archive, editions, final)
         manifest.add(PublicFile(
             ARCHIVE_JSON_FILENAME, "archive_json", "hosting.build.curated_archive",
             "the same editions for a reader that is not a browser, assembled from an "
@@ -256,6 +292,64 @@ def build_manifest(archive, copy, config, identity, privacy):
         ))
 
     return manifest, rendered, payload
+
+
+def _add_final_edition(manifest, rendered, final, site, privacy, stylesheet,
+                       with_images, categories, rounds):
+    """Declare the last edition, its finale picture and its portraits (#31, #32).
+
+    The page is filed under its own category rather than under ``editions``,
+    which is not bookkeeping: ``editions`` is checked for one page per round
+    (:func:`hosting.guard.assert_publishable`), the final edition shares the last
+    round's number, and a page with a duplicate round in that category would --
+    correctly -- be refused as an edition overwriting an edition. Giving it its
+    own category says what it is instead of arguing with the check.
+    """
+    html = page.edition_page(
+        final, site, privacy,
+        previous_round=rounds[-1] if rounds else None,
+        next_round=None, stylesheet=stylesheet, with_image=with_images,
+    )
+    rendered[edition_key(final)] = [html]
+
+    if "final_edition" in categories:
+        manifest.add(PublicFile(
+            page.FINAL_PAGE_NAME, "final_edition", "newspaper.build_final_edition",
+            "the last edition -- the crown, the consequences and a portrait of every "
+            "city (spec #31, #32) -- at a permanent name beside the round editions, "
+            "so the archive gains an issue rather than losing one (spec #27)",
+            html,
+        ))
+
+    image = final.get("image") or {}
+    if "edition_images" in categories and image.get("filename") and image.get("content"):
+        rendered[edition_key(final)].append(
+            image["content"] if isinstance(image["content"], str) else ""
+        )
+        manifest.add(PublicFile(
+            image["filename"], "edition_images", "newspaper.endgame.finale_scene",
+            "the closing illustration (spec #29, #31): final standings, the crown, and "
+            "the world's unchosen offers as an unlabelled stack that names no sender",
+            image["content"],
+        ))
+
+    if "city_images" not in categories:
+        return
+    for portrait in final.get("city_images") or ():
+        if not portrait.get("filename") or not portrait.get("content"):
+            continue
+        rendered[edition_key(final)].append(
+            portrait["content"] if isinstance(portrait["content"], str) else ""
+        )
+        manifest.add(PublicFile(
+            portrait["filename"], "city_images",
+            "newspaper.endgame.city_scene(city=%r)" % portrait["city"],
+            "the portrait of %s (spec #32), drawn from that city's own notices, the "
+            "offers the world kept from it, and the offers it declined -- the offers "
+            "it *sent* and nobody chose are a shut door in the picture and a number "
+            "nowhere in it (spec #21)" % portrait["city"],
+            portrait["content"],
+        ))
 
 
 def _read_stylesheet(config, root=None):
@@ -297,8 +391,15 @@ def build_site(engine, out_dir=None, paper=None, identity=None, copy=None, root=
         public_root = os.path.join(out_dir, config.require_str("hosting.public_subdir"))
         manifest_path = os.path.join(out_dir, MANIFEST_FILENAME)
 
+    # The final edition is audited with the rest of them, not after them. It is
+    # the edition with the most exposure surface in the game -- a portrait per
+    # city, every declined offer on every quay -- so leaving it out of the gate
+    # would leave out the one that most needs it (spec #21, #28, #31, #32).
+    audited = list(archive["editions"])
+    if archive.get("final") is not None:
+        audited.append(archive["final"])
     guard.assert_publishable(
-        engine, manifest, archive["editions"], identity=identity,
+        engine, manifest, audited, identity=identity,
         rendered_by_round=rendered, payloads=[curated] if curated else [],
     )
     previous = load_manifest_json(manifest_path)

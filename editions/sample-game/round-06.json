@@ -317,6 +317,7 @@
     "spec": "#25, #26, #28, #29, #30"
   },
   "image": {
+    "kind": "edition",
     "alt": "A harbour scene in the Daily Manifest's colours, stamped tourism & reputation, an empty quay, dice showing 6 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
     "cutline": "Nothing on the quay, so Kampala built its own. The shed, pictured, is doing its best.",
     "extension": "svg",

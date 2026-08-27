@@ -40,6 +40,8 @@ from engine import audit
 from engine.errors import RuleViolation
 from newspaper import redact
 
+from .manifest import edition_key
+
 #: Parts of this repo that may never be the source of a published file. Matched
 #: as substrings of the declared ``source``, so a nested path is caught too.
 #: These are the "no inboxes, raw verdicts, credentials or private repo data"
@@ -216,7 +218,7 @@ def assert_publishable(engine, manifest, editions, identity=None, rendered_by_ro
     # which spec rule broke, and this module would only be able to say "a file".
     for edition in editions:
         redact.assert_edition_is_redacted(
-            engine, edition, rendered=rendered_by_round.get(edition["round"], [])
+            engine, edition, rendered=rendered_by_round.get(edition_key(edition), [])
         )
     published = {
         "published_text": [entry.text for entry in manifest.files],

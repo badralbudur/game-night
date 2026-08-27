@@ -77,16 +77,77 @@ def cities_named_in(text, cities):
     return found
 
 
-def may_reprint_declined(text, cities):
+def comparable_export(text):
+    """An export text reduced to what a reader would recognise it by.
+
+    Whitespace collapsed and case folded, and nothing else -- this is used to
+    ask "has a reader seen this exact sentence somewhere else in the paper",
+    which is a question about the words, not about the typography.
+    """
+    return " ".join(str(text).split()).casefold()
+
+
+def attributed_export_texts(engine, through_round=None):
+    """Export texts the paper has printed a sender's name against, by ``through_round``.
+
+    Winners, and only winners: a chosen export's origin is public (spec #18,
+    #20), Arrivals names it round by round, and the last edition's twist article
+    quotes it under the sending city's name (spec #31).
+
+    Which makes the *text itself* an identifier, and that is the leak this set
+    exists to close. The same words can be sent to two different needs and win
+    one and lose the other -- the sample game does exactly this -- and a paper
+    that quotes "Hobart wrote that" in one column and reprints the identical
+    sentence as an unattributed declined offer in another has told the reader
+    whose the declined one was just as plainly as a byline would. So a declined
+    offer that reads exactly like an attributed one is withheld (spec #21).
+
+    ``through_round`` is why this takes an argument at all, and the reasoning is
+    spec #27's. An edition is a historical document: rebuild round 5 in round 12
+    and it must come out byte-for-byte as it did when it was published, or the
+    archive is an overwrite pretending to be an archive. So a round edition asks
+    only about winners resolved *by that round* -- a set that is fixed the moment
+    the round closes and never grows again. The final edition passes ``None`` and
+    gets the whole game, which is both safe and necessary: it is published once,
+    from a finished game, and it is the edition that prints game-wide reprints
+    and game-wide attributions on the same page.
+
+    What this deliberately does not do is reach forward. An offer reprinted
+    unattributed in round 5 may be matched by an attribution the paper prints in
+    round 9, and no rule available here can prevent that: closing it would mean
+    either rewriting round 5 (forbidden by #27) or withholding round 9's winner
+    (required by #18 and #20). The last edition closes it for everything the last
+    edition itself prints, and ``docs/m7-endgame.md`` records the residue.
+    """
+    texts = set()
+    for need in engine.needs.values():
+        if through_round is not None and (
+            need.resolved_round is None or need.resolved_round > through_round
+        ):
+            continue
+        for submission in engine.submissions_for(need.need_key):
+            if submission.is_winner:
+                texts.add(comparable_export(submission.text))
+    return texts
+
+
+def may_reprint_declined(text, cities, attributed=()):
     """Whether a losing export may be printed verbatim (spec #21).
 
     The paper reprints losing exports because they are the best writing in the
-    game and because "The Excess" (see ``NAME.md``) needs them. It does not
-    reprint one that names a city: the export text is the one string the paper
-    must reproduce exactly, so the only way to keep the origin blind is to
-    decline to reproduce it at all.
+    game and because "The Excess" (see ``NAME.md``) needs them. Two things stop
+    it reprinting one:
+
+    * the text names a city. The export text is the one string the paper must
+      reproduce exactly, so the only way to keep the origin blind is to decline
+      to reproduce it at all.
+    * the text is one the paper attributes to a city somewhere else
+      (:func:`attributed_export_texts`). Printing it unattributed here would not
+      make it anonymous; it would just make the attribution one column away.
     """
-    return not cities_named_in(text, cities)
+    if cities_named_in(text, cities):
+        return False
+    return comparable_export(text) not in set(attributed)
 
 
 def find_printed_identities(engine, strings):
@@ -142,11 +203,31 @@ def assert_edition_is_redacted(engine, edition, rendered=None):
     problems = find_printed_identities(engine, strings)
 
     cities = [p.city for p in engine.players.values()]
+    # Scoped exactly as the writers scope it, so the tripwire checks the rule the
+    # edition was written under rather than a stricter one it could not have
+    # obeyed without reaching into rounds that had not happened yet.
+    attributed = attributed_export_texts(
+        engine, through_round=None if edition.get("endgame") else edition.get("round")
+    )
     for item in _declined_items(edition):
         named = cities_named_in(item, cities)
         if named:
             problems.setdefault("declined_export_names_a_city", []).append(
                 {"export": item, "cities": named, "spec": "#21"}
+            )
+        if comparable_export(item) in attributed:
+            # The filter in may_reprint_declined should have caught this. The
+            # check is here as well because a department that forgot to pass the
+            # attributed set would otherwise publish the leak quietly, and a
+            # department is exactly the kind of thing a later milestone adds.
+            problems.setdefault("declined_export_matches_an_attributed_one", []).append(
+                {
+                    "export": item,
+                    "why": "the same text is printed elsewhere with its sending city "
+                           "named, because it won a different need; reprinting it "
+                           "unattributed here identifies it by matching",
+                    "spec": "#21",
+                }
             )
 
     if problems:

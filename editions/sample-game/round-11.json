@@ -81,13 +81,16 @@
           "role": "declined_exports",
           "items": [
             "A ferry timetable that has survived contact with the actual weather.",
-            "Six weeks of the municipal brass band, and the sheet music for one more.",
-            "Forty-one working funicular cars and the man who knows which forty are safe."
+            "Six weeks of the municipal brass band, and the sheet music for one more."
           ]
         },
         {
           "kind": "para",
           "text": "This paper is not saying who sent those, now or ever. Neither is the Mayor of Kampala, who does not know."
+        },
+        {
+          "kind": "para",
+          "text": "One offer matched, sentence for sentence, an offer already printed with its sender named. The paper is not going to pretend it cannot see that, and has left the text out."
         }
       ],
       "provenance": {
@@ -305,6 +308,7 @@
     "spec": "#25, #26, #28, #29, #30"
   },
   "image": {
+    "kind": "edition",
     "alt": "A harbour scene in the Daily Manifest's colours, stamped wildlife & nature, 4 crates on the quay, 1 of them ribboned, dice showing 3 and 6, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.",
     "cutline": "One crate came off the boat with a ribbon on it. Bergen sent it. The others are not saying anything.",
     "extension": "svg",

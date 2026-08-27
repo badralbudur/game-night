@@ -41,6 +41,19 @@ def count_word(n):
     return _NUMBER_WORDS[n] if 0 <= n < len(_NUMBER_WORDS) else str(n)
 
 
+def counted(n, singular, plural=None):
+    """``1, "offer" -> "one offer"``; ``3, "offer" -> "three offers"``.
+
+    A frame that writes "{count_word} offers" prints "one offers" the day a
+    count comes back as one, and the last edition counts small piles constantly
+    -- how many offers a city declined, how many of those are reprinted, how
+    many are withheld. Giving the frames a phrase that already agrees with its
+    own number is cheaper than writing a singular twin of each of them, and it
+    fails less often than remembering to.
+    """
+    return "%s %s" % (count_word(n), singular if n == 1 else (plural or singular + "s"))
+
+
 def fill(template, values, where):
     """Substitute ``{name}`` placeholders, refusing to leave any behind.
 
@@ -244,7 +257,12 @@ class NewspaperCopy:
                 "config.newspaper.masthead_id is %r; %s ships mastheads %s"
                 % (masthead_id, self.source, sorted(self.data["mastheads"]))
             )
-        for field in ("publication", "motto", "edition_line", "price_lines", "weather_lines"):
+        for field in ("publication", "motto", "edition_line", "price_lines", "weather_lines",
+                      # The last edition's own three lines (spec #31). Required
+                      # rather than optional-with-a-fallback: a final edition
+                      # headed "Vol. I, No. 12" like any other round would be the
+                      # paper failing to notice its own last day.
+                      "final_edition_line", "final_standing_line", "final_foot"):
             if not masthead.get(field):
                 raise ContentError("masthead %r is missing %r" % (masthead_id, field))
         return masthead
@@ -295,6 +313,29 @@ class NewspaperCopy:
                 % imagery["default_palette"]
             )
         return imagery
+
+    def endgame_imagery(self):
+        """The art direction for the last edition's pictures (spec #31, #32).
+
+        A separate block from :meth:`imagery` because it is a separate brief --
+        the round pictures are a harbour on one day, and these are the whole
+        world at the end and one city at a time. The palettes are shared, since a
+        city's colours should not change on the last day.
+        """
+        imagery = self.imagery()
+        endgame = imagery.get("endgame")
+        if not isinstance(endgame, dict):
+            raise ContentError("imagery block has no 'endgame' block (spec #31, #32)")
+        for field in ("finale_cutlines", "city_cutlines", "labels"):
+            if not endgame.get(field):
+                raise ContentError("imagery.endgame is missing %r" % field)
+        for outcome in ("crowned", "shared", "uncrowned"):
+            if not endgame["finale_cutlines"].get(outcome):
+                raise ContentError(
+                    "imagery.endgame.finale_cutlines is missing %r; the finale has one "
+                    "cutline family per way the game can finish" % outcome
+                )
+        return endgame
 
     def palette(self, category, colorful=True):
         """The palette for a category, or the monochrome one (spec #30's ``colorful``)."""

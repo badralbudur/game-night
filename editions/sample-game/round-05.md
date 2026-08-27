@@ -51,7 +51,7 @@ Not chosen, and not attributed:
 
 This paper is not saying who sent those, now or ever. Neither is the Mayor of Valparaíso, who does not know.
 
-One further offer arrived with its own city written into it. The paper has declined to reprint it and has burned the envelope with some ceremony.
+One offer carried a sender's name in the text. This paper does not do the rules' work for them, and has left the text off the page.
 
 ## The Wire
 

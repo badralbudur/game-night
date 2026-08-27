@@ -16,10 +16,15 @@ Layout, under ``config.newspaper.output.editions_dir``::
     editions/<label>/round-01.md       the edition, as it reads
     editions/<label>/round-01.json     the same edition, structured
     editions/<label>/round-01.svg      that edition's image (spec #29)
+    editions/<label>/final.md          the last edition (spec #31, #32)
+    editions/<label>/endgame.svg       its finale illustration
+    editions/<label>/city-hobart.svg   one portrait per city (spec #32)
     editions/<label>/archive.json      every edition plus the run's provenance
 
 Which of those three per-edition formats are written is
-``config.newspaper.output.formats``.
+``config.newspaper.output.formats``. The final edition takes the same three and
+adds its portraits to the image format, because a portrait is an image and
+switching images off should switch all of them off.
 """
 
 import copy as copy_module
@@ -31,7 +36,7 @@ from engine.config import repo_root
 from engine.errors import ConfigError
 
 from .edition import Paper
-from .render import archive_index_to_markdown, to_markdown
+from .render import FINAL_STEM, archive_index_to_markdown, to_markdown
 
 FORMAT_JSON = "json"
 FORMAT_MARKDOWN = "markdown"
@@ -64,11 +69,42 @@ def without_image_content(edition):
     to it on disk.
     """
     trimmed = copy_module.deepcopy(edition)
-    image = trimmed.get("image")
-    if isinstance(image, dict):
-        image.pop("content", None)
-        image["file"] = image.get("filename")
+    for image in [trimmed.get("image")] + list(trimmed.get("city_images") or ()):
+        if isinstance(image, dict):
+            image.pop("content", None)
+            image["file"] = image.get("filename")
     return trimmed
+
+
+def _write_edition(root, stem, edition, formats):
+    """One edition's files on disk, in whichever formats config asks for.
+
+    Shared by the round editions and the final one, which differ in their stem
+    and in the fact that the final edition also carries a portrait per city
+    (spec #32). Portraits are written under ``image``, not a format of their
+    own: a portrait is an image, and a facilitator who turned images off did not
+    mean "except the last twelve".
+    """
+    files = {}
+    if FORMAT_MARKDOWN in formats:
+        files["markdown"] = _write(root, "%s.md" % stem, to_markdown(edition))
+    if FORMAT_JSON in formats:
+        files["json"] = _write(
+            root, "%s.json" % stem,
+            json.dumps(without_image_content(edition), indent=2, ensure_ascii=False) + "\n",
+        )
+    if FORMAT_IMAGE in formats:
+        images = [edition.get("image")] + list(edition.get("city_images") or ())
+        written = [
+            _write(root, image["filename"], image["content"])
+            for image in images
+            if isinstance(image, dict) and image.get("filename") and image.get("content")
+        ]
+        if written:
+            files["image"] = written[0]
+        if len(written) > 1:
+            files["city_images"] = written[1:]
+    return files
 
 
 def publish_game(engine, label="game", out_dir=None, paper=None):
@@ -90,18 +126,8 @@ def publish_game(engine, label="game", out_dir=None, paper=None):
     archive = paper.archive()
     written = []
     for edition in archive["editions"]:
-        stem = "round-%02d" % edition["round"]
-        files = {}
-        if FORMAT_MARKDOWN in formats:
-            files["markdown"] = _write(root, "%s.md" % stem, to_markdown(edition))
-        if FORMAT_JSON in formats:
-            files["json"] = _write(
-                root, "%s.json" % stem,
-                json.dumps(without_image_content(edition), indent=2, ensure_ascii=False) + "\n",
-            )
+        files = _write_edition(root, "round-%02d" % edition["round"], edition, formats)
         image = edition.get("image") or {}
-        if FORMAT_IMAGE in formats and image.get("filename") and image.get("content"):
-            files["image"] = _write(root, image["filename"], image["content"])
         written.append(
             {
                 "round": edition["round"],
@@ -112,6 +138,23 @@ def publish_game(engine, label="game", out_dir=None, paper=None):
             }
         )
 
+    # The last edition, written beside the round editions and never over one
+    # (spec #27, #31). `None` while the game is still running, which is most of
+    # the time this function is called.
+    final = archive.get("final")
+    final_written = None
+    if final is not None:
+        files = _write_edition(root, FINAL_STEM, final, formats)
+        image = final.get("image") or {}
+        final_written = {
+            "round": final["round"],
+            "files": files,
+            "image_modality": (image.get("provenance") or {}).get("modality"),
+            "image_provider": (image.get("provenance") or {}).get("provider"),
+            "departments": [department["id"] for department in final["departments"]],
+            "cities": [entry["city"] for entry in final.get("city_images") or ()],
+        }
+
     index = _write(root, "index.md", archive_index_to_markdown(archive))
     archive_json = _write(
         root, "archive.json",
@@ -119,6 +162,7 @@ def publish_game(engine, label="game", out_dir=None, paper=None):
             dict(
                 archive,
                 editions=[without_image_content(e) for e in archive["editions"]],
+                final=None if final is None else without_image_content(final),
             ),
             indent=2, ensure_ascii=False,
         ) + "\n",
@@ -129,6 +173,7 @@ def publish_game(engine, label="game", out_dir=None, paper=None):
         "index": index,
         "archive": archive_json,
         "editions": written,
+        "final": final_written,
         "formats": formats,
         "archive_prior_editions": archive["archive_prior_editions"],
     }
@@ -159,6 +204,17 @@ def main(argv=None):
                 os.path.basename(entry["files"].get("markdown", "-")),
                 entry["image_modality"],
                 entry["image_provider"],
+            )
+        )
+    final = manifest["final"]
+    if final:
+        print(
+            "  final -> %s (%s; %d city portrait%s)"
+            % (
+                os.path.basename(final["files"].get("markdown", "-")),
+                ", ".join(final["departments"]),
+                len(final["cities"]),
+                "" if len(final["cities"]) == 1 else "s",
             )
         )
     return 0

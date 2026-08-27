@@ -28,6 +28,8 @@
   "categories": {
     "archive_index": "the archive's front page -- the one URL every mayor holds, listing every edition ever printed (spec #26, #27)",
     "editions": "one page per published round, kept forever and never overwritten by a later one (spec #27)",
+    "final_edition": "the last edition -- the crown, the twist article and the per-city portraits, published once when the game ends and then kept like any other issue (spec #31, #32, #27)",
+    "city_images": "one portrait per city in the last edition, drawn from that city's own history (spec #32)",
     "edition_images": "the one generated image each edition carries (spec #29)",
     "archive_json": "the same curated editions in machine-readable form, for a reader that is not a browser",
     "stylesheet": "presentation only; carries no game state",
@@ -40,8 +42,8 @@
       "source": "hosting.page.archive_page",
       "why_public": "the one address every mayor holds; it has to answer with something (spec #26) and that something is the list of every edition (spec #27)",
       "content_type": "text/html; charset=utf-8",
-      "bytes": 3713,
-      "sha256": "9e4cb1f704e2a91dbcdefcd48213990f55a7fef5012c048698c25ec865a8ea21"
+      "bytes": 4213,
+      "sha256": "601c3105d852c2f2f7cabefaba8fa40aced845a05ad82e103cc813576e4341bf"
     },
     {
       "path": "round-01.html",
@@ -129,8 +131,8 @@
       "source": "newspaper.build_edition(round=5)",
       "why_public": "the edition for round 5, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
       "content_type": "text/html; charset=utf-8",
-      "bytes": 6176,
-      "sha256": "7dc12332b81e608f6dca9900a0bc6430ebb177c75528bfd8f4d2181fe60a8087",
+      "bytes": 6172,
+      "sha256": "c02c09729110297dea9589eb1cf72d167ee0386db559ebde85919de96b9473d5",
       "round": 5
     },
     {
@@ -249,8 +251,8 @@
       "source": "newspaper.build_edition(round=11)",
       "why_public": "the edition for round 11, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
       "content_type": "text/html; charset=utf-8",
-      "bytes": 5687,
-      "sha256": "798b72508879e9caebb86c88464fcbf0011183d583f0770b08b355d7ff8791ad",
+      "bytes": 5780,
+      "sha256": "6a387ee9735d355354e114f00c7735b5d9ac7de21de37973f0b75f1637197a69",
       "round": 11
     },
     {
@@ -269,8 +271,8 @@
       "source": "newspaper.build_edition(round=12)",
       "why_public": "the edition for round 12, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
       "content_type": "text/html; charset=utf-8",
-      "bytes": 5212,
-      "sha256": "66c6ace55ae2165f783c903e9b6b302841b972ffeb580059fb62ee8adcf6c075",
+      "bytes": 5043,
+      "sha256": "5c80172ffcad37c70a714269bfe729e5e6406be00df55a2a96f49e2c0a6e40c8",
       "round": 12
     },
     {
@@ -284,13 +286,76 @@
       "round": 12
     },
     {
+      "path": "final.html",
+      "category": "final_edition",
+      "source": "newspaper.build_final_edition",
+      "why_public": "the last edition -- the crown, the consequences and a portrait of every city (spec #31, #32) -- at a permanent name beside the round editions, so the archive gains an issue rather than losing one (spec #27)",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 16980,
+      "sha256": "c0990fd0b0a9d70ec95c01cc57154d9fb95a5471a73541b8fe4fe47c145877c1"
+    },
+    {
+      "path": "endgame.svg",
+      "category": "edition_images",
+      "source": "newspaper.endgame.finale_scene",
+      "why_public": "the closing illustration (spec #29, #31): final standings, the crown, and the world's unchosen offers as an unlabelled stack that names no sender",
+      "content_type": "image/svg+xml; charset=utf-8",
+      "bytes": 16950,
+      "sha256": "569923e62bc86486422e9a404ab4302dce2c2a580c01834833cddee8b0329a2f"
+    },
+    {
+      "path": "city-bergen.svg",
+      "category": "city_images",
+      "source": "newspaper.endgame.city_scene(city='Bergen')",
+      "why_public": "the portrait of Bergen (spec #32), drawn from that city's own notices, the offers the world kept from it, and the offers it declined -- the offers it *sent* and nobody chose are a shut door in the picture and a number nowhere in it (spec #21)",
+      "content_type": "image/svg+xml; charset=utf-8",
+      "bytes": 8872,
+      "sha256": "bad8284d67e384d4b3ede567e497b5aed84debfc47a838033033f5568eb1118a"
+    },
+    {
+      "path": "city-hobart.svg",
+      "category": "city_images",
+      "source": "newspaper.endgame.city_scene(city='Hobart')",
+      "why_public": "the portrait of Hobart (spec #32), drawn from that city's own notices, the offers the world kept from it, and the offers it declined -- the offers it *sent* and nobody chose are a shut door in the picture and a number nowhere in it (spec #21)",
+      "content_type": "image/svg+xml; charset=utf-8",
+      "bytes": 8901,
+      "sha256": "fb87c58f20624f11727111de954a698d162a0ac482a4c9440ac96e7f552ba053"
+    },
+    {
+      "path": "city-kampala.svg",
+      "category": "city_images",
+      "source": "newspaper.endgame.city_scene(city='Kampala')",
+      "why_public": "the portrait of Kampala (spec #32), drawn from that city's own notices, the offers the world kept from it, and the offers it declined -- the offers it *sent* and nobody chose are a shut door in the picture and a number nowhere in it (spec #21)",
+      "content_type": "image/svg+xml; charset=utf-8",
+      "bytes": 9964,
+      "sha256": "37b95caa2bbccc2c42d67093d0dcce29cab9f9a8cf49397f021e2d05747c3e4f"
+    },
+    {
+      "path": "city-reykjavik.svg",
+      "category": "city_images",
+      "source": "newspaper.endgame.city_scene(city='Reykjavík')",
+      "why_public": "the portrait of Reykjavík (spec #32), drawn from that city's own notices, the offers the world kept from it, and the offers it declined -- the offers it *sent* and nobody chose are a shut door in the picture and a number nowhere in it (spec #21)",
+      "content_type": "image/svg+xml; charset=utf-8",
+      "bytes": 9023,
+      "sha256": "8c2d69635f620df35e9b8a0529cbd09617d4e632894f1a676a23063326d42480"
+    },
+    {
+      "path": "city-valparaiso.svg",
+      "category": "city_images",
+      "source": "newspaper.endgame.city_scene(city='Valparaíso')",
+      "why_public": "the portrait of Valparaíso (spec #32), drawn from that city's own notices, the offers the world kept from it, and the offers it declined -- the offers it *sent* and nobody chose are a shut door in the picture and a number nowhere in it (spec #21)",
+      "content_type": "image/svg+xml; charset=utf-8",
+      "bytes": 11396,
+      "sha256": "8639e92ea4dbd1f03c05e9455acbc5ab2be6ae6db4a73dcd4ad3b7494cc2df51"
+    },
+    {
       "path": "archive.json",
       "category": "archive_json",
       "source": "hosting.build.curated_archive",
       "why_public": "the same editions for a reader that is not a browser, assembled from an allowlist of fields so a later milestone cannot widen it by accident",
       "content_type": "application/json; charset=utf-8",
-      "bytes": 113534,
-      "sha256": "d5f14aa179fdb4c73a8ca7e281da3a11424a12c382f94ad04d9a7804aa6613a8"
+      "bytes": 139508,
+      "sha256": "d7362d2faa83f58e4c8919ee5df86105796c5257ac144ee569732506bf9c57bc"
     },
     {
       "path": "style.css",
@@ -298,8 +363,8 @@
       "source": "content/site.css",
       "why_public": "presentation only; it carries no game state and reaches no other origin",
       "content_type": "text/css; charset=utf-8",
-      "bytes": 5548,
-      "sha256": "1ae85a0dcd48cb5dc5360e534e67616ce7217f20e7d33fb581f5c611a243f2de"
+      "bytes": 6564,
+      "sha256": "6c560154033ee01fc710634d8b8db947838bf723399b646c974eb172aad31199"
     },
     {
       "path": "robots.txt",

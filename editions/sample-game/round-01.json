@@ -241,6 +241,7 @@
     "spec": "#25, #26, #28, #29, #30"
   },
   "image": {
+    "kind": "edition",
     "alt": "A harbour scene in the Daily Manifest's colours, stamped education & knowledge, an empty quay, a skyline of 4 city towers ranked by profit.",
     "cutline": "No cargo today. The harbour, pictured, is unbothered.",
     "extension": "svg",

@@ -12,6 +12,10 @@ point:
 * :func:`newspaper_mayor_question` -- the round's question item, gated by the
   configured exposure policy, carrying the aggregate as *numbers* (see
   :mod:`engine.aggregate`) rather than as a sentence.
+* :func:`endgame_briefing` -- the finished game, for the last edition's crown,
+  twist article and per-city portraits (#31, #32). Its private counterpart,
+  :func:`mayor_excess_dossier`, is the one endgame payload that is never
+  published; see :mod:`engine.endgame` for why the two exist.
 
 These are data, not prose. Headlines, copy, images and the wording of the
 aggregate item are the :mod:`newspaper` package's job (M5), and it reads this
@@ -19,7 +23,7 @@ module rather than the engine's internals -- which is what keeps the redaction
 rules in one place instead of one per template.
 """
 
-from . import ballot, money
+from . import ballot, endgame, money
 from .economy import NON_WINNER_ORIGIN_EXPOSURE
 from .errors import PickRejected
 from .state import (
@@ -93,6 +97,45 @@ def newspaper_mayor_question(engine, round_index):
     if not shared:
         return None
     return engine.mayor_question_report(round_index)
+
+
+def endgame_briefing(engine):
+    """The finished game's facts as the last edition may print them (#31, #32).
+
+    The two exposure decisions this payload is subject to are taken here, and
+    taken by asking the same two functions every other newspaper payload asks --
+    :func:`newspaper_leaderboard` for the standings (#22) and the
+    ``answers_shared_in_newspaper`` policy for the mayors' own answers (#25). The
+    endgame does not read either key itself; a payload that consulted config
+    directly would be a second reading of a decision that is supposed to have one
+    home.
+
+    The crown is named either way. Spec #31 requires the winner to be crowned at
+    game end, and it is not one of the things #22 makes configurable -- so a game
+    that kept its leaderboard private crowns its winner without quoting the
+    figure, and :func:`engine.endgame.endgame_report` records which of those
+    happened in ``crown.profit_visible``.
+    """
+    return endgame.endgame_report(
+        engine,
+        include_leaderboard=newspaper_leaderboard(engine) is not None,
+        include_answers=engine.config.require_bool(
+            "facilitator_questions.answers_shared_in_newspaper"
+        ),
+    )
+
+
+def mayor_excess_dossier(engine, player_id):
+    """One mayor's own unchosen offers -- **not** a newspaper payload (#21, #32).
+
+    The sender's end of the excess, for the one reader it belongs to. Carried
+    here beside the other facilitator-only view so that "which of these two is
+    the gated one" is answered by reading one file: the published portrait's
+    material is in :func:`endgame_briefing`, and this is the part of it that is
+    never published. :mod:`hosting.guard` refuses anything carrying
+    ``audience: facilitator``, which is how that stays true.
+    """
+    return endgame.mayor_excess_dossier(engine, player_id)
 
 
 def facilitator_question_report(engine, round_index):

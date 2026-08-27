@@ -82,6 +82,16 @@ def block_to_html(block):
         # prints. The class keeps that distinction available to a stylesheet
         # even though today it styles them alike.
         return '<p class="%s">%s</p>' % (kind, inline(block["text"]))
+    if kind == "figure":
+        # An illustration belonging to one article rather than to the edition --
+        # today, a city's portrait in the last edition (spec #32). No width or
+        # height, for the same reason the masthead image carries none: the
+        # payload does not know them and config's would be a guess.
+        return (
+            '<figure class="city-portrait">\n<img src="%s" alt="%s">\n'
+            "<figcaption>%s</figcaption>\n</figure>"
+            % (escape(block["image"]), escape(block["alt"]), inline(block["caption"]))
+        )
     if kind == "list":
         return "<ul>%s</ul>" % "".join("<li>%s</li>" % inline(item) for item in block["items"])
     if kind == "table":
@@ -101,8 +111,22 @@ def department_to_html(department):
     )
 
 
+#: The last edition's permanent name. Not ``round-NN.html``: the final edition
+#: is published in the same round as that round's own edition and is a different
+#: document, so sharing a name would make one of them overwrite the other --
+#: exactly what spec #27 forbids.
+FINAL_PAGE_NAME = "final.html"
+
+
 def edition_page_name(round_index):
     return "round-%02d.html" % round_index
+
+
+def page_name_for(edition):
+    """The permanent name of any edition, round or final (spec #27, #31)."""
+    if edition.get("endgame"):
+        return FINAL_PAGE_NAME
+    return edition_page_name(edition["round"])
 
 
 def _head(title, site, privacy, stylesheet=None):
@@ -157,14 +181,23 @@ def _nav(links):
 
 
 def edition_page(edition, site, privacy, previous_round=None, next_round=None,
-                 stylesheet=None, with_image=True):
-    """One edition, complete, at its own permanent name."""
+                 stylesheet=None, with_image=True, final_page=False):
+    """One edition, complete, at its own permanent name.
+
+    ``final_page`` links the last edition (spec #31) from a round edition's nav.
+    It is a flag rather than another ``*_round`` argument because the final
+    edition has no round of its own to name -- it shares the last one's -- and
+    threading a sentinel round number through here would be a lie the nav would
+    then have to decode.
+    """
     title = "%s — %s" % (edition["publication"], edition["edition_line"])
     links = [(site["nav"]["archive"], "index.html")]
     if previous_round is not None:
         links.append((site["nav"]["previous"], edition_page_name(previous_round)))
     if next_round is not None:
         links.append((site["nav"]["next"], edition_page_name(next_round)))
+    if final_page and not edition.get("endgame"):
+        links.append((site["nav"]["endgame"], FINAL_PAGE_NAME))
 
     parts = [
         _head(title, site, privacy, stylesheet),
@@ -202,15 +235,21 @@ def edition_page(edition, site, privacy, previous_round=None, next_round=None,
         )
 
     parts.extend(department_to_html(department) for department in edition["departments"])
-    parts.append(
-        '<p class="issue-foot">%s. %s %s. Offers for the current notice close %s.</p>'
-        % (
-            escape(edition["publication"]),
-            escape(site["labels"]["round"]),
-            escape(str(edition["round"])),
-            escape(edition["closes"]),
+    if edition.get("endgame"):
+        # No deadline on the last page: there is no notice open and no window
+        # closing, and printing one would be the paper inviting offers it has
+        # just spent three articles closing the books on (spec #31).
+        parts.append('<p class="issue-foot">%s</p>' % escape(edition["foot_line"]))
+    else:
+        parts.append(
+            '<p class="issue-foot">%s. %s %s. Offers for the current notice close %s.</p>'
+            % (
+                escape(edition["publication"]),
+                escape(site["labels"]["round"]),
+                escape(str(edition["round"])),
+                escape(edition["closes"]),
+            )
         )
-    )
     parts.append("</article>")
     parts.append(_nav(links))
     parts.append(_footer(site))
@@ -234,13 +273,23 @@ def archive_page(archive, entries, site, privacy, stylesheet=None, with_images=T
             if with_images and image.get("filename")
             else ""
         )
+        portraits = ""
+        if with_images and edition.get("endgame"):
+            portraits = "".join(
+                ' <a class="portrait" href="%s">%s</a>'
+                % (escape(entry["filename"]), escape(entry["city"]))
+                for entry in edition.get("city_images") or ()
+                if entry.get("filename")
+            )
         rows.append(
-            '<li><a class="issue" href="%s">%s</a> <span class="when">%s</span>%s</li>'
+            '<li%s><a class="issue" href="%s">%s</a> <span class="when">%s</span>%s%s</li>'
             % (
-                escape(edition_page_name(edition["round"])),
+                ' class="final"' if edition.get("endgame") else "",
+                escape(page_name_for(edition)),
                 escape(edition["edition_line"]),
                 escape(edition["dateline"]),
                 picture,
+                portraits,
             )
         )
 

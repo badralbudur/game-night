@@ -15,6 +15,12 @@ reader's browser is a place that turns text into markup.
 
 _HEADINGS = {1: "#", 2: "##", 3: "###", 4: "####"}
 
+#: The last edition's stem on disk. It is not ``round-NN`` because the final
+#: edition shares the last round's number with that round's own edition and is a
+#: different document (spec #31); giving it the same name would be one of them
+#: overwriting the other, which is the thing spec #27 exists to prevent.
+FINAL_STEM = "final"
+
 
 def block_to_markdown(block):
     kind = block["kind"]
@@ -31,6 +37,12 @@ def block_to_markdown(block):
         # is not to be funny; a note is a factual footnote and always prints.
         # They look the same on the page and are deliberately different in kind.
         return "_%s_" % block["text"]
+    if kind == "figure":
+        # A picture inside a department, as against the one the edition carries
+        # at its masthead. The last edition's per-city portraits are the only
+        # ones today (spec #32); the block is generic because "an illustration
+        # belonging to this article" is not an endgame-specific idea.
+        return "![%s](%s)\n\n*%s*" % (block["alt"], block["image"], block["caption"])
     if kind == "list":
         return "\n".join("- %s" % item for item in block["items"])
     if kind == "table":
@@ -75,8 +87,13 @@ def to_markdown(edition):
 
     parts = ["\n\n".join(masthead), "---"]
     parts.extend(department_to_markdown(department) for department in edition["departments"])
+    # The last edition's foot is its own sentence, because the usual one is a
+    # deadline and the final edition has no notice open and no window closing
+    # (spec #31). It comes from the masthead in content/newspaper.json.
     parts.append(
-        "---\n\n_%s. Round %s. Offers for the current notice close %s._"
+        "---\n\n_%s_" % edition["foot_line"]
+        if edition.get("endgame")
+        else "---\n\n_%s. Round %s. Offers for the current notice close %s._"
         % (edition["publication"], edition["round"], edition["closes"])
     )
     return "\n\n".join(parts) + "\n"
@@ -108,6 +125,26 @@ def archive_index_to_markdown(archive):
                 "" if not image.get("filename") else " · [image](%s)" % image["filename"],
             )
         )
+    final = archive.get("final")
+    if final:
+        image = final.get("image") or {}
+        lines.append(
+            "- [%s — %s](%s.md)%s"
+            % (
+                final["edition_line"],
+                final["dateline"],
+                FINAL_STEM,
+                "" if not image.get("filename") else " · [image](%s)" % image["filename"],
+            )
+        )
+        portraits = [entry for entry in (final.get("city_images") or ()) if entry.get("filename")]
+        if portraits:
+            lines.append(
+                "  - city portraits (spec #32): %s"
+                % ", ".join(
+                    "[%s](%s)" % (entry["city"], entry["filename"]) for entry in portraits
+                )
+            )
     lines.extend(
         [
             "",

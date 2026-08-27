@@ -64,20 +64,7 @@
         },
         {
           "kind": "para",
-          "text": "Also offered, and declined:"
-        },
-        {
-          "kind": "list",
-          "role": "declined_exports",
-          "items": [
-            "Two hundred metres of very good rope and somebody who can splice it.",
-            "The city's best sign-painter and a week of their time.",
-            "Geothermal heat, piped, on the understanding that we get the pipes back."
-          ]
-        },
-        {
-          "kind": "para",
-          "text": "Those arrived unsigned and will stay that way. A losing offer's city is nobody's business, permanently."
+          "text": "Three offers matched, sentence for sentence, an offer already printed with its sender named. The paper is not going to pretend it cannot see that, and has left the text out."
         }
       ],
       "provenance": {
@@ -264,6 +251,7 @@
     "spec": "#25, #26, #28, #29, #30"
   },
   "image": {
+    "kind": "edition",
     "alt": "A harbour scene in the Daily Manifest's colours, stamped labour & expertise, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 3, a skyline of 5 city towers ranked by profit.",
     "cutline": "One crate came off the boat with a ribbon on it. Valparaíso sent it. The others are not saying anything.",
     "extension": "svg",
