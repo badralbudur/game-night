@@ -31,6 +31,7 @@ snapshot.
 | **M3** — economy: profit rolls, leaderboard, exposure ([`engine/economy.py`](engine/economy.py)) | built — see [`docs/m3-economy.md`](docs/m3-economy.md) |
 | **M4** — facilitator questions: two-slot check-in, framing, aggregate data ([`engine/aggregate.py`](engine/aggregate.py)) | built — see [`docs/m4-questions.md`](docs/m4-questions.md) |
 | **M5** — newspaper rendering core: prose, redaction, tone, one image per edition ([`newspaper/`](newspaper), [`content/newspaper.json`](content/newspaper.json)) | built — see [`docs/m5-newspaper.md`](docs/m5-newspaper.md) |
+| **M6** — publication & archive: the private address, the browsable back issues, the curated public manifest ([`hosting/`](hosting), [`site/`](site)) | built — see [`docs/m6-hosting.md`](docs/m6-hosting.md) |
 
 The engine covers the round timer and its lockstep, the city order queue and its
 two rotations, the import/export/winner cycle with every fallback, the import
@@ -55,8 +56,17 @@ deployment has no image-generation provider configured, so every edition uses
 the permitted deterministic SVG fallback and records that in its own
 `image.provenance`.
 
-Still later milestones: the newspaper's private hosting and archive deployment
-(the unguessable, `noindex` URL of spec #26–#27), the endgame articles and
-per-city portraits, and the duplicate-city reassignment procedure. Where the
-engine's data would otherwise carry a finished piece it does not own yet, it
-carries an explicit `[[M6 ...]]`-style stub instead.
+[`hosting/`](hosting) publishes those editions as the paper itself: one fixed,
+unguessable, `noindex` address with every back issue still browsable at it
+(spec #26–#27). The built site is committed at [`site/`](site) —
+`site/public/` is exactly what is served and
+[`site/publication-manifest.json`](site/publication-manifest.json) records why
+each file in it is public. The address is **not** in any of it, and is not in
+this repo: it lives in a `0600`, git-ignored `.site-id`, and the build refuses
+to publish anything containing it. Serve it with `python3 -m hosting.serve`,
+which prints the URL.
+
+Still later milestones: the endgame articles and per-city portraits (spec
+#31–#32), and the duplicate-city reassignment procedure. Where the engine's data
+would otherwise carry a finished piece it does not own yet, it carries an
+explicit `[[M… ]]`-style stub instead.

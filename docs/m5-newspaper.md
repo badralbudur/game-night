@@ -12,9 +12,8 @@ The engine states facts; this milestone is the first that publishes English.
 
 Hosting is **not** here. Serving these editions at a fixed, unguessable,
 non-publicly-discoverable URL with the archive browsable (#26, #27) is M6's
-separate integration boundary, and `newspaper/publish.py` deliberately stops at
-the filesystem: what it writes is exactly what a host has to serve, and no
-hosting decision is smuggled in ahead of the milestone that owns it.
+separate integration boundary — see [`docs/m6-hosting.md`](m6-hosting.md) —
+and `newspaper/publish.py` deliberately stops at the filesystem.
 
 ## The shape of it
 
@@ -172,4 +171,4 @@ mayor at check-in) and a city-only `roster`, so the paper reads views rather
 than engine internals and every consumer sees the same redaction decisions taken
 in one module. The `[[M5 ...]]` stubs the engine used to carry are now replaced
 by the name of the thing that renders each piece; the remaining `[[M6 ...]]`
-stub is hosting.
+stub was hosting, and M6 replaced it with the name of the thing that serves it.

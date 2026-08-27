@@ -6,9 +6,11 @@ in :mod:`newspaper.edition` worth anything: every printed sentence is a leaf of
 the payload, so a check that walks the payload has seen the whole paper, and a
 check that also reads this module's output has seen it the way a player will.
 
-Markdown, and not HTML, because M5's boundary is the rendered edition and M6
-owns hosting. An HTML template that existed here would be a hosting decision
-taken in the wrong milestone.
+Markdown, and not HTML: this is the edition as a file, and the edition as a page
+is :mod:`hosting.page`, which renders the same typed blocks for a browser. Both
+render from the payload rather than one from the other, so neither has to parse
+anything -- a Markdown parser standing between an export a mayor wrote and a
+reader's browser is a place that turns text into markup.
 """
 
 _HEADINGS = {1: "#", 2: "##", 3: "###", 4: "####"}
@@ -81,7 +83,12 @@ def to_markdown(edition):
 
 
 def archive_index_to_markdown(archive):
-    """A local index of the editions on disk -- the archive M6 will serve (#27)."""
+    """A local index of the editions on disk (#27).
+
+    The *served* archive index is :func:`hosting.page.archive_page`; this one is
+    for reading the run in the repository, which is a different reader with a
+    different need -- a Markdown file next to the Markdown editions.
+    """
     lines = [
         "# %s" % archive["publication"],
         "*%s*" % archive["motto"],
@@ -104,8 +111,9 @@ def archive_index_to_markdown(archive):
     lines.extend(
         [
             "",
-            "_Hosting — the unguessable subdomain and the `noindex` header — is M6's."
-            " These files are what it will serve._",
+            "_These are the local files. The paper itself is served by `hosting/` at "
+            "an unguessable subdomain with `noindex` set, and its archive index is "
+            "`index.html` there rather than this one (spec #26, #27)._",
         ]
     )
     return "\n".join(lines) + "\n"

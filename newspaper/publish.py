@@ -3,11 +3,12 @@
     python3 -m newspaper.publish                  # simulate a game, publish it
     python3 -m newspaper.publish --label my-game  # ... under editions/my-game/
 
-M5 renders locally. Serving these files at a fixed, unguessable, non-publicly
-discoverable URL with the whole archive browsable (spec #26, #27) is M6's
-separate integration boundary, and this module deliberately stops at the
-filesystem: what it writes is exactly what a host has to serve, and no hosting
-decision is smuggled in ahead of the milestone that owns it.
+This module stops at the filesystem, deliberately: it writes the run as files a
+person can read in the repository. Serving the same editions at the paper's
+fixed, unguessable, non-publicly-discoverable URL with the whole archive
+browsable (spec #26, #27) is :func:`hosting.build_site`, which renders the same
+edition payloads as HTML rather than reading these files -- so neither output is
+downstream of the other, and a page is never a parsed Markdown document.
 
 Layout, under ``config.newspaper.output.editions_dir``::
 

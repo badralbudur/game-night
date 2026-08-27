@@ -276,13 +276,20 @@ class Paper:
     # -- the archive ------------------------------------------------------
 
     def archive(self):
-        """Every edition published so far, oldest first (spec #27).
+        """Every edition published so far, oldest first (spec #26, #27).
+
+        Completed rounds only (:func:`engine.views.published_rounds`). The round
+        in progress has no edition yet -- spec #26 says once per *completed*
+        round -- and printing one would break the promise #27 makes about the
+        archive, since that edition would say something different an hour later.
 
         ``newspaper.archive_prior_editions`` decides whether prior editions stay
-        available. Serving them at the paper's one unguessable URL is M6's job;
-        this is the payload it will serve.
+        available. This is the payload :func:`hosting.build_site` publishes at
+        the paper's one unguessable URL; the address itself is deliberately not
+        in it, because an archive payload is a thing that gets written down and
+        the address is a secret (spec #26).
         """
-        rounds = sorted(self.engine.rounds)
+        rounds = views.published_rounds(self.engine)
         if not self.archive_prior:
             rounds = rounds[-1:]
         return {
@@ -293,8 +300,12 @@ class Paper:
             "cadence": self.cadence,
             "editions": [self.edition(index) for index in rounds],
             "phase": self.engine.phase,
-            "hosting": "[[M6: unguessable subdomain + robots noindex, per the "
-                       "fulcra-dashboard pattern (spec #26, #27)]]",
+            "hosting": {
+                "served_by": "hosting.build_site -- an unguessable subdomain with "
+                             "robots noindex, per the fulcra-dashboard pattern",
+                "address": "withheld; see hosting.identity.SiteIdentity.describe()",
+                "spec": "#26, #27",
+            },
         }
 
     def _fill_masthead(self, field, round_index):
@@ -340,5 +351,5 @@ def build_edition(engine, round_index, copy=None):
 
 
 def build_archive(engine, copy=None):
-    """Every edition so far, as the archive M6 will serve (spec #27)."""
+    """Every edition so far, as the archive :mod:`hosting` serves (spec #27)."""
     return Paper(engine, copy=copy).archive()

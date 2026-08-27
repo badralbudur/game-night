@@ -2,20 +2,21 @@
   "publication": "The Daily Manifest",
   "game": "Sister Cities",
   "motto": "All the news that fits in the hold.",
-  "archive_prior_editions": true,
   "cadence": "per_round",
+  "archive_prior_editions": true,
+  "spec": "#26, #27",
   "editions": [
     {
+      "round": 1,
       "publication": "The Daily Manifest",
       "game": "Sister Cities",
-      "round": 1,
       "edition_line": "Vol. I, No. 1",
       "motto": "All the news that fits in the hold.",
-      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "dateline": "Thursday, 3 September 2026",
       "closes": "4 September, 09:00 UTC",
       "price_line": "Price: free to city halls, exorbitant to everyone else",
       "weather_line": "Weather: warm in the chamber, cold in the corridor.",
+      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "departments": [
         {
           "id": "wanted",
@@ -200,107 +201,26 @@
           }
         }
       ],
-      "provenance": {
-        "renderer": {
-          "id": "deterministic_template",
-          "implementation": "newspaper.departments + newspaper.wire",
-          "source_of_wording": "content/newspaper.json",
-          "deterministic": true,
-          "needs_network": false,
-          "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
-        },
-        "cadence": {
-          "value": "per_round",
-          "means": "one edition per completed round, not batched (spec #26)"
-        },
-        "identity_style": {
-          "value": "city_mayor_only",
-          "prints": "the city's name and the office of its mayor",
-          "never_prints": "a real name, a handle, or a player id",
-          "spec": "#28"
-        },
-        "tone_policy": {
-          "funny": true,
-          "colorful": true,
-          "allow_pointed_humor": true,
-          "disallow_snide_or_mean": true,
-          "forbidden_register_terms": 33,
-          "spec": "#30",
-          "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
-        },
-        "lockstep": [
-          {
-            "op": "OPEN",
-            "need": "in-001",
-            "city": "Reykjavík",
-            "category": "education_and_knowledge",
-            "rotation": 1
-          },
-          {
-            "op": "CLOSE",
-            "need": null
-          },
-          {
-            "op": "RESOLVE",
-            "need": null
-          }
-        ],
-        "spec": "#25, #26, #28, #29, #30"
-      },
+      "page": "round-01.html",
       "image": {
+        "file": "round-01.svg",
         "alt": "A harbour scene in the Daily Manifest's colours, stamped education & knowledge, an empty quay, a skyline of 4 city towers ranked by profit.",
         "cutline": "No cargo today. The harbour, pictured, is unbothered.",
-        "extension": "svg",
-        "mime": "image/svg+xml",
-        "palette": {
-          "paper": "#f6f3ea",
-          "ink": "#1f1b26",
-          "sky": "#cfc3a4",
-          "water": "#453a5e",
-          "accent": "#d1622a",
-          "spot": "#6d5c96",
-          "spot_alt": "#a99ac4"
-        },
-        "colorful": true,
-        "provenance": {
-          "modality": "svg_procedural",
-          "provider": "builtin_svg",
-          "preference": [
-            "raster",
-            "svg_procedural"
-          ],
-          "considered": [
-            {
-              "modality": "raster",
-              "provider": null,
-              "available": false,
-              "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
-            },
-            {
-              "modality": "svg_procedural",
-              "provider": "builtin_svg",
-              "available": true,
-              "reason": null
-            }
-          ],
-          "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
-          "spec": "#29"
-        },
-        "filename": "round-01.svg",
-        "file": "round-01.svg"
+        "modality": "svg_procedural",
+        "provider": "builtin_svg"
       }
     },
     {
+      "round": 2,
       "publication": "The Daily Manifest",
       "game": "Sister Cities",
-      "round": 2,
       "edition_line": "Vol. I, No. 2",
       "motto": "All the news that fits in the hold.",
-      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "dateline": "Friday, 4 September 2026",
       "closes": "5 September, 09:00 UTC",
       "price_line": "Price: whatever you have in the coat you wore yesterday",
       "weather_line": "Weather: wind from the harbour, opinions from everywhere.",
+      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "departments": [
         {
           "id": "wanted",
@@ -507,109 +427,26 @@
           }
         }
       ],
-      "provenance": {
-        "renderer": {
-          "id": "deterministic_template",
-          "implementation": "newspaper.departments + newspaper.wire",
-          "source_of_wording": "content/newspaper.json",
-          "deterministic": true,
-          "needs_network": false,
-          "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
-        },
-        "cadence": {
-          "value": "per_round",
-          "means": "one edition per completed round, not batched (spec #26)"
-        },
-        "identity_style": {
-          "value": "city_mayor_only",
-          "prints": "the city's name and the office of its mayor",
-          "never_prints": "a real name, a handle, or a player id",
-          "spec": "#28"
-        },
-        "tone_policy": {
-          "funny": true,
-          "colorful": true,
-          "allow_pointed_humor": true,
-          "disallow_snide_or_mean": true,
-          "forbidden_register_terms": 33,
-          "spec": "#30",
-          "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
-        },
-        "lockstep": [
-          {
-            "op": "OPEN",
-            "need": "in-002",
-            "city": "Hobart",
-            "category": "infrastructure",
-            "rotation": 1
-          },
-          {
-            "op": "CLOSE",
-            "need": "in-001",
-            "submissions": 2,
-            "city": "Reykjavík"
-          },
-          {
-            "op": "RESOLVE",
-            "need": null
-          }
-        ],
-        "spec": "#25, #26, #28, #29, #30"
-      },
+      "page": "round-02.html",
       "image": {
+        "file": "round-02.svg",
         "alt": "A harbour scene in the Daily Manifest's colours, stamped infrastructure & public works, 2 crates on the quay, a skyline of 4 city towers ranked by profit, and 2 pennants overhead, one per reply.",
         "cutline": "The offers, landed and unopened. Nobody in this picture knows who sent what, including the paper.",
-        "extension": "svg",
-        "mime": "image/svg+xml",
-        "palette": {
-          "paper": "#f7f2e6",
-          "ink": "#221d18",
-          "sky": "#f2c14e",
-          "water": "#3d6b7d",
-          "accent": "#e2571e",
-          "spot": "#8c4a2f",
-          "spot_alt": "#d9a441"
-        },
-        "colorful": true,
-        "provenance": {
-          "modality": "svg_procedural",
-          "provider": "builtin_svg",
-          "preference": [
-            "raster",
-            "svg_procedural"
-          ],
-          "considered": [
-            {
-              "modality": "raster",
-              "provider": null,
-              "available": false,
-              "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
-            },
-            {
-              "modality": "svg_procedural",
-              "provider": "builtin_svg",
-              "available": true,
-              "reason": null
-            }
-          ],
-          "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
-          "spec": "#29"
-        },
-        "filename": "round-02.svg",
-        "file": "round-02.svg"
+        "modality": "svg_procedural",
+        "provider": "builtin_svg"
       }
     },
     {
+      "round": 3,
       "publication": "The Daily Manifest",
       "game": "Sister Cities",
-      "round": 3,
       "edition_line": "Vol. I, No. 3",
       "motto": "All the news that fits in the hold.",
-      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "dateline": "Saturday, 5 September 2026",
       "closes": "6 September, 09:00 UTC",
       "price_line": "Price: one civic favour, redeemable at inconvenience",
       "weather_line": "Weather: wind from the harbour, opinions from everywhere.",
+      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "departments": [
         {
           "id": "wanted",
@@ -881,111 +718,26 @@
           }
         }
       ],
-      "provenance": {
-        "renderer": {
-          "id": "deterministic_template",
-          "implementation": "newspaper.departments + newspaper.wire",
-          "source_of_wording": "content/newspaper.json",
-          "deterministic": true,
-          "needs_network": false,
-          "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
-        },
-        "cadence": {
-          "value": "per_round",
-          "means": "one edition per completed round, not batched (spec #26)"
-        },
-        "identity_style": {
-          "value": "city_mayor_only",
-          "prints": "the city's name and the office of its mayor",
-          "never_prints": "a real name, a handle, or a player id",
-          "spec": "#28"
-        },
-        "tone_policy": {
-          "funny": true,
-          "colorful": true,
-          "allow_pointed_humor": true,
-          "disallow_snide_or_mean": true,
-          "forbidden_register_terms": 33,
-          "spec": "#30",
-          "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
-        },
-        "lockstep": [
-          {
-            "op": "OPEN",
-            "need": "in-003",
-            "city": "Valparaíso",
-            "category": "transport_and_logistics",
-            "rotation": 1
-          },
-          {
-            "op": "CLOSE",
-            "need": "in-002",
-            "submissions": 3,
-            "city": "Hobart"
-          },
-          {
-            "op": "RESOLVE",
-            "need": "in-001",
-            "mode": "winner_pick",
-            "city": "Reykjavík"
-          }
-        ],
-        "spec": "#25, #26, #28, #29, #30"
-      },
+      "page": "round-03.html",
       "image": {
+        "file": "round-03.svg",
         "alt": "A harbour scene in the Daily Manifest's colours, stamped transport & logistics, 2 crates on the quay, 1 of them ribboned, dice showing 5 and 1, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
         "cutline": "One crate came off the boat with a ribbon on it. Valparaíso sent it. The others are not saying anything.",
-        "extension": "svg",
-        "mime": "image/svg+xml",
-        "palette": {
-          "paper": "#f5f5f0",
-          "ink": "#1b1f24",
-          "sky": "#c8d6dd",
-          "water": "#37525e",
-          "accent": "#e8541e",
-          "spot": "#5c7c8a",
-          "spot_alt": "#a3bcc6"
-        },
-        "colorful": true,
-        "provenance": {
-          "modality": "svg_procedural",
-          "provider": "builtin_svg",
-          "preference": [
-            "raster",
-            "svg_procedural"
-          ],
-          "considered": [
-            {
-              "modality": "raster",
-              "provider": null,
-              "available": false,
-              "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
-            },
-            {
-              "modality": "svg_procedural",
-              "provider": "builtin_svg",
-              "available": true,
-              "reason": null
-            }
-          ],
-          "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
-          "spec": "#29"
-        },
-        "filename": "round-03.svg",
-        "file": "round-03.svg"
+        "modality": "svg_procedural",
+        "provider": "builtin_svg"
       }
     },
     {
+      "round": 4,
       "publication": "The Daily Manifest",
       "game": "Sister Cities",
-      "round": 4,
       "edition_line": "Vol. I, No. 4",
       "motto": "All the news that fits in the hold.",
-      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "dateline": "Sunday, 6 September 2026",
       "closes": "7 September, 09:00 UTC",
       "price_line": "Price: free to city halls, exorbitant to everyone else",
       "weather_line": "Weather: bright, briefly, and then a meeting.",
+      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "departments": [
         {
           "id": "wanted",
@@ -1258,111 +1010,26 @@
           }
         }
       ],
-      "provenance": {
-        "renderer": {
-          "id": "deterministic_template",
-          "implementation": "newspaper.departments + newspaper.wire",
-          "source_of_wording": "content/newspaper.json",
-          "deterministic": true,
-          "needs_network": false,
-          "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
-        },
-        "cadence": {
-          "value": "per_round",
-          "means": "one edition per completed round, not batched (spec #26)"
-        },
-        "identity_style": {
-          "value": "city_mayor_only",
-          "prints": "the city's name and the office of its mayor",
-          "never_prints": "a real name, a handle, or a player id",
-          "spec": "#28"
-        },
-        "tone_policy": {
-          "funny": true,
-          "colorful": true,
-          "allow_pointed_humor": true,
-          "disallow_snide_or_mean": true,
-          "forbidden_register_terms": 33,
-          "spec": "#30",
-          "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
-        },
-        "lockstep": [
-          {
-            "op": "OPEN",
-            "need": "in-004",
-            "city": "Kampala",
-            "category": "food_and_drink",
-            "rotation": 1
-          },
-          {
-            "op": "CLOSE",
-            "need": "in-003",
-            "submissions": 4,
-            "city": "Valparaíso"
-          },
-          {
-            "op": "RESOLVE",
-            "need": "in-002",
-            "mode": "winner_pick",
-            "city": "Hobart"
-          }
-        ],
-        "spec": "#25, #26, #28, #29, #30"
-      },
+      "page": "round-04.html",
       "image": {
+        "file": "round-04.svg",
         "alt": "A harbour scene in the Daily Manifest's colours, stamped food & drink, 3 crates on the quay, 1 of them ribboned, dice showing 2 and 3, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
         "cutline": "One crate came off the boat with a ribbon on it. Valparaíso sent it. The others are not saying anything.",
-        "extension": "svg",
-        "mime": "image/svg+xml",
-        "palette": {
-          "paper": "#fdf3e3",
-          "ink": "#2b1a12",
-          "sky": "#ffd08a",
-          "water": "#a8573b",
-          "accent": "#c5283d",
-          "spot": "#e08e45",
-          "spot_alt": "#7d9b3f"
-        },
-        "colorful": true,
-        "provenance": {
-          "modality": "svg_procedural",
-          "provider": "builtin_svg",
-          "preference": [
-            "raster",
-            "svg_procedural"
-          ],
-          "considered": [
-            {
-              "modality": "raster",
-              "provider": null,
-              "available": false,
-              "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
-            },
-            {
-              "modality": "svg_procedural",
-              "provider": "builtin_svg",
-              "available": true,
-              "reason": null
-            }
-          ],
-          "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
-          "spec": "#29"
-        },
-        "filename": "round-04.svg",
-        "file": "round-04.svg"
+        "modality": "svg_procedural",
+        "provider": "builtin_svg"
       }
     },
     {
+      "round": 5,
       "publication": "The Daily Manifest",
       "game": "Sister Cities",
-      "round": 5,
       "edition_line": "Vol. I, No. 5",
       "motto": "All the news that fits in the hold.",
-      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "dateline": "Monday, 7 September 2026",
       "closes": "8 September, 09:00 UTC",
       "price_line": "Price: free to city halls, exorbitant to everyone else",
       "weather_line": "Weather: unsettled, like the minutes of the last session.",
+      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "departments": [
         {
           "id": "wanted",
@@ -1631,111 +1298,26 @@
           }
         }
       ],
-      "provenance": {
-        "renderer": {
-          "id": "deterministic_template",
-          "implementation": "newspaper.departments + newspaper.wire",
-          "source_of_wording": "content/newspaper.json",
-          "deterministic": true,
-          "needs_network": false,
-          "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
-        },
-        "cadence": {
-          "value": "per_round",
-          "means": "one edition per completed round, not batched (spec #26)"
-        },
-        "identity_style": {
-          "value": "city_mayor_only",
-          "prints": "the city's name and the office of its mayor",
-          "never_prints": "a real name, a handle, or a player id",
-          "spec": "#28"
-        },
-        "tone_policy": {
-          "funny": true,
-          "colorful": true,
-          "allow_pointed_humor": true,
-          "disallow_snide_or_mean": true,
-          "forbidden_register_terms": 33,
-          "spec": "#30",
-          "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
-        },
-        "lockstep": [
-          {
-            "op": "OPEN",
-            "need": "in-005",
-            "city": "Bergen",
-            "category": "culture_and_arts",
-            "rotation": 1
-          },
-          {
-            "op": "CLOSE",
-            "need": "in-004",
-            "submissions": 0,
-            "city": "Kampala"
-          },
-          {
-            "op": "RESOLVE",
-            "need": "in-003",
-            "mode": "winner_pick",
-            "city": "Valparaíso"
-          }
-        ],
-        "spec": "#25, #26, #28, #29, #30"
-      },
+      "page": "round-05.html",
       "image": {
+        "file": "round-05.svg",
         "alt": "A harbour scene in the Daily Manifest's colours, stamped culture & the arts, 4 crates on the quay, 1 of them ribboned, dice showing 2 and 1, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.",
         "cutline": "4 crates, one ribbon, 3 in the ledger. A good day at the water.",
-        "extension": "svg",
-        "mime": "image/svg+xml",
-        "palette": {
-          "paper": "#f6f0f8",
-          "ink": "#211a2b",
-          "sky": "#c9b6e4",
-          "water": "#4b3b78",
-          "accent": "#eab543",
-          "spot": "#8e5fb8",
-          "spot_alt": "#d38ab5"
-        },
-        "colorful": true,
-        "provenance": {
-          "modality": "svg_procedural",
-          "provider": "builtin_svg",
-          "preference": [
-            "raster",
-            "svg_procedural"
-          ],
-          "considered": [
-            {
-              "modality": "raster",
-              "provider": null,
-              "available": false,
-              "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
-            },
-            {
-              "modality": "svg_procedural",
-              "provider": "builtin_svg",
-              "available": true,
-              "reason": null
-            }
-          ],
-          "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
-          "spec": "#29"
-        },
-        "filename": "round-05.svg",
-        "file": "round-05.svg"
+        "modality": "svg_procedural",
+        "provider": "builtin_svg"
       }
     },
     {
+      "round": 6,
       "publication": "The Daily Manifest",
       "game": "Sister Cities",
-      "round": 6,
       "edition_line": "Vol. I, No. 6",
       "motto": "All the news that fits in the hold.",
-      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "dateline": "Tuesday, 8 September 2026",
       "closes": "9 September, 09:00 UTC",
       "price_line": "Price: whatever you have in the coat you wore yesterday",
       "weather_line": "Weather: unsettled, like the minutes of the last session.",
+      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "departments": [
         {
           "id": "wanted",
@@ -1992,111 +1574,26 @@
           }
         }
       ],
-      "provenance": {
-        "renderer": {
-          "id": "deterministic_template",
-          "implementation": "newspaper.departments + newspaper.wire",
-          "source_of_wording": "content/newspaper.json",
-          "deterministic": true,
-          "needs_network": false,
-          "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
-        },
-        "cadence": {
-          "value": "per_round",
-          "means": "one edition per completed round, not batched (spec #26)"
-        },
-        "identity_style": {
-          "value": "city_mayor_only",
-          "prints": "the city's name and the office of its mayor",
-          "never_prints": "a real name, a handle, or a player id",
-          "spec": "#28"
-        },
-        "tone_policy": {
-          "funny": true,
-          "colorful": true,
-          "allow_pointed_humor": true,
-          "disallow_snide_or_mean": true,
-          "forbidden_register_terms": 33,
-          "spec": "#30",
-          "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
-        },
-        "lockstep": [
-          {
-            "op": "OPEN",
-            "need": "in-006",
-            "city": "Reykjavík",
-            "category": "tourism_and_reputation",
-            "rotation": 2
-          },
-          {
-            "op": "CLOSE",
-            "need": "in-005",
-            "submissions": 4,
-            "city": "Bergen"
-          },
-          {
-            "op": "RESOLVE",
-            "need": "in-004",
-            "mode": "ramp_up",
-            "city": "Kampala"
-          }
-        ],
-        "spec": "#25, #26, #28, #29, #30"
-      },
+      "page": "round-06.html",
       "image": {
+        "file": "round-06.svg",
         "alt": "A harbour scene in the Daily Manifest's colours, stamped tourism & reputation, an empty quay, dice showing 6 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
         "cutline": "Nothing on the quay, so Kampala built its own. The shed, pictured, is doing its best.",
-        "extension": "svg",
-        "mime": "image/svg+xml",
-        "palette": {
-          "paper": "#f2f8f9",
-          "ink": "#13232a",
-          "sky": "#8fd0e8",
-          "water": "#1c5f77",
-          "accent": "#f4a11d",
-          "spot": "#3d95b3",
-          "spot_alt": "#9fd6e8"
-        },
-        "colorful": true,
-        "provenance": {
-          "modality": "svg_procedural",
-          "provider": "builtin_svg",
-          "preference": [
-            "raster",
-            "svg_procedural"
-          ],
-          "considered": [
-            {
-              "modality": "raster",
-              "provider": null,
-              "available": false,
-              "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
-            },
-            {
-              "modality": "svg_procedural",
-              "provider": "builtin_svg",
-              "available": true,
-              "reason": null
-            }
-          ],
-          "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
-          "spec": "#29"
-        },
-        "filename": "round-06.svg",
-        "file": "round-06.svg"
+        "modality": "svg_procedural",
+        "provider": "builtin_svg"
       }
     },
     {
+      "round": 7,
       "publication": "The Daily Manifest",
       "game": "Sister Cities",
-      "round": 7,
       "edition_line": "Vol. I, No. 7",
       "motto": "All the news that fits in the hold.",
-      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "dateline": "Wednesday, 9 September 2026",
       "closes": "10 September, 09:00 UTC",
       "price_line": "Price: whatever you have in the coat you wore yesterday",
       "weather_line": "Weather: overcast, with a strong chance of committee.",
+      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "departments": [
         {
           "id": "wanted",
@@ -2377,111 +1874,26 @@
           }
         }
       ],
-      "provenance": {
-        "renderer": {
-          "id": "deterministic_template",
-          "implementation": "newspaper.departments + newspaper.wire",
-          "source_of_wording": "content/newspaper.json",
-          "deterministic": true,
-          "needs_network": false,
-          "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
-        },
-        "cadence": {
-          "value": "per_round",
-          "means": "one edition per completed round, not batched (spec #26)"
-        },
-        "identity_style": {
-          "value": "city_mayor_only",
-          "prints": "the city's name and the office of its mayor",
-          "never_prints": "a real name, a handle, or a player id",
-          "spec": "#28"
-        },
-        "tone_policy": {
-          "funny": true,
-          "colorful": true,
-          "allow_pointed_humor": true,
-          "disallow_snide_or_mean": true,
-          "forbidden_register_terms": 33,
-          "spec": "#30",
-          "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
-        },
-        "lockstep": [
-          {
-            "op": "OPEN",
-            "need": "in-007",
-            "city": "Hobart",
-            "category": "mysteries_and_anomalies",
-            "rotation": 2
-          },
-          {
-            "op": "CLOSE",
-            "need": "in-006",
-            "submissions": 4,
-            "city": "Reykjavík"
-          },
-          {
-            "op": "RESOLVE",
-            "need": "in-005",
-            "mode": "even_split",
-            "city": "Bergen"
-          }
-        ],
-        "spec": "#25, #26, #28, #29, #30"
-      },
+      "page": "round-07.html",
       "image": {
+        "file": "round-07.svg",
         "alt": "A harbour scene in the Daily Manifest's colours, stamped mysteries & anomalies, 4 crates on the quay, 4 of them ribboned, dice showing 5 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
         "cutline": "Every crate got a ribbon in the end. The crane operator has questions.",
-        "extension": "svg",
-        "mime": "image/svg+xml",
-        "palette": {
-          "paper": "#f1eff6",
-          "ink": "#171426",
-          "sky": "#b3aede",
-          "water": "#332a5e",
-          "accent": "#f2c14e",
-          "spot": "#6b5fa8",
-          "spot_alt": "#a49ccf"
-        },
-        "colorful": true,
-        "provenance": {
-          "modality": "svg_procedural",
-          "provider": "builtin_svg",
-          "preference": [
-            "raster",
-            "svg_procedural"
-          ],
-          "considered": [
-            {
-              "modality": "raster",
-              "provider": null,
-              "available": false,
-              "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
-            },
-            {
-              "modality": "svg_procedural",
-              "provider": "builtin_svg",
-              "available": true,
-              "reason": null
-            }
-          ],
-          "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
-          "spec": "#29"
-        },
-        "filename": "round-07.svg",
-        "file": "round-07.svg"
+        "modality": "svg_procedural",
+        "provider": "builtin_svg"
       }
     },
     {
+      "round": 8,
       "publication": "The Daily Manifest",
       "game": "Sister Cities",
-      "round": 8,
       "edition_line": "Vol. I, No. 8",
       "motto": "All the news that fits in the hold.",
-      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "dateline": "Thursday, 10 September 2026",
       "closes": "11 September, 09:00 UTC",
       "price_line": "Price: settled at the counter, in produce if necessary",
       "weather_line": "Weather: clear enough to see the other side, which is new.",
+      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "departments": [
         {
           "id": "wanted",
@@ -2748,111 +2160,26 @@
           }
         }
       ],
-      "provenance": {
-        "renderer": {
-          "id": "deterministic_template",
-          "implementation": "newspaper.departments + newspaper.wire",
-          "source_of_wording": "content/newspaper.json",
-          "deterministic": true,
-          "needs_network": false,
-          "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
-        },
-        "cadence": {
-          "value": "per_round",
-          "means": "one edition per completed round, not batched (spec #26)"
-        },
-        "identity_style": {
-          "value": "city_mayor_only",
-          "prints": "the city's name and the office of its mayor",
-          "never_prints": "a real name, a handle, or a player id",
-          "spec": "#28"
-        },
-        "tone_policy": {
-          "funny": true,
-          "colorful": true,
-          "allow_pointed_humor": true,
-          "disallow_snide_or_mean": true,
-          "forbidden_register_terms": 33,
-          "spec": "#30",
-          "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
-        },
-        "lockstep": [
-          {
-            "op": "OPEN",
-            "need": "in-008",
-            "city": "Valparaíso",
-            "category": "sport_and_recreation",
-            "rotation": 2
-          },
-          {
-            "op": "CLOSE",
-            "need": "in-007",
-            "submissions": 3,
-            "city": "Hobart"
-          },
-          {
-            "op": "RESOLVE",
-            "need": "in-006",
-            "mode": "winner_pick",
-            "city": "Reykjavík"
-          }
-        ],
-        "spec": "#25, #26, #28, #29, #30"
-      },
+      "page": "round-08.html",
       "image": {
+        "file": "round-08.svg",
         "alt": "A harbour scene in the Daily Manifest's colours, stamped sport & recreation, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 2, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
         "cutline": "4 crates, one ribbon, 6 in the ledger. A good day at the water.",
-        "extension": "svg",
-        "mime": "image/svg+xml",
-        "palette": {
-          "paper": "#f1f7f1",
-          "ink": "#15231a",
-          "sky": "#a9dfb4",
-          "water": "#256b47",
-          "accent": "#e8542e",
-          "spot": "#3f9663",
-          "spot_alt": "#8fcfa4"
-        },
-        "colorful": true,
-        "provenance": {
-          "modality": "svg_procedural",
-          "provider": "builtin_svg",
-          "preference": [
-            "raster",
-            "svg_procedural"
-          ],
-          "considered": [
-            {
-              "modality": "raster",
-              "provider": null,
-              "available": false,
-              "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
-            },
-            {
-              "modality": "svg_procedural",
-              "provider": "builtin_svg",
-              "available": true,
-              "reason": null
-            }
-          ],
-          "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
-          "spec": "#29"
-        },
-        "filename": "round-08.svg",
-        "file": "round-08.svg"
+        "modality": "svg_procedural",
+        "provider": "builtin_svg"
       }
     },
     {
+      "round": 9,
       "publication": "The Daily Manifest",
       "game": "Sister Cities",
-      "round": 9,
       "edition_line": "Vol. I, No. 9",
       "motto": "All the news that fits in the hold.",
-      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "dateline": "Friday, 11 September 2026",
       "closes": "12 September, 09:00 UTC",
       "price_line": "Price: unchanged since the first edition, which was also this week",
       "weather_line": "Weather: unsettled, like the minutes of the last session.",
+      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "departments": [
         {
           "id": "wanted",
@@ -3117,111 +2444,26 @@
           }
         }
       ],
-      "provenance": {
-        "renderer": {
-          "id": "deterministic_template",
-          "implementation": "newspaper.departments + newspaper.wire",
-          "source_of_wording": "content/newspaper.json",
-          "deterministic": true,
-          "needs_network": false,
-          "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
-        },
-        "cadence": {
-          "value": "per_round",
-          "means": "one edition per completed round, not batched (spec #26)"
-        },
-        "identity_style": {
-          "value": "city_mayor_only",
-          "prints": "the city's name and the office of its mayor",
-          "never_prints": "a real name, a handle, or a player id",
-          "spec": "#28"
-        },
-        "tone_policy": {
-          "funny": true,
-          "colorful": true,
-          "allow_pointed_humor": true,
-          "disallow_snide_or_mean": true,
-          "forbidden_register_terms": 33,
-          "spec": "#30",
-          "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
-        },
-        "lockstep": [
-          {
-            "op": "OPEN",
-            "need": "in-009",
-            "city": "Kampala",
-            "category": "wildlife_and_nature",
-            "rotation": 2
-          },
-          {
-            "op": "CLOSE",
-            "need": "in-008",
-            "submissions": 4,
-            "city": "Valparaíso"
-          },
-          {
-            "op": "RESOLVE",
-            "need": "in-007",
-            "mode": "winner_pick",
-            "city": "Hobart"
-          }
-        ],
-        "spec": "#25, #26, #28, #29, #30"
-      },
+      "page": "round-09.html",
       "image": {
+        "file": "round-09.svg",
         "alt": "A harbour scene in the Daily Manifest's colours, stamped wildlife & nature, 3 crates on the quay, 1 of them ribboned, dice showing 4 and 5, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
         "cutline": "One crate came off the boat with a ribbon on it. Kampala sent it. The others are not saying anything.",
-        "extension": "svg",
-        "mime": "image/svg+xml",
-        "palette": {
-          "paper": "#f3f7ec",
-          "ink": "#1a2415",
-          "sky": "#bfe08a",
-          "water": "#3f6b3a",
-          "accent": "#e4772e",
-          "spot": "#6a9a3c",
-          "spot_alt": "#a8c96a"
-        },
-        "colorful": true,
-        "provenance": {
-          "modality": "svg_procedural",
-          "provider": "builtin_svg",
-          "preference": [
-            "raster",
-            "svg_procedural"
-          ],
-          "considered": [
-            {
-              "modality": "raster",
-              "provider": null,
-              "available": false,
-              "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
-            },
-            {
-              "modality": "svg_procedural",
-              "provider": "builtin_svg",
-              "available": true,
-              "reason": null
-            }
-          ],
-          "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
-          "spec": "#29"
-        },
-        "filename": "round-09.svg",
-        "file": "round-09.svg"
+        "modality": "svg_procedural",
+        "provider": "builtin_svg"
       }
     },
     {
+      "round": 10,
       "publication": "The Daily Manifest",
       "game": "Sister Cities",
-      "round": 10,
       "edition_line": "Vol. I, No. 10",
       "motto": "All the news that fits in the hold.",
-      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "dateline": "Saturday, 12 September 2026",
       "closes": "13 September, 09:00 UTC",
       "price_line": "Price: unchanged since the first edition, which was also this week",
       "weather_line": "Weather: fog. The ferries are running on confidence alone.",
+      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "departments": [
         {
           "id": "wanted",
@@ -3495,111 +2737,26 @@
           }
         }
       ],
-      "provenance": {
-        "renderer": {
-          "id": "deterministic_template",
-          "implementation": "newspaper.departments + newspaper.wire",
-          "source_of_wording": "content/newspaper.json",
-          "deterministic": true,
-          "needs_network": false,
-          "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
-        },
-        "cadence": {
-          "value": "per_round",
-          "means": "one edition per completed round, not batched (spec #26)"
-        },
-        "identity_style": {
-          "value": "city_mayor_only",
-          "prints": "the city's name and the office of its mayor",
-          "never_prints": "a real name, a handle, or a player id",
-          "spec": "#28"
-        },
-        "tone_policy": {
-          "funny": true,
-          "colorful": true,
-          "allow_pointed_humor": true,
-          "disallow_snide_or_mean": true,
-          "forbidden_register_terms": 33,
-          "spec": "#30",
-          "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
-        },
-        "lockstep": [
-          {
-            "op": "OPEN",
-            "need": "in-010",
-            "city": "Bergen",
-            "category": "labor_and_expertise",
-            "rotation": 2
-          },
-          {
-            "op": "CLOSE",
-            "need": "in-009",
-            "submissions": 4,
-            "city": "Kampala"
-          },
-          {
-            "op": "RESOLVE",
-            "need": "in-008",
-            "mode": "winner_pick",
-            "city": "Valparaíso"
-          }
-        ],
-        "spec": "#25, #26, #28, #29, #30"
-      },
+      "page": "round-10.html",
       "image": {
+        "file": "round-10.svg",
         "alt": "A harbour scene in the Daily Manifest's colours, stamped labour & expertise, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 3, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
         "cutline": "4 crates, one ribbon, 7 in the ledger. A good day at the water.",
-        "extension": "svg",
-        "mime": "image/svg+xml",
-        "palette": {
-          "paper": "#f8f4ec",
-          "ink": "#231d16",
-          "sky": "#e8cf9a",
-          "water": "#6b5334",
-          "accent": "#c2452d",
-          "spot": "#9a7942",
-          "spot_alt": "#d6b877"
-        },
-        "colorful": true,
-        "provenance": {
-          "modality": "svg_procedural",
-          "provider": "builtin_svg",
-          "preference": [
-            "raster",
-            "svg_procedural"
-          ],
-          "considered": [
-            {
-              "modality": "raster",
-              "provider": null,
-              "available": false,
-              "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
-            },
-            {
-              "modality": "svg_procedural",
-              "provider": "builtin_svg",
-              "available": true,
-              "reason": null
-            }
-          ],
-          "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
-          "spec": "#29"
-        },
-        "filename": "round-10.svg",
-        "file": "round-10.svg"
+        "modality": "svg_procedural",
+        "provider": "builtin_svg"
       }
     },
     {
+      "round": 11,
       "publication": "The Daily Manifest",
       "game": "Sister Cities",
-      "round": 11,
       "edition_line": "Vol. I, No. 11",
       "motto": "All the news that fits in the hold.",
-      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "dateline": "Sunday, 13 September 2026",
       "closes": "14 September, 09:00 UTC",
       "price_line": "Price: settled at the counter, in produce if necessary",
       "weather_line": "Weather: unsettled, like the minutes of the last session.",
+      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "departments": [
         {
           "id": "wanted",
@@ -3846,109 +3003,26 @@
           }
         }
       ],
-      "provenance": {
-        "renderer": {
-          "id": "deterministic_template",
-          "implementation": "newspaper.departments + newspaper.wire",
-          "source_of_wording": "content/newspaper.json",
-          "deterministic": true,
-          "needs_network": false,
-          "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
-        },
-        "cadence": {
-          "value": "per_round",
-          "means": "one edition per completed round, not batched (spec #26)"
-        },
-        "identity_style": {
-          "value": "city_mayor_only",
-          "prints": "the city's name and the office of its mayor",
-          "never_prints": "a real name, a handle, or a player id",
-          "spec": "#28"
-        },
-        "tone_policy": {
-          "funny": true,
-          "colorful": true,
-          "allow_pointed_humor": true,
-          "disallow_snide_or_mean": true,
-          "forbidden_register_terms": 33,
-          "spec": "#30",
-          "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
-        },
-        "lockstep": [
-          {
-            "op": "OPEN",
-            "need": null,
-            "reason": "no import turns remain; draining the last needs"
-          },
-          {
-            "op": "CLOSE",
-            "need": "in-010",
-            "submissions": 4,
-            "city": "Bergen"
-          },
-          {
-            "op": "RESOLVE",
-            "need": "in-009",
-            "mode": "winner_pick",
-            "city": "Kampala"
-          }
-        ],
-        "spec": "#25, #26, #28, #29, #30"
-      },
+      "page": "round-11.html",
       "image": {
+        "file": "round-11.svg",
         "alt": "A harbour scene in the Daily Manifest's colours, stamped wildlife & nature, 4 crates on the quay, 1 of them ribboned, dice showing 3 and 6, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.",
         "cutline": "One crate came off the boat with a ribbon on it. Bergen sent it. The others are not saying anything.",
-        "extension": "svg",
-        "mime": "image/svg+xml",
-        "palette": {
-          "paper": "#f3f7ec",
-          "ink": "#1a2415",
-          "sky": "#bfe08a",
-          "water": "#3f6b3a",
-          "accent": "#e4772e",
-          "spot": "#6a9a3c",
-          "spot_alt": "#a8c96a"
-        },
-        "colorful": true,
-        "provenance": {
-          "modality": "svg_procedural",
-          "provider": "builtin_svg",
-          "preference": [
-            "raster",
-            "svg_procedural"
-          ],
-          "considered": [
-            {
-              "modality": "raster",
-              "provider": null,
-              "available": false,
-              "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
-            },
-            {
-              "modality": "svg_procedural",
-              "provider": "builtin_svg",
-              "available": true,
-              "reason": null
-            }
-          ],
-          "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
-          "spec": "#29"
-        },
-        "filename": "round-11.svg",
-        "file": "round-11.svg"
+        "modality": "svg_procedural",
+        "provider": "builtin_svg"
       }
     },
     {
+      "round": 12,
       "publication": "The Daily Manifest",
       "game": "Sister Cities",
-      "round": 12,
       "edition_line": "Vol. I, No. 12",
       "motto": "All the news that fits in the hold.",
-      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "dateline": "Monday, 14 September 2026",
       "closes": "15 September, 09:00 UTC",
       "price_line": "Price: unchanged since the first edition, which was also this week",
       "weather_line": "Weather: wind from the harbour, opinions from everywhere.",
+      "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
       "departments": [
         {
           "id": "wanted",
@@ -4156,101 +3230,14 @@
           }
         }
       ],
-      "provenance": {
-        "renderer": {
-          "id": "deterministic_template",
-          "implementation": "newspaper.departments + newspaper.wire",
-          "source_of_wording": "content/newspaper.json",
-          "deterministic": true,
-          "needs_network": false,
-          "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
-        },
-        "cadence": {
-          "value": "per_round",
-          "means": "one edition per completed round, not batched (spec #26)"
-        },
-        "identity_style": {
-          "value": "city_mayor_only",
-          "prints": "the city's name and the office of its mayor",
-          "never_prints": "a real name, a handle, or a player id",
-          "spec": "#28"
-        },
-        "tone_policy": {
-          "funny": true,
-          "colorful": true,
-          "allow_pointed_humor": true,
-          "disallow_snide_or_mean": true,
-          "forbidden_register_terms": 33,
-          "spec": "#30",
-          "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
-        },
-        "lockstep": [
-          {
-            "op": "OPEN",
-            "need": null,
-            "reason": "no import turns remain; draining the last needs"
-          },
-          {
-            "op": "CLOSE",
-            "need": null
-          },
-          {
-            "op": "RESOLVE",
-            "need": "in-010",
-            "mode": "winner_pick",
-            "city": "Bergen"
-          }
-        ],
-        "spec": "#25, #26, #28, #29, #30"
-      },
+      "page": "round-12.html",
       "image": {
+        "file": "round-12.svg",
         "alt": "A harbour scene in the Daily Manifest's colours, stamped labour & expertise, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 3, a skyline of 5 city towers ranked by profit.",
         "cutline": "One crate came off the boat with a ribbon on it. Valparaíso sent it. The others are not saying anything.",
-        "extension": "svg",
-        "mime": "image/svg+xml",
-        "palette": {
-          "paper": "#f8f4ec",
-          "ink": "#231d16",
-          "sky": "#e8cf9a",
-          "water": "#6b5334",
-          "accent": "#c2452d",
-          "spot": "#9a7942",
-          "spot_alt": "#d6b877"
-        },
-        "colorful": true,
-        "provenance": {
-          "modality": "svg_procedural",
-          "provider": "builtin_svg",
-          "preference": [
-            "raster",
-            "svg_procedural"
-          ],
-          "considered": [
-            {
-              "modality": "raster",
-              "provider": null,
-              "available": false,
-              "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
-            },
-            {
-              "modality": "svg_procedural",
-              "provider": "builtin_svg",
-              "available": true,
-              "reason": null
-            }
-          ],
-          "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
-          "spec": "#29"
-        },
-        "filename": "round-12.svg",
-        "file": "round-12.svg"
+        "modality": "svg_procedural",
+        "provider": "builtin_svg"
       }
     }
-  ],
-  "phase": "ended",
-  "hosting": {
-    "served_by": "hosting.build_site -- an unguessable subdomain with robots noindex, per the fulcra-dashboard pattern",
-    "address": "withheld; see hosting.identity.SiteIdentity.describe()",
-    "spec": "#26, #27"
-  }
+  ]
 }
