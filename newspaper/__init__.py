@@ -26,15 +26,25 @@ What M5 covers
   game-state-informed SVG otherwise, with the modality actually used recorded in
   the edition (:mod:`newspaper.imagery`, :mod:`newspaper.svg`, spec #29)
 
+What M7 adds
+------------
+* the last edition (:mod:`newspaper.endgame`): the crown, the twist article, and
+  a description and portrait of every city built from that city's own history,
+  with unchosen offers treated as excess (spec #31, #32)
+* the two illustrations that edition needs (:mod:`newspaper.portrait`), drawn
+  through the same modality policy as every other picture (spec #29, #32)
+
 What it does not cover: serving the archive at an unguessable, noindex URL
-(spec #26, #27), which is the :mod:`hosting` package, and the endgame's own
-articles and portraits (#31, #32), which are a later milestone.
+(spec #26, #27), which is the :mod:`hosting` package.
 :func:`newspaper.publish.publish_game` writes editions to disk as files;
 :func:`hosting.build_site` publishes the same editions as a site.
 """
 
-from .edition import build_archive, build_edition
+from .edition import build_archive, build_edition, build_final_edition
 from .publish import publish_game
 from .render import to_markdown
 
-__all__ = ["build_edition", "build_archive", "to_markdown", "publish_game"]
+__all__ = [
+    "build_edition", "build_archive", "build_final_edition", "to_markdown",
+    "publish_game",
+]

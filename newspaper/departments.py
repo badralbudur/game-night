@@ -36,8 +36,8 @@ from datetime import datetime
 from engine.state import EVEN_SPLIT, RAMP_UP, WINNER_PICK
 
 from . import wire
-from .copy import count_word
-from .redact import DECLINED_ROLE, may_reprint_declined
+from .copy import count_word, counted
+from .redact import DECLINED_ROLE, attributed_export_texts, may_reprint_declined
 from .wire import join_phrases
 
 
@@ -258,7 +258,16 @@ class Departments:
 
     # -- Arrivals (lockstep RESOLVE) --------------------------------------
 
-    def arrivals(self, briefing, cities):
+    def arrivals(self, briefing, cities, attributed=()):
+        """This round's resolution, with the losing offers reprinted unattributed.
+
+        ``attributed`` is every export text the paper names a sender for
+        anywhere in the game (:func:`newspaper.redact.attributed_export_texts`).
+        A declined offer that reads exactly like one of those is withheld rather
+        than reprinted: the same words can win one need and lose another, and
+        the reader who saw the winning one credited does not need this one
+        credited to know whose it is (spec #21).
+        """
         department = self._dept("arrivals")
         resolved = briefing["resolved"]
         round_index = briefing["round"]
@@ -299,7 +308,9 @@ class Departments:
             RAMP_UP: self._arrivals_ramp_up,
             EVEN_SPLIT: self._arrivals_even_split,
         }[mode]
-        blocks, extra = writer(department[mode], resolved, awards, values, key, cities)
+        blocks, extra = writer(
+            department[mode], resolved, awards, values, key, cities, attributed,
+        )
         provenance = {
             "need": resolved["need"],
             "mode": mode,
@@ -315,7 +326,7 @@ class Departments:
             "provenance": provenance,
         }
 
-    def _arrivals_winner(self, frames, resolved, awards, values, key, cities):
+    def _arrivals_winner(self, frames, resolved, awards, values, key, cities, attributed):
         winner = next(s for s in resolved["submissions"] if s["won"])
         values = dict(
             values,
@@ -334,10 +345,10 @@ class Departments:
                 frames["attribution"], key + ("attr",),
                 "arrivals.winner_pick.attribution", values)},
         ]
-        blocks.extend(self._declined(frames, resolved, values, key, cities))
+        blocks.extend(self._declined(frames, resolved, values, key, cities, attributed))
         return blocks, {"winner_city": winner["origin_city"]}
 
-    def _declined(self, frames, resolved, values, key, cities):
+    def _declined(self, frames, resolved, values, key, cities, attributed):
         """The losing exports: reprinted, unattributed, and some withheld.
 
         The cap comes from ``newspaper.prose.max_declined_exports_printed``. The
@@ -352,9 +363,19 @@ class Departments:
                     "arrivals.winner_pick.no_others", values)}
             ]
 
-        printable = [s["export"] for s in declined
-                     if may_reprint_declined(s["export"], cities)]
-        withheld = len(declined) - len(printable)
+        # Two reasons to withhold, counted apart so the paper can say which
+        # applied: the text names a city, or the text is one already printed
+        # elsewhere with its sender credited (spec #21, see
+        # newspaper.redact.attributed_export_texts).
+        printable, signed, matched = [], 0, 0
+        for submission in declined:
+            text = submission["export"]
+            if not may_reprint_declined(text, cities, ()):
+                signed += 1
+            elif not may_reprint_declined(text, cities, attributed):
+                matched += 1
+            else:
+                printable.append(text)
         printed = printable[: self.limits["declined"]]
 
         blocks = []
@@ -378,16 +399,20 @@ class Departments:
                     frames["declined_footer"], key + ("footer",),
                     "arrivals.winner_pick.declined_footer", values)}
             )
-        if withheld:
+        for count, family in ((signed, "declined_withheld_signed"),
+                              (matched, "declined_withheld_matched")):
+            if not count:
+                continue
             blocks.append(
                 {"kind": "para", "text": self._line(
-                    frames["declined_withheld"], key + ("withheld",),
-                    "arrivals.winner_pick.declined_withheld",
-                    dict(values, count=withheld, count_word=count_word(withheld)))}
+                    frames[family], key + (family,),
+                    "arrivals.winner_pick.%s" % family,
+                    dict(values, count=count, count_word=count_word(count),
+                         counted=counted(count, "offer")))}
             )
         return blocks
 
-    def _arrivals_ramp_up(self, frames, resolved, awards, values, key, cities):
+    def _arrivals_ramp_up(self, frames, resolved, awards, values, key, cities, attributed):
         values = dict(values, profit=awards[0]["profit"]["display"])
         blocks = [
             {"kind": "para", "text": self._line(
@@ -406,7 +431,8 @@ class Departments:
         )
         return blocks, {"ramped_up": resolved["importing_city"]}
 
-    def _arrivals_even_split(self, frames, resolved, awards, values, key, cities):
+    def _arrivals_even_split(self, frames, resolved, awards, values, key, cities,
+                             attributed):
         values = dict(
             values,
             profit=str(resolved["resolution"]["roll"]["total"]),

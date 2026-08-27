@@ -95,6 +95,30 @@ body {
   color: var(--ink-soft);
 }
 
+/* A portrait belongs to one city's entry inside The Excess, not to the edition
+   (spec #32), so it is narrower than the masthead illustration and indented
+   under the heading it belongs to. Same img rules, because the failure they
+   prevent is the same one: a 900px SVG overflowing a narrow column. */
+.city-portrait {
+  max-width: 34rem;
+  margin: 1rem 0 1.2rem;
+  padding: 0;
+}
+
+.city-portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+}
+
+.city-portrait figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
 .department {
   background: var(--page);
   border: 1px solid var(--rule);
@@ -180,6 +204,17 @@ tbody tr:first-child td { font-weight: bold; }
 .issues .issue { font-size: 1.05rem; }
 .issues .when { color: var(--ink-soft); font-size: 0.9rem; }
 .issues .picture { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+
+/* The last edition in the archive list (spec #31). Marked, because an archive
+   where the final issue looks like issue thirteen buries the ending. */
+.issues li.final { border-left: 3px solid var(--ink); padding-left: 0.6rem; }
+.issues li.final .issue { font-weight: 700; }
+.issues .portrait {
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
 
 .count, .empty { margin-top: 1rem; font-size: 0.9rem; font-style: italic; color: var(--ink-soft); }
 

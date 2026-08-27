@@ -15,5 +15,7 @@ The complete run of Sister Cities, oldest first. Every edition stays here; a new
 - [Vol. I, No. 10 — Saturday, 12 September 2026](round-10.md) · [image](round-10.svg)
 - [Vol. I, No. 11 — Sunday, 13 September 2026](round-11.md) · [image](round-11.svg)
 - [Vol. I, No. 12 — Monday, 14 September 2026](round-12.md) · [image](round-12.svg)
+- [Vol. I, No. 12 — FINAL EDITION — Monday, 14 September 2026](final.md) · [image](endgame.svg)
+  - city portraits (spec #32): [Bergen](city-bergen.svg), [Hobart](city-hobart.svg), [Kampala](city-kampala.svg), [Reykjavík](city-reykjavik.svg), [Valparaíso](city-valparaiso.svg)
 
 _These are the local files. The paper itself is served by `hosting/` at an unguessable subdomain with `noindex` set, and its archive index is `index.html` there rather than this one (spec #26, #27)._

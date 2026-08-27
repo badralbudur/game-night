@@ -178,20 +178,29 @@ def _chosen(modality, provider, preference, considered):
     }
 
 
-def make_image(config, copy, tone, scene):
-    """The edition's image, plus the provenance of how it came to be.
+def make_image(config, copy, tone, scene, illustrator=None, labels=None, size=None):
+    """One image, plus the provenance of how it came to be.
 
-    ``scene`` is the edition's own facts (see
+    ``scene`` is the picture's own facts (see
     :func:`newspaper.edition.build_scene`): the crates are that round's offers,
     the dice are that round's roll, the skyline is the live leaderboard. Whatever
     draws it, it is drawn from the edition -- which is the substantive half of
     spec #29's fallback clause, the deterministic half being free.
+
+    ``illustrator``, ``labels`` and ``size`` are how the endgame's two other
+    pictures (the finale and one portrait per city, spec #32) go through *this*
+    function rather than around it. Spec #32 says to use #29's modality policy,
+    so there is exactly one resolver and one provenance record, and a raster
+    provider that appears tomorrow gets asked for all three kinds of picture
+    without anything else changing. ``scene["kind"]`` is what tells such a
+    provider which it is being asked for.
     """
     resolution = resolve_modality(config)
-    size = (
-        config.require_int("newspaper.image.width"),
-        config.require_int("newspaper.image.height"),
-    )
+    if size is None:
+        size = (
+            config.require_int("newspaper.image.width"),
+            config.require_int("newspaper.image.height"),
+        )
     palette = copy.palette(scene.get("category"), colorful=tone.colorful)
 
     if resolution["modality"] == RASTER:
@@ -201,11 +210,16 @@ def make_image(config, copy, tone, scene):
         extension = produced.get("extension", "png")
         mime = produced.get("mime", "image/png")
     else:
-        content = svg.render(scene, palette, size, copy.imagery()["labels"])
+        draw = illustrator or svg.render
+        content = draw(
+            scene, palette, size,
+            copy.imagery()["labels"] if labels is None else labels,
+        )
         extension = "svg"
         mime = "image/svg+xml"
 
     return {
+        "kind": scene.get("kind", "edition"),
         "alt": scene["alt"],
         "cutline": scene["cutline"],
         "extension": extension,

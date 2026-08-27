@@ -73,6 +73,20 @@ NEWSPAPER_READS = {
     "newspaper.tone.allow_pointed_humor",
     "newspaper.tone.disallow_snide_or_mean",
     "facilitator_questions.aggregate_phrasing_style",
+    # The last edition's own switches (spec #31, #32). They belong in this set
+    # rather than a fourth one because the endgame is written by the same
+    # newspaper package and resolved on the same Paper: publishing one finished
+    # game reads every one of them.
+    "endgame.crown_cumulative_profit_winner",
+    "endgame.publish_twist_article",
+    "endgame.generate_per_city_description_and_image",
+    "endgame.per_city_excess_uses_non_chosen_exports",
+    "endgame.twist_article_items",
+    "endgame.max_excess_offers_printed_per_city",
+    "endgame.quote_mayor_answers_per_city",
+    "endgame.city_image.width",
+    "endgame.city_image.height",
+    "endgame.write_private_excess_dossiers",
 }
 
 #: Parameters *hosting* takes from config.json. A third consumer and a third set,
@@ -103,12 +117,14 @@ HOSTING_READS = {
 #: Parameters that belong to a later milestone's surface, listed so their absence
 #: from :data:`EXPECTED_READS` and :data:`NEWSPAPER_READS` reads as a milestone
 #: boundary rather than as an oversight.
-NOT_YET_READ = {
-    "endgame.crown_cumulative_profit_winner",
-    "endgame.publish_twist_article",
-    "endgame.generate_per_city_description_and_image",
-    "endgame.per_city_excess_uses_non_chosen_exports",
-}
+#:
+#: Empty as of M7: the four endgame flags that used to live here are read now
+#: and have moved to :data:`NEWSPAPER_READS`, which is exactly the transition
+#: :meth:`ReadTrackingTest.test_the_deferred_parameters_really_are_still_deferred`
+#: exists to force. The set stays, rather than being deleted with its test, so
+#: that a parameter added ahead of the milestone that uses it has somewhere
+#: honest to sit.
+NOT_YET_READ = set()
 
 
 def raw_config():
@@ -277,6 +293,30 @@ class NoInlineDefaultsTest(unittest.TestCase):
         for dotted in ("hosting.scheme", "hosting.base_domain", "hosting.site_id_file",
                        "hosting.site_id_env_var"):
             self._assert_needs(dotted, lambda c: identity_module.load_or_create(c, env={}))
+
+    def test_the_endgame_policy_has_no_inline_default(self):
+        """Deleting an endgame switch must refuse the game, not pick a default.
+
+        Whether the last edition crowns anybody, and whether a portrait may
+        describe unchosen offers at all, are decisions somebody takes (spec #31,
+        #32). A missing key silently resolving to "yes, publish it" would be the
+        paper making the more exposing choice on a facilitator's behalf.
+        """
+        from newspaper.endgame import EndgamePolicy
+
+        for dotted in (
+            "endgame.crown_cumulative_profit_winner",
+            "endgame.publish_twist_article",
+            "endgame.generate_per_city_description_and_image",
+            "endgame.per_city_excess_uses_non_chosen_exports",
+            "endgame.twist_article_items",
+            "endgame.max_excess_offers_printed_per_city",
+            "endgame.quote_mayor_answers_per_city",
+            "endgame.city_image.width",
+            "endgame.city_image.height",
+            "endgame.write_private_excess_dossiers",
+        ):
+            self._assert_needs(dotted, EndgamePolicy)
 
     def test_the_privacy_policy_has_no_inline_default(self):
         """The delivery headers especially: a missing one must not quietly revert."""

@@ -42,6 +42,11 @@ CATEGORIES = {
     "editions": "one page per published round, kept forever and never overwritten "
                 "by a later one (spec #27)",
     "edition_images": "the one generated image each edition carries (spec #29)",
+    "final_edition": "the last edition -- the crown, the twist article and the "
+                     "per-city portraits, published once when the game ends and "
+                     "then kept like any other issue (spec #31, #32, #27)",
+    "city_images": "one portrait per city in the last edition, drawn from that "
+                   "city's own history (spec #32)",
     "archive_json": "the same curated editions in machine-readable form, for a "
                     "reader that is not a browser",
     "stylesheet": "presentation only; carries no game state",
@@ -59,6 +64,21 @@ CONTENT_TYPES = {
     ".json": "application/json; charset=utf-8",
     ".txt": "text/plain; charset=utf-8",
 }
+
+
+#: The key an edition's rendered bytes are filed under while a build is in
+#: progress. Rounds are unique among round editions, but the final edition is
+#: published in the last round and would collide with that round's own edition
+#: (spec #31), so it gets a key of its own. Defined here rather than in either
+#: caller because :mod:`hosting.build` writes the mapping and
+#: :mod:`hosting.guard` reads it, and a key computed two ways is a key that will
+#: eventually disagree with itself.
+FINAL_EDITION_KEY = "final"
+
+
+def edition_key(edition):
+    """How :mod:`hosting.build` and :mod:`hosting.guard` refer to one edition."""
+    return FINAL_EDITION_KEY if edition.get("endgame") else edition["round"]
 
 
 def resolve_categories(config):

@@ -34,13 +34,7 @@ The winning offer for Bergen, reproduced exactly as it arrived:
 
 Valparaíso sent it, and Valparaíso takes 7 — the dice said 4 and 3.
 
-Also offered, and declined:
-
-- Two hundred metres of very good rope and somebody who can splice it.
-- The city's best sign-painter and a week of their time.
-- Geothermal heat, piped, on the understanding that we get the pipes back.
-
-Those arrived unsigned and will stay that way. A losing offer's city is nobody's business, permanently.
+Three offers matched, sentence for sentence, an offer already printed with its sender named. The paper is not going to pretend it cannot see that, and has left the text out.
 
 ## The Wire
 

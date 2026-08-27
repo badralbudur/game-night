@@ -114,7 +114,7 @@
     "publishers": [],
     "local_bind_host": "127.0.0.1",
     "local_bind_port": 0,
-    "publish": ["archive_index", "editions", "edition_images", "archive_json", "stylesheet", "robots"],
+    "publish": ["archive_index", "editions", "final_edition", "city_images", "edition_images", "archive_json", "stylesheet", "robots"],
     "privacy": {
       "robots_txt": true,
       "meta_robots": "noindex, nofollow, noarchive, nosnippet, noimageindex",
@@ -123,7 +123,7 @@
       "cache_control": "private, no-store",
       "content_security_policy": "default-src 'none'; img-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'"
     },
-    "_note": "spec #26, #27 -- one fixed URL, not publicly discoverable, with every prior edition still browsable at it. The address is an unguessable subdomain under base_domain, per the fulcra-dashboard pattern: site_id_bytes of randomness become the label, and that label is the entire secret. It is therefore not in this file and not in the repo -- it is read from site_id_env_var if a deployment injects one, else from site_id_file, which .gitignore excludes and hosting/identity.py creates 0600 on first use. Nothing published ever contains it (hosting/guard.py fails the build if anything does), which is why the built site under site_dir is safe to commit: the pages are public, the address is not. `publish` is the curated allowlist of what may be served at all -- a category not named here is not built, and a file whose category is not a known one is a ConfigError rather than a silent inclusion. `privacy` is the delivery policy: robots noindex in three places (robots.txt, a meta tag, and the X-Robots-Tag header) plus the headers that stop a private URL leaking sideways -- no-referrer and a CSP with no external origins, because any off-site request from these pages would put the secret address in somebody else's logs. `publishers` names remote deploy adapters registered in hosting/build.py; it is empty because this deployment has none, so the site is served locally by hosting/serve.py and the build says so in its own provenance rather than implying a deployment that did not happen. Naming an unregistered publisher is a config error, not a quiet fallback."
+    "_note": "spec #26, #27 -- one fixed URL, not publicly discoverable, with every prior edition still browsable at it. The address is an unguessable subdomain under base_domain, per the fulcra-dashboard pattern: site_id_bytes of randomness become the label, and that label is the entire secret. It is therefore not in this file and not in the repo -- it is read from site_id_env_var if a deployment injects one, else from site_id_file, which .gitignore excludes and hosting/identity.py creates 0600 on first use. Nothing published ever contains it (hosting/guard.py fails the build if anything does), which is why the built site under site_dir is safe to commit: the pages are public, the address is not. `publish` is the curated allowlist of what may be served at all -- a category not named here is not built, and a file whose category is not a known one is a ConfigError rather than a silent inclusion. `final_edition` and `city_images` are spec #31 and #32's own entries: the last edition is a page of the same paper at the same address, filed under its own category rather than under `editions` because `editions` is checked for one page per round and the final edition shares the last round's number. `privacy` is the delivery policy: robots noindex in three places (robots.txt, a meta tag, and the X-Robots-Tag header) plus the headers that stop a private URL leaking sideways -- no-referrer and a CSP with no external origins, because any off-site request from these pages would put the secret address in somebody else's logs. `publishers` names remote deploy adapters registered in hosting/build.py; it is empty because this deployment has none, so the site is served locally by hosting/serve.py and the build says so in its own provenance rather than implying a deployment that did not happen. Naming an unregistered publisher is a config error, not a quiet fallback."
   },
 
   "endgame": {
@@ -131,7 +131,15 @@
     "publish_twist_article": true,
     "generate_per_city_description_and_image": true,
     "per_city_excess_uses_non_chosen_exports": true,
-    "_note": "spec #31-#32"
+    "twist_article_items": 4,
+    "max_excess_offers_printed_per_city": 2,
+    "quote_mayor_answers_per_city": 1,
+    "city_image": {
+      "width": 900,
+      "height": 560
+    },
+    "write_private_excess_dossiers": false,
+    "_note": "spec #31-#32. The final edition of The Daily Manifest, published once, when the game ends. The first four flags are the three articles and the material one of them is built from: `crown_cumulative_profit_winner` prints The Crown, `publish_twist_article` prints Consequences, `generate_per_city_description_and_image` prints The Excess with one portrait per city, and `per_city_excess_uses_non_chosen_exports` decides whether a portrait is allowed to describe unchosen offers at all -- false leaves each city described by its public record alone. With all four false there is no final edition rather than an empty one. twist_article_items caps how many consequences the twist article draws from the game's actual arrivals; max_excess_offers_printed_per_city caps how many unchosen offers a portrait reprints (0 prints none, and an offer whose text names a city is withheld at every setting, per spec #21); quote_mayor_answers_per_city caps how many of a city's own answers its portrait quotes, and is additionally gated by facilitator_questions.answers_shared_in_newspaper, which is where that exposure decision is taken. city_image is the portrait's canvas, separate from newspaper.image.width/height because a portrait is not a broadsheet; the *modality* policy is deliberately not separate -- spec #32 says to use #29's raster-preferred/SVG-fallback policy, so portraits resolve through the same newspaper.image.modality_preference and raster_providers rather than through a second copy of it that could disagree. write_private_excess_dossiers is off: a dossier is the one endgame artifact that names which unchosen offers a city *sent*, it is written for that city's own mayor only, and writing it to disk in a repository anybody can read would publish exactly what spec #21 forbids -- see docs/m7-endgame.md."
   },
 
   "engine": {

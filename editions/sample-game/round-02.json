@@ -265,6 +265,7 @@
     "spec": "#25, #26, #28, #29, #30"
   },
   "image": {
+    "kind": "edition",
     "alt": "A harbour scene in the Daily Manifest's colours, stamped infrastructure & public works, 2 crates on the quay, a skyline of 4 city towers ranked by profit, and 2 pennants overhead, one per reply.",
     "cutline": "The offers, landed and unopened. Nobody in this picture knows who sent what, including the paper.",
     "extension": "svg",

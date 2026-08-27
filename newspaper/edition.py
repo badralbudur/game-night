@@ -24,6 +24,8 @@ from engine import views
 from . import imagery, prose, redact
 from .copy import Chooser, NewspaperCopy
 from .departments import Departments, deadline_stamp, long_date
+from .endgame import EndgameDepartments, EndgamePolicy
+from .endgame import build_final_edition as _write_final_edition
 from .tone import TonePolicy
 from .wire import join_phrases
 
@@ -60,6 +62,13 @@ class Paper:
         self.image_per_edition = self.config.require_bool("newspaper.image_per_edition")
         self.archive_prior = self.config.require_bool("newspaper.archive_prior_editions")
         self.departments = Departments(self.copy, self.chooser, self.tone, self.limits)
+        # Resolved now rather than on the last day, for the reason every other
+        # policy on this object is: a game whose endgame settings are malformed
+        # should refuse to start, not refuse to finish (spec #31, #32).
+        self.endgame = EndgamePolicy(self.config)
+        self.endgame_departments = EndgameDepartments(
+            self.copy, self.chooser, self.tone, self.limits, self.endgame,
+        )
 
     def _resolve_cadence(self):
         cadence = self.config.require_str("newspaper.publish_cadence")
@@ -87,7 +96,13 @@ class Paper:
         written = {
             "wanted": self.departments.wanted(briefing),
             "sealed_bids": self.departments.sealed_bids(briefing),
-            "arrivals": self.departments.arrivals(briefing, cities),
+            # Winners named up to and including this round -- not the whole
+            # game. An edition rebuilt later must come out as it went out
+            # (spec #27); see redact.attributed_export_texts.
+            "arrivals": self.departments.arrivals(
+                briefing, cities,
+                redact.attributed_export_texts(self.engine, through_round=round_index),
+            ),
             "the_wire": self.departments.the_wire(briefing, self.style),
             "the_ledger": self.departments.the_ledger(briefing),
             "corrections": self.departments.corrections(briefing, previous),
@@ -137,6 +152,25 @@ class Paper:
                 "spec": "#29",
             }
 
+        self._check(edition)
+        return edition
+
+    # -- the last edition -------------------------------------------------
+
+    def final_edition(self):
+        """The endgame edition, or ``None`` if there is not one yet (#31, #32).
+
+        ``None`` means one of two honest things -- the game has not ended, or
+        ``config.endgame`` switches all three articles off -- and
+        :func:`newspaper.endgame.build_final_edition` decides which. Whatever it
+        returns goes through :meth:`_check` like any other edition: the last
+        edition is the one with the most material and the most ways to leak
+        (a portrait per city, every declined offer on every quay), so it is the
+        last edition that most needs the tone and redaction gates, not least.
+        """
+        edition = _write_final_edition(self)
+        if edition is None:
+            return None
         self._check(edition)
         return edition
 
@@ -262,14 +296,19 @@ class Paper:
         from .render import to_markdown
 
         markdown = to_markdown(edition)
-        image = edition.get("image") or {}
         rendered = [markdown]
-        if isinstance(image.get("content"), str):
-            rendered.append(image["content"])
+        # Every picture the edition publishes, not just its own: the last edition
+        # carries a portrait per city (spec #32), each of which prints a cutline,
+        # a city name and a pile of crate labels. A picture is as published as the
+        # prose, so it goes through the same tone and redaction check.
+        for image in [edition.get("image")] + list(edition.get("city_images") or ()):
+            if isinstance(image, dict) and isinstance(image.get("content"), str):
+                rendered.append(image["content"])
 
         # Tone first: a snide line is a thing to fix in the copy, and hearing
         # about it before the redaction report is less confusing.
-        self.tone.check("\n".join(rendered), where="edition %s" % edition["round"])
+        where = "final edition" if edition.get("endgame") else "edition %s" % edition["round"]
+        self.tone.check("\n".join(rendered), where=where)
         redact.assert_edition_is_redacted(self.engine, edition, rendered=rendered)
         return markdown
 
@@ -292,6 +331,13 @@ class Paper:
         rounds = views.published_rounds(self.engine)
         if not self.archive_prior:
             rounds = rounds[-1:]
+        # The final edition is carried beside the round editions rather than
+        # among them, and the reason is spec #26: "publishes once per completed
+        # round" is a rule about `editions`, and a list that had two entries for
+        # the last round would break it to make room for something that is not a
+        # round edition at all. The endgame is spec #31's separate publication --
+        # same paper, same address, same archive, its own permanent page.
+        final = self.final_edition()
         return {
             "publication": self.masthead["publication"],
             "game": self.masthead["game"],
@@ -299,6 +345,8 @@ class Paper:
             "archive_prior_editions": self.archive_prior,
             "cadence": self.cadence,
             "editions": [self.edition(index) for index in rounds],
+            "final": final,
+            "ended": final is not None,
             "phase": self.engine.phase,
             "hosting": {
                 "served_by": "hosting.build_site -- an unguessable subdomain with "
@@ -348,6 +396,11 @@ def _alt_text(scene):
 def build_edition(engine, round_index, copy=None):
     """One edition of The Daily Manifest for a completed round."""
     return Paper(engine, copy=copy).edition(round_index)
+
+
+def build_final_edition(engine, copy=None):
+    """The last edition of The Daily Manifest, or ``None`` if the game is live."""
+    return Paper(engine, copy=copy).final_edition()
 
 
 def build_archive(engine, copy=None):

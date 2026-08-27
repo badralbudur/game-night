@@ -334,6 +334,7 @@
     "spec": "#25, #26, #28, #29, #30"
   },
   "image": {
+    "kind": "edition",
     "alt": "A harbour scene in the Daily Manifest's colours, stamped labour & expertise, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 3, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
     "cutline": "4 crates, one ribbon, 7 in the ledger. A good day at the water.",
     "extension": "svg",

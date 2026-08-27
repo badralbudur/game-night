@@ -32,6 +32,7 @@ snapshot.
 | **M4** — facilitator questions: two-slot check-in, framing, aggregate data ([`engine/aggregate.py`](engine/aggregate.py)) | built — see [`docs/m4-questions.md`](docs/m4-questions.md) |
 | **M5** — newspaper rendering core: prose, redaction, tone, one image per edition ([`newspaper/`](newspaper), [`content/newspaper.json`](content/newspaper.json)) | built — see [`docs/m5-newspaper.md`](docs/m5-newspaper.md) |
 | **M6** — publication & archive: the private address, the browsable back issues, the curated public manifest ([`hosting/`](hosting), [`site/`](site)) | built — see [`docs/m6-hosting.md`](docs/m6-hosting.md) |
+| **M7** — the last edition: the crown, the twist article, a portrait per city ([`newspaper/endgame.py`](newspaper/endgame.py), [`engine/endgame.py`](engine/endgame.py)) | built — see [`docs/m7-endgame.md`](docs/m7-endgame.md) |
 
 The engine covers the round timer and its lockstep, the city order queue and its
 two rotations, the import/export/winner cycle with every fallback, the import
@@ -66,7 +67,17 @@ this repo: it lives in a `0600`, git-ignored `.site-id`, and the build refuses
 to publish anything containing it. Serve it with `python3 -m hosting.serve`,
 which prints the URL.
 
-Still later milestones: the endgame articles and per-city portraits (spec
-#31–#32), and the duplicate-city reassignment procedure. Where the engine's data
-would otherwise carry a finished piece it does not own yet, it carries an
+When a game reaches its end condition the paper prints one more issue: **the
+final edition** (spec #31–#32), which crowns the cumulative-profit winner, runs
+a tongue-in-cheek piece on what the year's trade actually did to everybody, and
+gives every city a description and a portrait drawn from its own history — with
+the offers it received and declined printed as its "excess", and the offers it
+*sent* and nobody chose named as existing and deliberately not itemised, because
+spec #21 outlives the game. That argument is the whole of
+[`docs/m7-endgame.md`](docs/m7-endgame.md), and it is worth reading before the
+code. The sample run's last edition is
+[`editions/sample-game/final.md`](editions/sample-game/final.md).
+
+Still to come: the duplicate-city reassignment procedure. Where the engine's
+data would otherwise carry a finished piece it does not own yet, it carries an
 explicit `[[M… ]]`-style stub instead.

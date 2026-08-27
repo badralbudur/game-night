@@ -460,7 +460,7 @@ class GuardTest(unittest.TestCase):
     def test_an_unfinished_milestone_stub_is_refused(self):
         self._assert_refused(
             "notes.txt", "archive_json", "hosting.build.curated_archive",
-            "notes", "[[M7: the endgame goes here]]",
+            "notes", "[[M8: the city reassignment procedure goes here]]",
         )
 
     def test_a_handle_in_a_published_page_is_refused(self):
