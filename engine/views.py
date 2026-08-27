@@ -249,6 +249,27 @@ def round_briefing(engine, round_index):
     return briefing
 
 
+def published_rounds(engine):
+    """The rounds that have finished, and so have an edition (spec #26).
+
+    Spec #26 asks for publication "once per completed round", and the round the
+    game is *currently* in is not one: its window is still open, mayors are
+    still checking in, and an edition printed from it would be a different
+    edition an hour later. That matters most to the archive, where spec #27
+    promises a mayor that a link they were given keeps showing the paper they
+    were shown.
+
+    "Finished" has one definition here rather than two: a round's closing
+    standing is frozen the instant the next round begins (see
+    ``GameEngine._close_standings``), so a frozen standing *is* the round having
+    ended, and this asks for that rather than re-deriving it from the clock.
+    """
+    return [
+        index for index in sorted(engine.rounds)
+        if engine.rounds[index].standings is not None
+    ]
+
+
 def archive(engine):
     """Every edition so far, oldest first (spec #27 -- an archive, not an overwrite)."""
     return {
@@ -256,8 +277,16 @@ def archive(engine):
         "publication": "The Daily Manifest",
         "editions": [round_briefing(engine, index) for index in sorted(engine.rounds)],
         "phase": engine.phase,
-        "hosting_stub": "[[M6: unguessable subdomain + robots noindex, per the "
-                        "fulcra-dashboard pattern (spec #26, #27)]]",
+        # The engine states where the paper is served; it does not know the
+        # address and must not. That is `hosting.identity`'s, it is a secret
+        # (the unguessable subdomain is the paper's only credential), and a
+        # briefing is a payload -- payloads get written down.
+        "hosting": {
+            "served_by": "hosting.build_site -- an unguessable subdomain with robots "
+                         "noindex, per the fulcra-dashboard pattern",
+            "address": "withheld; see hosting.identity.SiteIdentity.describe()",
+            "spec": "#26, #27",
+        },
     }
 
 

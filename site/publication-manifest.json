@@ -1,0 +1,314 @@
+{
+  "publication": "The Daily Manifest",
+  "game": "Sister Cities",
+  "spec": "#26, #27",
+  "what_this_is": "every file published to the paper's private address, and nothing else. The public root is rebuilt to match this list exactly; a file not named here is removed rather than served.",
+  "address": {
+    "url_style": "unguessable_subdomain",
+    "base_domain": "sister-cities.news",
+    "scheme": "https",
+    "address_withheld": true,
+    "why_withheld": "the subdomain label is the only credential this paper has (spec #26); publishing it would publish the paper"
+  },
+  "public_root": "public",
+  "published_rounds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "categories": {
+    "archive_index": "the archive's front page -- the one URL every mayor holds, listing every edition ever printed (spec #26, #27)",
+    "editions": "one page per published round, kept forever and never overwritten by a later one (spec #27)",
+    "edition_images": "the one generated image each edition carries (spec #29)",
+    "archive_json": "the same curated editions in machine-readable form, for a reader that is not a browser",
+    "stylesheet": "presentation only; carries no game state",
+    "robots": "the crawler exclusion that keeps the address non-discoverable (spec #26)"
+  },
+  "files": [
+    {
+      "path": "index.html",
+      "category": "archive_index",
+      "source": "hosting.page.archive_page",
+      "why_public": "the one address every mayor holds; it has to answer with something (spec #26) and that something is the list of every edition (spec #27)",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 3713,
+      "sha256": "9e4cb1f704e2a91dbcdefcd48213990f55a7fef5012c048698c25ec865a8ea21"
+    },
+    {
+      "path": "round-01.html",
+      "category": "editions",
+      "source": "newspaper.build_edition(round=1)",
+      "why_public": "the edition for round 1, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 5214,
+      "sha256": "d3cc72316ea10167241254af0cdb2730425b32bd0cbd80d45ea592a8a40e9f4e",
+      "round": 1
+    },
+    {
+      "path": "round-01.svg",
+      "category": "edition_images",
+      "source": "newspaper.imagery.make_image(round=1)",
+      "why_public": "the one image this edition carries (spec #29); drawn from the round's own facts and from ballot positions only, never from who sent what",
+      "content_type": "image/svg+xml; charset=utf-8",
+      "bytes": 6519,
+      "sha256": "fa809164991db9b11561fa9e3dcaf04f56fbe7fe579f2ef2c1033eb72cd0654f",
+      "round": 1
+    },
+    {
+      "path": "round-02.html",
+      "category": "editions",
+      "source": "newspaper.build_edition(round=2)",
+      "why_public": "the edition for round 2, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 6040,
+      "sha256": "f99fa544af0a7180fd948fe83956fb500992a7e0069ea8ef635818039d1560e3",
+      "round": 2
+    },
+    {
+      "path": "round-02.svg",
+      "category": "edition_images",
+      "source": "newspaper.imagery.make_image(round=2)",
+      "why_public": "the one image this edition carries (spec #29); drawn from the round's own facts and from ballot positions only, never from who sent what",
+      "content_type": "image/svg+xml; charset=utf-8",
+      "bytes": 7617,
+      "sha256": "d607f2bd70e451eb3e8fc35e6976abcd3947da16dc47b6a5db5bd9658e253743",
+      "round": 2
+    },
+    {
+      "path": "round-03.html",
+      "category": "editions",
+      "source": "newspaper.build_edition(round=3)",
+      "why_public": "the edition for round 3, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 6558,
+      "sha256": "662a83e37685ef892c0473d9511cdf2f4e7f6d075843eacfd01c2ed6fd7b9647",
+      "round": 3
+    },
+    {
+      "path": "round-03.svg",
+      "category": "edition_images",
+      "source": "newspaper.imagery.make_image(round=3)",
+      "why_public": "the one image this edition carries (spec #29); drawn from the round's own facts and from ballot positions only, never from who sent what",
+      "content_type": "image/svg+xml; charset=utf-8",
+      "bytes": 11152,
+      "sha256": "509ebcbb486328f3ead98aca79ae69a5173daa6f958b4f8f8632dd61be9de636",
+      "round": 3
+    },
+    {
+      "path": "round-04.html",
+      "category": "editions",
+      "source": "newspaper.build_edition(round=4)",
+      "why_public": "the edition for round 4, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 6478,
+      "sha256": "e679d76c6ed8cce777dc39ad0232614872a06a997809066914d59632c667f2bb",
+      "round": 4
+    },
+    {
+      "path": "round-04.svg",
+      "category": "edition_images",
+      "source": "newspaper.imagery.make_image(round=4)",
+      "why_public": "the one image this edition carries (spec #29); drawn from the round's own facts and from ballot positions only, never from who sent what",
+      "content_type": "image/svg+xml; charset=utf-8",
+      "bytes": 11348,
+      "sha256": "b7d8ff2eec28013ee56b9532b6c450148ce280130129542d096c3c257cd4ee2d",
+      "round": 4
+    },
+    {
+      "path": "round-05.html",
+      "category": "editions",
+      "source": "newspaper.build_edition(round=5)",
+      "why_public": "the edition for round 5, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 6176,
+      "sha256": "7dc12332b81e608f6dca9900a0bc6430ebb177c75528bfd8f4d2181fe60a8087",
+      "round": 5
+    },
+    {
+      "path": "round-05.svg",
+      "category": "edition_images",
+      "source": "newspaper.imagery.make_image(round=5)",
+      "why_public": "the one image this edition carries (spec #29); drawn from the round's own facts and from ballot positions only, never from who sent what",
+      "content_type": "image/svg+xml; charset=utf-8",
+      "bytes": 11928,
+      "sha256": "b275ec369a5765f04710f0d31cd184a20c9a4628e92edf30bda6150a1e534903",
+      "round": 5
+    },
+    {
+      "path": "round-06.html",
+      "category": "editions",
+      "source": "newspaper.build_edition(round=6)",
+      "why_public": "the edition for round 6, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 6095,
+      "sha256": "ed11f7e0f594cef6a4af4d3a3d20f97cb83fcf871cfd63087463e5578dd27e08",
+      "round": 6
+    },
+    {
+      "path": "round-06.svg",
+      "category": "edition_images",
+      "source": "newspaper.imagery.make_image(round=6)",
+      "why_public": "the one image this edition carries (spec #29); drawn from the round's own facts and from ballot positions only, never from who sent what",
+      "content_type": "image/svg+xml; charset=utf-8",
+      "bytes": 12377,
+      "sha256": "dd16e5bdf75d83d5e6bf8401c9ab1a0cfba0c43f545a314e2b1f4145e1e168d0",
+      "round": 6
+    },
+    {
+      "path": "round-07.html",
+      "category": "editions",
+      "source": "newspaper.build_edition(round=7)",
+      "why_public": "the edition for round 7, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 6457,
+      "sha256": "5503d01a26077623ccf80017886564176cf54c0a4e8893a2967267310e8b12e9",
+      "round": 7
+    },
+    {
+      "path": "round-07.svg",
+      "category": "edition_images",
+      "source": "newspaper.imagery.make_image(round=7)",
+      "why_public": "the one image this edition carries (spec #29); drawn from the round's own facts and from ballot positions only, never from who sent what",
+      "content_type": "image/svg+xml; charset=utf-8",
+      "bytes": 14753,
+      "sha256": "6bd611e52bb8d552d1bf6b810cae0b1f9cb441beede1f7109c469173398c7070",
+      "round": 7
+    },
+    {
+      "path": "round-08.html",
+      "category": "editions",
+      "source": "newspaper.build_edition(round=8)",
+      "why_public": "the edition for round 8, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 6195,
+      "sha256": "ff0f1b77708b390e4d633ea7ac6af0b368bc682a28228e927d5077627189c72c",
+      "round": 8
+    },
+    {
+      "path": "round-08.svg",
+      "category": "edition_images",
+      "source": "newspaper.imagery.make_image(round=8)",
+      "why_public": "the one image this edition carries (spec #29); drawn from the round's own facts and from ballot positions only, never from who sent what",
+      "content_type": "image/svg+xml; charset=utf-8",
+      "bytes": 14607,
+      "sha256": "e8e8918663dcae153043fa481ad38d3acdae1d57ad975d0366eb4c4b4728b441",
+      "round": 8
+    },
+    {
+      "path": "round-09.html",
+      "category": "editions",
+      "source": "newspaper.build_edition(round=9)",
+      "why_public": "the edition for round 9, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 6139,
+      "sha256": "813c01e146a82fb0ea712cafc6959517ab71b5484f7d265930c0ffc7c6671d6b",
+      "round": 9
+    },
+    {
+      "path": "round-09.svg",
+      "category": "edition_images",
+      "source": "newspaper.imagery.make_image(round=9)",
+      "why_public": "the one image this edition carries (spec #29); drawn from the round's own facts and from ballot positions only, never from who sent what",
+      "content_type": "image/svg+xml; charset=utf-8",
+      "bytes": 13437,
+      "sha256": "c4b4d8232447f12f7cf1ee9bd9c567905eb160397a616372f629332f80a0e7c4",
+      "round": 9
+    },
+    {
+      "path": "round-10.html",
+      "category": "editions",
+      "source": "newspaper.build_edition(round=10)",
+      "why_public": "the edition for round 10, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 6625,
+      "sha256": "1ceb99150012fb12a59d0d011f0157fb6396a9d45752af6920a8f6ef69e3ed13",
+      "round": 10
+    },
+    {
+      "path": "round-10.svg",
+      "category": "edition_images",
+      "source": "newspaper.imagery.make_image(round=10)",
+      "why_public": "the one image this edition carries (spec #29); drawn from the round's own facts and from ballot positions only, never from who sent what",
+      "content_type": "image/svg+xml; charset=utf-8",
+      "bytes": 14137,
+      "sha256": "f14097dc8bf9aa48dd76e76bf9655fe6196d2097f57864a784febb1bc382305f",
+      "round": 10
+    },
+    {
+      "path": "round-11.html",
+      "category": "editions",
+      "source": "newspaper.build_edition(round=11)",
+      "why_public": "the edition for round 11, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 5687,
+      "sha256": "798b72508879e9caebb86c88464fcbf0011183d583f0770b08b355d7ff8791ad",
+      "round": 11
+    },
+    {
+      "path": "round-11.svg",
+      "category": "edition_images",
+      "source": "newspaper.imagery.make_image(round=11)",
+      "why_public": "the one image this edition carries (spec #29); drawn from the round's own facts and from ballot positions only, never from who sent what",
+      "content_type": "image/svg+xml; charset=utf-8",
+      "bytes": 14901,
+      "sha256": "f142fad1bfd93ba6dbde24c8354601072d93143502d5cc35817a1dc5d7aaa8b8",
+      "round": 11
+    },
+    {
+      "path": "round-12.html",
+      "category": "editions",
+      "source": "newspaper.build_edition(round=12)",
+      "why_public": "the edition for round 12, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 5212,
+      "sha256": "66c6ace55ae2165f783c903e9b6b302841b972ffeb580059fb62ee8adcf6c075",
+      "round": 12
+    },
+    {
+      "path": "round-12.svg",
+      "category": "edition_images",
+      "source": "newspaper.imagery.make_image(round=12)",
+      "why_public": "the one image this edition carries (spec #29); drawn from the round's own facts and from ballot positions only, never from who sent what",
+      "content_type": "image/svg+xml; charset=utf-8",
+      "bytes": 14644,
+      "sha256": "c61a62779f8c35db1302de563b0f8744988ed3b5b8b81e1a2144fe7bfaf42d28",
+      "round": 12
+    },
+    {
+      "path": "archive.json",
+      "category": "archive_json",
+      "source": "hosting.build.curated_archive",
+      "why_public": "the same editions for a reader that is not a browser, assembled from an allowlist of fields so a later milestone cannot widen it by accident",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 113534,
+      "sha256": "d5f14aa179fdb4c73a8ca7e281da3a11424a12c382f94ad04d9a7804aa6613a8"
+    },
+    {
+      "path": "style.css",
+      "category": "stylesheet",
+      "source": "content/site.css",
+      "why_public": "presentation only; it carries no game state and reaches no other origin",
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 5548,
+      "sha256": "1ae85a0dcd48cb5dc5360e534e67616ce7217f20e7d33fb581f5c611a243f2de"
+    },
+    {
+      "path": "robots.txt",
+      "category": "robots",
+      "source": "hosting.page.robots_txt",
+      "why_public": "the crawler exclusion; the half of 'not publicly discoverable' that is asked for politely, the other half being the unguessable address (spec #26)",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 311,
+      "sha256": "38920a573b06d381e3ae1d6967a575302272695ebc1f797e780c1e9c084114d9"
+    }
+  ]
+}

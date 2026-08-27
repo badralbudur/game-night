@@ -16,4 +16,4 @@ The complete run of Sister Cities, oldest first. Every edition stays here; a new
 - [Vol. I, No. 11 — Sunday, 13 September 2026](round-11.md) · [image](round-11.svg)
 - [Vol. I, No. 12 — Monday, 14 September 2026](round-12.md) · [image](round-12.svg)
 
-_Hosting — the unguessable subdomain and the `noindex` header — is M6's. These files are what it will serve._
+_These are the local files. The paper itself is served by `hosting/` at an unguessable subdomain with `noindex` set, and its archive index is `index.html` there rather than this one (spec #26, #27)._

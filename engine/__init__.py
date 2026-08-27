@@ -9,12 +9,12 @@ see :mod:`engine.economy`) -- and the facilitator question mechanic: the
 two-slot check-in, the framing rules, and the arithmetic behind the newspaper's
 aggregate phrasing (#23-#25, see :mod:`engine.aggregate`).
 
-Not here yet, by design: newspaper prose and hosting (M5), generated images,
-the wording of the aggregate items (M5), endgame articles, and the
-duplicate-city reassignment procedure (the join milestone -- this engine refuses
-a collision and hands the candidate list to whoever catches
-:class:`~engine.errors.DuplicateCity`). Every point where later prose is due
-carries a ``[[M5 ...]]``-style stub in the data.
+Not here, by design: the paper's prose, images and aggregate wording, which are
+:mod:`newspaper`; where it is published, which is :mod:`hosting`; the endgame
+articles; and the duplicate-city reassignment procedure (the join milestone --
+this engine refuses a collision and hands the candidate list to whoever catches
+:class:`~engine.errors.DuplicateCity`). Every point where prose the engine does
+not own is due carries a ``[[M… ]]``-style stub in the data.
 
 Typical use::
 

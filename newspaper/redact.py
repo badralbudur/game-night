@@ -89,6 +89,38 @@ def may_reprint_declined(text, cities):
     return not cities_named_in(text, cities)
 
 
+def find_printed_identities(engine, strings):
+    """Handles and player ids written into any of ``strings`` (spec #28).
+
+    :func:`engine.audit.find_handle_leaks` matches a whole string, which catches
+    a ``{"tip_from": "@ada"}`` field but not a handle written into the middle of
+    a sentence -- and a sentence is exactly where a handle would end up. So this
+    matches as a substring on a word boundary, and it is a function rather than
+    a block inside :func:`assert_edition_is_redacted` because the edition is not
+    the only rendering of the paper: :mod:`hosting.guard` runs the same check
+    over every byte it is about to publish, and running a *second* handle check
+    written a second way is how the two would drift.
+    """
+    problems = {}
+    for label, needles in (
+        ("handles_printed", sorted(p.handle for p in engine.players.values() if p.handle)),
+        ("player_ids_printed", sorted(engine.players)),
+    ):
+        hits = sorted(
+            {
+                needle
+                for needle in needles
+                for text in strings
+                if re.search(
+                    r"(?<![A-Za-z0-9_])%s(?![A-Za-z0-9_])" % re.escape(needle), text
+                )
+            }
+        )
+        if hits:
+            problems[label] = hits
+    return problems
+
+
 def assert_edition_is_redacted(engine, edition, rendered=None):
     """Raise unless the edition obeys #21, #22, #25 and #28.
 
@@ -106,29 +138,8 @@ def assert_edition_is_redacted(engine, edition, rendered=None):
     # Anything published that config.json says to withhold (#22, #25).
     audit.assert_exposure_policy(engine, payload)
 
-    problems = {}
     strings = list(_all_strings(payload))
-
-    # The audit's own handle check matches a whole string, which catches a
-    # ``{"tip_from": "@ada"}`` field but not a handle written into the middle of a
-    # sentence -- and a sentence is exactly where a handle would end up. So the
-    # paper checks for handles and player ids as substrings, on a word boundary.
-    for label, needles in (
-        ("handles_printed", sorted(p.handle for p in engine.players.values() if p.handle)),
-        ("player_ids_printed", sorted(engine.players)),
-    ):
-        hits = sorted(
-            {
-                needle
-                for needle in needles
-                for text in strings
-                if re.search(
-                    r"(?<![A-Za-z0-9_])%s(?![A-Za-z0-9_])" % re.escape(needle), text
-                )
-            }
-        )
-        if hits:
-            problems[label] = hits
+    problems = find_printed_identities(engine, strings)
 
     cities = [p.city for p in engine.players.values()]
     for item in _declined_items(edition):

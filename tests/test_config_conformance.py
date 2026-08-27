@@ -75,6 +75,31 @@ NEWSPAPER_READS = {
     "facilitator_questions.aggregate_phrasing_style",
 }
 
+#: Parameters *hosting* takes from config.json. A third consumer and a third set,
+#: for the same reason the newspaper has its own: the paper does not read these
+#: and the site reads nothing else.
+HOSTING_READS = {
+    "hosting.enabled",
+    "hosting.scheme",
+    "hosting.base_domain",
+    "hosting.site_id_file",
+    "hosting.site_id_env_var",
+    "hosting.site_id_bytes",
+    "hosting.site_dir",
+    "hosting.public_subdir",
+    "hosting.archive_order",
+    "hosting.publish",
+    "hosting.publishers",
+    "hosting.local_bind_host",
+    "hosting.local_bind_port",
+    "hosting.privacy.robots_txt",
+    "hosting.privacy.meta_robots",
+    "hosting.privacy.x_robots_tag",
+    "hosting.privacy.referrer_policy",
+    "hosting.privacy.cache_control",
+    "hosting.privacy.content_security_policy",
+}
+
 #: Parameters that belong to a later milestone's surface, listed so their absence
 #: from :data:`EXPECTED_READS` and :data:`NEWSPAPER_READS` reads as a milestone
 #: boundary rather than as an oversight.
@@ -153,6 +178,26 @@ class ReadTrackingTest(unittest.TestCase):
         missing = NEWSPAPER_READS - set(config.keys_read())
         self.assertEqual(missing, set(), "not read from config.json: %s" % sorted(missing))
 
+    def test_hosting_reads_every_parameter_it_should_from_config(self):
+        import tempfile
+
+        import hosting
+        from hosting import identity as identity_module
+        from newspaper.sample import sample_game
+
+        config = make_config()
+        game = sample_game(config=config)
+        with tempfile.TemporaryDirectory() as out:
+            # An empty environment and a temporary root, so the id is minted here
+            # rather than read from the repository's -- which is what makes
+            # hosting.site_id_bytes a key this run actually consults.
+            address = identity_module.load_or_create(config, root=out, env={})
+            hosting.build_site(game, out_dir=out, identity=address)
+            httpd, _ = hosting.make_server(config, address, site_dir=out)
+            httpd.server_close()
+        missing = HOSTING_READS - set(config.keys_read())
+        self.assertEqual(missing, set(), "not read from config.json: %s" % sorted(missing))
+
     def test_every_key_the_engine_reads_actually_exists_in_config_json(self):
         config = make_config()
         play_out(new_game(config=config))
@@ -225,6 +270,26 @@ class NoInlineDefaultsTest(unittest.TestCase):
 
     def test_content_paths_have_no_inline_default(self):
         self._assert_needs("content.import_needs_file", lambda c: Content.load(c))
+
+    def test_the_address_policy_has_no_inline_default(self):
+        from hosting import identity as identity_module
+
+        for dotted in ("hosting.scheme", "hosting.base_domain", "hosting.site_id_file",
+                       "hosting.site_id_env_var"):
+            self._assert_needs(dotted, lambda c: identity_module.load_or_create(c, env={}))
+
+    def test_the_privacy_policy_has_no_inline_default(self):
+        """The delivery headers especially: a missing one must not quietly revert."""
+        from hosting.build import resolve_privacy
+
+        for field in ("robots_txt", "meta_robots", "x_robots_tag", "referrer_policy",
+                      "cache_control", "content_security_policy"):
+            self._assert_needs("hosting.privacy.%s" % field, resolve_privacy)
+
+    def test_the_published_allowlist_has_no_inline_default(self):
+        from hosting.manifest import resolve_categories
+
+        self._assert_needs("hosting.publish", resolve_categories)
 
 
 class BehaviourFollowsConfigTest(unittest.TestCase):

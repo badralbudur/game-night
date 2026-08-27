@@ -213,7 +213,7 @@ class NewspaperCopy:
             raise ContentError("newspaper content must be a JSON object")
         self.data = data
         self.source = source
-        for block in ("mastheads", "departments", "wire_styles", "imagery", "tone"):
+        for block in ("mastheads", "departments", "wire_styles", "imagery", "site", "tone"):
             if not isinstance(data.get(block), dict):
                 raise ContentError(
                     "newspaper content at %s has no %r block" % (source, block)
@@ -303,6 +303,24 @@ class NewspaperCopy:
             return dict(imagery["monochrome_palette"])
         palettes = imagery["palettes"]
         return dict(palettes.get(category) or palettes[imagery["default_palette"]])
+
+    def site(self):
+        """The archive's own chrome (spec #26, #27) -- what the site says about itself.
+
+        Separate from :meth:`masthead` because it is a different voice: the
+        masthead is the paper talking about a day, this is the paper talking
+        about the shelf all the days are kept on.
+        """
+        site = self.data["site"]
+        for field in ("archive_title", "archive_heading", "archive_blurb", "empty_archive",
+                      "privacy_notice", "identity_notice", "colophon", "nav", "labels",
+                      "robots_preamble"):
+            if not site.get(field):
+                raise ContentError("site block is missing %r" % field)
+        for field in ("archive", "previous", "next", "latest", "top"):
+            if not site["nav"].get(field):
+                raise ContentError("site.nav is missing %r" % field)
+        return site
 
     def tone(self):
         tone = self.data["tone"]

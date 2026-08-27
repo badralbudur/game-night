@@ -27,9 +27,10 @@ What M5 covers
   the edition (:mod:`newspaper.imagery`, :mod:`newspaper.svg`, spec #29)
 
 What it does not cover: serving the archive at an unguessable, noindex URL
-(spec #26, #27) and the endgame's own articles and portraits (#31, #32). Both
-are later milestones; :func:`newspaper.publish.publish_game` writes editions to
-disk locally so there is something for a host to serve.
+(spec #26, #27), which is the :mod:`hosting` package, and the endgame's own
+articles and portraits (#31, #32), which are a later milestone.
+:func:`newspaper.publish.publish_game` writes editions to disk as files;
+:func:`hosting.build_site` publishes the same editions as a site.
 """
 
 from .edition import build_archive, build_edition
