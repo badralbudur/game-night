@@ -7,7 +7,7 @@
     "everywhere": ["{round}", "{date}", "{publication}"],
     "wanted": ["{city}", "{mayor}", "{title}", "{category_label}", "{brief}", "{prompt}", "{deadline}"],
     "sealed_bids": ["{city}", "{mayor}", "{count}", "{count_word}"],
-    "arrivals": ["{city}", "{mayor}", "{count}", "{count_word}", "{export}", "{winner_city}", "{winner_mayor}", "{profit}", "{dice}", "{roll_expression}", "{city_list}", "{n_cities}", "{share}"],
+    "arrivals": ["{city}", "{mayor}", "{count}", "{count_word}", "{counted}", "{export}", "{winner_city}", "{winner_mayor}", "{profit}", "{dice}", "{roll_expression}", "{city_list}", "{n_cities}", "{share}"],
     "the_wire": ["{hook}", "{question}", "{phrase}", "{Phrase}", "{label}", "{label_a}", "{label_b}", "{labels}", "{answered}", "{asked_of}", "{largest}", "{answer}", "{quote_city}", "{quote_mayor}", "{floor_roll}"],
     "the_ledger": ["{leader_city}", "{tied_count}", "{tied_profit}", "{n}"],
     "corrections": ["{city}", "{cities}", "{rotation}", "{publication}", "{answered}", "{asked_of}"],

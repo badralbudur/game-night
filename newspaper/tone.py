@@ -51,12 +51,28 @@ class TonePolicy:
                     "edition's finished prose.",
         }
 
+    @staticmethod
+    def pattern_for(term):
+        """The register term as a pattern that matches words, not substrings.
+
+        A leading word boundary, and deliberately no trailing one. The register
+        is written with stems in it -- ``humiliat`` is there to catch humiliate,
+        humiliated and humiliating with one entry -- so anchoring the end would
+        quietly disarm them. Anchoring only the start is what actually matters:
+        without it ``loser`` fires inside "closer" and ``liar`` inside
+        "familiar", and since the paper reprints exports exactly as mayors wrote
+        them (that is the one string it must reproduce verbatim), an ordinary
+        word in an ordinary offer would block the edition it appeared in.
+        """
+        escaped = re.escape(term.lower())
+        return (r"\b" + escaped) if term[:1].isalnum() else escaped
+
     def findings(self, text):
         """Every forbidden term this text contains, with its context."""
         lowered = text.lower()
         found = []
         for term in self.forbidden:
-            for match in re.finditer(re.escape(term.lower()), lowered):
+            for match in re.finditer(self.pattern_for(term), lowered):
                 start = max(match.start() - 40, 0)
                 found.append(
                     {

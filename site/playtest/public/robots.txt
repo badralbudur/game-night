@@ -1,0 +1,7 @@
+# The Daily Manifest is a private paper for a private game.
+# It is published to an unguessable address and does not wish to be found
+# (spec #26). If you have arrived here anyway, please go no further.
+
+User-agent: *
+Disallow: /
+# Every page also carries: noindex, nofollow, noarchive, nosnippet, noimageindex

@@ -1,0 +1,414 @@
+{
+  "publication": "The Daily Manifest",
+  "game": "Sister Cities",
+  "round": 13,
+  "edition_line": "Vol. I, No. 13",
+  "motto": "All the news that fits in the hold.",
+  "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
+  "dateline": "Tuesday, 22 September 2026",
+  "closes": "23 September, 09:00 UTC",
+  "price_line": "Price: one civic favour, redeemable at inconvenience",
+  "weather_line": "Weather: bright, briefly, and then a meeting.",
+  "departments": [
+    {
+      "id": "wanted",
+      "title": "Wanted",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "One city wants something. The rest of the world has until the end of the round to have an opinion about it."
+        },
+        {
+          "kind": "heading",
+          "level": 3,
+          "text": "A rival worth having"
+        },
+        {
+          "kind": "para",
+          "text": "**PUBLIC NOTICE**, filed by the Mayor of Naoshima under Sport & Recreation, which is where Naoshima files most things."
+        },
+        {
+          "kind": "para",
+          "text": "Naoshima's team has no traditional rival. Matches are cordial. Attendance is stable. Something essential is missing and everyone is too polite to name it."
+        },
+        {
+          "kind": "para",
+          "text": "The office asks, and the paper repeats verbatim: *Give Naoshima something or someone to beat.*"
+        },
+        {
+          "kind": "para",
+          "text": "Offers close at the end of this round (23 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Naoshima either."
+        },
+        {
+          "kind": "aside",
+          "text": "This paper has no view on the matter and has held that position loudly."
+        }
+      ],
+      "provenance": {
+        "need": "in-013",
+        "category": "sport_and_recreation",
+        "rotation": 2,
+        "spec": "#9, #13, #14"
+      }
+    },
+    {
+      "id": "sealed_bids",
+      "title": "Sealed Bids",
+      "blocks": [
+        {
+          "kind": "para",
+          "text": "The window on Kópavogur's notice has closed. Seven offers went in. The Mayor of Kópavogur has them, in a pile, in no order that means anything."
+        },
+        {
+          "kind": "para",
+          "text": "The offers are unsigned. That is not the paper being coy; it is the rule, and it holds after the vote as firmly as before it."
+        },
+        {
+          "kind": "para",
+          "text": "One round to decide. A window that closes without a decision is not a disaster, merely an expensive kind of politeness."
+        }
+      ],
+      "provenance": {
+        "need": "in-012",
+        "offers": 7,
+        "origins_available_to_this_department": false,
+        "spec": "#9, #18"
+      }
+    },
+    {
+      "id": "arrivals",
+      "title": "Arrivals",
+      "blocks": [
+        {
+          "kind": "para",
+          "text": "**Chosen.**"
+        },
+        {
+          "kind": "para",
+          "text": "The Mayor of Kampala read 6 unsigned offers and marked one of them:"
+        },
+        {
+          "kind": "quote",
+          "text": "Stop replacing the trees; nothing with a trunk that thin has ever beaten salt. We'll send two crates of rooted bougainvillea, six hundred aloe pups and a sack of ice-plant cuttings torn off our own cliff faces — all of it grows in rubble on salt spray and none of it wants anything from you — planted at the foot of the stakes you have maintained so beautifully, so that in two years the stakes are trellises and the promenade is magenta from one end to the other."
+        },
+        {
+          "kind": "para",
+          "text": "Valparaíso sent it, and Valparaíso takes 6 — the dice said 4 and 2."
+        },
+        {
+          "kind": "para",
+          "text": "Also offered, and declined:"
+        },
+        {
+          "kind": "list",
+          "role": "declined_exports",
+          "items": [
+            "Sea buckthorn — nine hundred rooted whips, and the warning that it is ugly for six years and then it is a hedge, a windbreak and a crop, in that order. Your trees didn't die of salt, they died in order: the west end took the wind for everyone and then it was the next one's turn. Plant the west two hundred metres as a thicket you never intend to admire, and let it take the beating on behalf of the rest.",
+            "Seven hundred seedlings out of our foreshore nursery -- she-oak, boobialla, coastal tea-tree -- all three already growing in sand that takes a face full of salt spray twice a day, and none of them needing a stake after the first year. Plant them closer together than looks sensible; the front row is meant to die for the rest, and the she-oaks make a noise in the wind you can claim you intended.",
+            "Stop planting trees on the front line. Take six hundred rooted cuttings of the salt rose that has colonised our own shore embankment — hideous for two years, an impassable four-foot hedge by year four, hips you can boil into jam — and put your trees in behind it in year five, where they will live."
+          ]
+        },
+        {
+          "kind": "para",
+          "text": "Those arrived unsigned and will stay that way. A losing offer's city is nobody's business, permanently."
+        }
+      ],
+      "provenance": {
+        "need": "in-011",
+        "mode": "winner_pick",
+        "spec": "#18, #20",
+        "roll": {
+          "expression": "2d6",
+          "dice": [
+            4,
+            2
+          ],
+          "total": 6
+        },
+        "awarded": [
+          [
+            "Valparaíso",
+            "6"
+          ]
+        ],
+        "winner_city": "Valparaíso"
+      }
+    },
+    {
+      "id": "the_wire",
+      "title": "The Wire",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "The paper puts one question to every city hall each round and prints what comes back, in aggregate, with the arithmetic showing."
+        },
+        {
+          "kind": "heading",
+          "level": 3,
+          "text": "The world at twelve"
+        },
+        {
+          "kind": "para",
+          "text": "This paper put the same question to every city hall: *“Describe one room of the house you lived in at twelve.”*"
+        },
+        {
+          "kind": "para",
+          "text": "As many answers as there are answerers, very nearly — the kitchen, where everything happened, the laundry nobody came into, the corridor, the good room nobody used and the room we all slept in, one apiece, more or less."
+        },
+        {
+          "kind": "para",
+          "text": "7 replies from 8 asked, and not enough agreement anywhere to point at."
+        },
+        {
+          "kind": "para",
+          "text": "Certain territories took a different view: the kitchen, where everything happened."
+        },
+        {
+          "kind": "para",
+          "text": "Meanwhile some countries said the laundry nobody came into, and said it to each other."
+        },
+        {
+          "kind": "para",
+          "text": "One more, unaccompanied, from the Mayor of Naoshima: “The corridor, which I know isn't a room, but it's the one I can still walk. Boards laid over the gap where the house didn't quite meet the hill so it ran four degrees colder than either side, a shoe cupboard my father painted the wrong green twice, and a window at the end with nothing in it but a persimmon tree and the neighbour's television.”"
+        },
+        {
+          "kind": "para",
+          "text": "One lone municipality answered simply: “The dining room, which we did not eat in. There was a table under a cloth my grandmother ironed on Fridays for guests who came perhaps twice a year, four chairs nobody sat in, and a sideboard with a locked drawer full of paper in three languages — a birth certificate from one country, a school record from a second, a pension letter from a third, all of them the same man. In winter the shutters knocked all night and I would lie on the good carpet working out which of the three I was supposed to be.” — the Mayor of Trieste."
+        },
+        {
+          "kind": "para",
+          "text": "A single delegation — the Mayor of Kampala — wrote only this: “The back room in Nsambya, two beds for four of us, a green metal window that only ever opened halfway because of a nail nobody would take out. My aunt's sewing machine lived in the corner and was the most valuable object in the house; we were told not to lean on it, so naturally we all leaned on it. There was a calendar photograph of a fjord taped above the door and no one could tell me how it got there, and I decided at about twelve that I was one day going to stand in it. Still haven't.”"
+        },
+        {
+          "kind": "aside",
+          "text": "This paper has no position on the question and every position on the arithmetic."
+        }
+      ],
+      "provenance": {
+        "outcome": "fragmented_case",
+        "kind": "fragmented_case",
+        "phrase_used": "as many answers as there are answerers, very nearly",
+        "phrase_source": "phrases",
+        "licensed": true,
+        "selection": "step 3: largest share 2/7 is below the plurality floor 2/5, so no bucket leads",
+        "answered": 7,
+        "asked_of": 8,
+        "silent": 1,
+        "measure": {
+          "largest_bucket_size": 2,
+          "share": {
+            "exact": "2/7",
+            "approx": 0.2857,
+            "percent": 28.6
+          },
+          "largest_is_tied": true,
+          "tied_buckets": 2,
+          "bucket_count": 5,
+          "denominator": "respondents (7), not all mayors (8)"
+        },
+        "headline_labels": [
+          "the kitchen, where everything happened",
+          "the laundry nobody came into",
+          "the corridor",
+          "the good room nobody used",
+          "the room we all slept in"
+        ],
+        "aggregate_heading_used": true,
+        "partial_response_disclosed": true,
+        "must_disclose_partial_response": true,
+        "spec": "#25"
+      }
+    },
+    {
+      "id": "the_ledger",
+      "title": "The Ledger",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "The running total. Compiled carefully, printed reluctantly."
+        },
+        {
+          "kind": "table",
+          "columns": [
+            "#",
+            "City",
+            "Profit"
+          ],
+          "rows": [
+            [
+              1,
+              "Reykjavík",
+              "24.40"
+            ],
+            [
+              2,
+              "Valparaíso",
+              "22.40"
+            ],
+            [
+              3,
+              "Hobart",
+              "16.40"
+            ],
+            [
+              4,
+              "Naoshima",
+              "7"
+            ],
+            [
+              5,
+              "Kampala",
+              "6.40"
+            ],
+            [
+              6,
+              "Belgrade",
+              "1.40"
+            ],
+            [
+              7,
+              "Kópavogur",
+              "0"
+            ],
+            [
+              8,
+              "Trieste",
+              "0"
+            ]
+          ]
+        },
+        {
+          "kind": "para",
+          "text": "Reykjavík is top of the column. The column is long and the game is not over."
+        },
+        {
+          "kind": "para",
+          "text": "Several cities are still on nothing at all. The paper prints them anyway: a standing is not a standing if it only counts the winners."
+        },
+        {
+          "kind": "note",
+          "text": "Figures are cumulative from the first round and are not adjusted for anything, least of all sentiment."
+        }
+      ],
+      "provenance": {
+        "cities": 8,
+        "spec": "#20, #22"
+      }
+    },
+    {
+      "id": "corrections",
+      "title": "Corrections & Clarifications",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "The paper's errors, reported with the gravity they deserve and then some."
+        },
+        {
+          "kind": "list",
+          "items": [
+            "The Wire item above rests on 7 replies out of 8 city halls. The paper prefers to say so in two places than in none.",
+            "This paper prints mayors by city and office only. A reader who wrote in asking for full names has been thanked for their interest."
+          ]
+        }
+      ],
+      "provenance": {
+        "derived_items": 1,
+        "evergreen_items": 1
+      }
+    }
+  ],
+  "provenance": {
+    "renderer": {
+      "id": "deterministic_template",
+      "implementation": "newspaper.departments + newspaper.wire",
+      "source_of_wording": "content/newspaper.json",
+      "deterministic": true,
+      "needs_network": false,
+      "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
+    },
+    "cadence": {
+      "value": "per_round",
+      "means": "one edition per completed round, not batched (spec #26)"
+    },
+    "identity_style": {
+      "value": "city_mayor_only",
+      "prints": "the city's name and the office of its mayor",
+      "never_prints": "a real name, a handle, or a player id",
+      "spec": "#28"
+    },
+    "tone_policy": {
+      "funny": true,
+      "colorful": true,
+      "allow_pointed_humor": true,
+      "disallow_snide_or_mean": true,
+      "forbidden_register_terms": 33,
+      "spec": "#30",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+    },
+    "lockstep": [
+      {
+        "op": "OPEN",
+        "need": "in-013",
+        "city": "Naoshima",
+        "category": "sport_and_recreation",
+        "rotation": 2
+      },
+      {
+        "op": "CLOSE",
+        "need": "in-012",
+        "submissions": 7,
+        "city": "Kópavogur"
+      },
+      {
+        "op": "RESOLVE",
+        "need": "in-011",
+        "mode": "winner_pick",
+        "city": "Kampala"
+      }
+    ],
+    "spec": "#25, #26, #28, #29, #30"
+  },
+  "image": {
+    "kind": "edition",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped sport & recreation, 6 crates on the quay, 1 of them ribboned, dice showing 4 and 2, a skyline of 8 city towers ranked by profit, and 7 pennants overhead, one per reply.",
+    "cutline": "6 crates, one ribbon, 6 in the ledger. A good day at the water.",
+    "extension": "svg",
+    "mime": "image/svg+xml",
+    "palette": {
+      "paper": "#f1f7f1",
+      "ink": "#15231a",
+      "sky": "#a9dfb4",
+      "water": "#256b47",
+      "accent": "#e8542e",
+      "spot": "#3f9663",
+      "spot_alt": "#8fcfa4"
+    },
+    "colorful": true,
+    "provenance": {
+      "modality": "svg_procedural",
+      "provider": "builtin_svg",
+      "preference": [
+        "raster",
+        "svg_procedural"
+      ],
+      "considered": [
+        {
+          "modality": "raster",
+          "provider": null,
+          "available": false,
+          "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
+        },
+        {
+          "modality": "svg_procedural",
+          "provider": "builtin_svg",
+          "available": true,
+          "reason": null
+        }
+      ],
+      "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
+      "spec": "#29"
+    },
+    "filename": "round-13.svg",
+    "file": "round-13.svg"
+  }
+}

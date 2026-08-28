@@ -11,7 +11,9 @@ import json
 import os
 import unittest
 
-from harness import advance, everyone_exports, make_config, new_game, play_out
+from harness import (
+    FOUNDERS, advance, everyone_exports, make_config, new_game, play_out,
+)
 from engine import Config, Content
 from engine.config import repo_root
 from engine.errors import MissingConfigKey
@@ -22,6 +24,14 @@ EXPECTED_READS = {
     "players.min_players",
     "players.max_players",
     "cities.enforce_unique_city_names",
+    # The join path (spec #2): suggesting cities, and resolving a duplicate pick
+    # to a geographically close alternative. Exercised below by a join that
+    # collides, because a key only read on the collision path is exactly the kind
+    # that drifts back into a literal without anybody noticing.
+    "cities.duplicate_pick_resolution",
+    "cities.suggestions_offered_on_join",
+    "cities.max_reassignment_search_radius_km",
+    "cities.allow_off_gazetteer_picks",
     "content.import_needs_file",
     "content.gazetteer_file",
     "content.questions_file",
@@ -148,11 +158,27 @@ class ReadTrackingTest(unittest.TestCase):
 
         config = make_config()
         # One cooperative game, for the winner-pick path and the check-in slots.
-        game = new_game(config=config)
+        game = new_game(config=config, start=False)
+        game.city_suggestions()
+        # ...including a mayor who asks for a city somebody already holds, so the
+        # reassignment rules are read rather than merely present.
+        game.join("p9", "@zed", FOUNDERS[0][2])
+        game.start()
         for player_id in sorted(game.players):
             game.checkin(player_id)
         play_out(game)
         views.archive(game)
+        # One join whose every listed neighbour is also taken, which is the only
+        # path that consults the search radius.
+        crowded = new_game(
+            founders=[
+                ("p2", "@b", "Philadelphia"), ("p3", "@c", "Camden"),
+                ("p4", "@d", "Wilmington"), ("p5", "@e", "Trenton"),
+                ("p6", "@f", "Allentown"),
+            ],
+            config=config, start=False,
+        )
+        crowded.join("p7", "@g", "Philadelphia")
         # One abandoned game, so the even-split fallback's config is read too.
         lapsed = new_game(config=config)
         while lapsed.phase == "running":

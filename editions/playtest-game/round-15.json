@@ -1,0 +1,402 @@
+{
+  "publication": "The Daily Manifest",
+  "game": "Sister Cities",
+  "round": 15,
+  "edition_line": "Vol. I, No. 15",
+  "motto": "All the news that fits in the hold.",
+  "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
+  "dateline": "Thursday, 24 September 2026",
+  "closes": "25 September, 09:00 UTC",
+  "price_line": "Price: whatever you have in the coat you wore yesterday",
+  "weather_line": "Weather: unsettled, like the minutes of the last session.",
+  "departments": [
+    {
+      "id": "wanted",
+      "title": "Wanted",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "The classifieds desk has been busy. It has taken one advertisement."
+        },
+        {
+          "kind": "heading",
+          "level": 3,
+          "text": "A breakfast that survives a night shift"
+        },
+        {
+          "kind": "para",
+          "text": "**PUBLIC NOTICE** from Trieste, paid for in municipal goodwill and printed here at length because the paper had the room."
+        },
+        {
+          "kind": "para",
+          "text": "Trieste runs on people finishing work at 5am — the port, the bakery, the hospital, the fish market. Nothing is open for them, and what is open is designed for people who slept."
+        },
+        {
+          "kind": "para",
+          "text": "The notice ends with a question, which this paper considers the interesting part: *What does Trieste feed the people coming off the night shift?*"
+        },
+        {
+          "kind": "para",
+          "text": "The rules, as ever: one offer per city, anything at all, in by 25 September, 09:00 UTC, and nobody's name on anything."
+        },
+        {
+          "kind": "aside",
+          "text": "This paper has no view on the matter and has held that position loudly."
+        }
+      ],
+      "provenance": {
+        "need": "in-015",
+        "category": "food_and_drink",
+        "rotation": 2,
+        "spec": "#9, #13, #14"
+      }
+    },
+    {
+      "id": "sealed_bids",
+      "title": "Sealed Bids",
+      "blocks": [
+        {
+          "kind": "para",
+          "text": "Seven offers are now on the desk of the Mayor of Belgrade, stacked in an order this paper drew from a hat and will not be explaining."
+        },
+        {
+          "kind": "para",
+          "text": "This paper knows exactly as much about who sent what as the Mayor of Belgrade does, which is nothing, and it intends to keep the record clean."
+        },
+        {
+          "kind": "para",
+          "text": "The Mayor of Belgrade has until the end of this round to choose. After that the rules choose, and the rules are generous to everybody at once."
+        }
+      ],
+      "provenance": {
+        "need": "in-014",
+        "offers": 7,
+        "origins_available_to_this_department": false,
+        "spec": "#9, #18"
+      }
+    },
+    {
+      "id": "arrivals",
+      "title": "Arrivals",
+      "blocks": [
+        {
+          "kind": "para",
+          "text": "**Chosen.**"
+        },
+        {
+          "kind": "para",
+          "text": "From the seven sealed offers on the Mayor of Naoshima's desk, one:"
+        },
+        {
+          "kind": "quote",
+          "text": "A rival from overseas is a friendly with extra travel. The ones that work live twenty minutes away and use the same butcher — so split the club: give the half of the town on the wrong side of the harbour road the older kit, the worse pitch and a grievance about a disputed goal in 1974 that we will happily draft in convincing detail, and we'll send two veterans of our supporters' club for a fortnight to teach the drumming, the banners and exactly where the line sits."
+        },
+        {
+          "kind": "para",
+          "text": "It came from Belgrade, which takes 10 on the roll (6 and 4)."
+        },
+        {
+          "kind": "para",
+          "text": "Not chosen, and not attributed:"
+        },
+        {
+          "kind": "list",
+          "role": "declined_exports",
+          "items": [
+            "We'll do it. Our lot are mediocre, well-travelled and famously ungracious about a draw — two legs a year, home and away, and we'll bring two hundred people who sing in a language nobody there can follow. The trophy is a ship's bell off a decommissioned tug, heavy enough to be a nuisance to carry home, which is the entire point of a trophy.",
+            "We volunteer. First we send the trophy — an appalling object, a metre of welded ship's brass on a plinth of harbour timber, too heavy for one man to carry and too ugly to display without an explanation — and a signed fixture, first Sunday of every March, alternating ports, in perpetuity. Then we send the grievance: some years ago one of your vessels took a record off us under circumstances we have described as theft ever since, and by the second match your own side will believe it too.",
+            "We'll do it. Our lot have never once been described as cordial on a field, we'll travel, and we'll take the same weekend every year -- home and away, and the trophy has to be an ugly object with a bad story attached, not a cup. Fair warning: nobody stays polite about us for long, which is what you said you wanted."
+          ]
+        },
+        {
+          "kind": "para",
+          "text": "This paper is not saying who sent those, now or ever. Neither is the Mayor of Naoshima, who does not know."
+        }
+      ],
+      "provenance": {
+        "need": "in-013",
+        "mode": "winner_pick",
+        "spec": "#18, #20",
+        "roll": {
+          "expression": "2d6",
+          "dice": [
+            6,
+            4
+          ],
+          "total": 10
+        },
+        "awarded": [
+          [
+            "Belgrade",
+            "10"
+          ]
+        ],
+        "winner_city": "Belgrade"
+      }
+    },
+    {
+      "id": "the_wire",
+      "title": "The Wire",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "The paper puts one question to every city hall each round and prints what comes back, in aggregate, with the arithmetic showing."
+        },
+        {
+          "kind": "heading",
+          "level": 3,
+          "text": "Municipal entrance music"
+        },
+        {
+          "kind": "para",
+          "text": "The question, put to all of them and answered by rather fewer: *“Something plays every time you walk into a room. What is it?”*"
+        },
+        {
+          "kind": "para",
+          "text": "The largest single bloc: a vehicle's horn or bell."
+        },
+        {
+          "kind": "para",
+          "text": "7 of 8 city halls wrote back. 4 of those said a vehicle's horn or bell."
+        },
+        {
+          "kind": "para",
+          "text": "One lone municipality — the Mayor of Naoshima — wrote only this: “The three-note chime the museum plays fifteen minutes before closing. Everyone here hears it as go home now, and I'd be pleased to have that follow me around.”"
+        },
+        {
+          "kind": "para",
+          "text": "And then a single delegation, from the Mayor of Valparaíso: “A cueca on an accordion, played slightly too fast by a man who fully expects to be paid for it. I would prefer a brass section, obviously, but one works with the city one has.”"
+        },
+        {
+          "kind": "para",
+          "text": "One more, unaccompanied, from the Mayor of Trieste: “Not music — the hiss and knock of a portafilter being emptied. I suspect it follows me because I have almost always just come from a room where it was actually happening.”"
+        },
+        {
+          "kind": "aside",
+          "text": "The paper would like it noted that it asked a simple question."
+        }
+      ],
+      "provenance": {
+        "outcome": "plurality",
+        "kind": "tier",
+        "phrase_used": "the largest single bloc",
+        "phrase_source": "phrases",
+        "licensed": true,
+        "selection": "step 5: share 4/7 >= 2/5 and R 7 >= 3 selects tier plurality",
+        "answered": 7,
+        "asked_of": 8,
+        "silent": 1,
+        "measure": {
+          "largest_bucket_size": 4,
+          "share": {
+            "exact": "4/7",
+            "approx": 0.5714,
+            "percent": 57.1
+          },
+          "largest_is_tied": false,
+          "tied_buckets": 1,
+          "bucket_count": 4,
+          "denominator": "respondents (7), not all mayors (8)"
+        },
+        "headline_labels": [
+          "a vehicle's horn or bell"
+        ],
+        "aggregate_heading_used": true,
+        "partial_response_disclosed": true,
+        "must_disclose_partial_response": true,
+        "spec": "#25"
+      }
+    },
+    {
+      "id": "the_ledger",
+      "title": "The Ledger",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "Where everybody stands, in the only currency this game recognises."
+        },
+        {
+          "kind": "table",
+          "columns": [
+            "#",
+            "City",
+            "Profit"
+          ],
+          "rows": [
+            [
+              1,
+              "Valparaíso",
+              "30.40"
+            ],
+            [
+              2,
+              "Reykjavík",
+              "24.40"
+            ],
+            [
+              3,
+              "Hobart",
+              "16.40"
+            ],
+            [
+              4,
+              "Belgrade",
+              "11.40"
+            ],
+            [
+              5,
+              "Naoshima",
+              "7"
+            ],
+            [
+              6,
+              "Kampala",
+              "6.40"
+            ],
+            [
+              7,
+              "Kópavogur",
+              "0"
+            ],
+            [
+              8,
+              "Trieste",
+              "0"
+            ]
+          ]
+        },
+        {
+          "kind": "para",
+          "text": "Valparaíso holds the head of the table this round. Tables turn; that is largely what they are for."
+        },
+        {
+          "kind": "para",
+          "text": "A city on zero is still a city. The column includes everybody, which is the point of a column."
+        },
+        {
+          "kind": "note",
+          "text": "Figures are cumulative from the first round and are not adjusted for anything, least of all sentiment."
+        }
+      ],
+      "provenance": {
+        "cities": 8,
+        "spec": "#20, #22"
+      }
+    },
+    {
+      "id": "corrections",
+      "title": "Corrections & Clarifications",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "The paper's errors, reported with the gravity they deserve and then some."
+        },
+        {
+          "kind": "list",
+          "items": [
+            "The Wire item above rests on 7 replies out of 8 city halls. The paper prefers to say so in two places than in none.",
+            "An earlier edition contained a joke about a fountain. The fountain has been in touch."
+          ]
+        }
+      ],
+      "provenance": {
+        "derived_items": 1,
+        "evergreen_items": 1
+      }
+    }
+  ],
+  "provenance": {
+    "renderer": {
+      "id": "deterministic_template",
+      "implementation": "newspaper.departments + newspaper.wire",
+      "source_of_wording": "content/newspaper.json",
+      "deterministic": true,
+      "needs_network": false,
+      "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
+    },
+    "cadence": {
+      "value": "per_round",
+      "means": "one edition per completed round, not batched (spec #26)"
+    },
+    "identity_style": {
+      "value": "city_mayor_only",
+      "prints": "the city's name and the office of its mayor",
+      "never_prints": "a real name, a handle, or a player id",
+      "spec": "#28"
+    },
+    "tone_policy": {
+      "funny": true,
+      "colorful": true,
+      "allow_pointed_humor": true,
+      "disallow_snide_or_mean": true,
+      "forbidden_register_terms": 33,
+      "spec": "#30",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+    },
+    "lockstep": [
+      {
+        "op": "OPEN",
+        "need": "in-015",
+        "city": "Trieste",
+        "category": "food_and_drink",
+        "rotation": 2
+      },
+      {
+        "op": "CLOSE",
+        "need": "in-014",
+        "submissions": 7,
+        "city": "Belgrade"
+      },
+      {
+        "op": "RESOLVE",
+        "need": "in-013",
+        "mode": "winner_pick",
+        "city": "Naoshima"
+      }
+    ],
+    "spec": "#25, #26, #28, #29, #30"
+  },
+  "image": {
+    "kind": "edition",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped food & drink, 7 crates on the quay, 1 of them ribboned, dice showing 6 and 4, a skyline of 8 city towers ranked by profit, and 7 pennants overhead, one per reply.",
+    "cutline": "One crate came off the boat with a ribbon on it. Belgrade sent it. The others are not saying anything.",
+    "extension": "svg",
+    "mime": "image/svg+xml",
+    "palette": {
+      "paper": "#fdf3e3",
+      "ink": "#2b1a12",
+      "sky": "#ffd08a",
+      "water": "#a8573b",
+      "accent": "#c5283d",
+      "spot": "#e08e45",
+      "spot_alt": "#7d9b3f"
+    },
+    "colorful": true,
+    "provenance": {
+      "modality": "svg_procedural",
+      "provider": "builtin_svg",
+      "preference": [
+        "raster",
+        "svg_procedural"
+      ],
+      "considered": [
+        {
+          "modality": "raster",
+          "provider": null,
+          "available": false,
+          "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
+        },
+        {
+          "modality": "svg_procedural",
+          "provider": "builtin_svg",
+          "available": true,
+          "reason": null
+        }
+      ],
+      "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
+      "spec": "#29"
+    },
+    "filename": "round-15.svg",
+    "file": "round-15.svg"
+  }
+}

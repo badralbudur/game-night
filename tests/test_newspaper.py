@@ -507,6 +507,32 @@ class TonePolicyTest(unittest.TestCase):
         with self.assertRaises(RuleViolation):
             paper.tone.check("The Mayor of Hobart is, frankly, incompetent.")
 
+    def test_the_register_matches_words_and_not_substrings(self):
+        """An ordinary word that merely contains a forbidden one must not trip.
+
+        This is not hypothetical: a mayor's export in the integration game said
+        "plant them closer together", and "closer" contains "loser", which held
+        up an entire edition of a paper whose whole job is to reprint exports
+        exactly as they were written.
+        """
+        paper = Paper(sample_game())
+        innocent = (
+            "Plant them closer together than looks sensible. A familiar sight, "
+            "and a glassy house less draughty than the last."
+        )
+        self.assertEqual(paper.tone.findings(innocent), [])
+
+    def test_the_register_still_catches_the_words_themselves(self):
+        paper = Paper(sample_game())
+        for guilty in ("what a loser", "the losers of this round", "you are a liar"):
+            self.assertTrue(paper.tone.findings(guilty), guilty)
+
+    def test_a_stem_in_the_register_still_catches_its_inflections(self):
+        """``humiliat`` is one entry on purpose; anchoring both ends would kill it."""
+        paper = Paper(sample_game())
+        for guilty in ("humiliated", "humiliating", "a humiliation"):
+            self.assertTrue(paper.tone.findings(guilty), guilty)
+
     def test_the_register_is_ignored_when_config_switches_the_check_off(self):
         game = sample_game(config=make_config(
             newspaper__tone__disallow_snide_or_mean=False

@@ -60,10 +60,12 @@ class RosterError(RuleViolation):
 class DuplicateCity(RuleViolation):
     """Two players picked the same city (spec #2).
 
-    The engine refuses the collision; it does not resolve it. Resolution --
-    reassignment to a geographically close alternative from
-    ``content/gazetteer.json`` -- belongs to the join/city-assignment
-    milestone, which catches this error and offers ``self.alternatives``.
+    ``register_player`` refuses the collision; it does not resolve it.
+    Resolution -- reassignment to a geographically close alternative from
+    ``content/gazetteer.json`` -- is :func:`engine.join.join_player`, which
+    catches this error and walks ``self.alternatives``. Keeping the two apart is
+    deliberate: the low-level seat must never quietly move a mayor to a
+    different city, and the joining player must never simply be told "no".
     """
 
     def __init__(self, requested, normalized, held_by, alternatives=()):

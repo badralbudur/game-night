@@ -57,25 +57,54 @@ def _subtree_strings(node):
 
 
 def _identifies(node, submission):
-    """Whether this dict node is *about* a specific submission.
+    """How this dict node is *about* a submission: ``"text"``, ``"ref"`` or None.
 
     Matching on the export text or submission id is unambiguous. A bare ballot
     ref is a single letter, so it only counts when it sits under a ref-ish key --
-    otherwise any payload containing the string "A" would look like a match.
+    otherwise any payload containing the string "A" would look like a match --
+    and even then it is only unambiguous *within one need*, which is why the
+    reason is returned rather than a bare true. See :func:`_scoped_elsewhere`.
     """
     if not isinstance(node, dict):
-        return False
+        return None
     for key, value in node.items():
         if not isinstance(value, str):
             continue
         if value == submission.text or value == submission.submission_id:
-            return True
+            return "text"
+    for key, value in node.items():
+        if not isinstance(value, str):
+            continue
         if submission.ballot_ref and value == submission.ballot_ref and "ref" in str(key).lower():
-            return True
-    return False
+            return "ref"
+    return None
 
 
-def _innermost_identifying_nodes(payload, submission):
+def _scoped_elsewhere(path, submission, need_ids):
+    """Whether ``path`` places this node inside a need that is not this one.
+
+    Ballot refs are letters, assigned per need and starting again at "A" for the
+    next one (:func:`engine.ballot.ref_for_index`), so "C" identifies a
+    submission only in company with the need it was cast in. Without this, a
+    record of the pick made in need 12 -- ``{"ballot_ref": "C", "by": ...}``,
+    filed under need 12 -- matches the ref-C submission of every *other* need
+    too, and a whole game's worth of correct records reads as a leak. An audit
+    that fires on correct data is an audit people learn to wave through, so the
+    scope is honoured rather than the noise tolerated.
+
+    Only ref matches are narrowed. An export's text and its submission id are
+    unique across the game, so a node carrying either identifies it wherever it
+    appears, and a leak that quotes a losing offer under somebody else's need is
+    still a leak.
+    """
+    if not need_ids:
+        return False
+    segments = path.replace("[", ".").replace("]", "").split(".")
+    named = {segment for segment in segments if segment in need_ids}
+    return bool(named) and submission.need_id not in named
+
+
+def _innermost_identifying_nodes(payload, submission, need_ids=()):
     """The most specific nodes about a submission.
 
     Checking every ancestor would flag the whole payload (which legitimately
@@ -83,9 +112,14 @@ def _innermost_identifying_nodes(payload, submission):
     would miss a nested ``{"exporter": {"city": ...}}``. So: identifying nodes
     with no identifying descendant, subtree included.
     """
-    matches = [
-        (path, node) for path, node in _walk(payload) if _identifies(node, submission)
-    ]
+    matches = []
+    for path, node in _walk(payload):
+        reason = _identifies(node, submission)
+        if reason is None:
+            continue
+        if reason == "ref" and _scoped_elsewhere(path, submission, need_ids):
+            continue
+        matches.append((path, node))
 
     def has_identifying_descendant(path):
         return any(
@@ -103,6 +137,7 @@ def find_identity_leaks(engine, payload):
     during collection and voting, *no* submission's origin may surface.
     """
     leaks = []
+    need_ids = frozenset(engine.needs)
     for submission in engine.submissions.values():
         need = engine.needs[submission.need_id]
         if need.status == state.RESOLVED and submission.is_winner:
@@ -111,7 +146,7 @@ def find_identity_leaks(engine, payload):
         player_id = engine.ledger.player_for(submission.submission_id, READ_AUDIT)
         handle = engine.players[player_id].handle
         identity = {value for value in (city, player_id, handle) if value}
-        for path, node in _innermost_identifying_nodes(payload, submission):
+        for path, node in _innermost_identifying_nodes(payload, submission, need_ids):
             exposed = identity & _subtree_strings(node)
             if exposed:
                 leaks.append(

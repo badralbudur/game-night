@@ -70,11 +70,21 @@ class Departments:
     def _line(self, frames, key, where, values=None):
         return self.chooser.line(frames, key, where, values)
 
-    def _standfirst(self, department, name, key):
+    def _standfirst(self, department, name, key, values=None):
+        """The department's opening line, filled from the same table as its body.
+
+        A standfirst is a frame like any other: ``_placeholders`` in
+        ``content/newspaper.json`` declares substitutions per department, not per
+        family, so a standfirst rendered against an empty dict could not use the
+        substitutions the content file says it may -- and because which frame is
+        chosen depends on game state, the mismatch would surface not when the
+        frame was written but in whichever edition first happened to choose it.
+        """
         return {
             "kind": "standfirst",
             "text": self._line(
-                department["standfirsts"], key, "departments.%s.standfirsts" % name
+                department["standfirsts"], key, "departments.%s.standfirsts" % name,
+                values,
             ),
         }
 
@@ -122,7 +132,7 @@ class Departments:
             "deadline": deadline_stamp(briefing["ends_at"]),
         }
         blocks = [
-            self._standfirst(department, "wanted", key + ("standfirst",)),
+            self._standfirst(department, "wanted", key + ("standfirst",), values),
             {"kind": "heading", "level": 3, "text": opened["title"]},
             {
                 "kind": "para",
@@ -478,7 +488,12 @@ class Departments:
         )
         head = [
             self._standfirst(
-                department, "the_wire", (briefing["round"], report["question_id"], "sf")
+                department, "the_wire", (briefing["round"], report["question_id"], "sf"),
+                {
+                    "question": report["text"],
+                    "answered": report["answered"],
+                    "asked_of": report["asked_of"],
+                },
             )
         ]
         if self.tone.funny:
@@ -516,7 +531,7 @@ class Departments:
         department = self._dept("the_ledger")
         key = (briefing["round"], "ledger")
         blocks = [
-            self._standfirst(department, "the_ledger", key + ("sf",)),
+            self._standfirst(department, "the_ledger", key + ("sf",), {"n": len(rows)}),
             {
                 "kind": "table",
                 "columns": ["#", "City", "Profit"],
@@ -642,7 +657,10 @@ class Departments:
             "id": "corrections",
             "title": department["title"],
             "blocks": [
-                self._standfirst(department, "corrections", (round_index, "sf")),
+                self._standfirst(
+                    department, "corrections", (round_index, "sf"),
+                    {"publication": self.limits["publication"], "rotation": round_index},
+                ),
                 {"kind": "list", "items": items},
             ],
             "provenance": {"derived_items": derived, "evergreen_items": shortfall},
