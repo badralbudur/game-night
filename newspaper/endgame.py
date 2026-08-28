@@ -185,15 +185,27 @@ class EndgameDepartments:
     def _line(self, frames, key, where, values=None):
         return self.chooser.line(frames, key, where, values)
 
-    def _standfirst(self, department, name, key):
+    def _standfirst(self, department, name, key, values=None):
+        """The department's opening line, filled from the same table as its body.
+
+        ``values`` is the department's own substitution dict, and every caller
+        passes it. A standfirst is a frame like any other -- the ``_placeholders``
+        table in ``content/newspaper.json`` declares placeholders per department,
+        not per family -- so rendering it against an empty dict would make one
+        family in each department silently unable to use the substitutions the
+        content file says it may. Which frame gets chosen depends on game state,
+        so that restriction would not fail when the frame was written; it would
+        fail in whichever game first happened to choose it.
+        """
         return {
             "kind": "standfirst",
             "text": self._line(
-                department["standfirsts"], key, "departments.%s.standfirsts" % name
+                department["standfirsts"], key, "departments.%s.standfirsts" % name,
+                values,
             ),
         }
 
-    def _closer(self, department, name, key):
+    def _closer(self, department, name, key, values=None):
         """The editorial sign-off, or nothing when told not to be funny (#30)."""
         if not self.tone.funny:
             return []
@@ -201,7 +213,8 @@ class EndgameDepartments:
             {
                 "kind": "aside",
                 "text": self._line(
-                    department["closers"], key, "departments.%s.closers" % name
+                    department["closers"], key, "departments.%s.closers" % name,
+                    values,
                 ),
             }
         ]
@@ -242,7 +255,7 @@ class EndgameDepartments:
         else:
             family = "crowned" if visible else "crowned_no_figure"
         blocks = [
-            self._standfirst(department, "the_crown", key + ("sf",)),
+            self._standfirst(department, "the_crown", key + ("sf",), values),
             {"kind": "para", "text": self._line(
                 department[family], key + (family,),
                 "departments.the_crown.%s" % family, values)},
@@ -289,7 +302,7 @@ class EndgameDepartments:
         blocks.append({"kind": "para", "text": self._line(
             department["also_rans"], key + ("also",),
             "departments.the_crown.also_rans", values)})
-        blocks.extend(self._closer(department, "the_crown", key + ("closer",)))
+        blocks.extend(self._closer(department, "the_crown", key + ("closer",), values))
 
         return {
             "id": "the_crown",
@@ -336,7 +349,7 @@ class EndgameDepartments:
             "flavours": join_phrases(world["excess_flavours"]) or "nothing at all",
         }
         blocks = [
-            self._standfirst(department, "consequences", ("consequences", "sf")),
+            self._standfirst(department, "consequences", ("consequences", "sf"), base),
             {"kind": "para", "text": self._line(
                 department["lede"], ("consequences", "lede"),
                 "departments.consequences.lede", base)},
@@ -379,7 +392,9 @@ class EndgameDepartments:
         blocks.append({"kind": "para", "text": self._line(
             department["blame"], ("consequences", "blame"),
             "departments.consequences.blame", base)})
-        blocks.extend(self._closer(department, "consequences", ("consequences", "closer")))
+        blocks.extend(
+            self._closer(department, "consequences", ("consequences", "closer"), base)
+        )
 
         return {
             "id": "consequences",
@@ -440,14 +455,20 @@ class EndgameDepartments:
         if not self.policy.portraits:
             return None
         department = self._dept("the_excess")
-        blocks = [self._standfirst(department, "the_excess", ("excess", "sf"))]
+        # The survey's own opening and closing lines are about the world, not
+        # about any one city, so they get the world-level substitution and none
+        # of the per-city ones -- which is exactly what they are able to say.
+        survey = {"n_cities": len(report["cities"])}
+        blocks = [self._standfirst(department, "the_excess", ("excess", "sf"), survey)]
         printed = []
         for dossier in report["cities"]:
             blocks.extend(
                 self._city_blocks(department, dossier, cities, portraits, attributed)
             )
             printed.append(dossier["city"])
-        blocks.extend(self._closer(department, "the_excess", ("excess", "closer")))
+        blocks.extend(
+            self._closer(department, "the_excess", ("excess", "closer"), survey)
+        )
         return {
             "id": "the_excess",
             "title": department["title"],

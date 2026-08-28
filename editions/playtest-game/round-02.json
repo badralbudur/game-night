@@ -1,0 +1,332 @@
+{
+  "publication": "The Daily Manifest",
+  "game": "Sister Cities",
+  "round": 2,
+  "edition_line": "Vol. I, No. 2",
+  "motto": "All the news that fits in the hold.",
+  "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
+  "dateline": "Friday, 11 September 2026",
+  "closes": "12 September, 09:00 UTC",
+  "price_line": "Price: whatever you have in the coat you wore yesterday",
+  "weather_line": "Weather: wind from the harbour, opinions from everywhere.",
+  "departments": [
+    {
+      "id": "wanted",
+      "title": "Wanted",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "The classifieds desk has been busy. It has taken one advertisement."
+        },
+        {
+          "kind": "heading",
+          "level": 3,
+          "text": "A rebrand for the least-loved district"
+        },
+        {
+          "kind": "para",
+          "text": "**PUBLIC NOTICE** from Valparaíso, paid for in municipal goodwill and printed here at length because the paper had the room."
+        },
+        {
+          "kind": "para",
+          "text": "Everyone in Valparaíso agrees the Northgate district is the worst part of town. Nobody who says this has been to Northgate since 2009. Northgate, meanwhile, has quietly become quite good."
+        },
+        {
+          "kind": "para",
+          "text": "The notice ends with a question, which this paper considers the interesting part: *Change Valparaíso's mind about Northgate.*"
+        },
+        {
+          "kind": "para",
+          "text": "Offers close at the end of this round (12 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Valparaíso either."
+        },
+        {
+          "kind": "aside",
+          "text": "What outsiders say about us when we leave the room is, unfortunately, printable."
+        }
+      ],
+      "provenance": {
+        "need": "in-002",
+        "category": "tourism_and_reputation",
+        "rotation": 1,
+        "spec": "#9, #13, #14"
+      }
+    },
+    {
+      "id": "sealed_bids",
+      "title": "Sealed Bids",
+      "blocks": [
+        {
+          "kind": "para",
+          "text": "4 sealed offers, one desk, and the Mayor of Reykjavík sitting behind the lot of it."
+        },
+        {
+          "kind": "para",
+          "text": "Which city sent which offer is not printed here, is not known to the Mayor of Reykjavík, and will not be known to anybody at all except in the one case where an offer wins."
+        },
+        {
+          "kind": "para",
+          "text": "The Mayor of Reykjavík has until the end of this round to choose. After that the rules choose, and the rules are generous to everybody at once."
+        }
+      ],
+      "provenance": {
+        "need": "in-001",
+        "offers": 4,
+        "origins_available_to_this_department": false,
+        "spec": "#9, #18"
+      }
+    },
+    {
+      "id": "arrivals",
+      "title": "Arrivals",
+      "blocks": [
+        {
+          "kind": "para",
+          "text": "No arrivals. The quay is swept, the crane is idle, and two gulls have taken the opportunity to occupy a bollard each."
+        }
+      ],
+      "provenance": {
+        "resolved": null,
+        "spec": "#9"
+      }
+    },
+    {
+      "id": "the_wire",
+      "title": "The Wire",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "The paper puts one question to every city hall each round and prints what comes back, in aggregate, with the arithmetic showing."
+        },
+        {
+          "kind": "heading",
+          "level": 3,
+          "text": "What the world shows you first"
+        },
+        {
+          "kind": "para",
+          "text": "Asked of every mayor on the register: *“Mayor, a visitor has four hours and no plan. What do you show them first?”*"
+        },
+        {
+          "kind": "para",
+          "text": "Put to the great majority of city halls, the answer comes back: the city seen from a distance."
+        },
+        {
+          "kind": "para",
+          "text": "3 of 5 city halls wrote back. 2 of those said the city seen from a distance."
+        },
+        {
+          "kind": "para",
+          "text": "And then exactly one city hall, from the Mayor of Kópavogur: “The pool. Not the swimming — the hot tubs, in order, hottest last, where four hours is exactly long enough to learn everything worth knowing about this place from men who will tell you for free. Everyone assumes I'll drive them straight to the capital instead. It's eight minutes on the bus, they can manage that themselves later.”"
+        },
+        {
+          "kind": "aside",
+          "text": "This paper has no position on the question and every position on the arithmetic."
+        }
+      ],
+      "provenance": {
+        "outcome": "supermajority",
+        "kind": "tier",
+        "phrase_used": "the great majority of city halls",
+        "phrase_source": "phrases",
+        "licensed": true,
+        "selection": "step 5: share 2/3 >= 3/5 and R 3 >= 3 selects tier supermajority",
+        "answered": 3,
+        "asked_of": 5,
+        "silent": 2,
+        "measure": {
+          "largest_bucket_size": 2,
+          "share": {
+            "exact": "2/3",
+            "approx": 0.6667,
+            "percent": 66.7
+          },
+          "largest_is_tied": false,
+          "tied_buckets": 1,
+          "bucket_count": 2,
+          "denominator": "respondents (3), not all mayors (5)"
+        },
+        "headline_labels": [
+          "the city seen from a distance"
+        ],
+        "aggregate_heading_used": true,
+        "partial_response_disclosed": true,
+        "must_disclose_partial_response": true,
+        "spec": "#25"
+      }
+    },
+    {
+      "id": "the_ledger",
+      "title": "The Ledger",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "Where everybody stands, in the only currency this game recognises."
+        },
+        {
+          "kind": "table",
+          "columns": [
+            "#",
+            "City",
+            "Profit"
+          ],
+          "rows": [
+            [
+              1,
+              "Hobart",
+              "0"
+            ],
+            [
+              2,
+              "Kampala",
+              "0"
+            ],
+            [
+              3,
+              "Kópavogur",
+              "0"
+            ],
+            [
+              4,
+              "Reykjavík",
+              "0"
+            ],
+            [
+              5,
+              "Valparaíso",
+              "0"
+            ]
+          ]
+        },
+        {
+          "kind": "para",
+          "text": "5 cities are level on 0 and each has written in separately to say they are not."
+        },
+        {
+          "kind": "para",
+          "text": "Several cities are still on nothing at all. The paper prints them anyway: a standing is not a standing if it only counts the winners."
+        },
+        {
+          "kind": "note",
+          "text": "Figures are cumulative from the first round and are not adjusted for anything, least of all sentiment."
+        }
+      ],
+      "provenance": {
+        "cities": 5,
+        "spec": "#20, #22"
+      }
+    },
+    {
+      "id": "corrections",
+      "title": "Corrections & Clarifications",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "The paper's errors, reported with the gravity they deserve and then some."
+        },
+        {
+          "kind": "list",
+          "items": [
+            "The Wire item above rests on 3 replies out of 5 city halls. The paper prefers to say so in two places than in none.",
+            "The paper's accountants remain volunteers. The paper's accountants remain, in the paper's view, heroes."
+          ]
+        }
+      ],
+      "provenance": {
+        "derived_items": 1,
+        "evergreen_items": 1
+      }
+    }
+  ],
+  "provenance": {
+    "renderer": {
+      "id": "deterministic_template",
+      "implementation": "newspaper.departments + newspaper.wire",
+      "source_of_wording": "content/newspaper.json",
+      "deterministic": true,
+      "needs_network": false,
+      "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
+    },
+    "cadence": {
+      "value": "per_round",
+      "means": "one edition per completed round, not batched (spec #26)"
+    },
+    "identity_style": {
+      "value": "city_mayor_only",
+      "prints": "the city's name and the office of its mayor",
+      "never_prints": "a real name, a handle, or a player id",
+      "spec": "#28"
+    },
+    "tone_policy": {
+      "funny": true,
+      "colorful": true,
+      "allow_pointed_humor": true,
+      "disallow_snide_or_mean": true,
+      "forbidden_register_terms": 33,
+      "spec": "#30",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+    },
+    "lockstep": [
+      {
+        "op": "OPEN",
+        "need": "in-002",
+        "city": "Valparaíso",
+        "category": "tourism_and_reputation",
+        "rotation": 1
+      },
+      {
+        "op": "CLOSE",
+        "need": "in-001",
+        "submissions": 4,
+        "city": "Reykjavík"
+      },
+      {
+        "op": "RESOLVE",
+        "need": null
+      }
+    ],
+    "spec": "#25, #26, #28, #29, #30"
+  },
+  "image": {
+    "kind": "edition",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped tourism & reputation, 4 crates on the quay, a skyline of 5 city towers ranked by profit, and 3 pennants overhead, one per reply.",
+    "cutline": "The offers, landed and unopened. Nobody in this picture knows who sent what, including the paper.",
+    "extension": "svg",
+    "mime": "image/svg+xml",
+    "palette": {
+      "paper": "#f2f8f9",
+      "ink": "#13232a",
+      "sky": "#8fd0e8",
+      "water": "#1c5f77",
+      "accent": "#f4a11d",
+      "spot": "#3d95b3",
+      "spot_alt": "#9fd6e8"
+    },
+    "colorful": true,
+    "provenance": {
+      "modality": "svg_procedural",
+      "provider": "builtin_svg",
+      "preference": [
+        "raster",
+        "svg_procedural"
+      ],
+      "considered": [
+        {
+          "modality": "raster",
+          "provider": null,
+          "available": false,
+          "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
+        },
+        {
+          "modality": "svg_procedural",
+          "provider": "builtin_svg",
+          "available": true,
+          "reason": null
+        }
+      ],
+      "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
+      "spec": "#29"
+    },
+    "filename": "round-02.svg",
+    "file": "round-02.svg"
+  }
+}

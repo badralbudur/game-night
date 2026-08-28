@@ -147,6 +147,13 @@
     "_note": "Seeds every random draw the engine makes -- import-need selection, ballot shuffling and profit rolls, each on its own derived stream. null means a genuinely random game, which is what a real game night wants. Set an integer to replay a game move-for-move; the test suite does exactly that. It lives here rather than in code because 'is this game reproducible' is a facilitator's decision, and because a reproducible game is the only way to re-examine a disputed round after the fact."
   },
 
+  "playtest": {
+    "editions_label": "playtest-game",
+    "site_dir": "site/playtest",
+    "_note": "Where the recorded integration game (playtest/) puts its editions and its built site. Deliberately not `hosting.site_dir`: spec #27 makes an address an append-only archive, so two different games cannot share one. The live game publishes to hosting.site_dir; the recorded game -- eight mayors, seventeen rounds, played by separate agent sessions and replayed from playtest/transcript.json -- publishes here, at its own address, and is committed so the published bytes of a whole game can be read without replaying it. Both are built by the same hosting.build_site under the same privacy policy; only the directory differs.",
+    "_editions_note": "A label under newspaper.output.editions_dir, beside the scripted sample run's, for the same reason: one directory per game."
+  },
+
   "roles": {
     "generator_model": "opus",
     "evaluator_model": "sonnet",

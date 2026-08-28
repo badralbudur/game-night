@@ -1,0 +1,328 @@
+{
+  "publication": "The Daily Manifest",
+  "game": "Sister Cities",
+  "round": 17,
+  "edition_line": "Vol. I, No. 17",
+  "motto": "All the news that fits in the hold.",
+  "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
+  "dateline": "Saturday, 26 September 2026",
+  "closes": "27 September, 09:00 UTC",
+  "price_line": "Price: unchanged since the first edition, which was also this week",
+  "weather_line": "Weather: unsettled, like the minutes of the last session.",
+  "departments": [
+    {
+      "id": "wanted",
+      "title": "Wanted",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "No new notice. The classifieds desk has gone to look at the harbour."
+        },
+        {
+          "kind": "para",
+          "text": "There is no new notice today: the rotation has run its course, and what remains in this edition is the tidying up of things already asked."
+        }
+      ],
+      "provenance": {
+        "opened": null,
+        "spec": "#9"
+      }
+    },
+    {
+      "id": "sealed_bids",
+      "title": "Sealed Bids",
+      "blocks": [
+        {
+          "kind": "para",
+          "text": "No window closed today. The offers currently in transit remain in transit."
+        }
+      ],
+      "provenance": {
+        "closed": null,
+        "spec": "#9"
+      }
+    },
+    {
+      "id": "arrivals",
+      "title": "Arrivals",
+      "blocks": [
+        {
+          "kind": "para",
+          "text": "**A decision, and promptly.**"
+        },
+        {
+          "kind": "para",
+          "text": "The winning offer for Trieste, reproduced exactly as it arrived:"
+        },
+        {
+          "kind": "quote",
+          "text": "Fish soup, at four in the morning, from a counter that shuts at nine and does not open again until four. We'll send the whole kit — the two vast pots, the cook who has done nothing else since he was nineteen, and the rule that every man gets the same bowl at the same price with bread and a glass of white wine and nobody insults him by suggesting coffee — because someone coming off nights isn't starting his day, he's ending it, and he should be fed like it's dinner."
+        },
+        {
+          "kind": "para",
+          "text": "The sender, now nameable because they won: Valparaíso. Profit: 10, on 6 and 4."
+        },
+        {
+          "kind": "para",
+          "text": "Not chosen, and not attributed:"
+        },
+        {
+          "kind": "list",
+          "role": "declined_exports",
+          "items": [
+            "Soup, from four to eight, one thing only and no menu: mutton and barley thick enough that the spoon complains, bread, refills free, one price you can pay with the coins already in your coat. Two of our night-canteen cooks will come and set it up, and they will insist on three things — warm lamps and not the white ones, seats facing the window so people can watch the day start without being asked to join it, and nobody behind the counter asking how the night was.",
+            "A window, not a room. Ours opens at four and shuts at eight: one pot of something brothy, bread, black tea in a heavy cup, no music and no daylight bulbs, because people coming off a night don't want waking up, they want letting down gently. We'll send the urn, the soup, and the two women who run it, on the condition nobody calls it a concept.",
+            "Katogo: green banana and beans stewed together in one pot since midnight, ladled into a bowl you hand straight back, with black tea boiled hard with ginger. We can send you the cook, the pot and the three rules that make it work — open three till seven only, one price, and no seat facing the door, because people coming off the night do not want to be looked at."
+          ]
+        },
+        {
+          "kind": "para",
+          "text": "Those arrived unsigned and will stay that way. A losing offer's city is nobody's business, permanently."
+        }
+      ],
+      "provenance": {
+        "need": "in-015",
+        "mode": "winner_pick",
+        "spec": "#18, #20",
+        "roll": {
+          "expression": "2d6",
+          "dice": [
+            6,
+            4
+          ],
+          "total": 10
+        },
+        "awarded": [
+          [
+            "Valparaíso",
+            "10"
+          ]
+        ],
+        "winner_city": "Valparaíso"
+      }
+    },
+    {
+      "id": "the_wire",
+      "title": "The Wire",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "The paper puts one question to every city hall each round and prints what comes back, in aggregate, with the arithmetic showing."
+        },
+        {
+          "kind": "heading",
+          "level": 3,
+          "text": "The question, and what came back of it"
+        },
+        {
+          "kind": "para",
+          "text": "The question, put to all of them and answered by rather fewer: *“What smell means home?”*"
+        },
+        {
+          "kind": "para",
+          "text": "The postbag was empty. The paper has re-read the question and concedes it may have been a lot to ask on a busy round."
+        },
+        {
+          "kind": "aside",
+          "text": "The paper would like it noted that it asked a simple question."
+        }
+      ],
+      "provenance": {
+        "outcome": null,
+        "no_item_reason": "no_responses",
+        "answered": 0,
+        "asked_of": 8,
+        "bucketing": "not_needed",
+        "aggregate_heading_used": false,
+        "spec": "#25"
+      }
+    },
+    {
+      "id": "the_ledger",
+      "title": "The Ledger",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "Where everybody stands, in the only currency this game recognises."
+        },
+        {
+          "kind": "table",
+          "columns": [
+            "#",
+            "City",
+            "Profit"
+          ],
+          "rows": [
+            [
+              1,
+              "Valparaíso",
+              "40.40"
+            ],
+            [
+              2,
+              "Reykjavík",
+              "28.40"
+            ],
+            [
+              3,
+              "Hobart",
+              "16.40"
+            ],
+            [
+              4,
+              "Belgrade",
+              "11.40"
+            ],
+            [
+              5,
+              "Naoshima",
+              "7"
+            ],
+            [
+              6,
+              "Kampala",
+              "6.40"
+            ],
+            [
+              7,
+              "Kópavogur",
+              "0"
+            ],
+            [
+              8,
+              "Trieste",
+              "0"
+            ]
+          ]
+        },
+        {
+          "kind": "para",
+          "text": "Valparaíso holds the head of the table this round. Tables turn; that is largely what they are for."
+        },
+        {
+          "kind": "para",
+          "text": "Several cities are still on nothing at all. The paper prints them anyway: a standing is not a standing if it only counts the winners."
+        },
+        {
+          "kind": "note",
+          "text": "Figures are cumulative from the first round and are not adjusted for anything, least of all sentiment."
+        }
+      ],
+      "provenance": {
+        "cities": 8,
+        "spec": "#20, #22"
+      }
+    },
+    {
+      "id": "corrections",
+      "title": "Corrections & Clarifications",
+      "blocks": [
+        {
+          "kind": "standfirst",
+          "text": "Small retractions, offered at full volume."
+        },
+        {
+          "kind": "list",
+          "items": [
+            "This paper prints mayors by city and office only. A reader who wrote in asking for full names has been thanked for their interest.",
+            "An earlier edition contained a joke about a fountain. The fountain has been in touch."
+          ]
+        }
+      ],
+      "provenance": {
+        "derived_items": 0,
+        "evergreen_items": 2
+      }
+    }
+  ],
+  "provenance": {
+    "renderer": {
+      "id": "deterministic_template",
+      "implementation": "newspaper.departments + newspaper.wire",
+      "source_of_wording": "content/newspaper.json",
+      "deterministic": true,
+      "needs_network": false,
+      "note": "Selects among content-authored frames using the round's own facts as the key, so the same game renders the same paper every time."
+    },
+    "cadence": {
+      "value": "per_round",
+      "means": "one edition per completed round, not batched (spec #26)"
+    },
+    "identity_style": {
+      "value": "city_mayor_only",
+      "prints": "the city's name and the office of its mayor",
+      "never_prints": "a real name, a handle, or a player id",
+      "spec": "#28"
+    },
+    "tone_policy": {
+      "funny": true,
+      "colorful": true,
+      "allow_pointed_humor": true,
+      "disallow_snide_or_mean": true,
+      "forbidden_register_terms": 33,
+      "spec": "#30",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+    },
+    "lockstep": [
+      {
+        "op": "OPEN",
+        "need": null,
+        "reason": "no import turns remain; draining the last needs"
+      },
+      {
+        "op": "CLOSE",
+        "need": null
+      },
+      {
+        "op": "RESOLVE",
+        "need": "in-015",
+        "mode": "winner_pick",
+        "city": "Trieste"
+      }
+    ],
+    "spec": "#25, #26, #28, #29, #30"
+  },
+  "image": {
+    "kind": "edition",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped food & drink, 7 crates on the quay, 1 of them ribboned, dice showing 6 and 4, a skyline of 8 city towers ranked by profit.",
+    "cutline": "7 crates, one ribbon, 10 in the ledger. A good day at the water.",
+    "extension": "svg",
+    "mime": "image/svg+xml",
+    "palette": {
+      "paper": "#fdf3e3",
+      "ink": "#2b1a12",
+      "sky": "#ffd08a",
+      "water": "#a8573b",
+      "accent": "#c5283d",
+      "spot": "#e08e45",
+      "spot_alt": "#7d9b3f"
+    },
+    "colorful": true,
+    "provenance": {
+      "modality": "svg_procedural",
+      "provider": "builtin_svg",
+      "preference": [
+        "raster",
+        "svg_procedural"
+      ],
+      "considered": [
+        {
+          "modality": "raster",
+          "provider": null,
+          "available": false,
+          "reason": "config.newspaper.image.raster_providers is empty: no image-generation provider is configured for this deployment"
+        },
+        {
+          "modality": "svg_procedural",
+          "provider": "builtin_svg",
+          "available": true,
+          "reason": null
+        }
+      ],
+      "policy": "raster preferred where a provider is available; a deterministic, game-state-informed SVG is an explicitly permitted fallback",
+      "spec": "#29"
+    },
+    "filename": "round-17.svg",
+    "file": "round-17.svg"
+  }
+}

@@ -48,6 +48,7 @@ from .errors import (
     RuleViolation,
     SubmissionRejected,
 )
+from .join import CityRegistrar, join_player
 from .rotation import CityQueue
 from .state import (
     COLLECTING,
@@ -97,6 +98,9 @@ class GameEngine:
         # its question bank, however its Content was constructed.
         self.content.check_question_policy(self.config)
         self.phrasing_ladder = Ladder.from_config(self.config, self.content)
+        # And again: an unknown duplicate-pick resolution mode is a startup
+        # error, not something the fifth player to join finds out about.
+        self.registrar = CityRegistrar(self.config, self.content)
         self.clock = clock if clock is not None else SystemClock()
         self._seed = (
             self.config.require_nullable_int("engine.rng_seed")
@@ -182,6 +186,29 @@ class GameEngine:
             player.queued_round = self.current_round
             player.import_turns_allotted = self.queue.allotment_for_new_entrant()
         return player
+
+    def join(self, player_id, handle, city, is_facilitator=False, rng=None):
+        """Seat a player and resolve a duplicate city pick (spec #2).
+
+        The door a facilitator's agent uses. :meth:`register_player` is the
+        lower level: it refuses a collision and hands back the candidates, which
+        is the right behaviour for something that must never seat two mayors on
+        one city by accident, and the wrong behaviour for the only caller a
+        joining player ever sees. See :mod:`engine.join`.
+        """
+        return join_player(self, player_id, handle, city, is_facilitator, rng=rng)
+
+    def city_suggestions(self, rng=None):
+        """Cities to offer a joining player, minus the ones already taken (#2)."""
+        return {
+            "cities": self.registrar.suggestions(self.claimed_cities(), rng=rng),
+            "note": self.registrar.suggestion_note(),
+            "spec": "#2",
+        }
+
+    def claimed_cities(self):
+        """Every city this game currently holds, as the mayors spell them."""
+        return [player.city for player in self.players.values()]
 
     @property
     def facilitator(self):
