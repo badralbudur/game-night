@@ -18,13 +18,13 @@
     "extension": "svg",
     "mime": "image/svg+xml",
     "palette": {
-      "paper": "#f1f7f1",
-      "ink": "#15231a",
-      "sky": "#a9dfb4",
-      "water": "#256b47",
-      "accent": "#e8542e",
-      "spot": "#3f9663",
-      "spot_alt": "#8fcfa4"
+      "paper": "#f6f0f8",
+      "ink": "#211a2b",
+      "sky": "#c9b6e4",
+      "water": "#4b3b78",
+      "accent": "#eab543",
+      "spot": "#8e5fb8",
+      "spot_alt": "#d38ab5"
     },
     "colorful": true,
     "provenance": {
@@ -62,13 +62,13 @@
       "extension": "svg",
       "mime": "image/svg+xml",
       "palette": {
-        "paper": "#f6f0f8",
-        "ink": "#211a2b",
-        "sky": "#c9b6e4",
-        "water": "#4b3b78",
-        "accent": "#eab543",
-        "spot": "#8e5fb8",
-        "spot_alt": "#d38ab5"
+        "paper": "#f1f7f6",
+        "ink": "#12262b",
+        "sky": "#9fd8d5",
+        "water": "#1f6f78",
+        "accent": "#f26d3d",
+        "spot": "#2e8b83",
+        "spot_alt": "#7ec4bd"
       },
       "colorful": true,
       "provenance": {
@@ -106,13 +106,13 @@
       "extension": "svg",
       "mime": "image/svg+xml",
       "palette": {
-        "paper": "#f7f2e6",
-        "ink": "#221d18",
-        "sky": "#f2c14e",
-        "water": "#3d6b7d",
-        "accent": "#e2571e",
-        "spot": "#8c4a2f",
-        "spot_alt": "#d9a441"
+        "paper": "#eef4f9",
+        "ink": "#182430",
+        "sky": "#a8cbe8",
+        "water": "#2f5675",
+        "accent": "#f2c14e",
+        "spot": "#5b87ad",
+        "spot_alt": "#c9dced"
       },
       "colorful": true,
       "provenance": {
@@ -194,13 +194,13 @@
       "extension": "svg",
       "mime": "image/svg+xml",
       "palette": {
-        "paper": "#f6f3ea",
-        "ink": "#1f1b26",
-        "sky": "#cfc3a4",
-        "water": "#453a5e",
-        "accent": "#d1622a",
-        "spot": "#6d5c96",
-        "spot_alt": "#a99ac4"
+        "paper": "#f1eff6",
+        "ink": "#171426",
+        "sky": "#b3aede",
+        "water": "#332a5e",
+        "accent": "#f2c14e",
+        "spot": "#6b5fa8",
+        "spot_alt": "#a49ccf"
       },
       "colorful": true,
       "provenance": {
@@ -377,11 +377,11 @@
         },
         {
           "kind": "para",
-          "text": "Valparaíso wrote that. Reykjavík read it, wanted it, and took delivery of it against the notice titled \"A subject that didn't exist last year\"."
+          "text": "Valparaíso wrote that. Reykjavík read it, wanted it, and took delivery of it against the notice titled \"Listening equipment, and ears to go with it\"."
         },
         {
           "kind": "para",
-          "text": "Children in Reykjavík are being taught about it and have started asking the follow-up questions."
+          "text": "Reykjavík's clerk has stopped minuting it. This paper regards that as the most complete report available."
         },
         {
           "kind": "quote",
@@ -389,11 +389,11 @@
         },
         {
           "kind": "para",
-          "text": "Valparaíso wrote that. Hobart read it, wanted it, and took delivery of it against the notice titled \"A junction that ends the argument\"."
+          "text": "Valparaíso wrote that. Hobart read it, wanted it, and took delivery of it against the notice titled \"Windbreak for one avenue, bolted down\"."
         },
         {
           "kind": "para",
-          "text": "Two things in Hobart are now load-bearing that were never asked whether they wanted to be."
+          "text": "The sky over Hobart was not consulted, and has responded in the only way the sky ever responds."
         },
         {
           "kind": "quote",
@@ -401,7 +401,7 @@
         },
         {
           "kind": "para",
-          "text": "Bergen wrote that. Valparaíso read it, wanted it, and took delivery of it against the notice titled \"A bus route people would ride for fun\"."
+          "text": "Bergen wrote that. Valparaíso read it, wanted it, and took delivery of it against the notice titled \"Haulage for a nineteen per cent gradient\"."
         },
         {
           "kind": "para",
@@ -413,11 +413,11 @@
         },
         {
           "kind": "para",
-          "text": "Hobart wrote that. Bergen read it, wanted it, and took delivery of it against the notice titled \"A second verse for the anthem\"."
+          "text": "Hobart wrote that. Bergen read it, wanted it, and took delivery of it against the notice titled \"Plant for four hundred tonnes of seaweed\"."
         },
         {
           "kind": "para",
-          "text": "There is a plaque about it in Bergen now. The plaque is longer than the thing it commemorates."
+          "text": "Bergen reports that the water now goes where it was told to go. Bergen has not previously been able to report this."
         },
         {
           "kind": "para",
@@ -429,7 +429,7 @@
         },
         {
           "kind": "para",
-          "text": "None of the above is the half of it. Over the whole game twenty offers were sent and not chosen, and every one of them went home again: curricula, untaught, right-of-way conventions, mutually incompatible, routes, unrun, timetabled anyway, views, unphotographed, explanations, unconvincing, filed under 'ambience', grudges, unreciprocated, saplings, unplanted, still in their pots and expertise, offered to no one. That is what the world made this year and could not give away."
+          "text": "None of the above is the half of it. Over the whole game twenty offers were sent and not chosen, and every one of them went home again: explanations, unconvincing, filed under 'ambience', windbreaks, blown over, conveyances, parked at the bottom of the hill, pipe, stacked and capped against the weather, breakfasts, served at the wrong hour, rejected monuments, in storage, facing the wall, grudges, unreciprocated and membership drives, unenrolled. That is what the world made this year and could not give away."
         },
         {
           "kind": "para",
@@ -474,7 +474,7 @@
         },
         {
           "kind": "para",
-          "text": "Bergen's notices this game: A second verse for the anthem and Somebody who understands the old pipe network. Two in total, each one a problem it could not solve alone."
+          "text": "Bergen's notices this game: Plant for four hundred tonnes of seaweed and Stock a library card is worth having for. Two in total, each one a problem it could not solve alone."
         },
         {
           "kind": "para",
@@ -490,7 +490,7 @@
         },
         {
           "kind": "para",
-          "text": "Three offers reached Bergen and went unchosen. Bergen kept the pile anyway — expertise, offered to no one — because nobody has ever worked out how to send an offer back."
+          "text": "Three offers reached Bergen and went unchosen. Bergen kept the pile anyway — membership drives, unenrolled — because nobody has ever worked out how to send an offer back."
         },
         {
           "kind": "para",
@@ -521,7 +521,7 @@
         },
         {
           "kind": "para",
-          "text": "What Hobart asked for, in order: A junction that ends the argument and An explanation for the humming."
+          "text": "What Hobart asked for, in order: Windbreak for one avenue, bolted down and A night canteen, four till eight."
         },
         {
           "kind": "para",
@@ -533,7 +533,7 @@
         },
         {
           "kind": "para",
-          "text": "Four offers reached Hobart and went unchosen. Hobart kept the pile anyway — right-of-way conventions, mutually incompatible and explanations, unconvincing, filed under 'ambience' — because nobody has ever worked out how to send an offer back."
+          "text": "Four offers reached Hobart and went unchosen. Hobart kept the pile anyway — windbreaks, blown over and breakfasts, served at the wrong hour — because nobody has ever worked out how to send an offer back."
         },
         {
           "kind": "para",
@@ -576,7 +576,7 @@
         },
         {
           "kind": "para",
-          "text": "Kampala came to the world two times, over Ninety thousand surplus plums and A tree that can take the salt."
+          "text": "Kampala came to the world two times, over Preservation, for ninety thousand plums and A rivalry, in kind."
         },
         {
           "kind": "para",
@@ -592,7 +592,7 @@
         },
         {
           "kind": "para",
-          "text": "The excess at Kampala: three offers, declined, filed under saplings, unplanted, still in their pots, occupying a quay that has other uses."
+          "text": "The excess at Kampala: three offers, declined, filed under grudges, unreciprocated, occupying a quay that has other uses."
         },
         {
           "kind": "para",
@@ -635,7 +635,7 @@
         },
         {
           "kind": "para",
-          "text": "Reykjavík came to the world two times, over A subject that didn't exist last year and A postcard that isn't the bridge."
+          "text": "Reykjavík came to the world two times, over Listening equipment, and ears to go with it and Ninety kilometres of insulated pipe."
         },
         {
           "kind": "para",
@@ -647,7 +647,7 @@
         },
         {
           "kind": "para",
-          "text": "Four offers reached Reykjavík and went unchosen. Reykjavík kept the pile anyway — curricula, untaught and views, unphotographed — because nobody has ever worked out how to send an offer back."
+          "text": "Four offers reached Reykjavík and went unchosen. Reykjavík kept the pile anyway — explanations, unconvincing, filed under 'ambience' and pipe, stacked and capped against the weather — because nobody has ever worked out how to send an offer back."
         },
         {
           "kind": "para",
@@ -686,7 +686,7 @@
         },
         {
           "kind": "para",
-          "text": "Valparaíso's notices this game: A bus route people would ride for fun and A rival worth having. Two in total, each one a problem it could not solve alone."
+          "text": "Valparaíso's notices this game: Haulage for a nineteen per cent gradient and An object for an empty plinth. Two in total, each one a problem it could not solve alone."
         },
         {
           "kind": "para",
@@ -698,7 +698,7 @@
         },
         {
           "kind": "para",
-          "text": "The excess at Valparaíso: six offers, declined, filed under routes, unrun, timetabled anyway and grudges, unreciprocated, occupying a quay that has other uses."
+          "text": "The excess at Valparaíso: six offers, declined, filed under conveyances, parked at the bottom of the hill and rejected monuments, in storage, facing the wall, occupying a quay that has other uses."
         },
         {
           "kind": "para",

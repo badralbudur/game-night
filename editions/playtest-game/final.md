@@ -49,13 +49,13 @@ The trade is finished, the ledger is closed, and 18 things are now permanently i
 
 > We can lend you two people who spend every winter listening to ice shelves flex at frequencies nobody can hear, and the four low-frequency hydrophones they do it with. Give them a fortnight and a map of your water mains, and if it turns out to be a fridge they'll say so plainly and won't put it in a report.
 
-Hobart wrote that. Reykjavík read it, wanted it, and took delivery of it against the notice titled "An explanation for the humming".
+Hobart wrote that. Reykjavík read it, wanted it, and took delivery of it against the notice titled "Listening equipment, and ears to go with it".
 
 Reykjavík's clerk has stopped minuting it. This paper regards that as the most complete report available.
 
 > We'll send the woman who redrew our ferry timetable. She'll move one late service so it terminates in Northgate at eleven at night, because nobody has ever changed their mind about a suburb from a brochure -- they change it because they had to stand there twenty minutes and it was fine. Whatever you do, don't let anyone call it vibrant; that's how a place announces it's being sold to you.
 
-Hobart wrote that. Valparaíso read it, wanted it, and took delivery of it against the notice titled "A rebrand for the least-loved district".
+Hobart wrote that. Valparaíso read it, wanted it, and took delivery of it against the notice titled "Something for Northgate, worth the bus fare".
 
 Visitors to Valparaíso are now shown it first. Residents of Valparaíso are shown it constantly.
 
@@ -67,7 +67,7 @@ Kampala reports that the water now goes where it was told to go. Kampala has not
 
 > Don't correct the magazine, annex it: declare the between-meal the meal. Half past three, one item only — flatbread cooked black-spotted on a dry griddle, butter thick enough to hold a thumbprint, a slice of salted lamb, eaten standing — and we'll send two griddles and the man who runs them, on loan until your own people can do it half asleep.
 
-Reykjavík wrote that. Kópavogur read it, wanted it, and took delivery of it against the notice titled "A signature dish, urgently".
+Reykjavík wrote that. Kópavogur read it, wanted it, and took delivery of it against the notice titled "A signature dish, cooks included".
 
 Kópavogur has eaten it, formally, at a ceremony, and has put in a written request for more.
 
@@ -75,7 +75,7 @@ The industry Naoshima ramped up when nobody answered its notice has not been ram
 
 Kópavogur's lapsed deliberation paid 5 cities at once, and 5 cities have since referred to it as a mandate.
 
-None of the above is the half of it. Over the whole game 61 offers were sent and not chosen, and every one of them went home again: explanations, unconvincing, filed under 'ambience', rebrands, unadopted, still in draft, protocols, never invoked, drainage ideas, pooling, plum schemes, fermenting quietly, windbreaks, blown over, far sides, unattached, stacked by the water, parking solutions, double-parked, saplings, unplanted, still in their pots, care arrangements, unrostered, grudges, unreciprocated, unused support, propped against every wall in town and breakfasts, served at the wrong hour. That is what the world made this year and could not give away.
+None of the above is the half of it. Over the whole game 61 offers were sent and not chosen, and every one of them went home again: explanations, unconvincing, filed under 'ambience', rebrands, unadopted, still in draft, protocols, never invoked, drainage kit, pooling on the quay, plum schemes, fermenting quietly, windbreaks, blown over, far sides, unattached, stacked by the water, parking solutions, double-parked, saplings, unplanted, still in their pots, care arrangements, unrostered, grudges, unreciprocated, unused support, propped against every wall in town and breakfasts, served at the wrong hour. That is what the world made this year and could not give away.
 
 The senders of the unwanted are not named here. They were not named at the time, they are not named at the end, and the last edition is not a late confession.
 
@@ -93,7 +93,7 @@ _No city hall has accepted responsibility for any of the above, which this paper
 
 Belgrade, fourth on 11.40, drawn here from its own record and nobody else's.
 
-Belgrade's notices this game: Ninety thousand surplus plums and Load-bearing optimism. Two in total, each one a problem it could not solve alone.
+Belgrade's notices this game: Preservation, for ninety thousand plums and Twenty metres of clear span, and a signature. Two in total, each one a problem it could not solve alone.
 
 Two of Belgrade's offers were chosen across the game, each of them picked by a mayor who did not know whose it was.
 
@@ -118,7 +118,7 @@ For the record, the Mayor of Belgrade, asked *The mayoral position on coriander,
 
 Hobart finishes third, on 16.40, and looks — the illustrator is firm about this — exactly like a city that finished third on 16.40.
 
-What Hobart asked for, in order: A protocol for when the lighthouse answers back and Parking, spiritually.
+What Hobart asked for, in order: A signal lamp and somebody who reads one and Kerbside equipment, and people to work it.
 
 Three times this game, a city read an unsigned offer and it turned out to be Hobart's.
 
@@ -145,13 +145,13 @@ For the record, the Mayor of Hobart, asked *Name a thing everybody else loves th
 
 Kampala finishes sixth, on 6.40, and looks — the illustrator is firm about this — exactly like a city that finished sixth on 6.40.
 
-Kampala came to the world two times, over Somewhere for the rain to go and A tree that can take the salt.
+Kampala came to the world two times, over Pumps, pipe and four days of standing water and Planting stock that stands in salt.
 
 Two times this game, a city read an unsigned offer and it turned out to be Kampala's.
 
 Chosen, in Kópavogur, from Kampala: *Chapati rolled hot around two eggs, cabbage and tomato, eaten standing in the street with one hand — we move four hundred thousand a night and we can spare three men, three griddles and the whole technique for nothing. It is not a meal and it is not between meals, which is precisely the hole your magazine fell into; the only rule is that the eggs are always two, never one.*
 
-The excess at Kampala: nine offers, declined, filed under drainage ideas, pooling and saplings, unplanted, still in their pots, occupying a quay that has other uses.
+The excess at Kampala: nine offers, declined, filed under drainage kit, pooling on the quay and saplings, unplanted, still in their pots, occupying a quay that has other uses.
 
 Two offers, reprinted without a sender, because the writing deserves a second reading:
 
@@ -170,7 +170,7 @@ On the question *Name a thing everybody else loves that you have never understoo
 
 Kópavogur finishes joint seventh, on 0, and looks — the illustrator is firm about this — exactly like a city that finished joint seventh on 0.
 
-What Kópavogur asked for, in order: A signature dish, urgently and Childcare that runs at 3am.
+What Kópavogur asked for, in order: A signature dish, cooks included and Night care, ten till seven.
 
 Kópavogur appears nowhere in the year's arrivals. The paper offers no theory and has several.
 
@@ -195,7 +195,7 @@ For the record, the Mayor of Kópavogur, asked *Name a thing everybody else love
 
 Fifth: Naoshima, 7, and a harbour that has seen things this year.
 
-Naoshima came to the world two times, over A last-mile solution for a very steep mile and A rival worth having.
+Naoshima came to the world two times, over Haulage for a nineteen per cent gradient and A rivalry, in kind.
 
 Nothing in this paper's whole arrivals column came from Naoshima. The column is the poorer for it and has said so.
 
@@ -220,7 +220,7 @@ For the record, the Mayor of Naoshima, asked *What compliment do you actually wa
 
 Second: Reykjavík, 28.40, and a harbour that has seen things this year.
 
-Reykjavík came to the world two times, over An explanation for the humming and Wind, redirected.
+Reykjavík came to the world two times, over Listening equipment, and ears to go with it and Windbreak for one avenue, bolted down.
 
 Five of Reykjavík's offers were chosen across the game, each of them picked by a mayor who did not know whose it was.
 
@@ -245,7 +245,7 @@ On the question *Name a thing everybody else loves that you have never understoo
 
 Joint eighth: Trieste, 0, and a harbour that has seen things this year.
 
-What Trieste asked for, in order: A breakfast that survives a night shift.
+What Trieste asked for, in order: A night canteen, four till eight.
 
 Trieste appears nowhere in the year's arrivals. The paper offers no theory and has several.
 
@@ -268,7 +268,7 @@ For the record, the Mayor of Trieste, asked *Good news arrives. Who do you call 
 
 Valparaíso finishes first, on 40.40, and looks — the illustrator is firm about this — exactly like a city that finished first on 40.40.
 
-Valparaíso's notices this game: A rebrand for the least-loved district and A bridge that goes somewhere. Two in total, each one a problem it could not solve alone.
+Valparaíso's notices this game: Something for Northgate, worth the bus fare and The far side of a bridge, delivered. Two in total, each one a problem it could not solve alone.
 
 Six times this game, a city read an unsigned offer and it turned out to be Valparaíso's.
 

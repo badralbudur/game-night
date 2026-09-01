@@ -8,7 +8,7 @@ Weather: unsettled, like the minutes of the last session.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped culture & the arts, 4 crates on the quay, 1 of them ribboned, dice showing 2 and 1, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-05.svg)
+![A harbour scene in the Daily Manifest's colours, stamped water & waste, 4 crates on the quay, 1 of them ribboned, dice showing 2 and 1, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-05.svg)
 
 *4 crates, one ribbon, 3 in the ledger. A good day at the water.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *Today's notice, printed in full and without comment, followed immediately by comment.*
 
-### A second verse for the anthem
+### Plant for four hundred tonnes of seaweed
 
 **PUBLIC NOTICE**, lodged at this paper's counter by the office of the Mayor of Bergen, who declined to elaborate.
 
-Bergen's anthem has exactly one verse. At every civic occasion the band reaches the end, hesitates, and plays it again, slightly louder, while everyone stares straight ahead.
+The tide brings Bergen four hundred tonnes of seaweed a season. Burning it is illegal, burying it is unpopular, and the phrase 'municipal seaweed' now appears in eleven separate complaint letters. Bergen is buying the machinery that turns it into a product: balers, dryers, presses, tanks — or a standing order from somebody who wants the stuff.
 
-The Mayor of Bergen would like an answer to this: *Give Bergen something to sing after the first verse.*
+The Mayor of Bergen would like an answer to this: *Ship Bergen the plant that makes seaweed into something, or the contract that takes it away by the tonne.*
 
 Offers close at the end of this round (8 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Bergen either.
 

@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### A bus route people would ride for fun
+### Haulage for a nineteen per cent gradient
 
 **PUBLIC NOTICE**. The Mayor of Valparaíso has taken out an advertisement. This paper has read it three times and remains impressed.
 
-Valparaíso's buses are punctual, clean, and used exclusively by people with no alternative. Ridership studies have concluded, at some expense, that the buses are 'fine.'
+Deliveries to Valparaíso's upper town stop at the bottom of a 19% gradient. From there everything — furniture, groceries, one piano — proceeds by arrangement, on foot, badly. Valparaíso will buy winches, hoists, cargo bikes, a funicular in kit form, mules with their tack, or the crew that already does this somewhere steeper.
 
-The office asks, and the paper repeats verbatim: *Give Valparaíso a bus route worth riding on a day off.*
+The office asks, and the paper repeats verbatim: *Ship Valparaíso the machinery or the animals that get a piano up a nineteen per cent hill.*
 
 Offers close at the end of this round (6 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Valparaíso either.
 

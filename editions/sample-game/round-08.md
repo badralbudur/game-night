@@ -8,7 +8,7 @@ Weather: clear enough to see the other side, which is new.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped sport & recreation, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 2, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-08.svg)
+![A harbour scene in the Daily Manifest's colours, stamped culture & the arts, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 2, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-08.svg)
 
 *4 crates, one ribbon, 6 in the ledger. A good day at the water.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### A rival worth having
+### An object for an empty plinth
 
 **PUBLIC NOTICE**. The Mayor of Valparaíso has taken out an advertisement. This paper has read it three times and remains impressed.
 
-Valparaíso's team has no traditional rival. Matches are cordial. Attendance is stable. Something essential is missing and everyone is too polite to name it.
+The plinth in Valparaíso's central square has been empty for two years. The previous occupant turned out to have opinions. The plinth is a good plinth, it is rated to eleven tonnes, and the square feels the absence. Valparaíso is commissioning and buying the thing that stands on it — cast, carved, welded or grown, crated and shipped.
 
-The office asks, and the paper repeats verbatim: *Give Valparaíso something or someone to beat.*
+The office asks, and the paper repeats verbatim: *Ship Valparaíso something to put on an eleven-tonne plinth, and name the material.*
 
 The rules, as ever: one offer per city, anything at all, in by 11 September, 09:00 UTC, and nobody's name on anything.
 

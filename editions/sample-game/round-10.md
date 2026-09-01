@@ -8,7 +8,7 @@ Weather: fog. The ferries are running on confidence alone.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped labour & expertise, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 3, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-10.svg)
+![A harbour scene in the Daily Manifest's colours, stamped education & knowledge, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 3, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-10.svg)
 
 *4 crates, one ribbon, 7 in the ledger. A good day at the water.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### Somebody who understands the old pipe network
+### Stock a library card is worth having for
 
 **PUBLIC NOTICE**, lodged at this paper's counter by the office of the Mayor of Bergen, who declined to elaborate.
 
-One person in Bergen knew where all the pipes go. He retired in March. He left a map. The map is a napkin, and it is honestly quite beautiful, and it is not sufficient.
+Bergen's library is free, excellent, and holds active cards for 8% of residents. The librarians have tried posters. The posters were not the issue. Bergen is buying stock and hardware: books nobody else lends, instruments, tools, seeds, a van with shelves in it — anything a card can be used to take home.
 
-The office asks, and the paper repeats verbatim: *Send Bergen whatever it needs to know where its own pipes go.*
+The office asks, and the paper repeats verbatim: *Ship Bergen the stock its library lends out, and say what a borrower carries away.*
 
 Every other city hall may send exactly one offer, in whatever form it likes, by 13 September, 09:00 UTC. The offers arrive unsigned, and the Mayor of Bergen will read them that way.
 

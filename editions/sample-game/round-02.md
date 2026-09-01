@@ -8,7 +8,7 @@ Weather: wind from the harbour, opinions from everywhere.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped infrastructure & public works, 2 crates on the quay, a skyline of 4 city towers ranked by profit, and 2 pennants overhead, one per reply.](round-02.svg)
+![A harbour scene in the Daily Manifest's colours, stamped weather & climate, 2 crates on the quay, a skyline of 4 city towers ranked by profit, and 2 pennants overhead, one per reply.](round-02.svg)
 
 *The offers, landed and unopened. Nobody in this picture knows who sent what, including the paper.*
 
@@ -18,17 +18,17 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *The classifieds desk has been busy. It has taken one advertisement.*
 
-### A junction that ends the argument
+### Windbreak for one avenue, bolted down
 
 **PUBLIC NOTICE** from Hobart, paid for in municipal goodwill and printed here at length because the paper had the room.
 
-At the Fifth and Harbour crossing, Hobart's drivers have developed an elaborate unwritten protocol involving eye contact, headlight flashes, and one particular hand gesture. Visitors do not know the protocol. Visitors are not doing well.
+The wind comes down Hobart's main avenue at a speed that has removed four awnings, one election banner and the dignity of most residents between November and March. Purchase order: screens, baffles, slats, canvas, rope, planters heavy enough to stay put, and a crew to bolt it all down before the first gale.
 
-The notice ends with a question, which this paper considers the interesting part: *How does Hobart settle who goes first?*
+The notice ends with a question, which this paper considers the interesting part: *Ship Hobart the windbreak for a four-kilometre avenue, and the crew who fix it in place.*
 
 Offers close at the end of this round (5 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Hobart either.
 
-_This paper has no opinion on load-bearing matters and would like that on record before anything settles._
+_Treating the sky as a procurement problem has never once worked, and city halls keep trying._
 
 ## Sealed Bids
 

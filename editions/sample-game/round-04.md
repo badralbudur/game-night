@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### Ninety thousand surplus plums
+### Preservation, for ninety thousand plums
 
 **PUBLIC NOTICE**, filed by the Mayor of Kampala under Food & Drink, which is where Kampala files most things.
 
-A clerical error in Kampala's orchard subsidy has produced a plum harvest roughly nine times the town's historical plum appetite. They are ripening on schedule and entirely without mercy.
+A clerical error in Kampala's orchard subsidy has produced a plum harvest roughly nine times the town's historical plum appetite. They are ripening on schedule and entirely without mercy. Kampala will buy freezers, presses, drying racks, salt, sugar, casks, reefer containers, jars — and the hands to run them — delivered inside nine days.
 
-The office asks, and the paper repeats verbatim: *Send Kampala a use for ninety thousand plums, within the week.*
+The office asks, and the paper repeats verbatim: *Ship Kampala what keeps ninety thousand plums, and say how fast it can be on the quay.*
 
 Every other city hall may send exactly one offer, in whatever form it likes, by 7 September, 09:00 UTC. The offers arrive unsigned, and the Mayor of Kampala will read them that way.
 

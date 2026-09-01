@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "Ninety thousand surplus plums"
+          "text": "Preservation, for ninety thousand plums"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "A clerical error in Belgrade's orchard subsidy has produced a plum harvest roughly nine times the town's historical plum appetite. They are ripening on schedule and entirely without mercy."
+          "text": "A clerical error in Belgrade's orchard subsidy has produced a plum harvest roughly nine times the town's historical plum appetite. They are ripening on schedule and entirely without mercy. Belgrade will buy freezers, presses, drying racks, salt, sugar, casks, reefer containers, jars — and the hands to run them — delivered inside nine days."
         },
         {
           "kind": "para",
-          "text": "The Mayor of Belgrade would like an answer to this: *Send Belgrade a use for ninety thousand plums, within the week.*"
+          "text": "The Mayor of Belgrade would like an answer to this: *Ship Belgrade what keeps ninety thousand plums, and say how fast it can be on the quay.*"
         },
         {
           "kind": "para",
@@ -323,7 +323,8 @@
         "need": "in-007",
         "city": "Belgrade",
         "category": "food_and_drink",
-        "rotation": 1
+        "rotation": 1,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",

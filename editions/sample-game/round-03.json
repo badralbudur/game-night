@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "A bus route people would ride for fun"
+          "text": "Haulage for a nineteen per cent gradient"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Valparaíso's buses are punctual, clean, and used exclusively by people with no alternative. Ridership studies have concluded, at some expense, that the buses are 'fine.'"
+          "text": "Deliveries to Valparaíso's upper town stop at the bottom of a 19% gradient. From there everything — furniture, groceries, one piano — proceeds by arrangement, on foot, badly. Valparaíso will buy winches, hoists, cargo bikes, a funicular in kit form, mules with their tack, or the crew that already does this somewhere steeper."
         },
         {
           "kind": "para",
-          "text": "The office asks, and the paper repeats verbatim: *Give Valparaíso a bus route worth riding on a day off.*"
+          "text": "The office asks, and the paper repeats verbatim: *Ship Valparaíso the machinery or the animals that get a piano up a nineteen per cent hill.*"
         },
         {
           "kind": "para",
@@ -314,7 +314,8 @@
         "need": "in-003",
         "city": "Valparaíso",
         "category": "transport_and_logistics",
-        "rotation": 1
+        "rotation": 1,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",

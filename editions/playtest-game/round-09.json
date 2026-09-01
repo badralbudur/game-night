@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "A bridge that goes somewhere"
+          "text": "The far side of a bridge, delivered"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Valparaíso has a magnificent bridge. It was completed in the spring, under budget, and it lands in the overflow car park of a closed appliance showroom. The bridge is not the problem. The far side is the problem."
+          "text": "Valparaíso has a magnificent bridge. It was completed in the spring, under budget, and it lands in the overflow car park of a closed appliance showroom. The bridge is not for sale. Valparaíso is buying what goes on the end of it: a building's worth of fittings, market stalls, plant, stock, a whole going concern if one will fit on a lorry."
         },
         {
           "kind": "para",
-          "text": "The Mayor of Valparaíso would like an answer to this: *What does Valparaíso put on the other side of that bridge?*"
+          "text": "The Mayor of Valparaíso would like an answer to this: *Ship Valparaíso something worth crossing a bridge for, and say what comes off the lorry.*"
         },
         {
           "kind": "para",
@@ -331,7 +331,8 @@
         "need": "in-009",
         "city": "Valparaíso",
         "category": "infrastructure",
-        "rotation": 2
+        "rotation": 2,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",

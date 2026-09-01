@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "An explanation for the humming"
+          "text": "A night canteen, four till eight"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Since February, Hobart has hummed. Two residents in five can hear it. The utility says it isn't theirs, the geologists say it isn't the ground, and the council has begun describing it in writing as 'the ambience.'"
+          "text": "Hobart runs on people finishing work at 5am — the port, the bakery, the hospital, the fish market. Nothing is open for them, and what is open is designed for people who slept. Hobart is buying the canteen entire: urns, pots, a counter, the food to fill it, and cooks willing to work the wrong end of the night."
         },
         {
           "kind": "para",
-          "text": "The Mayor of Hobart would like an answer to this: *Explain Hobart's hum, or make it somebody's problem in a way that helps.*"
+          "text": "The Mayor of Hobart would like an answer to this: *Send Hobart the kit, the stock and the cooks for a counter that opens at four in the morning.*"
         },
         {
           "kind": "para",
@@ -46,7 +46,7 @@
       ],
       "provenance": {
         "need": "in-007",
-        "category": "mysteries_and_anomalies",
+        "category": "food_and_drink",
         "rotation": 2,
         "spec": "#9, #13, #14"
       }
@@ -322,8 +322,9 @@
         "op": "OPEN",
         "need": "in-007",
         "city": "Hobart",
-        "category": "mysteries_and_anomalies",
-        "rotation": 2
+        "category": "food_and_drink",
+        "rotation": 2,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",
@@ -342,18 +343,18 @@
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped mysteries & anomalies, 4 crates on the quay, 4 of them ribboned, dice showing 5 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped food & drink, 4 crates on the quay, 4 of them ribboned, dice showing 5 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
     "cutline": "Every crate got a ribbon in the end. The crane operator has questions.",
     "extension": "svg",
     "mime": "image/svg+xml",
     "palette": {
-      "paper": "#f1eff6",
-      "ink": "#171426",
-      "sky": "#b3aede",
-      "water": "#332a5e",
-      "accent": "#f2c14e",
-      "spot": "#6b5fa8",
-      "spot_alt": "#a49ccf"
+      "paper": "#fdf3e3",
+      "ink": "#2b1a12",
+      "sky": "#ffd08a",
+      "water": "#a8573b",
+      "accent": "#c5283d",
+      "spot": "#e08e45",
+      "spot_alt": "#7d9b3f"
     },
     "colorful": true,
     "provenance": {

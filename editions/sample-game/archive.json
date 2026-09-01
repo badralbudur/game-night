@@ -28,7 +28,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "A subject that didn't exist last year"
+              "text": "Listening equipment, and ears to go with it"
             },
             {
               "kind": "para",
@@ -36,11 +36,11 @@
             },
             {
               "kind": "para",
-              "text": "Reykjavík's schools have one free period on the timetable and a standing instruction to teach something useful in it. So far it has been used for supervised silence."
+              "text": "Since February, Reykjavík has hummed. Two residents in five can hear it. The utility says it is not theirs, the geologists say it is not the ground, and the council has begun describing it in writing as 'the ambience.' Reykjavík is buying instruments and time: hydrophones, geophones, meters, recorders — and people who have found a noise before, for a fortnight, with a bicycle each."
             },
             {
               "kind": "para",
-              "text": "The office asks, and the paper repeats verbatim: *Tell Reykjavík what to teach in the empty period.*"
+              "text": "The office asks, and the paper repeats verbatim: *Ship Reykjavík the listening equipment, the people or the instruments the hum turns out to need.*"
             },
             {
               "kind": "para",
@@ -53,7 +53,7 @@
           ],
           "provenance": {
             "need": "in-001",
-            "category": "education_and_knowledge",
+            "category": "mysteries_and_anomalies",
             "rotation": 1,
             "spec": "#9, #13, #14"
           }
@@ -233,8 +233,9 @@
             "op": "OPEN",
             "need": "in-001",
             "city": "Reykjavík",
-            "category": "education_and_knowledge",
-            "rotation": 1
+            "category": "mysteries_and_anomalies",
+            "rotation": 1,
+            "request_source": "seed"
           },
           {
             "op": "CLOSE",
@@ -249,18 +250,18 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped education & knowledge, an empty quay, a skyline of 4 city towers ranked by profit.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped mysteries & anomalies, an empty quay, a skyline of 4 city towers ranked by profit.",
         "cutline": "No cargo today. The harbour, pictured, is unbothered.",
         "extension": "svg",
         "mime": "image/svg+xml",
         "palette": {
-          "paper": "#f6f3ea",
-          "ink": "#1f1b26",
-          "sky": "#cfc3a4",
-          "water": "#453a5e",
-          "accent": "#d1622a",
-          "spot": "#6d5c96",
-          "spot_alt": "#a99ac4"
+          "paper": "#f1eff6",
+          "ink": "#171426",
+          "sky": "#b3aede",
+          "water": "#332a5e",
+          "accent": "#f2c14e",
+          "spot": "#6b5fa8",
+          "spot_alt": "#a49ccf"
         },
         "colorful": true,
         "provenance": {
@@ -314,7 +315,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "A junction that ends the argument"
+              "text": "Windbreak for one avenue, bolted down"
             },
             {
               "kind": "para",
@@ -322,11 +323,11 @@
             },
             {
               "kind": "para",
-              "text": "At the Fifth and Harbour crossing, Hobart's drivers have developed an elaborate unwritten protocol involving eye contact, headlight flashes, and one particular hand gesture. Visitors do not know the protocol. Visitors are not doing well."
+              "text": "The wind comes down Hobart's main avenue at a speed that has removed four awnings, one election banner and the dignity of most residents between November and March. Purchase order: screens, baffles, slats, canvas, rope, planters heavy enough to stay put, and a crew to bolt it all down before the first gale."
             },
             {
               "kind": "para",
-              "text": "The notice ends with a question, which this paper considers the interesting part: *How does Hobart settle who goes first?*"
+              "text": "The notice ends with a question, which this paper considers the interesting part: *Ship Hobart the windbreak for a four-kilometre avenue, and the crew who fix it in place.*"
             },
             {
               "kind": "para",
@@ -334,12 +335,12 @@
             },
             {
               "kind": "aside",
-              "text": "This paper has no opinion on load-bearing matters and would like that on record before anything settles."
+              "text": "Treating the sky as a procurement problem has never once worked, and city halls keep trying."
             }
           ],
           "provenance": {
             "need": "in-002",
-            "category": "infrastructure",
+            "category": "weather_and_climate",
             "rotation": 1,
             "spec": "#9, #13, #14"
           }
@@ -541,8 +542,9 @@
             "op": "OPEN",
             "need": "in-002",
             "city": "Hobart",
-            "category": "infrastructure",
-            "rotation": 1
+            "category": "weather_and_climate",
+            "rotation": 1,
+            "request_source": "seed"
           },
           {
             "op": "CLOSE",
@@ -559,18 +561,18 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped infrastructure & public works, 2 crates on the quay, a skyline of 4 city towers ranked by profit, and 2 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped weather & climate, 2 crates on the quay, a skyline of 4 city towers ranked by profit, and 2 pennants overhead, one per reply.",
         "cutline": "The offers, landed and unopened. Nobody in this picture knows who sent what, including the paper.",
         "extension": "svg",
         "mime": "image/svg+xml",
         "palette": {
-          "paper": "#f7f2e6",
-          "ink": "#221d18",
-          "sky": "#f2c14e",
-          "water": "#3d6b7d",
-          "accent": "#e2571e",
-          "spot": "#8c4a2f",
-          "spot_alt": "#d9a441"
+          "paper": "#eef4f9",
+          "ink": "#182430",
+          "sky": "#a8cbe8",
+          "water": "#2f5675",
+          "accent": "#f2c14e",
+          "spot": "#5b87ad",
+          "spot_alt": "#c9dced"
         },
         "colorful": true,
         "provenance": {
@@ -624,7 +626,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "A bus route people would ride for fun"
+              "text": "Haulage for a nineteen per cent gradient"
             },
             {
               "kind": "para",
@@ -632,11 +634,11 @@
             },
             {
               "kind": "para",
-              "text": "Valparaíso's buses are punctual, clean, and used exclusively by people with no alternative. Ridership studies have concluded, at some expense, that the buses are 'fine.'"
+              "text": "Deliveries to Valparaíso's upper town stop at the bottom of a 19% gradient. From there everything — furniture, groceries, one piano — proceeds by arrangement, on foot, badly. Valparaíso will buy winches, hoists, cargo bikes, a funicular in kit form, mules with their tack, or the crew that already does this somewhere steeper."
             },
             {
               "kind": "para",
-              "text": "The office asks, and the paper repeats verbatim: *Give Valparaíso a bus route worth riding on a day off.*"
+              "text": "The office asks, and the paper repeats verbatim: *Ship Valparaíso the machinery or the animals that get a piano up a nineteen per cent hill.*"
             },
             {
               "kind": "para",
@@ -917,7 +919,8 @@
             "need": "in-003",
             "city": "Valparaíso",
             "category": "transport_and_logistics",
-            "rotation": 1
+            "rotation": 1,
+            "request_source": "seed"
           },
           {
             "op": "CLOSE",
@@ -1001,7 +1004,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Ninety thousand surplus plums"
+              "text": "Preservation, for ninety thousand plums"
             },
             {
               "kind": "para",
@@ -1009,11 +1012,11 @@
             },
             {
               "kind": "para",
-              "text": "A clerical error in Kampala's orchard subsidy has produced a plum harvest roughly nine times the town's historical plum appetite. They are ripening on schedule and entirely without mercy."
+              "text": "A clerical error in Kampala's orchard subsidy has produced a plum harvest roughly nine times the town's historical plum appetite. They are ripening on schedule and entirely without mercy. Kampala will buy freezers, presses, drying racks, salt, sugar, casks, reefer containers, jars — and the hands to run them — delivered inside nine days."
             },
             {
               "kind": "para",
-              "text": "The office asks, and the paper repeats verbatim: *Send Kampala a use for ninety thousand plums, within the week.*"
+              "text": "The office asks, and the paper repeats verbatim: *Ship Kampala what keeps ninety thousand plums, and say how fast it can be on the quay.*"
             },
             {
               "kind": "para",
@@ -1295,7 +1298,8 @@
             "need": "in-004",
             "city": "Kampala",
             "category": "food_and_drink",
-            "rotation": 1
+            "rotation": 1,
+            "request_source": "seed"
           },
           {
             "op": "CLOSE",
@@ -1379,7 +1383,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "A second verse for the anthem"
+              "text": "Plant for four hundred tonnes of seaweed"
             },
             {
               "kind": "para",
@@ -1387,11 +1391,11 @@
             },
             {
               "kind": "para",
-              "text": "Bergen's anthem has exactly one verse. At every civic occasion the band reaches the end, hesitates, and plays it again, slightly louder, while everyone stares straight ahead."
+              "text": "The tide brings Bergen four hundred tonnes of seaweed a season. Burning it is illegal, burying it is unpopular, and the phrase 'municipal seaweed' now appears in eleven separate complaint letters. Bergen is buying the machinery that turns it into a product: balers, dryers, presses, tanks — or a standing order from somebody who wants the stuff."
             },
             {
               "kind": "para",
-              "text": "The Mayor of Bergen would like an answer to this: *Give Bergen something to sing after the first verse.*"
+              "text": "The Mayor of Bergen would like an answer to this: *Ship Bergen the plant that makes seaweed into something, or the contract that takes it away by the tonne.*"
             },
             {
               "kind": "para",
@@ -1404,7 +1408,7 @@
           ],
           "provenance": {
             "need": "in-005",
-            "category": "culture_and_arts",
+            "category": "water_and_waste",
             "rotation": 1,
             "spec": "#9, #13, #14"
           }
@@ -1668,8 +1672,9 @@
             "op": "OPEN",
             "need": "in-005",
             "city": "Bergen",
-            "category": "culture_and_arts",
-            "rotation": 1
+            "category": "water_and_waste",
+            "rotation": 1,
+            "request_source": "seed"
           },
           {
             "op": "CLOSE",
@@ -1688,18 +1693,18 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped culture & the arts, 4 crates on the quay, 1 of them ribboned, dice showing 2 and 1, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped water & waste, 4 crates on the quay, 1 of them ribboned, dice showing 2 and 1, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.",
         "cutline": "4 crates, one ribbon, 3 in the ledger. A good day at the water.",
         "extension": "svg",
         "mime": "image/svg+xml",
         "palette": {
-          "paper": "#f6f0f8",
-          "ink": "#211a2b",
-          "sky": "#c9b6e4",
-          "water": "#4b3b78",
-          "accent": "#eab543",
-          "spot": "#8e5fb8",
-          "spot_alt": "#d38ab5"
+          "paper": "#f1f7f6",
+          "ink": "#12262b",
+          "sky": "#9fd8d5",
+          "water": "#1f6f78",
+          "accent": "#f26d3d",
+          "spot": "#2e8b83",
+          "spot_alt": "#7ec4bd"
         },
         "colorful": true,
         "provenance": {
@@ -1753,19 +1758,19 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "A postcard that isn't the bridge"
+              "text": "Ninety kilometres of insulated pipe"
             },
             {
               "kind": "para",
-              "text": "**PUBLIC NOTICE**, filed by the Mayor of Reykjavík under Tourism & Reputation, which is where Reykjavík files most things."
+              "text": "**PUBLIC NOTICE**, filed by the Mayor of Reykjavík under Energy & Utilities, which is where Reykjavík files most things."
             },
             {
               "kind": "para",
-              "text": "Every image of Reykjavík ever printed shows the same view from the same hill. The hill is lovely. Reykjavík would like to be more than one photograph."
+              "text": "Reykjavík has more hot water underneath it than pipe to put it in, and the district heating main stops four streets short of the new housing in both directions. Wanted: pre-insulated pipe in six-metre lengths, valves, lagging, and welders who have worked in a trench in February."
             },
             {
               "kind": "para",
-              "text": "The office asks, and the paper repeats verbatim: *Show Reykjavík to the world from a different angle.*"
+              "text": "The office asks, and the paper repeats verbatim: *Ship Reykjavík the pipe, the fittings or the welders, and say how much of it fits on one lorry.*"
             },
             {
               "kind": "para",
@@ -1773,12 +1778,12 @@
             },
             {
               "kind": "aside",
-              "text": "What outsiders say about us when we leave the room is, unfortunately, printable."
+              "text": "The bill for this edition's lighting is being contested internally."
             }
           ],
           "provenance": {
             "need": "in-006",
-            "category": "tourism_and_reputation",
+            "category": "energy_and_utilities",
             "rotation": 2,
             "spec": "#9, #13, #14"
           }
@@ -2030,8 +2035,9 @@
             "op": "OPEN",
             "need": "in-006",
             "city": "Reykjavík",
-            "category": "tourism_and_reputation",
-            "rotation": 2
+            "category": "energy_and_utilities",
+            "rotation": 2,
+            "request_source": "freeform"
           },
           {
             "op": "CLOSE",
@@ -2050,18 +2056,18 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped tourism & reputation, an empty quay, dice showing 6 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped energy & utilities, an empty quay, dice showing 6 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
         "cutline": "Nothing on the quay, so Kampala built its own. The shed, pictured, is doing its best.",
         "extension": "svg",
         "mime": "image/svg+xml",
         "palette": {
-          "paper": "#f2f8f9",
-          "ink": "#13232a",
-          "sky": "#8fd0e8",
-          "water": "#1c5f77",
-          "accent": "#f4a11d",
-          "spot": "#3d95b3",
-          "spot_alt": "#9fd6e8"
+          "paper": "#fdf6e0",
+          "ink": "#241f10",
+          "sky": "#ffe08a",
+          "water": "#7a5c1e",
+          "accent": "#e03e2f",
+          "spot": "#c99a1e",
+          "spot_alt": "#f0cf6a"
         },
         "colorful": true,
         "provenance": {
@@ -2115,7 +2121,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "An explanation for the humming"
+              "text": "A night canteen, four till eight"
             },
             {
               "kind": "para",
@@ -2123,11 +2129,11 @@
             },
             {
               "kind": "para",
-              "text": "Since February, Hobart has hummed. Two residents in five can hear it. The utility says it isn't theirs, the geologists say it isn't the ground, and the council has begun describing it in writing as 'the ambience.'"
+              "text": "Hobart runs on people finishing work at 5am — the port, the bakery, the hospital, the fish market. Nothing is open for them, and what is open is designed for people who slept. Hobart is buying the canteen entire: urns, pots, a counter, the food to fill it, and cooks willing to work the wrong end of the night."
             },
             {
               "kind": "para",
-              "text": "The Mayor of Hobart would like an answer to this: *Explain Hobart's hum, or make it somebody's problem in a way that helps.*"
+              "text": "The Mayor of Hobart would like an answer to this: *Send Hobart the kit, the stock and the cooks for a counter that opens at four in the morning.*"
             },
             {
               "kind": "para",
@@ -2140,7 +2146,7 @@
           ],
           "provenance": {
             "need": "in-007",
-            "category": "mysteries_and_anomalies",
+            "category": "food_and_drink",
             "rotation": 2,
             "spec": "#9, #13, #14"
           }
@@ -2416,8 +2422,9 @@
             "op": "OPEN",
             "need": "in-007",
             "city": "Hobart",
-            "category": "mysteries_and_anomalies",
-            "rotation": 2
+            "category": "food_and_drink",
+            "rotation": 2,
+            "request_source": "seed"
           },
           {
             "op": "CLOSE",
@@ -2436,18 +2443,18 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped mysteries & anomalies, 4 crates on the quay, 4 of them ribboned, dice showing 5 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped food & drink, 4 crates on the quay, 4 of them ribboned, dice showing 5 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
         "cutline": "Every crate got a ribbon in the end. The crane operator has questions.",
         "extension": "svg",
         "mime": "image/svg+xml",
         "palette": {
-          "paper": "#f1eff6",
-          "ink": "#171426",
-          "sky": "#b3aede",
-          "water": "#332a5e",
-          "accent": "#f2c14e",
-          "spot": "#6b5fa8",
-          "spot_alt": "#a49ccf"
+          "paper": "#fdf3e3",
+          "ink": "#2b1a12",
+          "sky": "#ffd08a",
+          "water": "#a8573b",
+          "accent": "#c5283d",
+          "spot": "#e08e45",
+          "spot_alt": "#7d9b3f"
         },
         "colorful": true,
         "provenance": {
@@ -2501,7 +2508,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "A rival worth having"
+              "text": "An object for an empty plinth"
             },
             {
               "kind": "para",
@@ -2509,11 +2516,11 @@
             },
             {
               "kind": "para",
-              "text": "Valparaíso's team has no traditional rival. Matches are cordial. Attendance is stable. Something essential is missing and everyone is too polite to name it."
+              "text": "The plinth in Valparaíso's central square has been empty for two years. The previous occupant turned out to have opinions. The plinth is a good plinth, it is rated to eleven tonnes, and the square feels the absence. Valparaíso is commissioning and buying the thing that stands on it — cast, carved, welded or grown, crated and shipped."
             },
             {
               "kind": "para",
-              "text": "The office asks, and the paper repeats verbatim: *Give Valparaíso something or someone to beat.*"
+              "text": "The office asks, and the paper repeats verbatim: *Ship Valparaíso something to put on an eleven-tonne plinth, and name the material.*"
             },
             {
               "kind": "para",
@@ -2526,7 +2533,7 @@
           ],
           "provenance": {
             "need": "in-008",
-            "category": "sport_and_recreation",
+            "category": "culture_and_arts",
             "rotation": 2,
             "spec": "#9, #13, #14"
           }
@@ -2788,8 +2795,9 @@
             "op": "OPEN",
             "need": "in-008",
             "city": "Valparaíso",
-            "category": "sport_and_recreation",
-            "rotation": 2
+            "category": "culture_and_arts",
+            "rotation": 2,
+            "request_source": "seed"
           },
           {
             "op": "CLOSE",
@@ -2808,18 +2816,18 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped sport & recreation, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 2, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped culture & the arts, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 2, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
         "cutline": "4 crates, one ribbon, 6 in the ledger. A good day at the water.",
         "extension": "svg",
         "mime": "image/svg+xml",
         "palette": {
-          "paper": "#f1f7f1",
-          "ink": "#15231a",
-          "sky": "#a9dfb4",
-          "water": "#256b47",
-          "accent": "#e8542e",
-          "spot": "#3f9663",
-          "spot_alt": "#8fcfa4"
+          "paper": "#f6f0f8",
+          "ink": "#211a2b",
+          "sky": "#c9b6e4",
+          "water": "#4b3b78",
+          "accent": "#eab543",
+          "spot": "#8e5fb8",
+          "spot_alt": "#d38ab5"
         },
         "colorful": true,
         "provenance": {
@@ -2873,7 +2881,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "A tree that can take the salt"
+              "text": "A rivalry, in kind"
             },
             {
               "kind": "para",
@@ -2881,11 +2889,11 @@
             },
             {
               "kind": "para",
-              "text": "Every tree Kampala has planted along the seafront promenade has died within two winters, politely and in order, west to east. The promenade is now a row of very well-maintained stakes."
+              "text": "Kampala's team has no traditional rival. Matches are cordial. Attendance is stable. Something essential is missing and everyone is too polite to name it. Kampala is buying the whole apparatus: a trophy heavy enough to be a nuisance to carry, a signed fixture in perpetuity, an away support that travels, drums, banners, and a grievance with a date on it."
             },
             {
               "kind": "para",
-              "text": "The Mayor of Kampala would like an answer to this: *Give Kampala something that will grow where the salt is.*"
+              "text": "The Mayor of Kampala would like an answer to this: *Ship Kampala the trophy, the fixture or the travelling support — and say who is expected to carry it home.*"
             },
             {
               "kind": "para",
@@ -2898,7 +2906,7 @@
           ],
           "provenance": {
             "need": "in-009",
-            "category": "wildlife_and_nature",
+            "category": "sport_and_recreation",
             "rotation": 2,
             "spec": "#9, #13, #14"
           }
@@ -3158,8 +3166,9 @@
             "op": "OPEN",
             "need": "in-009",
             "city": "Kampala",
-            "category": "wildlife_and_nature",
-            "rotation": 2
+            "category": "sport_and_recreation",
+            "rotation": 2,
+            "request_source": "seed"
           },
           {
             "op": "CLOSE",
@@ -3178,18 +3187,18 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped wildlife & nature, 3 crates on the quay, 1 of them ribboned, dice showing 4 and 5, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped sport & recreation, 3 crates on the quay, 1 of them ribboned, dice showing 4 and 5, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
         "cutline": "One crate came off the boat with a ribbon on it. Kampala sent it. The others are not saying anything.",
         "extension": "svg",
         "mime": "image/svg+xml",
         "palette": {
-          "paper": "#f3f7ec",
-          "ink": "#1a2415",
-          "sky": "#bfe08a",
-          "water": "#3f6b3a",
-          "accent": "#e4772e",
-          "spot": "#6a9a3c",
-          "spot_alt": "#a8c96a"
+          "paper": "#f1f7f1",
+          "ink": "#15231a",
+          "sky": "#a9dfb4",
+          "water": "#256b47",
+          "accent": "#e8542e",
+          "spot": "#3f9663",
+          "spot_alt": "#8fcfa4"
         },
         "colorful": true,
         "provenance": {
@@ -3243,7 +3252,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Somebody who understands the old pipe network"
+              "text": "Stock a library card is worth having for"
             },
             {
               "kind": "para",
@@ -3251,11 +3260,11 @@
             },
             {
               "kind": "para",
-              "text": "One person in Bergen knew where all the pipes go. He retired in March. He left a map. The map is a napkin, and it is honestly quite beautiful, and it is not sufficient."
+              "text": "Bergen's library is free, excellent, and holds active cards for 8% of residents. The librarians have tried posters. The posters were not the issue. Bergen is buying stock and hardware: books nobody else lends, instruments, tools, seeds, a van with shelves in it — anything a card can be used to take home."
             },
             {
               "kind": "para",
-              "text": "The office asks, and the paper repeats verbatim: *Send Bergen whatever it needs to know where its own pipes go.*"
+              "text": "The office asks, and the paper repeats verbatim: *Ship Bergen the stock its library lends out, and say what a borrower carries away.*"
             },
             {
               "kind": "para",
@@ -3268,7 +3277,7 @@
           ],
           "provenance": {
             "need": "in-010",
-            "category": "labor_and_expertise",
+            "category": "education_and_knowledge",
             "rotation": 2,
             "spec": "#9, #13, #14"
           }
@@ -3537,8 +3546,9 @@
             "op": "OPEN",
             "need": "in-010",
             "city": "Bergen",
-            "category": "labor_and_expertise",
-            "rotation": 2
+            "category": "education_and_knowledge",
+            "rotation": 2,
+            "request_source": "seed"
           },
           {
             "op": "CLOSE",
@@ -3557,18 +3567,18 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped labour & expertise, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 3, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped education & knowledge, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 3, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
         "cutline": "4 crates, one ribbon, 7 in the ledger. A good day at the water.",
         "extension": "svg",
         "mime": "image/svg+xml",
         "palette": {
-          "paper": "#f8f4ec",
-          "ink": "#231d16",
-          "sky": "#e8cf9a",
-          "water": "#6b5334",
-          "accent": "#c2452d",
-          "spot": "#9a7942",
-          "spot_alt": "#d6b877"
+          "paper": "#f6f3ea",
+          "ink": "#1f1b26",
+          "sky": "#cfc3a4",
+          "water": "#453a5e",
+          "accent": "#d1622a",
+          "spot": "#6d5c96",
+          "spot_alt": "#a99ac4"
         },
         "colorful": true,
         "provenance": {
@@ -3910,18 +3920,18 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped wildlife & nature, 4 crates on the quay, 1 of them ribboned, dice showing 3 and 6, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped sport & recreation, 4 crates on the quay, 1 of them ribboned, dice showing 3 and 6, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.",
         "cutline": "One crate came off the boat with a ribbon on it. Bergen sent it. The others are not saying anything.",
         "extension": "svg",
         "mime": "image/svg+xml",
         "palette": {
-          "paper": "#f3f7ec",
-          "ink": "#1a2415",
-          "sky": "#bfe08a",
-          "water": "#3f6b3a",
-          "accent": "#e4772e",
-          "spot": "#6a9a3c",
-          "spot_alt": "#a8c96a"
+          "paper": "#f1f7f1",
+          "ink": "#15231a",
+          "sky": "#a9dfb4",
+          "water": "#256b47",
+          "accent": "#e8542e",
+          "spot": "#3f9663",
+          "spot_alt": "#8fcfa4"
         },
         "colorful": true,
         "provenance": {
@@ -4206,18 +4216,18 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped labour & expertise, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 3, a skyline of 5 city towers ranked by profit.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped education & knowledge, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 3, a skyline of 5 city towers ranked by profit.",
         "cutline": "One crate came off the boat with a ribbon on it. Valparaíso sent it. The others are not saying anything.",
         "extension": "svg",
         "mime": "image/svg+xml",
         "palette": {
-          "paper": "#f8f4ec",
-          "ink": "#231d16",
-          "sky": "#e8cf9a",
-          "water": "#6b5334",
-          "accent": "#c2452d",
-          "spot": "#9a7942",
-          "spot_alt": "#d6b877"
+          "paper": "#f6f3ea",
+          "ink": "#1f1b26",
+          "sky": "#cfc3a4",
+          "water": "#453a5e",
+          "accent": "#d1622a",
+          "spot": "#6d5c96",
+          "spot_alt": "#a99ac4"
         },
         "colorful": true,
         "provenance": {
@@ -4269,13 +4279,13 @@
       "extension": "svg",
       "mime": "image/svg+xml",
       "palette": {
-        "paper": "#f1f7f1",
-        "ink": "#15231a",
-        "sky": "#a9dfb4",
-        "water": "#256b47",
-        "accent": "#e8542e",
-        "spot": "#3f9663",
-        "spot_alt": "#8fcfa4"
+        "paper": "#f6f0f8",
+        "ink": "#211a2b",
+        "sky": "#c9b6e4",
+        "water": "#4b3b78",
+        "accent": "#eab543",
+        "spot": "#8e5fb8",
+        "spot_alt": "#d38ab5"
       },
       "colorful": true,
       "provenance": {
@@ -4313,13 +4323,13 @@
         "extension": "svg",
         "mime": "image/svg+xml",
         "palette": {
-          "paper": "#f6f0f8",
-          "ink": "#211a2b",
-          "sky": "#c9b6e4",
-          "water": "#4b3b78",
-          "accent": "#eab543",
-          "spot": "#8e5fb8",
-          "spot_alt": "#d38ab5"
+          "paper": "#f1f7f6",
+          "ink": "#12262b",
+          "sky": "#9fd8d5",
+          "water": "#1f6f78",
+          "accent": "#f26d3d",
+          "spot": "#2e8b83",
+          "spot_alt": "#7ec4bd"
         },
         "colorful": true,
         "provenance": {
@@ -4357,13 +4367,13 @@
         "extension": "svg",
         "mime": "image/svg+xml",
         "palette": {
-          "paper": "#f7f2e6",
-          "ink": "#221d18",
-          "sky": "#f2c14e",
-          "water": "#3d6b7d",
-          "accent": "#e2571e",
-          "spot": "#8c4a2f",
-          "spot_alt": "#d9a441"
+          "paper": "#eef4f9",
+          "ink": "#182430",
+          "sky": "#a8cbe8",
+          "water": "#2f5675",
+          "accent": "#f2c14e",
+          "spot": "#5b87ad",
+          "spot_alt": "#c9dced"
         },
         "colorful": true,
         "provenance": {
@@ -4445,13 +4455,13 @@
         "extension": "svg",
         "mime": "image/svg+xml",
         "palette": {
-          "paper": "#f6f3ea",
-          "ink": "#1f1b26",
-          "sky": "#cfc3a4",
-          "water": "#453a5e",
-          "accent": "#d1622a",
-          "spot": "#6d5c96",
-          "spot_alt": "#a99ac4"
+          "paper": "#f1eff6",
+          "ink": "#171426",
+          "sky": "#b3aede",
+          "water": "#332a5e",
+          "accent": "#f2c14e",
+          "spot": "#6b5fa8",
+          "spot_alt": "#a49ccf"
         },
         "colorful": true,
         "provenance": {
@@ -4628,11 +4638,11 @@
           },
           {
             "kind": "para",
-            "text": "Valparaíso wrote that. Reykjavík read it, wanted it, and took delivery of it against the notice titled \"A subject that didn't exist last year\"."
+            "text": "Valparaíso wrote that. Reykjavík read it, wanted it, and took delivery of it against the notice titled \"Listening equipment, and ears to go with it\"."
           },
           {
             "kind": "para",
-            "text": "Children in Reykjavík are being taught about it and have started asking the follow-up questions."
+            "text": "Reykjavík's clerk has stopped minuting it. This paper regards that as the most complete report available."
           },
           {
             "kind": "quote",
@@ -4640,11 +4650,11 @@
           },
           {
             "kind": "para",
-            "text": "Valparaíso wrote that. Hobart read it, wanted it, and took delivery of it against the notice titled \"A junction that ends the argument\"."
+            "text": "Valparaíso wrote that. Hobart read it, wanted it, and took delivery of it against the notice titled \"Windbreak for one avenue, bolted down\"."
           },
           {
             "kind": "para",
-            "text": "Two things in Hobart are now load-bearing that were never asked whether they wanted to be."
+            "text": "The sky over Hobart was not consulted, and has responded in the only way the sky ever responds."
           },
           {
             "kind": "quote",
@@ -4652,7 +4662,7 @@
           },
           {
             "kind": "para",
-            "text": "Bergen wrote that. Valparaíso read it, wanted it, and took delivery of it against the notice titled \"A bus route people would ride for fun\"."
+            "text": "Bergen wrote that. Valparaíso read it, wanted it, and took delivery of it against the notice titled \"Haulage for a nineteen per cent gradient\"."
           },
           {
             "kind": "para",
@@ -4664,11 +4674,11 @@
           },
           {
             "kind": "para",
-            "text": "Hobart wrote that. Bergen read it, wanted it, and took delivery of it against the notice titled \"A second verse for the anthem\"."
+            "text": "Hobart wrote that. Bergen read it, wanted it, and took delivery of it against the notice titled \"Plant for four hundred tonnes of seaweed\"."
           },
           {
             "kind": "para",
-            "text": "There is a plaque about it in Bergen now. The plaque is longer than the thing it commemorates."
+            "text": "Bergen reports that the water now goes where it was told to go. Bergen has not previously been able to report this."
           },
           {
             "kind": "para",
@@ -4680,7 +4690,7 @@
           },
           {
             "kind": "para",
-            "text": "None of the above is the half of it. Over the whole game twenty offers were sent and not chosen, and every one of them went home again: curricula, untaught, right-of-way conventions, mutually incompatible, routes, unrun, timetabled anyway, views, unphotographed, explanations, unconvincing, filed under 'ambience', grudges, unreciprocated, saplings, unplanted, still in their pots and expertise, offered to no one. That is what the world made this year and could not give away."
+            "text": "None of the above is the half of it. Over the whole game twenty offers were sent and not chosen, and every one of them went home again: explanations, unconvincing, filed under 'ambience', windbreaks, blown over, conveyances, parked at the bottom of the hill, pipe, stacked and capped against the weather, breakfasts, served at the wrong hour, rejected monuments, in storage, facing the wall, grudges, unreciprocated and membership drives, unenrolled. That is what the world made this year and could not give away."
           },
           {
             "kind": "para",
@@ -4725,7 +4735,7 @@
           },
           {
             "kind": "para",
-            "text": "Bergen's notices this game: A second verse for the anthem and Somebody who understands the old pipe network. Two in total, each one a problem it could not solve alone."
+            "text": "Bergen's notices this game: Plant for four hundred tonnes of seaweed and Stock a library card is worth having for. Two in total, each one a problem it could not solve alone."
           },
           {
             "kind": "para",
@@ -4741,7 +4751,7 @@
           },
           {
             "kind": "para",
-            "text": "Three offers reached Bergen and went unchosen. Bergen kept the pile anyway — expertise, offered to no one — because nobody has ever worked out how to send an offer back."
+            "text": "Three offers reached Bergen and went unchosen. Bergen kept the pile anyway — membership drives, unenrolled — because nobody has ever worked out how to send an offer back."
           },
           {
             "kind": "para",
@@ -4772,7 +4782,7 @@
           },
           {
             "kind": "para",
-            "text": "What Hobart asked for, in order: A junction that ends the argument and An explanation for the humming."
+            "text": "What Hobart asked for, in order: Windbreak for one avenue, bolted down and A night canteen, four till eight."
           },
           {
             "kind": "para",
@@ -4784,7 +4794,7 @@
           },
           {
             "kind": "para",
-            "text": "Four offers reached Hobart and went unchosen. Hobart kept the pile anyway — right-of-way conventions, mutually incompatible and explanations, unconvincing, filed under 'ambience' — because nobody has ever worked out how to send an offer back."
+            "text": "Four offers reached Hobart and went unchosen. Hobart kept the pile anyway — windbreaks, blown over and breakfasts, served at the wrong hour — because nobody has ever worked out how to send an offer back."
           },
           {
             "kind": "para",
@@ -4827,7 +4837,7 @@
           },
           {
             "kind": "para",
-            "text": "Kampala came to the world two times, over Ninety thousand surplus plums and A tree that can take the salt."
+            "text": "Kampala came to the world two times, over Preservation, for ninety thousand plums and A rivalry, in kind."
           },
           {
             "kind": "para",
@@ -4843,7 +4853,7 @@
           },
           {
             "kind": "para",
-            "text": "The excess at Kampala: three offers, declined, filed under saplings, unplanted, still in their pots, occupying a quay that has other uses."
+            "text": "The excess at Kampala: three offers, declined, filed under grudges, unreciprocated, occupying a quay that has other uses."
           },
           {
             "kind": "para",
@@ -4886,7 +4896,7 @@
           },
           {
             "kind": "para",
-            "text": "Reykjavík came to the world two times, over A subject that didn't exist last year and A postcard that isn't the bridge."
+            "text": "Reykjavík came to the world two times, over Listening equipment, and ears to go with it and Ninety kilometres of insulated pipe."
           },
           {
             "kind": "para",
@@ -4898,7 +4908,7 @@
           },
           {
             "kind": "para",
-            "text": "Four offers reached Reykjavík and went unchosen. Reykjavík kept the pile anyway — curricula, untaught and views, unphotographed — because nobody has ever worked out how to send an offer back."
+            "text": "Four offers reached Reykjavík and went unchosen. Reykjavík kept the pile anyway — explanations, unconvincing, filed under 'ambience' and pipe, stacked and capped against the weather — because nobody has ever worked out how to send an offer back."
           },
           {
             "kind": "para",
@@ -4937,7 +4947,7 @@
           },
           {
             "kind": "para",
-            "text": "Valparaíso's notices this game: A bus route people would ride for fun and A rival worth having. Two in total, each one a problem it could not solve alone."
+            "text": "Valparaíso's notices this game: Haulage for a nineteen per cent gradient and An object for an empty plinth. Two in total, each one a problem it could not solve alone."
           },
           {
             "kind": "para",
@@ -4949,7 +4959,7 @@
           },
           {
             "kind": "para",
-            "text": "The excess at Valparaíso: six offers, declined, filed under routes, unrun, timetabled anyway and grudges, unreciprocated, occupying a quay that has other uses."
+            "text": "The excess at Valparaíso: six offers, declined, filed under conveyances, parked at the bottom of the hill and rejected monuments, in storage, facing the wall, occupying a quay that has other uses."
           },
           {
             "kind": "para",

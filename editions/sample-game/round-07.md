@@ -8,7 +8,7 @@ Weather: overcast, with a strong chance of committee.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped mysteries & anomalies, 4 crates on the quay, 4 of them ribboned, dice showing 5 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-07.svg)
+![A harbour scene in the Daily Manifest's colours, stamped food & drink, 4 crates on the quay, 4 of them ribboned, dice showing 5 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-07.svg)
 
 *Every crate got a ribbon in the end. The crane operator has questions.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### An explanation for the humming
+### A night canteen, four till eight
 
 **PUBLIC NOTICE**, lodged at this paper's counter by the office of the Mayor of Hobart, who declined to elaborate.
 
-Since February, Hobart has hummed. Two residents in five can hear it. The utility says it isn't theirs, the geologists say it isn't the ground, and the council has begun describing it in writing as 'the ambience.'
+Hobart runs on people finishing work at 5am — the port, the bakery, the hospital, the fish market. Nothing is open for them, and what is open is designed for people who slept. Hobart is buying the canteen entire: urns, pots, a counter, the food to fill it, and cooks willing to work the wrong end of the night.
 
-The Mayor of Hobart would like an answer to this: *Explain Hobart's hum, or make it somebody's problem in a way that helps.*
+The Mayor of Hobart would like an answer to this: *Send Hobart the kit, the stock and the cooks for a counter that opens at four in the morning.*
 
 Offers close at the end of this round (10 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Hobart either.
 

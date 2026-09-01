@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "A breakfast that survives a night shift"
+          "text": "A night canteen, four till eight"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Trieste runs on people finishing work at 5am — the port, the bakery, the hospital, the fish market. Nothing is open for them, and what is open is designed for people who slept."
+          "text": "Trieste runs on people finishing work at 5am — the port, the bakery, the hospital, the fish market. Nothing is open for them, and what is open is designed for people who slept. Trieste is buying the canteen entire: urns, pots, a counter, the food to fill it, and cooks willing to work the wrong end of the night."
         },
         {
           "kind": "para",
-          "text": "The notice ends with a question, which this paper considers the interesting part: *What does Trieste feed the people coming off the night shift?*"
+          "text": "The notice ends with a question, which this paper considers the interesting part: *Send Trieste the kit, the stock and the cooks for a counter that opens at four in the morning.*"
         },
         {
           "kind": "para",
@@ -339,7 +339,8 @@
         "need": "in-015",
         "city": "Trieste",
         "category": "food_and_drink",
-        "rotation": 2
+        "rotation": 2,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",

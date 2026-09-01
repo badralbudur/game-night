@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "A rival worth having"
+          "text": "An object for an empty plinth"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Valparaíso's team has no traditional rival. Matches are cordial. Attendance is stable. Something essential is missing and everyone is too polite to name it."
+          "text": "The plinth in Valparaíso's central square has been empty for two years. The previous occupant turned out to have opinions. The plinth is a good plinth, it is rated to eleven tonnes, and the square feels the absence. Valparaíso is commissioning and buying the thing that stands on it — cast, carved, welded or grown, crated and shipped."
         },
         {
           "kind": "para",
-          "text": "The office asks, and the paper repeats verbatim: *Give Valparaíso something or someone to beat.*"
+          "text": "The office asks, and the paper repeats verbatim: *Ship Valparaíso something to put on an eleven-tonne plinth, and name the material.*"
         },
         {
           "kind": "para",
@@ -46,7 +46,7 @@
       ],
       "provenance": {
         "need": "in-008",
-        "category": "sport_and_recreation",
+        "category": "culture_and_arts",
         "rotation": 2,
         "spec": "#9, #13, #14"
       }
@@ -308,8 +308,9 @@
         "op": "OPEN",
         "need": "in-008",
         "city": "Valparaíso",
-        "category": "sport_and_recreation",
-        "rotation": 2
+        "category": "culture_and_arts",
+        "rotation": 2,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",
@@ -328,18 +329,18 @@
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped sport & recreation, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 2, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped culture & the arts, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 2, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
     "cutline": "4 crates, one ribbon, 6 in the ledger. A good day at the water.",
     "extension": "svg",
     "mime": "image/svg+xml",
     "palette": {
-      "paper": "#f1f7f1",
-      "ink": "#15231a",
-      "sky": "#a9dfb4",
-      "water": "#256b47",
-      "accent": "#e8542e",
-      "spot": "#3f9663",
-      "spot_alt": "#8fcfa4"
+      "paper": "#f6f0f8",
+      "ink": "#211a2b",
+      "sky": "#c9b6e4",
+      "water": "#4b3b78",
+      "accent": "#eab543",
+      "spot": "#8e5fb8",
+      "spot_alt": "#d38ab5"
     },
     "colorful": true,
     "provenance": {

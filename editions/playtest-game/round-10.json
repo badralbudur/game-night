@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "Parking, spiritually"
+          "text": "Kerbside equipment, and people to work it"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Hobart has adequate parking. Every study confirms it. Every resident disputes it. The gap between the studies and the residents is now Hobart's single most reliable source of public feeling."
+          "text": "Hobart has adequate parking. Every study confirms it. Every resident disputes it. The gap between the studies and the residents is Hobart's single most reliable source of public feeling, and the council has stopped buying studies. Wanted instead: line paint, stencils, counters, boards, barriers, ticket machines, attendants in vests, or the lift that makes the whole question moot."
         },
         {
           "kind": "para",
-          "text": "The office asks, and the paper repeats verbatim: *Resolve Hobart's parking question — the real one, not the arithmetic.*"
+          "text": "The office asks, and the paper repeats verbatim: *Ship Hobart the kerbside equipment or the people who work it, priced per street.*"
         },
         {
           "kind": "para",
@@ -335,7 +335,8 @@
         "need": "in-010",
         "city": "Hobart",
         "category": "transport_and_logistics",
-        "rotation": 2
+        "rotation": 2,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",

@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "Load-bearing optimism"
+          "text": "Twenty metres of clear span, and a signature"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "The roof of Belgrade's town hall is currently supported by scaffolding, three generations of temporary permits, and the shared belief that it will hold. Two of those three are expiring."
+          "text": "The roof of Belgrade's town hall is held up by scaffolding, three generations of temporary permits and the shared belief that it will hold. Two of those three expire in October. Wanted: trusses, beams, ties, fixings — timber, steel or stone, Belgrade is not fussy — and a stamped calculation from somebody insured."
         },
         {
           "kind": "para",
-          "text": "The Mayor of Belgrade would like an answer to this: *Send Belgrade something that can hold up a civic roof — structurally, financially, or spiritually.*"
+          "text": "The Mayor of Belgrade would like an answer to this: *Send Belgrade the structure that will hold up a civic roof, and whatever crew or certificate travels with it.*"
         },
         {
           "kind": "para",
@@ -335,7 +335,8 @@
         "need": "in-014",
         "city": "Belgrade",
         "category": "infrastructure",
-        "rotation": 2
+        "rotation": 2,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",

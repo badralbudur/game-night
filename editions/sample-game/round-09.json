@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "A tree that can take the salt"
+          "text": "A rivalry, in kind"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Every tree Kampala has planted along the seafront promenade has died within two winters, politely and in order, west to east. The promenade is now a row of very well-maintained stakes."
+          "text": "Kampala's team has no traditional rival. Matches are cordial. Attendance is stable. Something essential is missing and everyone is too polite to name it. Kampala is buying the whole apparatus: a trophy heavy enough to be a nuisance to carry, a signed fixture in perpetuity, an away support that travels, drums, banners, and a grievance with a date on it."
         },
         {
           "kind": "para",
-          "text": "The Mayor of Kampala would like an answer to this: *Give Kampala something that will grow where the salt is.*"
+          "text": "The Mayor of Kampala would like an answer to this: *Ship Kampala the trophy, the fixture or the travelling support — and say who is expected to carry it home.*"
         },
         {
           "kind": "para",
@@ -46,7 +46,7 @@
       ],
       "provenance": {
         "need": "in-009",
-        "category": "wildlife_and_nature",
+        "category": "sport_and_recreation",
         "rotation": 2,
         "spec": "#9, #13, #14"
       }
@@ -306,8 +306,9 @@
         "op": "OPEN",
         "need": "in-009",
         "city": "Kampala",
-        "category": "wildlife_and_nature",
-        "rotation": 2
+        "category": "sport_and_recreation",
+        "rotation": 2,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",
@@ -326,18 +327,18 @@
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped wildlife & nature, 3 crates on the quay, 1 of them ribboned, dice showing 4 and 5, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped sport & recreation, 3 crates on the quay, 1 of them ribboned, dice showing 4 and 5, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
     "cutline": "One crate came off the boat with a ribbon on it. Kampala sent it. The others are not saying anything.",
     "extension": "svg",
     "mime": "image/svg+xml",
     "palette": {
-      "paper": "#f3f7ec",
-      "ink": "#1a2415",
-      "sky": "#bfe08a",
-      "water": "#3f6b3a",
-      "accent": "#e4772e",
-      "spot": "#6a9a3c",
-      "spot_alt": "#a8c96a"
+      "paper": "#f1f7f1",
+      "ink": "#15231a",
+      "sky": "#a9dfb4",
+      "water": "#256b47",
+      "accent": "#e8542e",
+      "spot": "#3f9663",
+      "spot_alt": "#8fcfa4"
     },
     "colorful": true,
     "provenance": {
