@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *Today's notice, printed in full and without comment, followed immediately by comment.*
 
-### A signature dish, urgently
+### A signature dish, cooks included
 
 **PUBLIC NOTICE**, lodged at this paper's counter by the office of the Mayor of Kópavogur, who declined to elaborate.
 
-A travel magazine has listed Kópavogur as 'a city best experienced between meals.' The council has convened. The council would like this corrected before the next issue.
+A travel magazine has listed Kópavogur as 'a city best experienced between meals.' The council has convened, and has money for one thing only: a dish. Kópavogur is buying cooks on secondment, the pans and griddles they insist on, the recipe under licence, and enough of the ingredients to get through the first month.
 
-The Mayor of Kópavogur would like an answer to this: *What is Kópavogur famous for eating, starting now?*
+The Mayor of Kópavogur would like an answer to this: *Send Kópavogur a cook, a recipe and the kit to make it — and say what is in the first crate.*
 
 Offers close at the end of this round (15 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Kópavogur either.
 

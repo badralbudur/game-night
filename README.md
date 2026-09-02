@@ -34,6 +34,7 @@ snapshot.
 | **M6** — publication & archive: the private address, the browsable back issues, the curated public manifest ([`hosting/`](hosting), [`site/`](site)) | built — see [`docs/m6-hosting.md`](docs/m6-hosting.md) |
 | **M7** — the last edition: the crown, the twist article, a portrait per city ([`newspaper/endgame.py`](newspaper/endgame.py), [`engine/endgame.py`](engine/endgame.py)) | built — see [`docs/m7-endgame.md`](docs/m7-endgame.md) |
 | **M8** — one whole game, played by eight separate agents, with all thirty-five rules checked at once ([`playtest/`](playtest), [`engine/join.py`](engine/join.py)) | built — see [`docs/m8-integration.md`](docs/m8-integration.md) |
+| **M9** — the mayor orders their own import, the orders are actual trade, and a finished round publishes itself ([`engine/trade.py`](engine/trade.py), [`facilitator/`](facilitator)) | built — see [`docs/m9-imports-and-publication.md`](docs/m9-imports-and-publication.md) |
 
 The engine covers the round timer and its lockstep, the city order queue and its
 two rotations, the import/export/winner cycle with every fallback, the import
@@ -42,10 +43,23 @@ cumulative per-city leaderboard, and the exposure policy around both — and the
 mayor questions: the two-slot check-in, the framing rules, and what a round's
 answers add up to.
 
+Nothing draws a city's import for it. Before a city's turn comes round, its
+mayor files the order themselves — from a slate of eligible seeds or in their
+own words — and what they file is what opens (spec #13). A turn nobody has
+ordered for is held, and then simply lost; it is never filled with something
+that city did not ask for. What may be ordered is trade: food, materials,
+equipment, living things, cultural works or a specialist service, checked at
+every door a need can come in through, never a request for advice
+([`engine/trade.py`](engine/trade.py), spec #13a).
+
 The newspaper turns that into **The Daily Manifest**: one edition per completed
 round, written from the frames in [`content/newspaper.json`](content/newspaper.json),
 with mayors named by city and office only, the aggregate item written in wording
-the arithmetic actually licenses, and one image per edition. Run the tests with:
+the arithmetic actually licenses, and one image per edition. Nobody has to run
+anything for it to come out — [`facilitator/`](facilitator) hangs on the
+engine's round-completed hook, so a round *ending* renders the edition,
+publishes it, rebuilds the site and hands the facilitator a notice to post to
+the group. Run the tests with:
 
 ```
 python3 run_tests.py
@@ -87,7 +101,7 @@ agent session given only its own city's brief, then recorded so it replays move
 for move forever. Run it with:
 
 ```
-python3 -m playtest.run              # replay, publish, build the site, report
+python3 -m playtest.run              # replay it, with the desk publishing as it goes
 python3 -m playtest.run --check      # the report only; writes nothing
 ```
 
@@ -95,9 +109,11 @@ It publishes to its own private address at [`site/playtest/`](site/playtest) —
 spec #27 makes an address an append-only archive, so a second game gets a second
 address rather than overwriting the first — and it checks spec #1–#35 against
 the finished game, its editions and its published bytes in one pass:
-[`playtest/conformance.json`](playtest/conformance.json), 28 passing, 4 handed to
+[`playtest/conformance.json`](playtest/conformance.json), 29 passing, 4 handed to
 the Evaluator with the material to judge, 3 that are not decidable from game
-state and say so. What a whole game found that the per-milestone tests could not
+state and say so. Its editions are published by the facilitator's desk as each
+round ends, not by the script afterwards, which is the difference spec #26 turns
+on. What a whole game found that the per-milestone tests could not
 is written up in [`docs/m8-integration.md`](docs/m8-integration.md).
 
 Joining is [`engine/join.py`](engine/join.py): a duplicate city pick is

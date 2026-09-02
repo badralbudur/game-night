@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *The classifieds desk has been busy. It has taken one advertisement.*
 
-### Childcare that runs at 3am
+### Night care, ten till seven
 
 **PUBLIC NOTICE**, lodged at this paper's counter by the office of the Mayor of Kópavogur, who declined to elaborate.
 
-Kópavogur's biggest employers run around the clock. Kópavogur's childcare runs 8 to 6. The gap is currently being covered by grandmothers, goodwill, and a rota taped inside a locker door.
+Kópavogur's biggest employers run around the clock. Kópavogur's childcare runs 8 to 6. The gap is currently covered by grandmothers, goodwill and a rota taped inside a locker door. Kópavogur is buying the night shift: carers on secondment, cots, blackout blinds, a licensed rota it can copy, and relief staff for the weeks somebody has flu.
 
-The notice ends with a question, which this paper considers the interesting part: *Cover Kópavogur's night hours.*
+The notice ends with a question, which this paper considers the interesting part: *Send Kópavogur the carers, the cots and the paperwork for a room that opens at ten at night.*
 
 The rules, as ever: one offer per city, anything at all, in by 22 September, 09:00 UTC, and nobody's name on anything.
 

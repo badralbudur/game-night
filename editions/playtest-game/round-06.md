@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *The classifieds desk has been busy. It has taken one advertisement.*
 
-### A last-mile solution for a very steep mile
+### Haulage for a nineteen per cent gradient
 
 **PUBLIC NOTICE**, filed by the Mayor of Naoshima under Transport & Logistics, which is where Naoshima files most things.
 
-Deliveries to Naoshima's upper town stop at the bottom of a 19% gradient. From there, everything — furniture, groceries, one piano — proceeds by arrangement, on foot, badly.
+Deliveries to Naoshima's upper town stop at the bottom of a 19% gradient. From there everything — furniture, groceries, one piano — proceeds by arrangement, on foot, badly. Naoshima will buy winches, hoists, cargo bikes, a funicular in kit form, mules with their tack, or the crew that already does this somewhere steeper.
 
-The office asks, and the paper repeats verbatim: *Get Naoshima's deliveries up the hill.*
+The office asks, and the paper repeats verbatim: *Ship Naoshima the machinery or the animals that get a piano up a nineteen per cent hill.*
 
 Every other city hall may send exactly one offer, in whatever form it likes, by 16 September, 09:00 UTC. The offers arrive unsigned, and the Mayor of Naoshima will read them that way.
 

@@ -8,7 +8,7 @@ Weather: unsettled, like the minutes of the last session.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped wildlife & nature, 3 crates on the quay, 1 of them ribboned, dice showing 4 and 5, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-09.svg)
+![A harbour scene in the Daily Manifest's colours, stamped sport & recreation, 3 crates on the quay, 1 of them ribboned, dice showing 4 and 5, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-09.svg)
 
 *One crate came off the boat with a ribbon on it. Kampala sent it. The others are not saying anything.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### A tree that can take the salt
+### A rivalry, in kind
 
 **PUBLIC NOTICE** from Kampala, paid for in municipal goodwill and printed here at length because the paper had the room.
 
-Every tree Kampala has planted along the seafront promenade has died within two winters, politely and in order, west to east. The promenade is now a row of very well-maintained stakes.
+Kampala's team has no traditional rival. Matches are cordial. Attendance is stable. Something essential is missing and everyone is too polite to name it. Kampala is buying the whole apparatus: a trophy heavy enough to be a nuisance to carry, a signed fixture in perpetuity, an away support that travels, drums, banners, and a grievance with a date on it.
 
-The Mayor of Kampala would like an answer to this: *Give Kampala something that will grow where the salt is.*
+The Mayor of Kampala would like an answer to this: *Ship Kampala the trophy, the fixture or the travelling support — and say who is expected to carry it home.*
 
 The rules, as ever: one offer per city, anything at all, in by 12 September, 09:00 UTC, and nobody's name on anything.
 

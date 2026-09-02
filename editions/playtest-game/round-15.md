@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *The classifieds desk has been busy. It has taken one advertisement.*
 
-### A breakfast that survives a night shift
+### A night canteen, four till eight
 
 **PUBLIC NOTICE** from Trieste, paid for in municipal goodwill and printed here at length because the paper had the room.
 
-Trieste runs on people finishing work at 5am — the port, the bakery, the hospital, the fish market. Nothing is open for them, and what is open is designed for people who slept.
+Trieste runs on people finishing work at 5am — the port, the bakery, the hospital, the fish market. Nothing is open for them, and what is open is designed for people who slept. Trieste is buying the canteen entire: urns, pots, a counter, the food to fill it, and cooks willing to work the wrong end of the night.
 
-The notice ends with a question, which this paper considers the interesting part: *What does Trieste feed the people coming off the night shift?*
+The notice ends with a question, which this paper considers the interesting part: *Send Trieste the kit, the stock and the cooks for a counter that opens at four in the morning.*
 
 The rules, as ever: one offer per city, anything at all, in by 25 September, 09:00 UTC, and nobody's name on anything.
 

@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "A rival worth having"
+          "text": "A rivalry, in kind"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Naoshima's team has no traditional rival. Matches are cordial. Attendance is stable. Something essential is missing and everyone is too polite to name it."
+          "text": "Naoshima's team has no traditional rival. Matches are cordial. Attendance is stable. Something essential is missing and everyone is too polite to name it. Naoshima is buying the whole apparatus: a trophy heavy enough to be a nuisance to carry, a signed fixture in perpetuity, an away support that travels, drums, banners, and a grievance with a date on it."
         },
         {
           "kind": "para",
-          "text": "The office asks, and the paper repeats verbatim: *Give Naoshima something or someone to beat.*"
+          "text": "The office asks, and the paper repeats verbatim: *Ship Naoshima the trophy, the fixture or the travelling support — and say who is expected to carry it home.*"
         },
         {
           "kind": "para",
@@ -351,7 +351,8 @@
         "need": "in-013",
         "city": "Naoshima",
         "category": "sport_and_recreation",
-        "rotation": 2
+        "rotation": 2,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",

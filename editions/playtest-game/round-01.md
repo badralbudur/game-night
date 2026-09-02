@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### An explanation for the humming
+### Listening equipment, and ears to go with it
 
 **PUBLIC NOTICE**. The Mayor of Reykjavík has taken out an advertisement. This paper has read it three times and remains impressed.
 
-Since February, Reykjavík has hummed. Two residents in five can hear it. The utility says it isn't theirs, the geologists say it isn't the ground, and the council has begun describing it in writing as 'the ambience.'
+Since February, Reykjavík has hummed. Two residents in five can hear it. The utility says it is not theirs, the geologists say it is not the ground, and the council has begun describing it in writing as 'the ambience.' Reykjavík is buying instruments and time: hydrophones, geophones, meters, recorders — and people who have found a noise before, for a fortnight, with a bicycle each.
 
-The office asks, and the paper repeats verbatim: *Explain Reykjavík's hum, or make it somebody's problem in a way that helps.*
+The office asks, and the paper repeats verbatim: *Ship Reykjavík the listening equipment, the people or the instruments the hum turns out to need.*
 
 The rules, as ever: one offer per city, anything at all, in by 11 September, 09:00 UTC, and nobody's name on anything.
 

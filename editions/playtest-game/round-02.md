@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *The classifieds desk has been busy. It has taken one advertisement.*
 
-### A rebrand for the least-loved district
+### Something for Northgate, worth the bus fare
 
 **PUBLIC NOTICE** from Valparaíso, paid for in municipal goodwill and printed here at length because the paper had the room.
 
-Everyone in Valparaíso agrees the Northgate district is the worst part of town. Nobody who says this has been to Northgate since 2009. Northgate, meanwhile, has quietly become quite good.
+Everyone in Valparaíso agrees the Northgate district is the worst part of town. Nobody who says this has been to Northgate since 2009. Northgate, meanwhile, has quietly become quite good. Valparaíso has a building, a budget and no stock: it is buying plant, fittings, equipment or the staff to run one thing in Northgate that people from the other side of town would travel for.
 
-The notice ends with a question, which this paper considers the interesting part: *Change Valparaíso's mind about Northgate.*
+The notice ends with a question, which this paper considers the interesting part: *Ship Valparaíso the plant, fittings or people for one thing in Northgate worth the bus fare.*
 
 Offers close at the end of this round (12 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Valparaíso either.
 

@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "A second verse for the anthem"
+          "text": "Plant for four hundred tonnes of seaweed"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Bergen's anthem has exactly one verse. At every civic occasion the band reaches the end, hesitates, and plays it again, slightly louder, while everyone stares straight ahead."
+          "text": "The tide brings Bergen four hundred tonnes of seaweed a season. Burning it is illegal, burying it is unpopular, and the phrase 'municipal seaweed' now appears in eleven separate complaint letters. Bergen is buying the machinery that turns it into a product: balers, dryers, presses, tanks — or a standing order from somebody who wants the stuff."
         },
         {
           "kind": "para",
-          "text": "The Mayor of Bergen would like an answer to this: *Give Bergen something to sing after the first verse.*"
+          "text": "The Mayor of Bergen would like an answer to this: *Ship Bergen the plant that makes seaweed into something, or the contract that takes it away by the tonne.*"
         },
         {
           "kind": "para",
@@ -46,7 +46,7 @@
       ],
       "provenance": {
         "need": "in-005",
-        "category": "culture_and_arts",
+        "category": "water_and_waste",
         "rotation": 1,
         "spec": "#9, #13, #14"
       }
@@ -310,8 +310,9 @@
         "op": "OPEN",
         "need": "in-005",
         "city": "Bergen",
-        "category": "culture_and_arts",
-        "rotation": 1
+        "category": "water_and_waste",
+        "rotation": 1,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",
@@ -330,18 +331,18 @@
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped culture & the arts, 4 crates on the quay, 1 of them ribboned, dice showing 2 and 1, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped water & waste, 4 crates on the quay, 1 of them ribboned, dice showing 2 and 1, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.",
     "cutline": "4 crates, one ribbon, 3 in the ledger. A good day at the water.",
     "extension": "svg",
     "mime": "image/svg+xml",
     "palette": {
-      "paper": "#f6f0f8",
-      "ink": "#211a2b",
-      "sky": "#c9b6e4",
-      "water": "#4b3b78",
-      "accent": "#eab543",
-      "spot": "#8e5fb8",
-      "spot_alt": "#d38ab5"
+      "paper": "#f1f7f6",
+      "ink": "#12262b",
+      "sky": "#9fd8d5",
+      "water": "#1f6f78",
+      "accent": "#f26d3d",
+      "spot": "#2e8b83",
+      "spot_alt": "#7ec4bd"
     },
     "colorful": true,
     "provenance": {

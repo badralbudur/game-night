@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### A rival worth having
+### A rivalry, in kind
 
 **PUBLIC NOTICE**, filed by the Mayor of Naoshima under Sport & Recreation, which is where Naoshima files most things.
 
-Naoshima's team has no traditional rival. Matches are cordial. Attendance is stable. Something essential is missing and everyone is too polite to name it.
+Naoshima's team has no traditional rival. Matches are cordial. Attendance is stable. Something essential is missing and everyone is too polite to name it. Naoshima is buying the whole apparatus: a trophy heavy enough to be a nuisance to carry, a signed fixture in perpetuity, an away support that travels, drums, banners, and a grievance with a date on it.
 
-The office asks, and the paper repeats verbatim: *Give Naoshima something or someone to beat.*
+The office asks, and the paper repeats verbatim: *Ship Naoshima the trophy, the fixture or the travelling support — and say who is expected to carry it home.*
 
 Offers close at the end of this round (23 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Naoshima either.
 

@@ -1,55 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="A harbour scene in the Daily Manifest's colours, stamped education &amp; knowledge, an empty quay, a skyline of 4 city towers ranked by profit.">
-<rect x="0.0" y="0.0" width="1200.0" height="700.0" rx="0" fill="#f6f3ea"/>
-<rect x="0.0" y="0.0" width="1200.0" height="66.0" rx="0" fill="#1f1b26"/>
-<text x="28.0" y="44.0" fill="#f6f3ea" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="bold" text-anchor="start" letter-spacing="3">THE DAILY MANIFEST</text>
-<text x="1172.0" y="30.0" fill="#f6f3ea" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="end">Vol. I, No. 1</text>
-<text x="1172.0" y="52.0" fill="#f6f3ea" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="end" font-style="italic">Thursday, 3 September 2026</text>
-<rect x="0.0" y="66.0" width="1200.0" height="368.0" rx="0" fill="#cfc3a4"/>
-<circle cx="984.0" cy="170.0" r="54.0" fill="#d1622a" opacity="0.9"/>
-<rect x="600.2" y="400.0" width="58.0" height="34.0" rx="0" fill="#6d5c96"/>
-<rect x="613.0" y="412.0" width="11.6" height="11.0" rx="0" fill="#d1622a" opacity="0.85"/>
-<rect x="633.9" y="412.0" width="11.6" height="11.0" rx="0" fill="#d1622a" opacity="0.85"/>
-<text x="629.2" y="380.0" fill="#1f1b26" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">0</text>
-<text x="629.2" y="426.0" fill="#f6f3ea" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle">Hobart</text>
-<rect x="754.8" y="400.0" width="58.0" height="34.0" rx="0" fill="#a99ac4"/>
-<rect x="767.5" y="412.0" width="11.6" height="11.0" rx="0" fill="#d1622a" opacity="0.85"/>
-<rect x="788.4" y="412.0" width="11.6" height="11.0" rx="0" fill="#d1622a" opacity="0.85"/>
-<text x="783.8" y="380.0" fill="#1f1b26" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">0</text>
-<text x="783.8" y="426.0" fill="#f6f3ea" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle">Kampala</text>
-<rect x="909.2" y="400.0" width="58.0" height="34.0" rx="0" fill="#6d5c96"/>
-<rect x="922.0" y="412.0" width="11.6" height="11.0" rx="0" fill="#d1622a" opacity="0.85"/>
-<rect x="942.9" y="412.0" width="11.6" height="11.0" rx="0" fill="#d1622a" opacity="0.85"/>
-<text x="938.2" y="380.0" fill="#1f1b26" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">0</text>
-<text x="938.2" y="426.0" fill="#f6f3ea" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle">Reykjavík</text>
-<rect x="1063.8" y="400.0" width="58.0" height="34.0" rx="0" fill="#a99ac4"/>
-<rect x="1076.5" y="412.0" width="11.6" height="11.0" rx="0" fill="#d1622a" opacity="0.85"/>
-<rect x="1097.4" y="412.0" width="11.6" height="11.0" rx="0" fill="#d1622a" opacity="0.85"/>
-<text x="1092.8" y="380.0" fill="#1f1b26" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">0</text>
-<text x="1092.8" y="426.0" fill="#f6f3ea" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle">Valparaíso</text>
-<rect x="0.0" y="434.0" width="1200.0" height="266.0" rx="0" fill="#453a5e"/>
-<rect x="0.0" y="434.0" width="1200.0" height="26.0" rx="0" fill="#6d5c96" opacity="0.55"/>
-<path d="M 30 480 q 24 -9 48 0 t 48 0 t 48 0 t 48 0" stroke="#f6f3ea" stroke-width="2" fill="none"/>
-<path d="M 56 502 q 24 -9 48 0 t 48 0 t 48 0 t 48 0" stroke="#f6f3ea" stroke-width="2" fill="none"/>
-<path d="M 30 524 q 24 -9 48 0 t 48 0 t 48 0 t 48 0" stroke="#f6f3ea" stroke-width="2" fill="none"/>
-<path d="M 56 546 q 24 -9 48 0 t 48 0 t 48 0 t 48 0" stroke="#f6f3ea" stroke-width="2" fill="none"/>
-<path d="M 30 568 q 24 -9 48 0 t 48 0 t 48 0 t 48 0" stroke="#f6f3ea" stroke-width="2" fill="none"/>
-<path d="M 56 590 q 24 -9 48 0 t 48 0 t 48 0 t 48 0" stroke="#f6f3ea" stroke-width="2" fill="none"/>
-<path d="M 30 612 q 24 -9 48 0 t 48 0 t 48 0 t 48 0" stroke="#f6f3ea" stroke-width="2" fill="none"/>
-<rect x="0.0" y="460.0" width="1200.0" height="12.0" rx="0" fill="#1f1b26"/>
-<text x="46.0" y="434.0" fill="#f6f3ea" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="start" font-style="italic">nothing on the quay</text>
-<rect x="480.0" y="250.0" width="12.0" height="210.0" rx="0" fill="#1f1b26"/>
-<rect x="404.0" y="250.0" width="150.0" height="11.0" rx="0" fill="#1f1b26"/>
-<line x1="420.0" y1="261.0" x2="420.0" y2="320.0" stroke="#1f1b26" stroke-width="2"/>
-<rect x="406.0" y="320.0" width="28.0" height="22.0" rx="2" fill="#d1622a"/>
-<path d="M 250.0 150.0 q 9.0 -11.0 18.0 0 q 9.0 -11.0 18.0 0" stroke="#1f1b26" stroke-width="2.5" fill="none"/>
-<path d="M 302.0 126.0 q 6.5 -7.9 13.0 0 q 6.5 -7.9 13.0 0" stroke="#1f1b26" stroke-width="2.5" fill="none"/>
-<path d="M 958.0 252.0 q 7.7 -9.5 15.5 0 q 7.7 -9.5 15.5 0" stroke="#1f1b26" stroke-width="2.5" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="A harbour scene in the Daily Manifest's colours, stamped mysteries &amp; anomalies, an empty quay, a skyline of 4 city towers ranked by profit.">
+<rect x="0.0" y="0.0" width="1200.0" height="700.0" rx="0" fill="#f1eff6"/>
+<rect x="0.0" y="0.0" width="1200.0" height="66.0" rx="0" fill="#171426"/>
+<text x="28.0" y="44.0" fill="#f1eff6" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="bold" text-anchor="start" letter-spacing="3">THE DAILY MANIFEST</text>
+<text x="1172.0" y="30.0" fill="#f1eff6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="end">Vol. I, No. 1</text>
+<text x="1172.0" y="52.0" fill="#f1eff6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="end" font-style="italic">Thursday, 3 September 2026</text>
+<rect x="0.0" y="66.0" width="1200.0" height="368.0" rx="0" fill="#b3aede"/>
+<circle cx="984.0" cy="170.0" r="54.0" fill="#f2c14e" opacity="0.9"/>
+<rect x="600.2" y="400.0" width="58.0" height="34.0" rx="0" fill="#6b5fa8"/>
+<rect x="613.0" y="412.0" width="11.6" height="11.0" rx="0" fill="#f2c14e" opacity="0.85"/>
+<rect x="633.9" y="412.0" width="11.6" height="11.0" rx="0" fill="#f2c14e" opacity="0.85"/>
+<text x="629.2" y="380.0" fill="#171426" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">0</text>
+<text x="629.2" y="426.0" fill="#f1eff6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle">Hobart</text>
+<rect x="754.8" y="400.0" width="58.0" height="34.0" rx="0" fill="#a49ccf"/>
+<rect x="767.5" y="412.0" width="11.6" height="11.0" rx="0" fill="#f2c14e" opacity="0.85"/>
+<rect x="788.4" y="412.0" width="11.6" height="11.0" rx="0" fill="#f2c14e" opacity="0.85"/>
+<text x="783.8" y="380.0" fill="#171426" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">0</text>
+<text x="783.8" y="426.0" fill="#f1eff6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle">Kampala</text>
+<rect x="909.2" y="400.0" width="58.0" height="34.0" rx="0" fill="#6b5fa8"/>
+<rect x="922.0" y="412.0" width="11.6" height="11.0" rx="0" fill="#f2c14e" opacity="0.85"/>
+<rect x="942.9" y="412.0" width="11.6" height="11.0" rx="0" fill="#f2c14e" opacity="0.85"/>
+<text x="938.2" y="380.0" fill="#171426" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">0</text>
+<text x="938.2" y="426.0" fill="#f1eff6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle">Reykjavík</text>
+<rect x="1063.8" y="400.0" width="58.0" height="34.0" rx="0" fill="#a49ccf"/>
+<rect x="1076.5" y="412.0" width="11.6" height="11.0" rx="0" fill="#f2c14e" opacity="0.85"/>
+<rect x="1097.4" y="412.0" width="11.6" height="11.0" rx="0" fill="#f2c14e" opacity="0.85"/>
+<text x="1092.8" y="380.0" fill="#171426" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">0</text>
+<text x="1092.8" y="426.0" fill="#f1eff6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle">Valparaíso</text>
+<rect x="0.0" y="434.0" width="1200.0" height="266.0" rx="0" fill="#332a5e"/>
+<rect x="0.0" y="434.0" width="1200.0" height="26.0" rx="0" fill="#6b5fa8" opacity="0.55"/>
+<path d="M 30 480 q 24 -9 48 0 t 48 0 t 48 0 t 48 0" stroke="#f1eff6" stroke-width="2" fill="none"/>
+<path d="M 56 502 q 24 -9 48 0 t 48 0 t 48 0 t 48 0" stroke="#f1eff6" stroke-width="2" fill="none"/>
+<path d="M 30 524 q 24 -9 48 0 t 48 0 t 48 0 t 48 0" stroke="#f1eff6" stroke-width="2" fill="none"/>
+<path d="M 56 546 q 24 -9 48 0 t 48 0 t 48 0 t 48 0" stroke="#f1eff6" stroke-width="2" fill="none"/>
+<path d="M 30 568 q 24 -9 48 0 t 48 0 t 48 0 t 48 0" stroke="#f1eff6" stroke-width="2" fill="none"/>
+<path d="M 56 590 q 24 -9 48 0 t 48 0 t 48 0 t 48 0" stroke="#f1eff6" stroke-width="2" fill="none"/>
+<path d="M 30 612 q 24 -9 48 0 t 48 0 t 48 0 t 48 0" stroke="#f1eff6" stroke-width="2" fill="none"/>
+<rect x="0.0" y="460.0" width="1200.0" height="12.0" rx="0" fill="#171426"/>
+<text x="46.0" y="434.0" fill="#f1eff6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="start" font-style="italic">nothing on the quay</text>
+<rect x="480.0" y="250.0" width="12.0" height="210.0" rx="0" fill="#171426"/>
+<rect x="404.0" y="250.0" width="150.0" height="11.0" rx="0" fill="#171426"/>
+<line x1="420.0" y1="261.0" x2="420.0" y2="320.0" stroke="#171426" stroke-width="2"/>
+<rect x="406.0" y="320.0" width="28.0" height="22.0" rx="2" fill="#f2c14e"/>
+<path d="M 250.0 150.0 q 9.0 -11.0 18.0 0 q 9.0 -11.0 18.0 0" stroke="#171426" stroke-width="2.5" fill="none"/>
+<path d="M 302.0 126.0 q 6.5 -7.9 13.0 0 q 6.5 -7.9 13.0 0" stroke="#171426" stroke-width="2.5" fill="none"/>
+<path d="M 958.0 252.0 q 7.7 -9.5 15.5 0 q 7.7 -9.5 15.5 0" stroke="#171426" stroke-width="2.5" fill="none"/>
 <g transform="rotate(-4 852.0 172.0)">
-<rect x="702.0" y="128.0" width="306.0" height="88.0" rx="6" fill="none" opacity="0.8" stroke="#1f1b26" stroke-width="3"/>
-<text x="855.0" y="164.0" fill="#1f1b26" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" letter-spacing="1.5">EDUCATION &amp; KNOWLEDGE</text>
-<text x="855.0" y="192.0" fill="#1f1b26" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" font-style="italic">A subject that didn't exist last…</text>
+<rect x="702.0" y="128.0" width="306.0" height="88.0" rx="6" fill="none" opacity="0.8" stroke="#171426" stroke-width="3"/>
+<text x="855.0" y="164.0" fill="#171426" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" letter-spacing="1.5">MYSTERIES &amp; ANOMALIES</text>
+<text x="855.0" y="192.0" fill="#171426" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" font-style="italic">Listening equipment, and ears to…</text>
 </g>
-<rect x="0.0" y="642.0" width="1200.0" height="58.0" rx="0" fill="#1f1b26"/>
-<text x="28.0" y="668.0" fill="#f6f3ea" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="normal" text-anchor="start" font-style="italic">No cargo today. The harbour, pictured, is unbothered.</text>
-<text x="28.0" y="688.0" fill="#f6f3ea" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="start">Published once per round by the Sister Cities desk. Mayors are named by city and office only.</text>
+<rect x="0.0" y="642.0" width="1200.0" height="58.0" rx="0" fill="#171426"/>
+<text x="28.0" y="668.0" fill="#f1eff6" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="normal" text-anchor="start" font-style="italic">No cargo today. The harbour, pictured, is unbothered.</text>
+<text x="28.0" y="688.0" fill="#f1eff6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="start">Published once per round by the Sister Cities desk. Mayors are named by city and office only.</text>
 </svg>

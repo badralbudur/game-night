@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### Wind, redirected
+### Windbreak for one avenue, bolted down
 
 **PUBLIC NOTICE**. The Mayor of Reykjavík has taken out an advertisement. This paper has read it three times and remains impressed.
 
-The wind comes down Reykjavík's main avenue at a speed that has removed four awnings, one election banner and the dignity of most residents between November and March.
+The wind comes down Reykjavík's main avenue at a speed that has removed four awnings, one election banner and the dignity of most residents between November and March. Purchase order: screens, baffles, slats, canvas, rope, planters heavy enough to stay put, and a crew to bolt it all down before the first gale.
 
-The office asks, and the paper repeats verbatim: *Tell Reykjavík what to do with the wind coming down the avenue.*
+The office asks, and the paper repeats verbatim: *Ship Reykjavík the windbreak for a four-kilometre avenue, and the crew who fix it in place.*
 
 The rules, as ever: one offer per city, anything at all, in by 18 September, 09:00 UTC, and nobody's name on anything.
 

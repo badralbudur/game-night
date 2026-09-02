@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "Childcare that runs at 3am"
+          "text": "Night care, ten till seven"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Kópavogur's biggest employers run around the clock. Kópavogur's childcare runs 8 to 6. The gap is currently being covered by grandmothers, goodwill, and a rota taped inside a locker door."
+          "text": "Kópavogur's biggest employers run around the clock. Kópavogur's childcare runs 8 to 6. The gap is currently covered by grandmothers, goodwill and a rota taped inside a locker door. Kópavogur is buying the night shift: carers on secondment, cots, blackout blinds, a licensed rota it can copy, and relief staff for the weeks somebody has flu."
         },
         {
           "kind": "para",
-          "text": "The notice ends with a question, which this paper considers the interesting part: *Cover Kópavogur's night hours.*"
+          "text": "The notice ends with a question, which this paper considers the interesting part: *Send Kópavogur the carers, the cots and the paperwork for a room that opens at ten at night.*"
         },
         {
           "kind": "para",
@@ -339,7 +339,8 @@
         "need": "in-012",
         "city": "Kópavogur",
         "category": "labor_and_expertise",
-        "rotation": 2
+        "rotation": 2,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",

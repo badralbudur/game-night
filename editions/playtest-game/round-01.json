@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "An explanation for the humming"
+          "text": "Listening equipment, and ears to go with it"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Since February, Reykjavík has hummed. Two residents in five can hear it. The utility says it isn't theirs, the geologists say it isn't the ground, and the council has begun describing it in writing as 'the ambience.'"
+          "text": "Since February, Reykjavík has hummed. Two residents in five can hear it. The utility says it is not theirs, the geologists say it is not the ground, and the council has begun describing it in writing as 'the ambience.' Reykjavík is buying instruments and time: hydrophones, geophones, meters, recorders — and people who have found a noise before, for a fortnight, with a bicycle each."
         },
         {
           "kind": "para",
-          "text": "The office asks, and the paper repeats verbatim: *Explain Reykjavík's hum, or make it somebody's problem in a way that helps.*"
+          "text": "The office asks, and the paper repeats verbatim: *Ship Reykjavík the listening equipment, the people or the instruments the hum turns out to need.*"
         },
         {
           "kind": "para",
@@ -269,7 +269,8 @@
         "need": "in-001",
         "city": "Reykjavík",
         "category": "mysteries_and_anomalies",
-        "rotation": 1
+        "rotation": 1,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",

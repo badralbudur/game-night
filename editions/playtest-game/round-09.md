@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### A bridge that goes somewhere
+### The far side of a bridge, delivered
 
 **PUBLIC NOTICE** from Valparaíso, paid for in municipal goodwill and printed here at length because the paper had the room.
 
-Valparaíso has a magnificent bridge. It was completed in the spring, under budget, and it lands in the overflow car park of a closed appliance showroom. The bridge is not the problem. The far side is the problem.
+Valparaíso has a magnificent bridge. It was completed in the spring, under budget, and it lands in the overflow car park of a closed appliance showroom. The bridge is not for sale. Valparaíso is buying what goes on the end of it: a building's worth of fittings, market stalls, plant, stock, a whole going concern if one will fit on a lorry.
 
-The Mayor of Valparaíso would like an answer to this: *What does Valparaíso put on the other side of that bridge?*
+The Mayor of Valparaíso would like an answer to this: *Ship Valparaíso something worth crossing a bridge for, and say what comes off the lorry.*
 
 The rules, as ever: one offer per city, anything at all, in by 19 September, 09:00 UTC, and nobody's name on anything.
 

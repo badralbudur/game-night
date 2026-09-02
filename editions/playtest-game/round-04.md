@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### Somewhere for the rain to go
+### Pumps, pipe and four days of standing water
 
 **PUBLIC NOTICE**, filed by the Mayor of Kampala under Water & Waste, which is where Kampala files most things.
 
-Kampala's storm drains were designed for a climate that has since resigned. Every heavy rain, the water arrives at the low end of Market Street and simply waits there, in public, for four days.
+Kampala's storm drains were built for a climate that has since resigned. Every heavy rain, the water arrives at the low end of Market Street and waits there, in public, for four days. Purchase order: pumps, hose, pipe, gravel, tanks, decking, and hands that have laid any of it before.
 
-The office asks, and the paper repeats verbatim: *Give Kampala's standing water somewhere to be, or something to become.*
+The office asks, and the paper repeats verbatim: *Ship Kampala the plant, pipework or people that will move the water at the low end of Market Street — or make it welcome there.*
 
 Every other city hall may send exactly one offer, in whatever form it likes, by 14 September, 09:00 UTC. The offers arrive unsigned, and the Mayor of Kampala will read them that way.
 

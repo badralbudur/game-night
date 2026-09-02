@@ -8,7 +8,7 @@ Weather: warm in the chamber, cold in the corridor.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped education & knowledge, an empty quay, a skyline of 4 city towers ranked by profit.](round-01.svg)
+![A harbour scene in the Daily Manifest's colours, stamped mysteries & anomalies, an empty quay, a skyline of 4 city towers ranked by profit.](round-01.svg)
 
 *No cargo today. The harbour, pictured, is unbothered.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### A subject that didn't exist last year
+### Listening equipment, and ears to go with it
 
 **PUBLIC NOTICE**. The Mayor of Reykjavík has taken out an advertisement. This paper has read it three times and remains impressed.
 
-Reykjavík's schools have one free period on the timetable and a standing instruction to teach something useful in it. So far it has been used for supervised silence.
+Since February, Reykjavík has hummed. Two residents in five can hear it. The utility says it is not theirs, the geologists say it is not the ground, and the council has begun describing it in writing as 'the ambience.' Reykjavík is buying instruments and time: hydrophones, geophones, meters, recorders — and people who have found a noise before, for a fortnight, with a bicycle each.
 
-The office asks, and the paper repeats verbatim: *Tell Reykjavík what to teach in the empty period.*
+The office asks, and the paper repeats verbatim: *Ship Reykjavík the listening equipment, the people or the instruments the hum turns out to need.*
 
 The rules, as ever: one offer per city, anything at all, in by 4 September, 09:00 UTC, and nobody's name on anything.
 

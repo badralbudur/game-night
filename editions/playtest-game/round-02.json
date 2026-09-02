@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "A rebrand for the least-loved district"
+          "text": "Something for Northgate, worth the bus fare"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Everyone in Valparaíso agrees the Northgate district is the worst part of town. Nobody who says this has been to Northgate since 2009. Northgate, meanwhile, has quietly become quite good."
+          "text": "Everyone in Valparaíso agrees the Northgate district is the worst part of town. Nobody who says this has been to Northgate since 2009. Northgate, meanwhile, has quietly become quite good. Valparaíso has a building, a budget and no stock: it is buying plant, fittings, equipment or the staff to run one thing in Northgate that people from the other side of town would travel for."
         },
         {
           "kind": "para",
-          "text": "The notice ends with a question, which this paper considers the interesting part: *Change Valparaíso's mind about Northgate.*"
+          "text": "The notice ends with a question, which this paper considers the interesting part: *Ship Valparaíso the plant, fittings or people for one thing in Northgate worth the bus fare.*"
         },
         {
           "kind": "para",
@@ -271,7 +271,8 @@
         "need": "in-002",
         "city": "Valparaíso",
         "category": "tourism_and_reputation",
-        "rotation": 1
+        "rotation": 1,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",

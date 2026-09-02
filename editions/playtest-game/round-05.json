@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "A signature dish, urgently"
+          "text": "A signature dish, cooks included"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "A travel magazine has listed Kópavogur as 'a city best experienced between meals.' The council has convened. The council would like this corrected before the next issue."
+          "text": "A travel magazine has listed Kópavogur as 'a city best experienced between meals.' The council has convened, and has money for one thing only: a dish. Kópavogur is buying cooks on secondment, the pans and griddles they insist on, the recipe under licence, and enough of the ingredients to get through the first month."
         },
         {
           "kind": "para",
-          "text": "The Mayor of Kópavogur would like an answer to this: *What is Kópavogur famous for eating, starting now?*"
+          "text": "The Mayor of Kópavogur would like an answer to this: *Send Kópavogur a cook, a recipe and the kit to make it — and say what is in the first crate.*"
         },
         {
           "kind": "para",
@@ -334,7 +334,8 @@
         "need": "in-005",
         "city": "Kópavogur",
         "category": "food_and_drink",
-        "rotation": 1
+        "rotation": 1,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",

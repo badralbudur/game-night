@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### A protocol for when the lighthouse answers back
+### A signal lamp and somebody who reads one
 
 **PUBLIC NOTICE**. The Mayor of Hobart has taken out an advertisement. This paper has read it three times and remains impressed.
 
-Hobart's lighthouse was decommissioned in 1997 and disconnected in 1998. Three times this year it has signalled, at night, in a rhythm that the harbourmaster describes as 'polite.' Nobody has agreed what to do if it does it again.
+Hobart's lighthouse was decommissioned in 1997 and disconnected in 1998. Three times this year it has signalled, at night, in a rhythm the harbourmaster describes as 'polite.' The harbour office has nothing to signal back with. Hobart is buying a lamp, fuel, a log book, and a keeper who can read lamp-rhythm, for three clear nights.
 
-The office asks, and the paper repeats verbatim: *Tell Hobart what to do the next time the lighthouse signals.*
+The office asks, and the paper repeats verbatim: *Ship Hobart the lamp, the fuel and the keeper for three nights on a headland.*
 
 Offers close at the end of this round (13 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Hobart either.
 

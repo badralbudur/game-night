@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### Ninety thousand surplus plums
+### Preservation, for ninety thousand plums
 
 **PUBLIC NOTICE**, lodged at this paper's counter by the office of the Mayor of Belgrade, who declined to elaborate.
 
-A clerical error in Belgrade's orchard subsidy has produced a plum harvest roughly nine times the town's historical plum appetite. They are ripening on schedule and entirely without mercy.
+A clerical error in Belgrade's orchard subsidy has produced a plum harvest roughly nine times the town's historical plum appetite. They are ripening on schedule and entirely without mercy. Belgrade will buy freezers, presses, drying racks, salt, sugar, casks, reefer containers, jars — and the hands to run them — delivered inside nine days.
 
-The Mayor of Belgrade would like an answer to this: *Send Belgrade a use for ninety thousand plums, within the week.*
+The Mayor of Belgrade would like an answer to this: *Ship Belgrade what keeps ninety thousand plums, and say how fast it can be on the quay.*
 
 Offers close at the end of this round (17 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Belgrade either.
 

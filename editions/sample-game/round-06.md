@@ -8,7 +8,7 @@ Weather: unsettled, like the minutes of the last session.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped tourism & reputation, an empty quay, dice showing 6 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-06.svg)
+![A harbour scene in the Daily Manifest's colours, stamped energy & utilities, an empty quay, dice showing 6 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-06.svg)
 
 *Nothing on the quay, so Kampala built its own. The shed, pictured, is doing its best.*
 
@@ -18,17 +18,17 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *The classifieds desk has been busy. It has taken one advertisement.*
 
-### A postcard that isn't the bridge
+### Ninety kilometres of insulated pipe
 
-**PUBLIC NOTICE**, filed by the Mayor of Reykjavík under Tourism & Reputation, which is where Reykjavík files most things.
+**PUBLIC NOTICE**, filed by the Mayor of Reykjavík under Energy & Utilities, which is where Reykjavík files most things.
 
-Every image of Reykjavík ever printed shows the same view from the same hill. The hill is lovely. Reykjavík would like to be more than one photograph.
+Reykjavík has more hot water underneath it than pipe to put it in, and the district heating main stops four streets short of the new housing in both directions. Wanted: pre-insulated pipe in six-metre lengths, valves, lagging, and welders who have worked in a trench in February.
 
-The office asks, and the paper repeats verbatim: *Show Reykjavík to the world from a different angle.*
+The office asks, and the paper repeats verbatim: *Ship Reykjavík the pipe, the fittings or the welders, and say how much of it fits on one lorry.*
 
 Every other city hall may send exactly one offer, in whatever form it likes, by 9 September, 09:00 UTC. The offers arrive unsigned, and the Mayor of Reykjavík will read them that way.
 
-_What outsiders say about us when we leave the room is, unfortunately, printable._
+_The bill for this edition's lighting is being contested internally._
 
 ## Sealed Bids
 

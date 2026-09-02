@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "Wind, redirected"
+          "text": "Windbreak for one avenue, bolted down"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "The wind comes down Reykjavík's main avenue at a speed that has removed four awnings, one election banner and the dignity of most residents between November and March."
+          "text": "The wind comes down Reykjavík's main avenue at a speed that has removed four awnings, one election banner and the dignity of most residents between November and March. Purchase order: screens, baffles, slats, canvas, rope, planters heavy enough to stay put, and a crew to bolt it all down before the first gale."
         },
         {
           "kind": "para",
-          "text": "The office asks, and the paper repeats verbatim: *Tell Reykjavík what to do with the wind coming down the avenue.*"
+          "text": "The office asks, and the paper repeats verbatim: *Ship Reykjavík the windbreak for a four-kilometre avenue, and the crew who fix it in place.*"
         },
         {
           "kind": "para",
@@ -311,7 +311,8 @@
         "need": "in-008",
         "city": "Reykjavík",
         "category": "weather_and_climate",
-        "rotation": 2
+        "rotation": 2,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",

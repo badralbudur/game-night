@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *The classifieds desk has been busy. It has taken one advertisement.*
 
-### A tree that can take the salt
+### Planting stock that stands in salt
 
 **PUBLIC NOTICE**, filed by the Mayor of Kampala under Wildlife & Nature, which is where Kampala files most things.
 
-Every tree Kampala has planted along the seafront promenade has died within two winters, politely and in order, west to east. The promenade is now a row of very well-maintained stakes.
+Every tree Kampala has planted along the seafront promenade has died within two winters, politely and in order, west to east. The promenade is now a row of very well-maintained stakes. Kampala is buying stock by the crate: rooted cuttings, whips, seedlings, pups, sets — anything that has already lived somewhere the spray reaches.
 
-The Mayor of Kampala would like an answer to this: *Give Kampala something that will grow where the salt is.*
+The Mayor of Kampala would like an answer to this: *Ship Kampala rooted stock that grows where the salt is, and say where yours has been standing.*
 
 The rules, as ever: one offer per city, anything at all, in by 21 September, 09:00 UTC, and nobody's name on anything.
 

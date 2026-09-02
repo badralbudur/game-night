@@ -252,18 +252,18 @@
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped labour & expertise, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 3, a skyline of 5 city towers ranked by profit.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped education & knowledge, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 3, a skyline of 5 city towers ranked by profit.",
     "cutline": "One crate came off the boat with a ribbon on it. Valparaíso sent it. The others are not saying anything.",
     "extension": "svg",
     "mime": "image/svg+xml",
     "palette": {
-      "paper": "#f8f4ec",
-      "ink": "#231d16",
-      "sky": "#e8cf9a",
-      "water": "#6b5334",
-      "accent": "#c2452d",
-      "spot": "#9a7942",
-      "spot_alt": "#d6b877"
+      "paper": "#f6f3ea",
+      "ink": "#1f1b26",
+      "sky": "#cfc3a4",
+      "water": "#453a5e",
+      "accent": "#d1622a",
+      "spot": "#6d5c96",
+      "spot_alt": "#a99ac4"
     },
     "colorful": true,
     "provenance": {

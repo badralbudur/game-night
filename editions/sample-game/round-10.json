@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "Somebody who understands the old pipe network"
+          "text": "Stock a library card is worth having for"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "One person in Bergen knew where all the pipes go. He retired in March. He left a map. The map is a napkin, and it is honestly quite beautiful, and it is not sufficient."
+          "text": "Bergen's library is free, excellent, and holds active cards for 8% of residents. The librarians have tried posters. The posters were not the issue. Bergen is buying stock and hardware: books nobody else lends, instruments, tools, seeds, a van with shelves in it — anything a card can be used to take home."
         },
         {
           "kind": "para",
-          "text": "The office asks, and the paper repeats verbatim: *Send Bergen whatever it needs to know where its own pipes go.*"
+          "text": "The office asks, and the paper repeats verbatim: *Ship Bergen the stock its library lends out, and say what a borrower carries away.*"
         },
         {
           "kind": "para",
@@ -46,7 +46,7 @@
       ],
       "provenance": {
         "need": "in-010",
-        "category": "labor_and_expertise",
+        "category": "education_and_knowledge",
         "rotation": 2,
         "spec": "#9, #13, #14"
       }
@@ -315,8 +315,9 @@
         "op": "OPEN",
         "need": "in-010",
         "city": "Bergen",
-        "category": "labor_and_expertise",
-        "rotation": 2
+        "category": "education_and_knowledge",
+        "rotation": 2,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",
@@ -335,18 +336,18 @@
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped labour & expertise, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 3, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped education & knowledge, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 3, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
     "cutline": "4 crates, one ribbon, 7 in the ledger. A good day at the water.",
     "extension": "svg",
     "mime": "image/svg+xml",
     "palette": {
-      "paper": "#f8f4ec",
-      "ink": "#231d16",
-      "sky": "#e8cf9a",
-      "water": "#6b5334",
-      "accent": "#c2452d",
-      "spot": "#9a7942",
-      "spot_alt": "#d6b877"
+      "paper": "#f6f3ea",
+      "ink": "#1f1b26",
+      "sky": "#cfc3a4",
+      "water": "#453a5e",
+      "accent": "#d1622a",
+      "spot": "#6d5c96",
+      "spot_alt": "#a99ac4"
     },
     "colorful": true,
     "provenance": {

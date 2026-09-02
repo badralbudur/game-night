@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### Parking, spiritually
+### Kerbside equipment, and people to work it
 
 **PUBLIC NOTICE**, lodged at this paper's counter by the office of the Mayor of Hobart, who declined to elaborate.
 
-Hobart has adequate parking. Every study confirms it. Every resident disputes it. The gap between the studies and the residents is now Hobart's single most reliable source of public feeling.
+Hobart has adequate parking. Every study confirms it. Every resident disputes it. The gap between the studies and the residents is Hobart's single most reliable source of public feeling, and the council has stopped buying studies. Wanted instead: line paint, stencils, counters, boards, barriers, ticket machines, attendants in vests, or the lift that makes the whole question moot.
 
-The office asks, and the paper repeats verbatim: *Resolve Hobart's parking question — the real one, not the arithmetic.*
+The office asks, and the paper repeats verbatim: *Ship Hobart the kerbside equipment or the people who work it, priced per street.*
 
 Every other city hall may send exactly one offer, in whatever form it likes, by 20 September, 09:00 UTC. The offers arrive unsigned, and the Mayor of Hobart will read them that way.
 

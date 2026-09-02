@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "A subject that didn't exist last year"
+          "text": "Listening equipment, and ears to go with it"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Reykjavík's schools have one free period on the timetable and a standing instruction to teach something useful in it. So far it has been used for supervised silence."
+          "text": "Since February, Reykjavík has hummed. Two residents in five can hear it. The utility says it is not theirs, the geologists say it is not the ground, and the council has begun describing it in writing as 'the ambience.' Reykjavík is buying instruments and time: hydrophones, geophones, meters, recorders — and people who have found a noise before, for a fortnight, with a bicycle each."
         },
         {
           "kind": "para",
-          "text": "The office asks, and the paper repeats verbatim: *Tell Reykjavík what to teach in the empty period.*"
+          "text": "The office asks, and the paper repeats verbatim: *Ship Reykjavík the listening equipment, the people or the instruments the hum turns out to need.*"
         },
         {
           "kind": "para",
@@ -46,7 +46,7 @@
       ],
       "provenance": {
         "need": "in-001",
-        "category": "education_and_knowledge",
+        "category": "mysteries_and_anomalies",
         "rotation": 1,
         "spec": "#9, #13, #14"
       }
@@ -226,8 +226,9 @@
         "op": "OPEN",
         "need": "in-001",
         "city": "Reykjavík",
-        "category": "education_and_knowledge",
-        "rotation": 1
+        "category": "mysteries_and_anomalies",
+        "rotation": 1,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",
@@ -242,18 +243,18 @@
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped education & knowledge, an empty quay, a skyline of 4 city towers ranked by profit.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped mysteries & anomalies, an empty quay, a skyline of 4 city towers ranked by profit.",
     "cutline": "No cargo today. The harbour, pictured, is unbothered.",
     "extension": "svg",
     "mime": "image/svg+xml",
     "palette": {
-      "paper": "#f6f3ea",
-      "ink": "#1f1b26",
-      "sky": "#cfc3a4",
-      "water": "#453a5e",
-      "accent": "#d1622a",
-      "spot": "#6d5c96",
-      "spot_alt": "#a99ac4"
+      "paper": "#f1eff6",
+      "ink": "#171426",
+      "sky": "#b3aede",
+      "water": "#332a5e",
+      "accent": "#f2c14e",
+      "spot": "#6b5fa8",
+      "spot_alt": "#a49ccf"
     },
     "colorful": true,
     "provenance": {

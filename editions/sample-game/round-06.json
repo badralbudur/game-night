@@ -21,19 +21,19 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "A postcard that isn't the bridge"
+          "text": "Ninety kilometres of insulated pipe"
         },
         {
           "kind": "para",
-          "text": "**PUBLIC NOTICE**, filed by the Mayor of Reykjavík under Tourism & Reputation, which is where Reykjavík files most things."
+          "text": "**PUBLIC NOTICE**, filed by the Mayor of Reykjavík under Energy & Utilities, which is where Reykjavík files most things."
         },
         {
           "kind": "para",
-          "text": "Every image of Reykjavík ever printed shows the same view from the same hill. The hill is lovely. Reykjavík would like to be more than one photograph."
+          "text": "Reykjavík has more hot water underneath it than pipe to put it in, and the district heating main stops four streets short of the new housing in both directions. Wanted: pre-insulated pipe in six-metre lengths, valves, lagging, and welders who have worked in a trench in February."
         },
         {
           "kind": "para",
-          "text": "The office asks, and the paper repeats verbatim: *Show Reykjavík to the world from a different angle.*"
+          "text": "The office asks, and the paper repeats verbatim: *Ship Reykjavík the pipe, the fittings or the welders, and say how much of it fits on one lorry.*"
         },
         {
           "kind": "para",
@@ -41,12 +41,12 @@
         },
         {
           "kind": "aside",
-          "text": "What outsiders say about us when we leave the room is, unfortunately, printable."
+          "text": "The bill for this edition's lighting is being contested internally."
         }
       ],
       "provenance": {
         "need": "in-006",
-        "category": "tourism_and_reputation",
+        "category": "energy_and_utilities",
         "rotation": 2,
         "spec": "#9, #13, #14"
       }
@@ -298,8 +298,9 @@
         "op": "OPEN",
         "need": "in-006",
         "city": "Reykjavík",
-        "category": "tourism_and_reputation",
-        "rotation": 2
+        "category": "energy_and_utilities",
+        "rotation": 2,
+        "request_source": "freeform"
       },
       {
         "op": "CLOSE",
@@ -318,18 +319,18 @@
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped tourism & reputation, an empty quay, dice showing 6 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped energy & utilities, an empty quay, dice showing 6 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
     "cutline": "Nothing on the quay, so Kampala built its own. The shed, pictured, is doing its best.",
     "extension": "svg",
     "mime": "image/svg+xml",
     "palette": {
-      "paper": "#f2f8f9",
-      "ink": "#13232a",
-      "sky": "#8fd0e8",
-      "water": "#1c5f77",
-      "accent": "#f4a11d",
-      "spot": "#3d95b3",
-      "spot_alt": "#9fd6e8"
+      "paper": "#fdf6e0",
+      "ink": "#241f10",
+      "sky": "#ffe08a",
+      "water": "#7a5c1e",
+      "accent": "#e03e2f",
+      "spot": "#c99a1e",
+      "spot_alt": "#f0cf6a"
     },
     "colorful": true,
     "provenance": {

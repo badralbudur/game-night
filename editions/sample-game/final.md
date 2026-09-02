@@ -48,33 +48,33 @@ The trade is finished, the ledger is closed, and 12 things are now permanently i
 
 > Forty-one working funicular cars and the man who knows which forty are safe.
 
-Valparaíso wrote that. Reykjavík read it, wanted it, and took delivery of it against the notice titled "A subject that didn't exist last year".
+Valparaíso wrote that. Reykjavík read it, wanted it, and took delivery of it against the notice titled "Listening equipment, and ears to go with it".
 
-Children in Reykjavík are being taught about it and have started asking the follow-up questions.
+Reykjavík's clerk has stopped minuting it. This paper regards that as the most complete report available.
 
 > A hillside's worth of paint, in colours the council will argue about for years.
 
-Valparaíso wrote that. Hobart read it, wanted it, and took delivery of it against the notice titled "A junction that ends the argument".
+Valparaíso wrote that. Hobart read it, wanted it, and took delivery of it against the notice titled "Windbreak for one avenue, bolted down".
 
-Two things in Hobart are now load-bearing that were never asked whether they wanted to be.
+The sky over Hobart was not consulted, and has responded in the only way the sky ever responds.
 
 > Rain. Enormous quantities of rain, and the civic infrastructure to shrug at it.
 
-Bergen wrote that. Valparaíso read it, wanted it, and took delivery of it against the notice titled "A bus route people would ride for fun".
+Bergen wrote that. Valparaíso read it, wanted it, and took delivery of it against the notice titled "Haulage for a nineteen per cent gradient".
 
 It arrives in Valparaíso twice a day and is late in a way that has become a local unit of time.
 
 > Two hundred metres of very good rope and somebody who can splice it.
 
-Hobart wrote that. Bergen read it, wanted it, and took delivery of it against the notice titled "A second verse for the anthem".
+Hobart wrote that. Bergen read it, wanted it, and took delivery of it against the notice titled "Plant for four hundred tonnes of seaweed".
 
-There is a plaque about it in Bergen now. The plaque is longer than the thing it commemorates.
+Bergen reports that the water now goes where it was told to go. Bergen has not previously been able to report this.
 
 The industry Kampala ramped up when nobody answered its notice has not been ramped back down. It has a logo, a rota and an opinion about the harbour.
 
 Bergen's lapsed deliberation paid 4 cities at once, and 4 cities have since referred to it as a mandate.
 
-None of the above is the half of it. Over the whole game twenty offers were sent and not chosen, and every one of them went home again: curricula, untaught, right-of-way conventions, mutually incompatible, routes, unrun, timetabled anyway, views, unphotographed, explanations, unconvincing, filed under 'ambience', grudges, unreciprocated, saplings, unplanted, still in their pots and expertise, offered to no one. That is what the world made this year and could not give away.
+None of the above is the half of it. Over the whole game twenty offers were sent and not chosen, and every one of them went home again: explanations, unconvincing, filed under 'ambience', windbreaks, blown over, conveyances, parked at the bottom of the hill, pipe, stacked and capped against the weather, breakfasts, served at the wrong hour, rejected monuments, in storage, facing the wall, grudges, unreciprocated and membership drives, unenrolled. That is what the world made this year and could not give away.
 
 The senders of the unwanted are not named here. They were not named at the time, they are not named at the end, and the last edition is not a late confession.
 
@@ -92,7 +92,7 @@ _No city hall has accepted responsibility for any of the above, which this paper
 
 Bergen, third on 12, drawn here from its own record and nobody else's.
 
-Bergen's notices this game: A second verse for the anthem and Somebody who understands the old pipe network. Two in total, each one a problem it could not solve alone.
+Bergen's notices this game: Plant for four hundred tonnes of seaweed and Stock a library card is worth having for. Two in total, each one a problem it could not solve alone.
 
 Two times this game, a city read an unsigned offer and it turned out to be Bergen's.
 
@@ -100,7 +100,7 @@ The world kept this, from Bergen: *Rain. Enormous quantities of rain, and the ci
 
 Bergen's deliberation once outlasted its own window, and 4 cities were paid for it.
 
-Three offers reached Bergen and went unchosen. Bergen kept the pile anyway — expertise, offered to no one — because nobody has ever worked out how to send an offer back.
+Three offers reached Bergen and went unchosen. Bergen kept the pile anyway — membership drives, unenrolled — because nobody has ever worked out how to send an offer back.
 
 Kept in the crate: three offers matching, sentence for sentence, an offer credited by name elsewhere in this edition — the same words having won somewhere and lost here.
 
@@ -116,13 +116,13 @@ Asked *What is on the mayoral desk that has absolutely no business being there?*
 
 Hobart finishes fifth, on 8.75, and looks — the illustrator is firm about this — exactly like a city that finished fifth on 8.75.
 
-What Hobart asked for, in order: A junction that ends the argument and An explanation for the humming.
+What Hobart asked for, in order: Windbreak for one avenue, bolted down and A night canteen, four till eight.
 
 Two times this game, a city read an unsigned offer and it turned out to be Hobart's.
 
 Reykjavík looked at a desk of unsigned offers and took Hobart's: *The southernmost bakery on the register, boxed, with its opening hours.*
 
-Four offers reached Hobart and went unchosen. Hobart kept the pile anyway — right-of-way conventions, mutually incompatible and explanations, unconvincing, filed under 'ambience' — because nobody has ever worked out how to send an offer back.
+Four offers reached Hobart and went unchosen. Hobart kept the pile anyway — windbreaks, blown over and breakfasts, served at the wrong hour — because nobody has ever worked out how to send an offer back.
 
 From that pile, unattributed as ever:
 
@@ -143,7 +143,7 @@ For the record, the Mayor of Hobart, asked *What was the last thing that made yo
 
 Kampala finishes first, on 23.75, and looks — the illustrator is firm about this — exactly like a city that finished first on 23.75.
 
-Kampala came to the world two times, over Ninety thousand surplus plums and A tree that can take the salt.
+Kampala came to the world two times, over Preservation, for ninety thousand plums and A rivalry, in kind.
 
 Two times this game, a city read an unsigned offer and it turned out to be Kampala's.
 
@@ -151,7 +151,7 @@ Chosen, in Hobart, from Kampala: *Eleven boda riders who know every shortcut and
 
 When nobody answered Kampala's notice, Kampala built the answer itself. The shed is in the picture.
 
-The excess at Kampala: three offers, declined, filed under saplings, unplanted, still in their pots, occupying a quay that has other uses.
+The excess at Kampala: three offers, declined, filed under grudges, unreciprocated, occupying a quay that has other uses.
 
 Two offers, reprinted without a sender, because the writing deserves a second reading:
 
@@ -172,13 +172,13 @@ On the question *Best thing you have ever eaten standing up?*, Kampala's answer 
 
 Fourth: Reykjavík, 9.75, and a harbour that has seen things this year.
 
-Reykjavík came to the world two times, over A subject that didn't exist last year and A postcard that isn't the bridge.
+Reykjavík came to the world two times, over Listening equipment, and ears to go with it and Ninety kilometres of insulated pipe.
 
 Two of Reykjavík's offers were chosen across the game, each of them picked by a mayor who did not know whose it was.
 
 Bergen looked at a desk of unsigned offers and took Reykjavík's: *Geothermal heat, piped, on the understanding that we get the pipes back.*
 
-Four offers reached Reykjavík and went unchosen. Reykjavík kept the pile anyway — curricula, untaught and views, unphotographed — because nobody has ever worked out how to send an offer back.
+Four offers reached Reykjavík and went unchosen. Reykjavík kept the pile anyway — explanations, unconvincing, filed under 'ambience' and pipe, stacked and capped against the weather — because nobody has ever worked out how to send an offer back.
 
 From that pile, unattributed as ever:
 
@@ -197,13 +197,13 @@ On the question *What is on the mayoral desk that has absolutely no business bei
 
 Valparaíso finishes second, on 20.75, and looks — the illustrator is firm about this — exactly like a city that finished second on 20.75.
 
-Valparaíso's notices this game: A bus route people would ride for fun and A rival worth having. Two in total, each one a problem it could not solve alone.
+Valparaíso's notices this game: Haulage for a nineteen per cent gradient and An object for an empty plinth. Two in total, each one a problem it could not solve alone.
 
 Four times this game, a city read an unsigned offer and it turned out to be Valparaíso's.
 
 The world kept this, from Valparaíso: *A hillside's worth of paint, in colours the council will argue about for years.* — chosen in Hobart.
 
-The excess at Valparaíso: six offers, declined, filed under routes, unrun, timetabled anyway and grudges, unreciprocated, occupying a quay that has other uses.
+The excess at Valparaíso: six offers, declined, filed under conveyances, parked at the bottom of the hill and rejected monuments, in storage, facing the wall, occupying a quay that has other uses.
 
 From that pile, unattributed as ever:
 

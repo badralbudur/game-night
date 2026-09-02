@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "A tree that can take the salt"
+          "text": "Planting stock that stands in salt"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Every tree Kampala has planted along the seafront promenade has died within two winters, politely and in order, west to east. The promenade is now a row of very well-maintained stakes."
+          "text": "Every tree Kampala has planted along the seafront promenade has died within two winters, politely and in order, west to east. The promenade is now a row of very well-maintained stakes. Kampala is buying stock by the crate: rooted cuttings, whips, seedlings, pups, sets — anything that has already lived somewhere the spray reaches."
         },
         {
           "kind": "para",
-          "text": "The Mayor of Kampala would like an answer to this: *Give Kampala something that will grow where the salt is.*"
+          "text": "The Mayor of Kampala would like an answer to this: *Ship Kampala rooted stock that grows where the salt is, and say where yours has been standing.*"
         },
         {
           "kind": "para",
@@ -335,7 +335,8 @@
         "need": "in-011",
         "city": "Kampala",
         "category": "wildlife_and_nature",
-        "rotation": 2
+        "rotation": 2,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",

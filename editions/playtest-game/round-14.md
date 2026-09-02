@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### Load-bearing optimism
+### Twenty metres of clear span, and a signature
 
 **PUBLIC NOTICE**. The Mayor of Belgrade has taken out an advertisement. This paper has read it three times and remains impressed.
 
-The roof of Belgrade's town hall is currently supported by scaffolding, three generations of temporary permits, and the shared belief that it will hold. Two of those three are expiring.
+The roof of Belgrade's town hall is held up by scaffolding, three generations of temporary permits and the shared belief that it will hold. Two of those three expire in October. Wanted: trusses, beams, ties, fixings — timber, steel or stone, Belgrade is not fussy — and a stamped calculation from somebody insured.
 
-The Mayor of Belgrade would like an answer to this: *Send Belgrade something that can hold up a civic roof — structurally, financially, or spiritually.*
+The Mayor of Belgrade would like an answer to this: *Send Belgrade the structure that will hold up a civic roof, and whatever crew or certificate travels with it.*
 
 Offers close at the end of this round (24 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Belgrade either.
 

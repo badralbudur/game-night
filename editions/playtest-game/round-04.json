@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "Somewhere for the rain to go"
+          "text": "Pumps, pipe and four days of standing water"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Kampala's storm drains were designed for a climate that has since resigned. Every heavy rain, the water arrives at the low end of Market Street and simply waits there, in public, for four days."
+          "text": "Kampala's storm drains were built for a climate that has since resigned. Every heavy rain, the water arrives at the low end of Market Street and waits there, in public, for four days. Purchase order: pumps, hose, pipe, gravel, tanks, decking, and hands that have laid any of it before."
         },
         {
           "kind": "para",
-          "text": "The office asks, and the paper repeats verbatim: *Give Kampala's standing water somewhere to be, or something to become.*"
+          "text": "The office asks, and the paper repeats verbatim: *Ship Kampala the plant, pipework or people that will move the water at the low end of Market Street — or make it welcome there.*"
         },
         {
           "kind": "para",
@@ -325,7 +325,8 @@
         "need": "in-004",
         "city": "Kampala",
         "category": "water_and_waste",
-        "rotation": 1
+        "rotation": 1,
+        "request_source": "seed"
       },
       {
         "op": "CLOSE",
