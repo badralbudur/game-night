@@ -1,10 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="A harbour scene in the Daily Manifest's colours, stamped mysteries &amp; anomalies, an empty quay, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="A harbour scene in the Daily Manifest's colours, stamped mysteries &amp; anomalies, an empty quay and no boat, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.">
 <rect x="0.0" y="0.0" width="1200.0" height="700.0" rx="0" fill="#f1eff6"/>
 <rect x="0.0" y="0.0" width="1200.0" height="66.0" rx="0" fill="#171426"/>
 <text x="28.0" y="44.0" fill="#f1eff6" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="bold" text-anchor="start" letter-spacing="3">THE DAILY MANIFEST</text>
 <text x="1172.0" y="30.0" fill="#f1eff6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="end">Vol. I, No. 1</text>
 <text x="1172.0" y="52.0" fill="#f1eff6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="end" font-style="italic">Thursday, 10 September 2026</text>
 <rect x="0.0" y="66.0" width="1200.0" height="368.0" rx="0" fill="#b3aede"/>
+<defs><pattern id="tooth" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7.0" cy="7.0" r="1.6" fill="#f1eff6" opacity="0.5"/></pattern></defs>
+<rect x="0.0" y="66.0" width="1200.0" height="368.0" rx="0" fill="url(#tooth)"/>
 <circle cx="984.0" cy="170.0" r="54.0" fill="#f2c14e" opacity="0.9"/>
 <rect x="584.8" y="400.0" width="58.0" height="34.0" rx="0" fill="#6b5fa8"/>
 <rect x="597.6" y="412.0" width="11.6" height="11.0" rx="0" fill="#f2c14e" opacity="0.85"/>

@@ -8,7 +8,7 @@ Weather: bright, briefly, and then a meeting.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped sport & recreation, 6 crates on the quay, 1 of them ribboned, dice showing 4 and 2, a skyline of 8 city towers ranked by profit, and 7 pennants overhead, one per reply.](round-13.svg)
+![A harbour scene in the Daily Manifest's colours, stamped sport & recreation, 6 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 2, a skyline of 8 city towers ranked by profit, and 7 pennants overhead, one per reply.](round-13.svg)
 
 *6 crates, one ribbon, 6 in the ledger. A good day at the water.*
 

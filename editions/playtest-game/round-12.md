@@ -8,7 +8,7 @@ Weather: wind from the harbour, opinions from everywhere.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped labour & expertise, 6 crates on the quay, 1 of them ribboned, dice showing 2 and 5, a skyline of 8 city towers ranked by profit, and 6 pennants overhead, one per reply.](round-12.svg)
+![A harbour scene in the Daily Manifest's colours, stamped labour & expertise, 6 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 2 and 5, a skyline of 8 city towers ranked by profit, and 6 pennants overhead, one per reply.](round-12.svg)
 
 *One crate came off the boat with a ribbon on it. Reykjavík sent it. The others are not saying anything.*
 

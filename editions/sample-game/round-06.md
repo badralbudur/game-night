@@ -8,7 +8,7 @@ Weather: unsettled, like the minutes of the last session.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped energy & utilities, an empty quay, dice showing 6 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-06.svg)
+![A harbour scene in the Daily Manifest's colours, stamped energy & utilities, an empty quay and no boat, dice showing 6 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-06.svg)
 
 *Nothing on the quay, so Kampala built its own. The shed, pictured, is doing its best.*
 

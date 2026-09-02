@@ -8,7 +8,7 @@ Weather: fog. The ferries are running on confidence alone.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped education & knowledge, 4 crates on the quay, 1 of them ribboned, dice showing 4 and 3, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-10.svg)
+![A harbour scene in the Daily Manifest's colours, stamped education & knowledge, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 3, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-10.svg)
 
 *4 crates, one ribbon, 7 in the ledger. A good day at the water.*
 

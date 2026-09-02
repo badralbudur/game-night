@@ -292,7 +292,7 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped mysteries & anomalies, an empty quay, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped mysteries & anomalies, an empty quay and no boat, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.",
         "cutline": "No cargo today. The harbour, pictured, is unbothered.",
         "extension": "svg",
         "mime": "image/svg+xml",
@@ -625,7 +625,7 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped tourism & reputation, 4 crates on the quay, a skyline of 5 city towers ranked by profit, and 3 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped tourism & reputation, 4 crates on the quay, a boat at the mooring, a skyline of 5 city towers ranked by profit, and 3 pennants overhead, one per reply.",
         "cutline": "The offers, landed and unopened. Nobody in this picture knows who sent what, including the paper.",
         "extension": "svg",
         "mime": "image/svg+xml",
@@ -1010,7 +1010,7 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped mysteries & anomalies, 4 crates on the quay, 1 of them ribboned, dice showing 1 and 2, a skyline of 6 city towers ranked by profit, and 5 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped mysteries & anomalies, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 1 and 2, a skyline of 6 city towers ranked by profit, and 5 pennants overhead, one per reply.",
         "cutline": "One crate came off the boat with a ribbon on it. Hobart sent it. The others are not saying anything.",
         "extension": "svg",
         "mime": "image/svg+xml",
@@ -1399,7 +1399,7 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped water & waste, 3 crates on the quay, 1 of them ribboned, dice showing 6 and 6, a skyline of 7 city towers ranked by profit, and 4 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped water & waste, 3 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 6 and 6, a skyline of 7 city towers ranked by profit, and 4 pennants overhead, one per reply.",
         "cutline": "One crate came off the boat with a ribbon on it. Hobart sent it. The others are not saying anything.",
         "extension": "svg",
         "mime": "image/svg+xml",
@@ -1797,7 +1797,7 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped food & drink, 5 crates on the quay, 1 of them ribboned, dice showing 2 and 3, a skyline of 7 city towers ranked by profit, and 5 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped food & drink, 5 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 2 and 3, a skyline of 7 city towers ranked by profit, and 5 pennants overhead, one per reply.",
         "cutline": "5 crates, one ribbon, 5 in the ledger. A good day at the water.",
         "extension": "svg",
         "mime": "image/svg+xml",
@@ -2158,7 +2158,7 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped transport & logistics, 5 crates on the quay, 1 of them ribboned, dice showing 4 and 4, a skyline of 7 city towers ranked by profit.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped transport & logistics, 5 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 4, a skyline of 7 city towers ranked by profit.",
         "cutline": "5 crates, one ribbon, 8 in the ledger. A good day at the water.",
         "extension": "svg",
         "mime": "image/svg+xml",
@@ -2545,7 +2545,7 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped food & drink, 5 crates on the quay, 5 of them ribboned, dice showing 6 and 1, a skyline of 7 city towers ranked by profit, and 6 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped food & drink, 5 crates on the quay, 5 of them ribboned, a boat at the mooring, dice showing 6 and 1, a skyline of 7 city towers ranked by profit, and 6 pennants overhead, one per reply.",
         "cutline": "Every crate got a ribbon in the end. The crane operator has questions.",
         "extension": "svg",
         "mime": "image/svg+xml",
@@ -2920,7 +2920,7 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped weather & climate, an empty quay, dice showing 3 and 4, a skyline of 7 city towers ranked by profit, and 5 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped weather & climate, an empty quay and no boat, dice showing 3 and 4, a skyline of 7 city towers ranked by profit, and 5 pennants overhead, one per reply.",
         "cutline": "Nothing on the quay, so Naoshima built its own. The shed, pictured, is doing its best.",
         "extension": "svg",
         "mime": "image/svg+xml",
@@ -3315,7 +3315,7 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped infrastructure & public works, 6 crates on the quay, 1 of them ribboned, dice showing 1 and 4, a skyline of 8 city towers ranked by profit, and 5 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped infrastructure & public works, 6 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 1 and 4, a skyline of 8 city towers ranked by profit, and 5 pennants overhead, one per reply.",
         "cutline": "One crate came off the boat with a ribbon on it. Kampala sent it. The others are not saying anything.",
         "extension": "svg",
         "mime": "image/svg+xml",
@@ -3714,7 +3714,7 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped transport & logistics, 5 crates on the quay, 1 of them ribboned, dice showing 3 and 4, a skyline of 8 city towers ranked by profit, and 6 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped transport & logistics, 5 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 3 and 4, a skyline of 8 city towers ranked by profit, and 6 pennants overhead, one per reply.",
         "cutline": "5 crates, one ribbon, 7 in the ledger. A good day at the water.",
         "extension": "svg",
         "mime": "image/svg+xml",
@@ -4113,7 +4113,7 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped wildlife & nature, 6 crates on the quay, 1 of them ribboned, dice showing 6 and 5, a skyline of 8 city towers ranked by profit, and 5 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped wildlife & nature, 6 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 6 and 5, a skyline of 8 city towers ranked by profit, and 5 pennants overhead, one per reply.",
         "cutline": "One crate came off the boat with a ribbon on it. Reykjavík sent it. The others are not saying anything.",
         "extension": "svg",
         "mime": "image/svg+xml",
@@ -4516,7 +4516,7 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped labour & expertise, 6 crates on the quay, 1 of them ribboned, dice showing 2 and 5, a skyline of 8 city towers ranked by profit, and 6 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped labour & expertise, 6 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 2 and 5, a skyline of 8 city towers ranked by profit, and 6 pennants overhead, one per reply.",
         "cutline": "One crate came off the boat with a ribbon on it. Reykjavík sent it. The others are not saying anything.",
         "extension": "svg",
         "mime": "image/svg+xml",
@@ -4931,7 +4931,7 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped sport & recreation, 6 crates on the quay, 1 of them ribboned, dice showing 4 and 2, a skyline of 8 city towers ranked by profit, and 7 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped sport & recreation, 6 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 2, a skyline of 8 city towers ranked by profit, and 7 pennants overhead, one per reply.",
         "cutline": "6 crates, one ribbon, 6 in the ledger. A good day at the water.",
         "extension": "svg",
         "mime": "image/svg+xml",
@@ -5330,7 +5330,7 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped infrastructure & public works, 7 crates on the quay, 1 of them ribboned, dice showing 3 and 5, a skyline of 8 city towers ranked by profit, and 7 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped infrastructure & public works, 7 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 3 and 5, a skyline of 8 city towers ranked by profit, and 7 pennants overhead, one per reply.",
         "cutline": "7 crates, one ribbon, 8 in the ledger. A good day at the water.",
         "extension": "svg",
         "mime": "image/svg+xml",
@@ -5733,7 +5733,7 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped food & drink, 7 crates on the quay, 1 of them ribboned, dice showing 6 and 4, a skyline of 8 city towers ranked by profit, and 7 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped food & drink, 7 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 6 and 4, a skyline of 8 city towers ranked by profit, and 7 pennants overhead, one per reply.",
         "cutline": "One crate came off the boat with a ribbon on it. Belgrade sent it. The others are not saying anything.",
         "extension": "svg",
         "mime": "image/svg+xml",
@@ -6122,7 +6122,7 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped infrastructure & public works, 7 crates on the quay, 1 of them ribboned, dice showing 1 and 3, a skyline of 8 city towers ranked by profit, and 8 pennants overhead, one per reply.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped infrastructure & public works, 7 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 1 and 3, a skyline of 8 city towers ranked by profit, and 8 pennants overhead, one per reply.",
         "cutline": "One crate came off the boat with a ribbon on it. Reykjavík sent it. The others are not saying anything.",
         "extension": "svg",
         "mime": "image/svg+xml",
@@ -6450,7 +6450,7 @@
       },
       "image": {
         "kind": "edition",
-        "alt": "A harbour scene in the Daily Manifest's colours, stamped food & drink, 7 crates on the quay, 1 of them ribboned, dice showing 6 and 4, a skyline of 8 city towers ranked by profit.",
+        "alt": "A harbour scene in the Daily Manifest's colours, stamped food & drink, 7 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 6 and 4, a skyline of 8 city towers ranked by profit.",
         "cutline": "7 crates, one ribbon, 10 in the ledger. A good day at the water.",
         "extension": "svg",
         "mime": "image/svg+xml",

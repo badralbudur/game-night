@@ -8,7 +8,7 @@ Weather: unsettled, like the minutes of the last session.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped food & drink, 7 crates on the quay, 1 of them ribboned, dice showing 6 and 4, a skyline of 8 city towers ranked by profit.](round-17.svg)
+![A harbour scene in the Daily Manifest's colours, stamped food & drink, 7 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 6 and 4, a skyline of 8 city towers ranked by profit.](round-17.svg)
 
 *7 crates, one ribbon, 10 in the ledger. A good day at the water.*
 

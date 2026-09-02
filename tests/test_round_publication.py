@@ -151,6 +151,7 @@ class AutomaticPublicationTest(unittest.TestCase):
                 "round %d is not reachable at the paper's address" % index,
             )
         self.assertIn("index.html", pages)
+        self.assertIn("archive.html", pages)
         self.assertIn("robots.txt", pages)
 
     def test_the_last_round_publishes_the_final_edition_too(self):
