@@ -8,7 +8,7 @@ Weather: clear enough to see the other side, which is new.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped weather & climate, an empty quay, dice showing 3 and 4, a skyline of 7 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-08.svg)
+![A harbour scene in the Daily Manifest's colours, stamped weather & climate, an empty quay and no boat, dice showing 3 and 4, a skyline of 7 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-08.svg)
 
 *Nothing on the quay, so Naoshima built its own. The shed, pictured, is doing its best.*
 

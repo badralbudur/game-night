@@ -8,7 +8,7 @@ Weather: warm in the chamber, cold in the corridor.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped mysteries & anomalies, an empty quay, a skyline of 4 city towers ranked by profit.](round-01.svg)
+![A harbour scene in the Daily Manifest's colours, stamped mysteries & anomalies, an empty quay and no boat, a skyline of 4 city towers ranked by profit.](round-01.svg)
 
 *No cargo today. The harbour, pictured, is unbothered.*
 

@@ -23,4 +23,4 @@ The complete run of Sister Cities, oldest first. Every edition stays here; a new
 - [Vol. I, No. 17 — FINAL EDITION — Saturday, 26 September 2026](final.md) · [image](endgame.svg)
   - city portraits (spec #32): [Belgrade](city-belgrade.svg), [Hobart](city-hobart.svg), [Kampala](city-kampala.svg), [Kópavogur](city-kopavogur.svg), [Naoshima](city-naoshima.svg), [Reykjavík](city-reykjavik.svg), [Trieste](city-trieste.svg), [Valparaíso](city-valparaiso.svg)
 
-_These are the local files. The paper itself is served by `hosting/` at an unguessable subdomain with `noindex` set, and its archive index is `index.html` there rather than this one (spec #26, #27)._
+_These are the local files. The paper itself is served by `hosting/` at an unguessable subdomain with `noindex` set, where `index.html` opens the current issue and the shelf of back issues is `archive.html` rather than this file (spec #26, #27, #30a)._

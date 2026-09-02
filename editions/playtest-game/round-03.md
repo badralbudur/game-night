@@ -8,7 +8,7 @@ Weather: wind from the harbour, opinions from everywhere.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped mysteries & anomalies, 4 crates on the quay, 1 of them ribboned, dice showing 1 and 2, a skyline of 6 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-03.svg)
+![A harbour scene in the Daily Manifest's colours, stamped mysteries & anomalies, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 1 and 2, a skyline of 6 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-03.svg)
 
 *One crate came off the boat with a ribbon on it. Hobart sent it. The others are not saying anything.*
 

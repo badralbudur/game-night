@@ -8,7 +8,7 @@ Weather: wind from the harbour, opinions from everywhere.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped weather & climate, 2 crates on the quay, a skyline of 4 city towers ranked by profit, and 2 pennants overhead, one per reply.](round-02.svg)
+![A harbour scene in the Daily Manifest's colours, stamped weather & climate, 2 crates on the quay, a boat at the mooring, a skyline of 4 city towers ranked by profit, and 2 pennants overhead, one per reply.](round-02.svg)
 
 *The offers, landed and unopened. Nobody in this picture knows who sent what, including the paper.*
 
