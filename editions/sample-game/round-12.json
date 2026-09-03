@@ -56,15 +56,30 @@
         },
         {
           "kind": "quote",
-          "text": "A hillside's worth of paint, in colours the council will argue about for years."
+          "text": "Two hundred waxed cotton raincoats, unbeautiful, tested annually by the actual weather."
         },
         {
           "kind": "para",
-          "text": "Valparaíso sent it, and Valparaíso takes 7 — the dice said 4 and 3."
+          "text": "Hobart sent it, and Hobart takes 7 — the dice said 4 and 3."
         },
         {
           "kind": "para",
-          "text": "Three offers matched, sentence for sentence, an offer already printed with its sender named. The paper is not going to pretend it cannot see that, and has left the text out."
+          "text": "Also offered, and declined:"
+        },
+        {
+          "kind": "list",
+          "role": "declined_exports",
+          "items": [
+            "Six thousand alfajores, packed in tins that families here reuse for thirty years."
+          ]
+        },
+        {
+          "kind": "para",
+          "text": "Those arrived unsigned and will stay that way. A losing offer's city is nobody's business, permanently."
+        },
+        {
+          "kind": "para",
+          "text": "Two offers matched, sentence for sentence, an offer already printed with its sender named. The paper is not going to pretend it cannot see that, and has left the text out."
         }
       ],
       "provenance": {
@@ -81,11 +96,11 @@
         },
         "awarded": [
           [
-            "Valparaíso",
+            "Hobart",
             "7"
           ]
         ],
-        "winner_city": "Valparaíso"
+        "winner_city": "Hobart"
       }
     },
     {
@@ -143,27 +158,27 @@
             [
               1,
               "Kampala",
-              "23.75"
+              "28.75"
             ],
             [
               2,
               "Valparaíso",
-              "20.75"
+              "17.75"
             ],
             [
               3,
-              "Bergen",
-              "12"
+              "Hobart",
+              "15.75"
             ],
             [
               4,
-              "Reykjavík",
-              "9.75"
+              "Bergen",
+              "7"
             ],
             [
               5,
-              "Hobart",
-              "8.75"
+              "Reykjavík",
+              "5.75"
             ]
           ]
         },
@@ -252,8 +267,8 @@
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped education & knowledge, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 3, a skyline of 5 city towers ranked by profit.",
-    "cutline": "One crate came off the boat with a ribbon on it. Valparaíso sent it. The others are not saying anything.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped coffee, tea & cocoa, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 3, a skyline of 5 city towers ranked by profit.",
+    "cutline": "One crate came off the boat with a ribbon on it. Hobart sent it. The others are not saying anything.",
     "extension": "svg",
     "mime": "image/svg+xml",
     "palette": {

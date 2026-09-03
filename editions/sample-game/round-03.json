@@ -7,7 +7,7 @@
   "standing_line": "Published once per round by the Sister Cities desk. Mayors are named by city and office only.",
   "dateline": "Saturday, 5 September 2026",
   "closes": "6 September, 09:00 UTC",
-  "price_line": "Price: one civic favour, redeemable at inconvenience",
+  "price_line": "Price: one biscuit, or the firm promise of one",
   "weather_line": "Weather: wind from the harbour, opinions from everywhere.",
   "departments": [
     {
@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "Haulage for a nineteen per cent gradient"
+          "text": "Board games for a wet fortnight"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Deliveries to Valparaíso's upper town stop at the bottom of a 19% gradient. From there everything — furniture, groceries, one piano — proceeds by arrangement, on foot, badly. Valparaíso will buy winches, hoists, cargo bikes, a funicular in kit form, mules with their tack, or the crew that already does this somewhere steeper."
+          "text": "It rains in Valparaíso for a fortnight every autumn and the entire town goes indoors at once. The cupboard in the community hall holds one chess set with two black bishops. Wanted: board games by the crate -- playable in an hour, playable by six, playable by somebody who has not read the rules and is not going to."
         },
         {
           "kind": "para",
-          "text": "The office asks, and the paper repeats verbatim: *Ship Valparaíso the machinery or the animals that get a piano up a nineteen per cent hill.*"
+          "text": "The office asks, and the paper repeats verbatim: *Ship Valparaíso a crate of board games for a wet fortnight, and say which box to open first.*"
         },
         {
           "kind": "para",
@@ -46,7 +46,7 @@
       ],
       "provenance": {
         "need": "in-003",
-        "category": "transport_and_logistics",
+        "category": "games_and_puzzles",
         "rotation": 1,
         "spec": "#9, #13, #14"
       }
@@ -89,7 +89,7 @@
         },
         {
           "kind": "quote",
-          "text": "Forty-one working funicular cars and the man who knows which forty are safe."
+          "text": "Four hundred metres of bunting in the colours the hills painted themselves, ladders included."
         },
         {
           "kind": "para",
@@ -103,7 +103,7 @@
           "kind": "list",
           "role": "declined_exports",
           "items": [
-            "A ferry timetable that has survived contact with the actual weather."
+            "Apples, forty cases, in six varieties nobody off this island has heard of."
           ]
         },
         {
@@ -313,7 +313,7 @@
         "op": "OPEN",
         "need": "in-003",
         "city": "Valparaíso",
-        "category": "transport_and_logistics",
+        "category": "games_and_puzzles",
         "rotation": 1,
         "request_source": "seed"
       },
@@ -334,18 +334,18 @@
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped transport & logistics, 2 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 5 and 1, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped games & puzzles, 2 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 5 and 1, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
     "cutline": "One crate came off the boat with a ribbon on it. Valparaíso sent it. The others are not saying anything.",
     "extension": "svg",
     "mime": "image/svg+xml",
     "palette": {
-      "paper": "#f5f5f0",
-      "ink": "#1b1f24",
-      "sky": "#c8d6dd",
-      "water": "#37525e",
-      "accent": "#e8541e",
-      "spot": "#5c7c8a",
-      "spot_alt": "#a3bcc6"
+      "paper": "#f1f7f1",
+      "ink": "#15231a",
+      "sky": "#a9dfb4",
+      "water": "#256b47",
+      "accent": "#e8542e",
+      "spot": "#3f9663",
+      "spot_alt": "#8fcfa4"
     },
     "colorful": true,
     "provenance": {

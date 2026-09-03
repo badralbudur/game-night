@@ -8,9 +8,9 @@ Weather: wind from the harbour, opinions from everywhere.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped education & knowledge, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 3, a skyline of 5 city towers ranked by profit.](round-12.svg)
+![A harbour scene in the Daily Manifest's colours, stamped coffee, tea & cocoa, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 3, a skyline of 5 city towers ranked by profit.](round-12.svg)
 
-*One crate came off the boat with a ribbon on it. Valparaíso sent it. The others are not saying anything.*
+*One crate came off the boat with a ribbon on it. Hobart sent it. The others are not saying anything.*
 
 ---
 
@@ -30,11 +30,17 @@ No window closed today. The offers currently in transit remain in transit.
 
 The winning offer for Bergen, reproduced exactly as it arrived:
 
-> A hillside's worth of paint, in colours the council will argue about for years.
+> Two hundred waxed cotton raincoats, unbeautiful, tested annually by the actual weather.
 
-Valparaíso sent it, and Valparaíso takes 7 — the dice said 4 and 3.
+Hobart sent it, and Hobart takes 7 — the dice said 4 and 3.
 
-Three offers matched, sentence for sentence, an offer already printed with its sender named. The paper is not going to pretend it cannot see that, and has left the text out.
+Also offered, and declined:
+
+- Six thousand alfajores, packed in tins that families here reuse for thirty years.
+
+Those arrived unsigned and will stay that way. A losing offer's city is nobody's business, permanently.
+
+Two offers matched, sentence for sentence, an offer already printed with its sender named. The paper is not going to pretend it cannot see that, and has left the text out.
 
 ## The Wire
 
@@ -54,11 +60,11 @@ _This paper has no position on the question and every position on the arithmetic
 
 | # | City | Profit |
 | --- | --- | --- |
-| 1 | Kampala | 23.75 |
-| 2 | Valparaíso | 20.75 |
-| 3 | Bergen | 12 |
-| 4 | Reykjavík | 9.75 |
-| 5 | Hobart | 8.75 |
+| 1 | Kampala | 28.75 |
+| 2 | Valparaíso | 17.75 |
+| 3 | Hobart | 15.75 |
+| 4 | Bergen | 7 |
+| 5 | Reykjavík | 5.75 |
 
 Kampala leads, and has been gracious about it in a way this paper found slightly worse than gloating.
 

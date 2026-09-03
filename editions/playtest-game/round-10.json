@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "Kerbside equipment, and people to work it"
+          "text": "The game your city plays in the street"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Hobart has adequate parking. Every study confirms it. Every resident disputes it. The gap between the studies and the residents is Hobart's single most reliable source of public feeling, and the council has stopped buying studies. Wanted instead: line paint, stencils, counters, boards, barriers, ticket machines, attendants in vests, or the lift that makes the whole question moot."
+          "text": "Children in Hobart play two games and both of them involve a wall. Wanted: the equipment for whatever your own city plays outdoors -- bats, boards, boules, hoops, chalk, a net that goes across an alley -- thirty sets of it, and somebody willing to stand in a car park and demonstrate for an afternoon."
         },
         {
           "kind": "para",
-          "text": "The office asks, and the paper repeats verbatim: *Ship Hobart the kerbside equipment or the people who work it, priced per street.*"
+          "text": "The office asks, and the paper repeats verbatim: *Ship Hobart thirty sets of your city's own street game, and whoever comes to demonstrate it.*"
         },
         {
           "kind": "para",
@@ -46,7 +46,7 @@
       ],
       "provenance": {
         "need": "in-010",
-        "category": "transport_and_logistics",
+        "category": "games_and_puzzles",
         "rotation": 2,
         "spec": "#9, #13, #14"
       }
@@ -89,7 +89,7 @@
         },
         {
           "kind": "quote",
-          "text": "Don't clear the avenue, obstruct it. We'll ship the staggered zinc-and-timber baffles our hill streets use, set at an angle every thirty metres and alternating sides so the wind loses its run-up and has to zigzag like the rest of us — and with them four kilometres of knotted rope handrail and the ironmonger's crew to bolt it at hand height down both pavements, because dignity is mostly a question of having something to hold."
+          "text": "Forty-one robes in heavy cotton towelling, dyed in our hills' own paint palette — eleven of them that shattering blue we use on window frames — with hoods deep enough to argue in and a pocket that fits a thermos. Forty-one towels of the rough waffle weave our fishermen dry their hands on, which shed sand instead of holding it; forty-one 5mm neoprene hoods, gloves and booties, sized S through XXL and labelled by name rather than number so nobody has to admit anything out loud; and forty-one string mesh bags, open-weave, no lining, which is the whole trick — hang it on a nail on Tuesday and it is bone dry by the next Tuesday, whereas a rubber dry-bag is simply a bucket that keeps its secrets. Also nine litres of *aguardiente* with a bag of loose-leaf mint, because our own cold-water people have long held that the swim is the excuse and the shivering afterwards is the club."
         },
         {
           "kind": "para",
@@ -103,9 +103,9 @@
           "kind": "list",
           "role": "declined_exports",
           "items": [
-            "Nine hundred metres of the slatted windbreak we use along the wharf, and the only thing you need to know about it: it's half gaps. Solid walls don't stop wind, they just hand it back to you faster twenty metres on. And give up on awnings -- string wire between the lamp posts instead and let the avenue dry the town's washing, since it's going to do it anyway.",
-            "You cannot fight wind down its length, you cut it into rooms — we are sending four of the men who rig our market tarpaulins, who hang two acres of canvas every dawn in a place where the storms arrive sideways. They will stagger canvas walls across the avenue every forty metres so it stops being a barrel and starts being a chain of small still places, and they will hang the ropes on the outside, which is the part everybody gets wrong.",
-            "Stop fighting it end to end and split it instead. We can spare forty angled glass baffles that came off our arcade when it was reglazed — set them staggered, knee to shoulder height, alternating sides down the whole run, and the avenue keeps its wind but loses the run-up, which is the part that takes the awnings."
+            "Forty-one wool-lined change robes, hooded, in the dark colours that do not show river silt. Eighty-two towels, because one is always still wet; forty-one pairs of five-millimetre gloves and boots; forty-one caps in a colour the people on shore can count. Forty-one mesh bags with a hard flat bottom, which is the only sort that dries between one Tuesday and the next, plus two twenty-litre buckets for warming feet and a knotted rope to hang the whole lot off a fence. Dot from Bellerive comes with it, seventy-three, in every day since 1994, staying a fortnight to explain to your forty-one that the cold is not the problem, the getting dressed is.",
+            "Forty-one hooded robes, cut and sewn in nine days by the tailors in the upstairs arcade, outside kitenge in forty-one different prints so nobody grabs the wrong one, lined with towelling, and the swimmer's name stitched inside the hood by a man called Ivan who does not accept payment for names. Eighty-two khanga towels, two each, single cotton layer, which is the whole trick: they dry in twenty minutes flat and pack down to nothing. Forty-one open-weave palm baskets from the lakeshore, which dry out between one Tuesday and the next because they are mostly holes. The neoprene I confess I bought — we swim in a warm lake and own no such thing — so it is grey, it is boring, it is size-graded and it is in the crate with the receipt, because I am not going to pretend to you about neoprene.",
+            "Forty-one robes of the towelling-lined zip-up sort, sized off our own year-round swim club because they are the same shapes as your forty-one; forty-one 3mm hoods, forty-one pairs of 5mm gloves, forty-one pairs of booties, and eighty-two waffle towels so that nobody is ever drying themselves with last Tuesday. The bags are the part we care about: mesh-bottomed, seam-taped, and they genuinely do dry hanging in a hallway between one Tuesday and the next, because we hung six of them in six hallways for a whole winter before choosing. Two spare sets of everything ride along for the forty-second and forty-third swimmer, who will arrive in March in a cotton dressing gown and need talking out of it kindly. Getting in and out of cold water tidily is one of the things a town gets quietly good at when all the famous attractions are next door."
           ]
         },
         {
@@ -334,7 +334,7 @@
         "op": "OPEN",
         "need": "in-010",
         "city": "Hobart",
-        "category": "transport_and_logistics",
+        "category": "games_and_puzzles",
         "rotation": 2,
         "request_source": "seed"
       },
@@ -355,18 +355,18 @@
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped transport & logistics, 5 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 3 and 4, a skyline of 8 city towers ranked by profit, and 6 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped games & puzzles, 5 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 3 and 4, a skyline of 8 city towers ranked by profit, and 6 pennants overhead, one per reply.",
     "cutline": "5 crates, one ribbon, 7 in the ledger. A good day at the water.",
     "extension": "svg",
     "mime": "image/svg+xml",
     "palette": {
-      "paper": "#f5f5f0",
-      "ink": "#1b1f24",
-      "sky": "#c8d6dd",
-      "water": "#37525e",
-      "accent": "#e8541e",
-      "spot": "#5c7c8a",
-      "spot_alt": "#a3bcc6"
+      "paper": "#f1f7f1",
+      "ink": "#15231a",
+      "sky": "#a9dfb4",
+      "water": "#256b47",
+      "accent": "#e8542e",
+      "spot": "#3f9663",
+      "spot_alt": "#8fcfa4"
     },
     "colorful": true,
     "provenance": {

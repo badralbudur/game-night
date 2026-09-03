@@ -21,19 +21,19 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "A rivalry, in kind"
+          "text": "Prizes for a fête, and nothing sensible"
         },
         {
           "kind": "para",
-          "text": "**PUBLIC NOTICE** from Kampala, paid for in municipal goodwill and printed here at length because the paper had the room."
+          "text": "**PUBLIC NOTICE** from Kampala, paid for in goodwill and one packet of biscuits, and printed here at length because the paper had the room."
         },
         {
           "kind": "para",
-          "text": "Kampala's team has no traditional rival. Matches are cordial. Attendance is stable. Something essential is missing and everyone is too polite to name it. Kampala is buying the whole apparatus: a trophy heavy enough to be a nuisance to carry, a signed fixture in perpetuity, an away support that travels, drums, banners, and a grievance with a date on it."
+          "text": "Kampala's summer fête has eleven stalls and a prize table currently holding a tin of peaches. Wanted: prizes -- plastic, gaudy, faintly baffling -- five hundred of them, plus one single prize so good that grown adults will queue in the rain for a raffle ticket."
         },
         {
           "kind": "para",
-          "text": "The Mayor of Kampala would like an answer to this: *Ship Kampala the trophy, the fixture or the travelling support — and say who is expected to carry it home.*"
+          "text": "The Mayor of Kampala would like an answer to this: *Send Kampala five hundred small gaudy prizes and one absurdly good one, and say which is which.*"
         },
         {
           "kind": "para",
@@ -46,7 +46,7 @@
       ],
       "provenance": {
         "need": "in-009",
-        "category": "sport_and_recreation",
+        "category": "toys_and_novelties",
         "rotation": 2,
         "spec": "#9, #13, #14"
       }
@@ -89,7 +89,7 @@
         },
         {
           "kind": "quote",
-          "text": "Eleven boda riders who know every shortcut and will not be told otherwise."
+          "text": "Roast maize, chapati and a spice mix in unlabelled bags, because labels slow everything down."
         },
         {
           "kind": "para",
@@ -103,8 +103,8 @@
           "kind": "list",
           "role": "declined_exports",
           "items": [
-            "Seven brass instruments and a licensed procession route.",
-            "A committee that has already failed at this and can save you the time."
+            "Seven brass instruments, tuned, and a procession route we are prepared to lend.",
+            "A crate of paperbacks about weather, read to destruction over one long winter."
           ]
         },
         {
@@ -213,33 +213,37 @@
             [
               1,
               "Kampala",
-              "23.75"
+              "28.75"
             ],
             [
               2,
-              "Valparaíso",
-              "13.75"
-            ],
-            [
-              3,
               "Hobart",
               "8.75"
             ],
             [
+              3,
+              "Valparaíso",
+              "8.75"
+            ],
+            [
               4,
-              "Bergen",
-              "3"
+              "Reykjavík",
+              "5.75"
             ],
             [
               5,
-              "Reykjavík",
-              "2.75"
+              "Bergen",
+              "0"
             ]
           ]
         },
         {
           "kind": "para",
           "text": "Kampala holds the head of the table this round. Tables turn; that is largely what they are for."
+        },
+        {
+          "kind": "para",
+          "text": "A city on zero is still a city. The column includes everybody, which is the point of a column."
         },
         {
           "kind": "note",
@@ -306,7 +310,7 @@
         "op": "OPEN",
         "need": "in-009",
         "city": "Kampala",
-        "category": "sport_and_recreation",
+        "category": "toys_and_novelties",
         "rotation": 2,
         "request_source": "seed"
       },
@@ -327,18 +331,18 @@
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped sport & recreation, 3 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 5, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped toys & novelties, 3 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 5, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
     "cutline": "One crate came off the boat with a ribbon on it. Kampala sent it. The others are not saying anything.",
     "extension": "svg",
     "mime": "image/svg+xml",
     "palette": {
-      "paper": "#f1f7f1",
-      "ink": "#15231a",
-      "sky": "#a9dfb4",
-      "water": "#256b47",
-      "accent": "#e8542e",
-      "spot": "#3f9663",
-      "spot_alt": "#8fcfa4"
+      "paper": "#fdf6e0",
+      "ink": "#241f10",
+      "sky": "#ffe08a",
+      "water": "#7a5c1e",
+      "accent": "#e03e2f",
+      "spot": "#c99a1e",
+      "spot_alt": "#f0cf6a"
     },
     "colorful": true,
     "provenance": {

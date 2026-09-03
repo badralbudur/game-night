@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "Listening equipment, and ears to go with it"
+          "text": "Window boxes for one long grey street"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Since February, Reykjavík has hummed. Two residents in five can hear it. The utility says it is not theirs, the geologists say it is not the ground, and the council has begun describing it in writing as 'the ambience.' Reykjavík is buying instruments and time: hydrophones, geophones, meters, recorders — and people who have found a noise before, for a fortnight, with a bicycle each."
+          "text": "Reykjavík's longest street is nine hundred metres of grey render and four hundred window sills, every one of them empty. The residents have agreed in principle and have nothing whatsoever to put in them. Wanted: four hundred window boxes, the compost to fill them, and plants that forgive an owner who forgets."
         },
         {
           "kind": "para",
-          "text": "The office asks, and the paper repeats verbatim: *Ship Reykjavík the listening equipment, the people or the instruments the hum turns out to need.*"
+          "text": "The office asks, and the paper repeats verbatim: *Ship Reykjavík four hundred window boxes with something forgiving in them, and say what it forgives.*"
         },
         {
           "kind": "para",
@@ -46,7 +46,7 @@
       ],
       "provenance": {
         "need": "in-001",
-        "category": "mysteries_and_anomalies",
+        "category": "plants",
         "rotation": 1,
         "spec": "#9, #13, #14"
       }
@@ -226,7 +226,7 @@
         "op": "OPEN",
         "need": "in-001",
         "city": "Reykjavík",
-        "category": "mysteries_and_anomalies",
+        "category": "plants",
         "rotation": 1,
         "request_source": "seed"
       },
@@ -243,18 +243,18 @@
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped mysteries & anomalies, an empty quay and no boat, a skyline of 4 city towers ranked by profit.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped plants & cuttings, an empty quay and no boat, a skyline of 4 city towers ranked by profit.",
     "cutline": "No cargo today. The harbour, pictured, is unbothered.",
     "extension": "svg",
     "mime": "image/svg+xml",
     "palette": {
-      "paper": "#f1eff6",
-      "ink": "#171426",
-      "sky": "#b3aede",
-      "water": "#332a5e",
-      "accent": "#f2c14e",
-      "spot": "#6b5fa8",
-      "spot_alt": "#a49ccf"
+      "paper": "#f3f7ec",
+      "ink": "#1a2415",
+      "sky": "#bfe08a",
+      "water": "#3f6b3a",
+      "accent": "#e4772e",
+      "spot": "#6a9a3c",
+      "spot_alt": "#a8c96a"
     },
     "colorful": true,
     "provenance": {

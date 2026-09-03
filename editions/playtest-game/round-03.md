@@ -2,13 +2,13 @@
 
 *All the news that fits in the hold.*
 
-**Vol. I, No. 3** · Saturday, 12 September 2026 · Price: one civic favour, redeemable at inconvenience
+**Vol. I, No. 3** · Saturday, 12 September 2026 · Price: one biscuit, or the firm promise of one
 
 Weather: wind from the harbour, opinions from everywhere.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped mysteries & anomalies, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 1 and 2, a skyline of 6 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-03.svg)
+![A harbour scene in the Daily Manifest's colours, stamped plants & cuttings, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 1 and 2, a skyline of 6 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-03.svg)
 
 *One crate came off the boat with a ribbon on it. Hobart sent it. The others are not saying anything.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### A signal lamp and somebody who reads one
+### Something to eat off a balcony
 
 **PUBLIC NOTICE**. The Mayor of Hobart has taken out an advertisement. This paper has read it three times and remains impressed.
 
-Hobart's lighthouse was decommissioned in 1997 and disconnected in 1998. Three times this year it has signalled, at night, in a rhythm the harbourmaster describes as 'polite.' The harbour office has nothing to signal back with. Hobart is buying a lamp, fuel, a log book, and a keeper who can read lamp-rhythm, for three clear nights.
+Hobart is four storeys high, has three hundred balconies, and nothing edible on any of them. Wanted: herbs, tomatoes in pots, dwarf fruit trees, seed by the packet, grow bags -- enough for three hundred balconies -- and the two things that actually survive a balcony.
 
-The office asks, and the paper repeats verbatim: *Ship Hobart the lamp, the fuel and the keeper for three nights on a headland.*
+The office asks, and the paper repeats verbatim: *Ship Hobart enough pots, seed and cuttings for three hundred balconies, and name the two that survive.*
 
 Offers close at the end of this round (13 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Hobart either.
 
@@ -44,15 +44,15 @@ The Mayor of Valparaíso has until the end of this round to choose. After that t
 
 From the four sealed offers on the Mayor of Reykjavík's desk, one:
 
-> We can lend you two people who spend every winter listening to ice shelves flex at frequencies nobody can hear, and the four low-frequency hydrophones they do it with. Give them a fortnight and a map of your water mains, and if it turns out to be a fridge they'll say so plainly and won't put it in a report.
+> Four hundred apple crates out of the Huon Valley, second-hand, dovetailed by people who expected them to be dropped, lined with hessian and drilled for drainage, filled two parts leaf mould to one part washed river grit. Planted: eight house leeks and a fistful of creeping thyme per box, plus chives, because chives forgive. What they forgive is neglect, salt, wind off the water, a fortnight with nothing at all, being frozen solid, being watered with the cold end of somebody's tea, and being carried indoors in October by a resident who has decided they look cold. What they do not forgive is daily watering, so we have written that on the underside of every crate where it cannot get lost.
 
 It came from Hobart, which takes 3 on the roll (1 and 2).
 
 The offers that did not win, printed here because they deserve to be read:
 
-- We're sending Doña Ester and two of the old winch mechanics, who have spent forty years diagnosing cable machinery by ear alone and can tell you blindfolded whether a hum is a bearing, a transformer, or a building resonating in sympathy with something three streets away. If they find nothing, they will at least tell you what note it is — and then we ship you enough second-hand street organs tuned to that note that the ambience becomes municipal property, with a budget, a caretaker, and a proper channel for complaints.
-- We are sending Ssalongo, who has diagnosed generators by ear for thirty-one years and has never once needed to open the casing — give him a bicycle, a torch and four nights and he will walk you to the exact wall it is coming out of. If it turns out to be nobody's, he will teach forty of your residents to hum along with it in a key the council can live with, and by March it will be a choir and not a complaint.
-- We keep a man on the district heating network whose whole job is to walk the streets before dawn with a steel rod against the pavement and name which pipe is complaining; he has not been wrong since 2004 and he is desperately bored. Lend him a fortnight and he either finds your hum or he certifies it as nobody's, on letterhead, with a stamp — which is the second-best outcome and much cheaper.
+- Four hundred window boxes, and every one of them is a decommissioned zinc gutter section off our hills, cut to ninety centimetres, hammered flat at the ends and painted by hand — no two the same colour, because we ran out of everything except confidence. Filled with compost cut with volcanic grit, and planted with nasturtium, geranium and the trailing succulent our grandmothers call *siempreviva*: it forgives drought, it forgives darkness, it forgives being ignored from October to March, and it forgives the man who tips his coffee dregs into it every morning because it rather enjoys that. Nine hundred metres of grey render is not a street, it is a primed canvas that nobody has had the nerve to sign. We are sending the nerve in four hundred pieces.
+- Four hundred window boxes, already loaded, and none of them bought: Ssalongo the tinsmith and his three nephews cut old jerrycans lengthwise, hammered the edges flat, drilled the drainage and painted every one a different colour, so your nine hundred metres of grey will look like a market stall from one end to the other. Eight tonnes of compost on top of that, coffee husk mixed with sweepings from a market that starts at four in the morning, and in each box: mother-in-law's tongue, aloe, and a spider plant cutting. What they forgive is everything — a fortnight's holiday, a dark window, cold glass, being watered with tea, being watered with nothing at all from March until whenever you remember. Aloe will forgive you so completely it will have had babies by the time you notice it.
+- Four hundred larch boxes, planed and pre-drilled, screws in the crate, because a box merely hung in your wind becomes a hazard to pedestrians. The compost is a sixty-forty mix of leafmould and lava grit, and in each box: three houseleeks, one clump of wild thyme lifted off a hillside, and eight arctic poppy seeds scattered on top. It forgives four weeks unwatered, a north wind straight off the water, February darkness, and an owner who goes to Tenerife and tells nobody. What it does not forgive is being loved — tell the four hundred residents to water it once a fortnight and then leave it entirely alone.
 
 The paper would dearly love to say more. The paper has rules.
 

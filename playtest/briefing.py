@@ -14,7 +14,10 @@ What a brief contains, therefore:
   their own import notices, the export prompts they may answer, the questions
   they may reply to;
 * nothing whatsoever about anybody else's offers. Not the text, not the count,
-  not who else showed up.
+  not who else showed up;
+* what the paper will do with what they write -- that a winning offer is
+  reprinted verbatim, and that the edition it lands in is checked against the
+  forbidden register (spec #30). See :func:`_publication_note`.
 
 The pick round is deliberately *not* briefed here. An importing mayor's ballot
 does not exist until the export window closes, and it cannot be assembled from
@@ -24,6 +27,8 @@ pass, from the real ballots of the real replayed game -- see
 """
 
 from engine.game import SLOT_EXPORT, SLOT_QUESTION
+from newspaper.copy import NewspaperCopy
+from newspaper.tone import TonePolicy
 
 from .table import SEATS
 
@@ -78,6 +83,41 @@ def brief_for(game, journal, seat):
             "You never learn what any other city offered, and nobody ever learns "
             "what you offered unless it wins (spec #18, #21)."
         ),
+        "publication": _publication_note(game),
+    }
+
+
+def _publication_note(game):
+    """What the paper will and will not print of what this mayor writes.
+
+    A mayor's offer is free-form (spec #15) and the paper reprints a *winning*
+    offer verbatim -- so the one thing a briefed agent has to know before it
+    writes is that the edition it lands in is checked against the forbidden
+    register (spec #30, ``content/newspaper.json`` -> ``tone``). Without it a
+    mayor can write a perfectly good, mildly barbed offer whose one unkind word
+    then refuses to publish the round it wins in, which is exactly what the
+    first recording of this game did.
+
+    The register is read out of the content file rather than restated here, so
+    a term added to the paper's policy reaches the players who have to respect
+    it instead of quietly becoming a trap.
+    """
+    tone = TonePolicy(game.config, NewspaperCopy.load(game.config))
+    return {
+        "verbatim": (
+            "If your offer wins, The Daily Manifest prints it exactly as you "
+            "wrote it. Nothing else you write is ever printed with your city "
+            "attached."
+        ),
+        "tone": (
+            "The paper is funny, colourful and allowed to be pointed -- about "
+            "institutions, decisions, absurdity and itself. It is never snide "
+            "or mean about a person (spec #30). Write the better joke."
+        ),
+        "refuses_to_print": (
+            list(tone.forbidden) if tone.disallow_snide else []
+        ),
+        "refusal_is_enforced": tone.disallow_snide,
     }
 
 

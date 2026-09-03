@@ -2,13 +2,13 @@
 
 *All the news that fits in the hold.*
 
-**Vol. I, No. 3** · Saturday, 5 September 2026 · Price: one civic favour, redeemable at inconvenience
+**Vol. I, No. 3** · Saturday, 5 September 2026 · Price: one biscuit, or the firm promise of one
 
 Weather: wind from the harbour, opinions from everywhere.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped transport & logistics, 2 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 5 and 1, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-03.svg)
+![A harbour scene in the Daily Manifest's colours, stamped games & puzzles, 2 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 5 and 1, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-03.svg)
 
 *One crate came off the boat with a ribbon on it. Valparaíso sent it. The others are not saying anything.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### Haulage for a nineteen per cent gradient
+### Board games for a wet fortnight
 
 **PUBLIC NOTICE**. The Mayor of Valparaíso has taken out an advertisement. This paper has read it three times and remains impressed.
 
-Deliveries to Valparaíso's upper town stop at the bottom of a 19% gradient. From there everything — furniture, groceries, one piano — proceeds by arrangement, on foot, badly. Valparaíso will buy winches, hoists, cargo bikes, a funicular in kit form, mules with their tack, or the crew that already does this somewhere steeper.
+It rains in Valparaíso for a fortnight every autumn and the entire town goes indoors at once. The cupboard in the community hall holds one chess set with two black bishops. Wanted: board games by the crate -- playable in an hour, playable by six, playable by somebody who has not read the rules and is not going to.
 
-The office asks, and the paper repeats verbatim: *Ship Valparaíso the machinery or the animals that get a piano up a nineteen per cent hill.*
+The office asks, and the paper repeats verbatim: *Ship Valparaíso a crate of board games for a wet fortnight, and say which box to open first.*
 
 Offers close at the end of this round (6 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Valparaíso either.
 
@@ -44,13 +44,13 @@ The Mayor of Hobart has until the end of this round to choose. After that the ru
 
 From the two sealed offers on the Mayor of Reykjavík's desk, one:
 
-> Forty-one working funicular cars and the man who knows which forty are safe.
+> Four hundred metres of bunting in the colours the hills painted themselves, ladders included.
 
 It came from Valparaíso, which takes 6 on the roll (5 and 1).
 
 The offers that did not win, printed here because they deserve to be read:
 
-- A ferry timetable that has survived contact with the actual weather.
+- Apples, forty cases, in six varieties nobody off this island has heard of.
 
 The paper would dearly love to say more. The paper has rules.
 

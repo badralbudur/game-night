@@ -8,7 +8,7 @@ Weather: wind from the harbour, opinions from everywhere.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped tourism & reputation, 4 crates on the quay, a boat at the mooring, a skyline of 5 city towers ranked by profit, and 3 pennants overhead, one per reply.](round-02.svg)
+![A harbour scene in the Daily Manifest's colours, stamped stationery & paper, 4 crates on the quay, a boat at the mooring, a skyline of 5 city towers ranked by profit, and 3 pennants overhead, one per reply.](round-02.svg)
 
 *The offers, landed and unopened. Nobody in this picture knows who sent what, including the paper.*
 
@@ -18,17 +18,17 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *The classifieds desk has been busy. It has taken one advertisement.*
 
-### Something for Northgate, worth the bus fare
+### Postcards of somewhere else entirely
 
-**PUBLIC NOTICE** from Valparaíso, paid for in municipal goodwill and printed here at length because the paper had the room.
+**PUBLIC NOTICE** from Valparaíso, paid for in goodwill and one packet of biscuits, and printed here at length because the paper had the room.
 
-Everyone in Valparaíso agrees the Northgate district is the worst part of town. Nobody who says this has been to Northgate since 2009. Northgate, meanwhile, has quietly become quite good. Valparaíso has a building, a budget and no stock: it is buying plant, fittings, equipment or the staff to run one thing in Northgate that people from the other side of town would travel for.
+Valparaíso's postcard rack shows the same view from the same hill, six times, and the shopkeeper has begun apologising for it unprompted. Wanted: postcards of your city -- forty thousand of them, printed, stamps not included -- and the one image on them that your own residents would argue about.
 
-The notice ends with a question, which this paper considers the interesting part: *Ship Valparaíso the plant, fittings or people for one thing in Northgate worth the bus fare.*
+The notice ends with a question, which this paper considers the interesting part: *Send Valparaíso forty thousand postcards of your own city, and name the image that starts the argument.*
 
 Offers close at the end of this round (12 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Valparaíso either.
 
-_What outsiders say about us when we leave the room is, unfortunately, printable._
+_This entire edition was written with a pen borrowed from the front counter and never returned._
 
 ## Sealed Bids
 

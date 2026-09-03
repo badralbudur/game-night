@@ -8,7 +8,7 @@ Weather: warm in the chamber, cold in the corridor.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped mysteries & anomalies, an empty quay and no boat, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-01.svg)
+![A harbour scene in the Daily Manifest's colours, stamped plants & cuttings, an empty quay and no boat, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-01.svg)
 
 *No cargo today. The harbour, pictured, is unbothered.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### Listening equipment, and ears to go with it
+### Window boxes for one long grey street
 
 **PUBLIC NOTICE**. The Mayor of Reykjavík has taken out an advertisement. This paper has read it three times and remains impressed.
 
-Since February, Reykjavík has hummed. Two residents in five can hear it. The utility says it is not theirs, the geologists say it is not the ground, and the council has begun describing it in writing as 'the ambience.' Reykjavík is buying instruments and time: hydrophones, geophones, meters, recorders — and people who have found a noise before, for a fortnight, with a bicycle each.
+Reykjavík's longest street is nine hundred metres of grey render and four hundred window sills, every one of them empty. The residents have agreed in principle and have nothing whatsoever to put in them. Wanted: four hundred window boxes, the compost to fill them, and plants that forgive an owner who forgets.
 
-The office asks, and the paper repeats verbatim: *Ship Reykjavík the listening equipment, the people or the instruments the hum turns out to need.*
+The office asks, and the paper repeats verbatim: *Ship Reykjavík four hundred window boxes with something forgiving in them, and say what it forgives.*
 
 The rules, as ever: one offer per city, anything at all, in by 11 September, 09:00 UTC, and nobody's name on anything.
 

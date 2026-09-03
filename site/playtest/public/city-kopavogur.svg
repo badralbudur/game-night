@@ -19,13 +19,13 @@
 <text x="306.0" y="294.0" fill="#2b1a12" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="start">0</text>
 <g transform="rotate(-4 526.0 116.0)">
 <rect x="396.0" y="82.0" width="262.0" height="68.0" rx="5" fill="none" opacity="0.75" stroke="#2b1a12" stroke-width="3"/>
-<text x="527.0" y="110.0" fill="#2b1a12" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" letter-spacing="1.2">FOOD &amp; DRINK</text>
-<text x="527.0" y="134.0" fill="#2b1a12" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" font-style="italic">A signature dish, cooks included</text>
+<text x="527.0" y="110.0" fill="#2b1a12" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" letter-spacing="1.2">SNACKS &amp; SAVOURIES</text>
+<text x="527.0" y="134.0" fill="#2b1a12" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" font-style="italic">Crisps in a flavour nobody here…</text>
 </g>
 <g transform="rotate(3 550.0 176.0)">
 <rect x="420.0" y="142.0" width="262.0" height="68.0" rx="5" fill="none" opacity="0.75" stroke="#2b1a12" stroke-width="3"/>
-<text x="551.0" y="170.0" fill="#2b1a12" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" letter-spacing="1.2">LABOUR &amp; EXPERTISE</text>
-<text x="551.0" y="194.0" fill="#2b1a12" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" font-style="italic">Night care, ten till seven</text>
+<text x="551.0" y="170.0" fill="#2b1a12" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" letter-spacing="1.2">BAKERY &amp; BAKED GOODS</text>
+<text x="551.0" y="194.0" fill="#2b1a12" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" font-style="italic">Cake for a birthday nobody will…</text>
 </g>
 <rect x="0.0" y="324.0" width="900.0" height="236.0" rx="0" fill="#a8573b"/>
 <rect x="0.0" y="324.0" width="900.0" height="20.0" rx="0" fill="#e08e45" opacity="0.5"/>

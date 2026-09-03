@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "An object for an empty plinth"
+          "text": "Something for the shelf by the door"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "The plinth in Valparaíso's central square has been empty for two years. The previous occupant turned out to have opinions. The plinth is a good plinth, it is rated to eleven tonnes, and the square feels the absence. Valparaíso is commissioning and buying the thing that stands on it — cast, carved, welded or grown, crated and shipped."
+          "text": "Valparaíso put a bookcase in the ferry waiting room under an honesty rule -- take one, leave one -- and it is now four shelves of the same thriller. Wanted: paperbacks by the box, read, creased, annotated, anything but pristine. Two hundred of them, no two the same."
         },
         {
           "kind": "para",
-          "text": "The office asks, and the paper repeats verbatim: *Ship Valparaíso something to put on an eleven-tonne plinth, and name the material.*"
+          "text": "The office asks, and the paper repeats verbatim: *Ship Valparaíso two hundred second-hand paperbacks, no two alike, and say which one you nearly kept.*"
         },
         {
           "kind": "para",
@@ -46,7 +46,7 @@
       ],
       "provenance": {
         "need": "in-008",
-        "category": "culture_and_arts",
+        "category": "books",
         "rotation": 2,
         "spec": "#9, #13, #14"
       }
@@ -89,7 +89,7 @@
         },
         {
           "kind": "quote",
-          "text": "The southernmost bakery on the register, boxed, with its opening hours."
+          "text": "A crate of jam, the recipe, and the woman who will not permit you to alter the recipe."
         },
         {
           "kind": "para",
@@ -103,9 +103,9 @@
           "kind": "list",
           "role": "declined_exports",
           "items": [
-            "A fish counter with a two-hundred-year opinion about freshness.",
-            "A rolling programme of unscheduled municipal celebration.",
-            "The complete municipal songbook, including the verses nobody sings."
+            "Fish soup in vacuum packs, and a two-hundred-year opinion about freshness.",
+            "Three hundred kites of feed sack and split cane, and the children who fly them best.",
+            "Nine hundred rooted bougainvillea cuttings, wrapped in yesterday's newspaper."
           ]
         },
         {
@@ -215,33 +215,37 @@
             [
               1,
               "Kampala",
-              "14.75"
+              "19.75"
             ],
             [
               2,
-              "Valparaíso",
-              "13.75"
-            ],
-            [
-              3,
               "Hobart",
               "8.75"
             ],
             [
+              3,
+              "Valparaíso",
+              "8.75"
+            ],
+            [
               4,
-              "Bergen",
-              "3"
+              "Reykjavík",
+              "5.75"
             ],
             [
               5,
-              "Reykjavík",
-              "2.75"
+              "Bergen",
+              "0"
             ]
           ]
         },
         {
           "kind": "para",
           "text": "Kampala is top of the column. The column is long and the game is not over."
+        },
+        {
+          "kind": "para",
+          "text": "Several cities are still on nothing at all. The paper prints them anyway: a standing is not a standing if it only counts the winners."
         },
         {
           "kind": "note",
@@ -308,7 +312,7 @@
         "op": "OPEN",
         "need": "in-008",
         "city": "Valparaíso",
-        "category": "culture_and_arts",
+        "category": "books",
         "rotation": 2,
         "request_source": "seed"
       },
@@ -329,7 +333,7 @@
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped culture & the arts, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 2, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped books & reading, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 2, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
     "cutline": "4 crates, one ribbon, 6 in the ledger. A good day at the water.",
     "extension": "svg",
     "mime": "image/svg+xml",

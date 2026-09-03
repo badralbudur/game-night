@@ -8,7 +8,7 @@ Weather: unsettled, like the minutes of the last session.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped wildlife & nature, 6 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 6 and 5, a skyline of 8 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-11.svg)
+![A harbour scene in the Daily Manifest's colours, stamped pets & animal company, 6 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 6 and 5, a skyline of 8 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-11.svg)
 
 *One crate came off the boat with a ribbon on it. Reykjavík sent it. The others are not saying anything.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *The classifieds desk has been busy. It has taken one advertisement.*
 
-### Planting stock that stands in salt
+### Hens, and something to keep them in
 
-**PUBLIC NOTICE**, filed by the Mayor of Kampala under Wildlife & Nature, which is where Kampala files most things.
+**PUBLIC NOTICE**, filed by the Mayor of Kampala under Pets & Animal Company, which is where Kampala files most things.
 
-Every tree Kampala has planted along the seafront promenade has died within two winters, politely and in order, west to east. The promenade is now a row of very well-maintained stakes. Kampala is buying stock by the crate: rooted cuttings, whips, seedlings, pups, sets — anything that has already lived somewhere the spray reaches.
+Kampala has an allotment with a nine-year waiting list and one corner of it that nobody has ever made anything of. The allotment society has voted, twice, for hens. Wanted: six hens of a breed that lays through a bad winter, a coop a fox has already failed at, feed, grit, and the two pages of instructions that actually matter.
 
-The Mayor of Kampala would like an answer to this: *Ship Kampala rooted stock that grows where the salt is, and say where yours has been standing.*
+The Mayor of Kampala would like an answer to this: *Ship Kampala six hens, a fox-proof coop, and the two pages of instructions that matter.*
 
 The rules, as ever: one offer per city, anything at all, in by 21 September, 09:00 UTC, and nobody's name on anything.
 
@@ -44,15 +44,15 @@ One round to decide. A window that closes without a decision is not a disaster, 
 
 From the six sealed offers on the Mayor of Valparaíso's desk, one:
 
-> Put the tip on the far side. A proper reuse yard — tipping face, weighbridge, a long shelf where anything still working goes out free, and a coffee urn nobody meters. People will not cross a bridge for a view, but they will cross one cheerfully carrying a broken chair, and they will cross back carrying somebody else's. We'll send the layout and two of our yard staff for the first season.
+> Twelve cases and one thousand paper bags, since nine hundred assumes no child tears one. Eight cases are liquorice inside chocolate in every arrangement worked out here in a hundred years — bars, buttons, drops, and one that is liquorice rolled in salt and then in chocolate, which is the one they will queue for twice. Two cases are lava bars, wafer and chocolate, meant to be snapped in half over a table. Two are boiled sweets loose in jars the size of buckets, and a scoop. The first bag goes to whoever has been behind that counter for sixty years: one of everything, laid in order of increasing salt, with a note saying start at the top and work down.
 
 Reykjavík sent it, and Reykjavík takes 11 — the dice said 6 and 5.
 
 Also offered, and declined:
 
-- Put a market on the far side and open it at four in the morning, so the bridge has traffic before anybody is awake enough to have an opinion about a showroom. We will seed it: thirty traders for one season, their airfare on us, on the condition that for the first year the bridge is the only permitted way in — a thing people are made to walk becomes a thing they say they chose.
-- Put a queue on the far side. Licence renewals, passport photographs, the tax window — and one genuinely excellent bakery beside it, so the crossing is resented for about four months and then defended in public by people who claim they always liked the walk.
-- One small building and nothing else. One room, one attendant, free, six days a week, with exactly one thing inside worth crossing for — and we'll lend you the thing for the first year while you find your own.
+- Forty jars of simsim-and-honey brittle, thirty cases of jaggery toffee twisted in waxed paper, twenty cases of tamarind balls rolled in chilli salt, and nine hundred paper bags folded out of last month's newspapers by a primary five class who put their initials on the bottom of every single one, so somewhere in the pile a child has signed the bag your children will be holding. In the first bag: brittle first, because it wins them over; toffee second, because it takes four minutes and buys the queue some quiet; and one tamarind ball last, unlabelled. That last one teaches them that a sweet shop can surprise you, which is what those children have actually organised about.
+- Six cases, and they are almost entirely liquorice: salted ropes, liquorice cut into coins, liquorice under milk chocolate, chocolate with liquorice hidden inside it, chocolate-covered puffed rice for the children who lose their nerve, and four jars of boiled barley sweets for the grandmothers who will be doing the actual handing out. Nine hundred white paper bags with a fold-over top are packed flat on the bottom of the crate. In the first bag: one bar of chocolate-wrapped liquorice, snapped in half through the wrapper before it went in, so the child has ten seconds to decide whether he has a friend. Tell them the first piece is confusing and the third one is not.
+- Six jars of shio-ame — hard salt candy boiled from seawater, twisted in wax paper, faintly savoury, the sort children complain about and then finish. Also a case of mikan-peel toffee, bitter at the edges, and a small jar of candied olive for the brave. The nine hundred paper bags are folded from last year's ferry timetables and old exhibition flyers, so every bag has a departure time or half a painting on it. First bag: one salt candy, one toffee, in the bag with the 6:05 sailing printed on it, for whoever gets through the door first.
 
 This paper is not saying who sent those, now or ever. Neither is the Mayor of Valparaíso, who does not know.
 

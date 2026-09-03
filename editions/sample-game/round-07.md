@@ -8,7 +8,7 @@ Weather: overcast, with a strong chance of committee.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped food & drink, 4 crates on the quay, 4 of them ribboned, a boat at the mooring, dice showing 5 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-07.svg)
+![A harbour scene in the Daily Manifest's colours, stamped snacks & savouries, 4 crates on the quay, 4 of them ribboned, a boat at the mooring, dice showing 5 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-07.svg)
 
 *Every crate got a ribbon in the end. The crane operator has questions.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### A night canteen, four till eight
+### The thing you eat standing up at eleven at night
 
 **PUBLIC NOTICE**, lodged at this paper's counter by the office of the Mayor of Hobart, who declined to elaborate.
 
-Hobart runs on people finishing work at 5am — the port, the bakery, the hospital, the fish market. Nothing is open for them, and what is open is designed for people who slept. Hobart is buying the canteen entire: urns, pots, a counter, the food to fill it, and cooks willing to work the wrong end of the night.
+Hobart closes at ten and gets hungry at eleven, and has been doing so quietly for years without mentioning it to anybody. Wanted: the snack your city eats standing up, late -- frozen, dried, tinned, vacuum-packed, however it travels -- plus whatever it is traditionally eaten out of.
 
-The Mayor of Hobart would like an answer to this: *Send Hobart the kit, the stock and the cooks for a counter that opens at four in the morning.*
+The Mayor of Hobart would like an answer to this: *Ship Hobart your city's late-night snack, however it travels, and say what to eat it out of.*
 
 Offers close at the end of this round (10 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Hobart either.
 
@@ -74,13 +74,15 @@ _This paper has no position on the question and every position on the arithmetic
 
 | # | City | Profit |
 | --- | --- | --- |
-| 1 | Kampala | 14.75 |
-| 2 | Valparaíso | 13.75 |
-| 3 | Bergen | 3 |
+| 1 | Kampala | 19.75 |
+| 2 | Valparaíso | 8.75 |
+| 3 | Reykjavík | 5.75 |
 | 4 | Hobart | 2.75 |
-| 5 | Reykjavík | 2.75 |
+| 5 | Bergen | 0 |
 
 Kampala leads, and has been gracious about it in a way this paper found slightly worse than gloating.
+
+A city on zero is still a city. The column includes everybody, which is the point of a column.
 
 _Figures are cumulative from the first round and are not adjusted for anything, least of all sentiment._
 

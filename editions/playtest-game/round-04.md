@@ -8,7 +8,7 @@ Weather: bright, briefly, and then a meeting.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped water & waste, 3 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 6 and 6, a skyline of 7 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-04.svg)
+![A harbour scene in the Daily Manifest's colours, stamped soft drinks & fizz, 3 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 6 and 6, a skyline of 7 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-04.svg)
 
 *One crate came off the boat with a ribbon on it. Hobart sent it. The others are not saying anything.*
 
@@ -18,17 +18,17 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### Pumps, pipe and four days of standing water
+### Something cold, in a glass bottle
 
-**PUBLIC NOTICE**, filed by the Mayor of Kampala under Water & Waste, which is where Kampala files most things.
+**PUBLIC NOTICE**, filed by the Mayor of Kampala under Soft Drinks & Fizz, which is where Kampala files most things.
 
-Kampala's storm drains were built for a climate that has since resigned. Every heavy rain, the water arrives at the low end of Market Street and waits there, in public, for four days. Purchase order: pumps, hose, pipe, gravel, tanks, decking, and hands that have laid any of it before.
+The corner shops in Kampala sell three colas, and they are the same three colas sold everywhere else on earth. The town has decided this is a poverty. Wanted: cordials, sodas, tonics, sparkling anything, in glass, by the crate -- the stranger the flavour the better -- and a bottle opener, because nobody ever sends the opener.
 
-The office asks, and the paper repeats verbatim: *Ship Kampala the plant, pipework or people that will move the water at the low end of Market Street — or make it welcome there.*
+The office asks, and the paper repeats verbatim: *Ship Kampala crates of cold bottled drinks, and say what the label claims about them.*
 
 Every other city hall may send exactly one offer, in whatever form it likes, by 14 September, 09:00 UTC. The offers arrive unsigned, and the Mayor of Kampala will read them that way.
 
-_The paper's own plumbing was mentioned in an early edition and has not forgiven us._
+_This desk holds that a drink is only cold if the bottle sweats, and has held that position loudly._
 
 ## Sealed Bids
 
@@ -44,14 +44,14 @@ One round to decide. A window that closes without a decision is not a disaster, 
 
 The winning offer for Valparaíso, reproduced exactly as it arrived:
 
-> We'll send the woman who redrew our ferry timetable. She'll move one late service so it terminates in Northgate at eleven at night, because nobody has ever changed their mind about a suburb from a brochure -- they change it because they had to stand there twenty minutes and it was fine. Whatever you do, don't let anyone call it vibrant; that's how a place announces it's being sold to you.
+> Forty thousand postcards, printed on card thick enough to stand up in a rack, and not one of them the view from the top of the mountain. The image is the town seen from the middle of the river on a grey afternoon, the mountain entirely inside a cloud, one ferry crossing left to right. Half our residents say this is a slander and we should have waited for a clear day; the other half say we have been waiting for a clear day since 1804 and this is the honest one. Both arguments are printed on the reverse in small type, so your shopkeeper has something to say instead of apologising.
 
 The sender, now nameable because they won: Hobart. Profit: 12, on 6 and 6.
 
 Also offered, and declined:
 
-- Put a municipal swimming pool in Northgate — the cheap kind, open half six to ten, cheaper than a coffee, no view and no ambition. A district stops being the worst part of town about eighteen months after people start going there twice a week wet, unarmoured, and slightly early. We'll send the plant drawings and a foreman who has built four of them.
-- Don't argue with them, make them park there. Move one unavoidable event — the swim meet, the Christmas market, the vote count — physically into the district for a season, and let four thousand people be pleasantly surprised against their will; we'll send the two staff who ran that operation here for six years, because being wrongly written off is the thing we are genuinely best at.
+- Forty thousand postcards, printed on a matte stock that will not curl in a damp rack. Thirty-eight thousand of them show the harbour, the church and the coloured roofs, which is what visitors buy and which nobody here argues about. The other two thousand show a wet street at half past eight on a January morning, steam coming up off the pavement where the hot-water pipes run underneath it, photographed from inside a bus shelter. Half the town says that is the only honest picture ever taken of us; the other half says it is a photograph of a puddle and some plumbing. They are both correct, which is why it is the one worth forty thousand of anything.
+- Forty thousand matte postcards, 100 by 150, card thick enough that a cheap pen doesn't skid. They are two crops of one photograph, twenty thousand each: the church hill at nine in the evening with the capital's skyline sitting behind it, and the identical shot cropped one centimetre higher, so the skyline is gone and there is only our own roofline and a great deal of sky. Our residents have not agreed since 1994 on which of those is the real picture of the town, and they will not settle it for your shopkeeper either. Which pile goes at the front of the rack is entirely his business, and he should know that either choice offends somebody.
 
 This paper is not saying who sent those, now or ever. Neither is the Mayor of Valparaíso, who does not know.
 

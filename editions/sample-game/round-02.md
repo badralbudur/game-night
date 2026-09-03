@@ -8,7 +8,7 @@ Weather: wind from the harbour, opinions from everywhere.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped weather & climate, 2 crates on the quay, a boat at the mooring, a skyline of 4 city towers ranked by profit, and 2 pennants overhead, one per reply.](round-02.svg)
+![A harbour scene in the Daily Manifest's colours, stamped clothes & outfitting, 2 crates on the quay, a boat at the mooring, a skyline of 4 city towers ranked by profit, and 2 pennants overhead, one per reply.](round-02.svg)
 
 *The offers, landed and unopened. Nobody in this picture knows who sent what, including the paper.*
 
@@ -18,17 +18,17 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *The classifieds desk has been busy. It has taken one advertisement.*
 
-### Windbreak for one avenue, bolted down
+### Outfitting for a swimming club that swims in March
 
-**PUBLIC NOTICE** from Hobart, paid for in municipal goodwill and printed here at length because the paper had the room.
+**PUBLIC NOTICE** from Hobart, paid for in goodwill and one packet of biscuits, and printed here at length because the paper had the room.
 
-The wind comes down Hobart's main avenue at a speed that has removed four awnings, one election banner and the dignity of most residents between November and March. Purchase order: screens, baffles, slats, canvas, rope, planters heavy enough to stay put, and a crew to bolt it all down before the first gale.
+Forty-one people swim off Hobart's beach every week of the year, including the weeks when that is a medically interesting decision. They currently share three towels. Wanted: robes, towels, neoprene, hats, gloves, and a bag that dries out between one Tuesday and the next.
 
-The notice ends with a question, which this paper considers the interesting part: *Ship Hobart the windbreak for a four-kilometre avenue, and the crew who fix it in place.*
+The notice ends with a question, which this paper considers the interesting part: *Ship Hobart the robes, the towels and the neoprene for forty-one all-year swimmers.*
 
 Offers close at the end of this round (5 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Hobart either.
 
-_Treating the sky as a procurement problem has never once worked, and city halls keep trying._
+_The paper has been wet since November and would like that noted somewhere permanent._
 
 ## Sealed Bids
 

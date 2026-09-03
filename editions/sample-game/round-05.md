@@ -8,7 +8,7 @@ Weather: unsettled, like the minutes of the last session.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped water & waste, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 2 and 1, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-05.svg)
+![A harbour scene in the Daily Manifest's colours, stamped soft drinks & fizz, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 2 and 1, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-05.svg)
 
 *4 crates, one ribbon, 3 in the ledger. A good day at the water.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *Today's notice, printed in full and without comment, followed immediately by comment.*
 
-### Plant for four hundred tonnes of seaweed
+### Cordial, for two hundred jugs
 
 **PUBLIC NOTICE**, lodged at this paper's counter by the office of the Mayor of Bergen, who declined to elaborate.
 
-The tide brings Bergen four hundred tonnes of seaweed a season. Burning it is illegal, burying it is unpopular, and the phrase 'municipal seaweed' now appears in eleven separate complaint letters. Bergen is buying the machinery that turns it into a product: balers, dryers, presses, tanks — or a standing order from somebody who wants the stuff.
+Every summer Bergen sets out trestle tables along the water, and every summer it fills the jugs with water and a slice of lemon, which no one has ever once described as a treat. Wanted: cordial, syrup, squash, concentrate -- enough for two hundred jugs -- and the jugs too, if you have jugs going spare.
 
-The Mayor of Bergen would like an answer to this: *Ship Bergen the plant that makes seaweed into something, or the contract that takes it away by the tonne.*
+The Mayor of Bergen would like an answer to this: *Send Bergen enough cordial for two hundred jugs, and the jugs as well if you have them.*
 
 Offers close at the end of this round (8 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Bergen either.
 
@@ -40,14 +40,14 @@ Not one offer arrived for Kampala. The desk of the Mayor of Kampala is clear, wh
 
 The Mayor of Valparaíso read 4 unsigned offers and marked one of them:
 
-> Rain. Enormous quantities of rain, and the civic infrastructure to shrug at it.
+> Wool socks in colours our grandmothers chose. A thousand pairs, all slightly wrong.
 
-Bergen sent it, and Bergen takes 3 — the dice said 2 and 1.
+Reykjavík sent it, and Reykjavík takes 3 — the dice said 2 and 1.
 
 Not chosen, and not attributed:
 
+- Rain, in quantity, and the raincoats to shrug at it.
 - A market's worth of Saturday, transplanted whole, noise included.
-- Six weeks of the municipal brass band, and the sheet music for one more.
 
 This paper is not saying who sent those, now or ever. Neither is the Mayor of Valparaíso, who does not know.
 
@@ -75,11 +75,11 @@ _The paper would like it noted that it asked a simple question._
 
 | # | City | Profit |
 | --- | --- | --- |
-| 1 | Valparaíso | 11 |
-| 2 | Bergen | 3 |
-| 3 | Hobart | 0 |
-| 4 | Kampala | 0 |
-| 5 | Reykjavík | 0 |
+| 1 | Valparaíso | 6 |
+| 2 | Kampala | 5 |
+| 3 | Reykjavík | 3 |
+| 4 | Bergen | 0 |
+| 5 | Hobart | 0 |
 
 Valparaíso is top of the column. The column is long and the game is not over.
 

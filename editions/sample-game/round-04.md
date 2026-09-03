@@ -8,9 +8,9 @@ Weather: bright, briefly, and then a meeting.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped food & drink, 3 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 2 and 3, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-04.svg)
+![A harbour scene in the Daily Manifest's colours, stamped snacks & savouries, 3 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 2 and 3, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-04.svg)
 
-*One crate came off the boat with a ribbon on it. Valparaíso sent it. The others are not saying anything.*
+*One crate came off the boat with a ribbon on it. Kampala sent it. The others are not saying anything.*
 
 ---
 
@@ -18,17 +18,17 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### Preservation, for ninety thousand plums
+### Biscuits, by the tin, for a hall with three bookings
 
-**PUBLIC NOTICE**, filed by the Mayor of Kampala under Food & Drink, which is where Kampala files most things.
+**PUBLIC NOTICE**, filed by the Mayor of Kampala under Snacks & Savouries, which is where Kampala files most things.
 
-A clerical error in Kampala's orchard subsidy has produced a plum harvest roughly nine times the town's historical plum appetite. They are ripening on schedule and entirely without mercy. Kampala will buy freezers, presses, drying racks, salt, sugar, casks, reefer containers, jars — and the hands to run them — delivered inside nine days.
+The swimming club, the choir and the allotment society of Kampala all meet in the same hall on the same evening, and all three bring the same biscuit. There has been a mood about it since March. Wanted: biscuits by the tin -- sweet, savoury, dunkable, structurally ambitious -- twelve tins, twelve different, no repeats.
 
-The office asks, and the paper repeats verbatim: *Ship Kampala what keeps ninety thousand plums, and say how fast it can be on the quay.*
+The office asks, and the paper repeats verbatim: *Send Kampala a tin of your own city's biscuit, and say whether it survives a dunk.*
 
 Every other city hall may send exactly one offer, in whatever form it likes, by 7 September, 09:00 UTC. The offers arrive unsigned, and the Mayor of Kampala will read them that way.
 
-_The paper's staff have volunteered, unanimously and immediately, to assess any samples._
+_Two members of staff eat standing at the window every evening and consider themselves the experts of record._
 
 ## Sealed Bids
 
@@ -44,14 +44,14 @@ One round to decide. A window that closes without a decision is not a disaster, 
 
 The winning offer for Hobart, reproduced exactly as it arrived:
 
-> A hillside's worth of paint, in colours the council will argue about for years.
+> Roast maize, chapati and a spice mix in unlabelled bags, because labels slow everything down.
 
-The sender, now nameable because they won: Valparaíso. Profit: 5, on 2 and 3.
+The sender, now nameable because they won: Kampala. Profit: 5, on 2 and 3.
 
 Also offered, and declined:
 
-- Eleven boda riders who know every shortcut and will not be told otherwise.
-- A retired harbourmaster, on loan, with strong opinions and a thermos.
+- Salted liquorice, forty cases, which visitors have twice described as a prank.
+- Six thousand alfajores, packed in tins that families here reuse for thirty years.
 
 This paper is not saying who sent those, now or ever. Neither is the Mayor of Hobart, who does not know.
 
@@ -77,10 +77,10 @@ _The paper would like it noted that it asked a simple question._
 
 | # | City | Profit |
 | --- | --- | --- |
-| 1 | Valparaíso | 11 |
-| 2 | Bergen | 0 |
-| 3 | Hobart | 0 |
-| 4 | Kampala | 0 |
+| 1 | Valparaíso | 6 |
+| 2 | Kampala | 5 |
+| 3 | Bergen | 0 |
+| 4 | Hobart | 0 |
 | 5 | Reykjavík | 0 |
 
 Valparaíso is top of the column. The column is long and the game is not over.

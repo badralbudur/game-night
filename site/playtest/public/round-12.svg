@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="A harbour scene in the Daily Manifest's colours, stamped labour &amp; expertise, 6 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 2 and 5, a skyline of 8 city towers ranked by profit, and 6 pennants overhead, one per reply.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="A harbour scene in the Daily Manifest's colours, stamped bakery &amp; baked goods, 6 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 2 and 5, a skyline of 8 city towers ranked by profit, and 6 pennants overhead, one per reply.">
 <rect x="0.0" y="0.0" width="1200.0" height="700.0" rx="0" fill="#f8f4ec"/>
 <rect x="0.0" y="0.0" width="1200.0" height="66.0" rx="0" fill="#231d16"/>
 <text x="28.0" y="44.0" fill="#f8f4ec" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="bold" text-anchor="start" letter-spacing="3">THE DAILY MANIFEST</text>
@@ -168,8 +168,8 @@
 <path d="M 958.0 252.0 q 7.7 -9.5 15.5 0 q 7.7 -9.5 15.5 0" stroke="#231d16" stroke-width="2.5" fill="none"/>
 <g transform="rotate(-4 852.0 172.0)">
 <rect x="702.0" y="128.0" width="306.0" height="88.0" rx="6" fill="none" opacity="0.8" stroke="#231d16" stroke-width="3"/>
-<text x="855.0" y="164.0" fill="#231d16" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" letter-spacing="1.5">LABOUR &amp; EXPERTISE</text>
-<text x="855.0" y="192.0" fill="#231d16" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" font-style="italic">Night care, ten till seven</text>
+<text x="855.0" y="164.0" fill="#231d16" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" letter-spacing="1.5">BAKERY &amp; BAKED GOODS</text>
+<text x="855.0" y="192.0" fill="#231d16" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" font-style="italic">Cake for a birthday nobody will a…</text>
 </g>
 <rect x="0.0" y="642.0" width="1200.0" height="58.0" rx="0" fill="#231d16"/>
 <text x="28.0" y="668.0" fill="#f8f4ec" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="normal" text-anchor="start" font-style="italic">One crate came off the boat with a ribbon on it. Reykjavík sent it. The others are not saying anything.</text>

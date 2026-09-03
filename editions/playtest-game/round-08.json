@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "Windbreak for one avenue, bolted down"
+          "text": "Outfitting for a swimming club that swims in March"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "The wind comes down Reykjavík's main avenue at a speed that has removed four awnings, one election banner and the dignity of most residents between November and March. Purchase order: screens, baffles, slats, canvas, rope, planters heavy enough to stay put, and a crew to bolt it all down before the first gale."
+          "text": "Forty-one people swim off Reykjavík's beach every week of the year, including the weeks when that is a medically interesting decision. They currently share three towels. Wanted: robes, towels, neoprene, hats, gloves, and a bag that dries out between one Tuesday and the next."
         },
         {
           "kind": "para",
-          "text": "The office asks, and the paper repeats verbatim: *Ship Reykjavík the windbreak for a four-kilometre avenue, and the crew who fix it in place.*"
+          "text": "The office asks, and the paper repeats verbatim: *Ship Reykjavík the robes, the towels and the neoprene for forty-one all-year swimmers.*"
         },
         {
           "kind": "para",
@@ -46,7 +46,7 @@
       ],
       "provenance": {
         "need": "in-008",
-        "category": "weather_and_climate",
+        "category": "clothes",
         "rotation": 2,
         "spec": "#9, #13, #14"
       }
@@ -310,7 +310,7 @@
         "op": "OPEN",
         "need": "in-008",
         "city": "Reykjavík",
-        "category": "weather_and_climate",
+        "category": "clothes",
         "rotation": 2,
         "request_source": "seed"
       },
@@ -331,7 +331,7 @@
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped weather & climate, an empty quay and no boat, dice showing 3 and 4, a skyline of 7 city towers ranked by profit, and 5 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped clothes & outfitting, an empty quay and no boat, dice showing 3 and 4, a skyline of 7 city towers ranked by profit, and 5 pennants overhead, one per reply.",
     "cutline": "Nothing on the quay, so Naoshima built its own. The shed, pictured, is doing its best.",
     "extension": "svg",
     "mime": "image/svg+xml",

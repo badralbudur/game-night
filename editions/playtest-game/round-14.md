@@ -8,7 +8,7 @@ Weather: overcast, with a strong chance of committee.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped infrastructure & public works, 7 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 3 and 5, a skyline of 8 city towers ranked by profit, and 7 pennants overhead, one per reply.](round-14.svg)
+![A harbour scene in the Daily Manifest's colours, stamped candy & sweets, 7 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 3 and 5, a skyline of 8 city towers ranked by profit, and 7 pennants overhead, one per reply.](round-14.svg)
 
 *7 crates, one ribbon, 8 in the ledger. A good day at the water.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### Twenty metres of clear span, and a signature
+### The sweet nobody else has
 
 **PUBLIC NOTICE**. The Mayor of Belgrade has taken out an advertisement. This paper has read it three times and remains impressed.
 
-The roof of Belgrade's town hall is held up by scaffolding, three generations of temporary permits and the shared belief that it will hold. Two of those three expire in October. Wanted: trusses, beams, ties, fixings — timber, steel or stone, Belgrade is not fussy — and a stamped calculation from somebody insured.
+Every city at this table has one sweet you cannot buy anywhere else. Belgrade has been through its own cupboards and found only things available in an airport. Wanted: whatever your grandmother keeps in a tin -- the regional, the faintly medicinal, the frankly alarming -- a case of it, wrapper and all.
 
-The Mayor of Belgrade would like an answer to this: *Send Belgrade the structure that will hold up a civic roof, and whatever crew or certificate travels with it.*
+The Mayor of Belgrade would like an answer to this: *Send Belgrade a case of the sweet your own city is known for, wrapper and all.*
 
 Offers close at the end of this round (24 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Belgrade either.
 
@@ -44,15 +44,15 @@ The Mayor of Naoshima has until the end of this round to choose. After that the 
 
 The Mayor of Kópavogur read 7 unsigned offers and marked one of them:
 
-> Our port has run a night crèche since the docks went round the clock: one warm room by the gate, eleven cots, a levy the employers pay per night-shift worker rather than per child, and a standing rule that the children sleep there and are carried home asleep at seven. We'll lend you, for a full season, the two women who have worked the ten-to-seven shift for a decade and the two pages of rules that actually matter — and take that rota out of the locker and put it on the payroll, because goodwill is a wage somebody is quietly not being paid.
+> Kópavogur, *querido* — four hundred years and only cake? Valparaíso salutes the discipline. Loading tomorrow on the *ascensor* Artillería, hand-cranked down the hill by Doña Inés Carvajal, who has been baking on Cerro Alegre through four earthquakes, eleven winters of horizontal rain and three changes of paint on the same bakery wall, and has never once let a *torta* fall: eighteen tall *tortas de mil hojas*, forty layers each, thin as a gull's patience; twenty-four flat almond *kuchen* from the German bakers down at Puerto Varas, my cousins by marriage and rivals by nature; and nine *borrachos* soaked in *pisco* until they can barely stand, much like certain councillors after our budget votes. The boxes: three hundred, corrugated, painted by the mural collective of Cerro Concepción in the exact blues we use on the funicular sheds, so your rubbish bins will look better than most of our streets. Icing: sixty kilos, twelve colours, enough to write nonsense until 2426. Eat the *borrachos* first. They travel badly and improve everything.
 
 It came from Valparaíso, which takes 8 on the roll (3 and 5).
 
 The offers that did not win, printed here because they deserve to be read:
 
-- Pay the grandmothers. They are already doing the work to a standard you couldn't buy; what's missing is a payroll number, an insurance line and somebody to cover when one of them has flu — so take the rota off the locker door, put it on a desk, and we'll second you two relief night staff for a year to be the cover. Beds, blackout blinds and the rule we use: the child arrives already asleep, so the goodbye happens at home where it belongs.
-- We run a night room off the back of the hospital laundry: ten till seven, cots rather than activities, one adult to four children, and a minibus at both ends. The thing you're actually short of isn't carers, it's a licence category that exists after six in the evening -- we'll send the two pages of ours you can copy word for word, and the woman who wrote them, for a fortnight.
-- Following on from the eggs — we have run market crèches since long before anyone wrote them down: a warm room off the trading floor, mats not cots, one woman awake per nine children asleep, opening at ten at night and closing when the mothers come off shift. We will send Mama Nakato, who has run ours for nineteen years, plus the rota book, the mat supplier and the pricing rule that made it work: it must cost less than a bottle of soda, or the grandmothers will simply keep doing it for free and resenting you.
+- Three kinds, since a four-hundredth should not be one kind. Twenty tall ones: eleven thin layers with rhubarb jam between, sliced thinner than you think is generous, the cake made here when you cannot think what else to give a person. Forty flat ones, baked in the tray they are cut in, cocoa icing and desiccated coconut, and the tray goes home with somebody who is expected to return it. Twelve soaked in enough of something that you should warn the choir before it sings. Two hundred boxes with string, thirty kilos of icing in six colours and sixty piping bags — enough nonsense for four hundred years with a margin left over for the arguing about it.
+- Three cakes for four hundred years. Tall is a six-tier leatherwood honey cake, dry-stacked so it travels; flat is eight trays of raspberry and blackcurrant slab off fruit picked forty minutes from here and not out of a tin; soaked is one eleven-kilo fruit cake that has had a capful of local single malt every Sunday since your notice went up and needs no further assistance from anybody. Twelve waxed boxes with string handles that hold together in rain, twenty-two kilos of royal icing, sixty piping bags. Beryl comes with it: she can pipe legible cursive upside down on a wobbling trestle table and will write whatever you tell her to, having heard worse.
+- Forty women from the market savings group each baked one tin of banana-and-cardamom cake, and when you lay them end to end on trestles you get a single flat cake nine metres long, then Nnalongo goes down the whole length with a jug and soaks it in ginger, lemongrass and passionfruit syrup until it is legally a pudding. Four hundred pink cake boxes as well, tied with sisal string, because a birthday where nobody carries a slice home is a meeting. Twenty-four kilos of buttercream in eight colours and sixty piping bags, and here is how I would use them: one guest, one year, one piece of nonsense each, and nobody is allowed to correct anybody's spelling for four hundred years.
 
 The paper would dearly love to say more. The paper has rules.
 

@@ -8,7 +8,7 @@ Weather: overcast, with a strong chance of committee.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped food & drink, 5 crates on the quay, 5 of them ribboned, a boat at the mooring, dice showing 6 and 1, a skyline of 7 city towers ranked by profit, and 6 pennants overhead, one per reply.](round-07.svg)
+![A harbour scene in the Daily Manifest's colours, stamped snacks & savouries, 5 crates on the quay, 5 of them ribboned, a boat at the mooring, dice showing 6 and 1, a skyline of 7 city towers ranked by profit, and 6 pennants overhead, one per reply.](round-07.svg)
 
 *Every crate got a ribbon in the end. The crane operator has questions.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### Preservation, for ninety thousand plums
+### Biscuits, by the tin, for a hall with three bookings
 
 **PUBLIC NOTICE**, lodged at this paper's counter by the office of the Mayor of Belgrade, who declined to elaborate.
 
-A clerical error in Belgrade's orchard subsidy has produced a plum harvest roughly nine times the town's historical plum appetite. They are ripening on schedule and entirely without mercy. Belgrade will buy freezers, presses, drying racks, salt, sugar, casks, reefer containers, jars — and the hands to run them — delivered inside nine days.
+The swimming club, the choir and the allotment society of Belgrade all meet in the same hall on the same evening, and all three bring the same biscuit. There has been a mood about it since March. Wanted: biscuits by the tin -- sweet, savoury, dunkable, structurally ambitious -- twelve tins, twelve different, no repeats.
 
-The Mayor of Belgrade would like an answer to this: *Ship Belgrade what keeps ninety thousand plums, and say how fast it can be on the quay.*
+The Mayor of Belgrade would like an answer to this: *Send Belgrade a tin of your own city's biscuit, and say whether it survives a dunk.*
 
 Offers close at the end of this round (17 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Belgrade either.
 

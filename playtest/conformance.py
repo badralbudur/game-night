@@ -401,7 +401,14 @@ def _importer_chooses(game, journal, artifacts):
 
 
 def _needs_are_trade(game, journal, artifacts):
-    """#13a: what is ordered is goods or services, never advice."""
+    """#13a: what is ordered is everyday, relatable and orderable.
+
+    Three refusals, checked over two populations. The **pool** goes through the
+    policy itself, which is where a stale seed would be caught. The **rendered
+    prompts this game actually put in front of mayors** go through the marker
+    lists directly, because a prompt is what a player reads, and the 2026-09-02
+    decision is a rule about whether a player can play.
+    """
     policy = game.content.trade
     refused = []
     for need in game.content.needs:
@@ -412,17 +419,27 @@ def _needs_are_trade(game, journal, artifacts):
     families = sorted({need["trade_family"] for need in game.content.needs
                        if need.get("trade_family")})
     opened = sorted({n.order.get("trade_family") for n in game.needs.values()})
-    prompts = [n.rendered["exporter_prompt"] for n in game.needs.values()]
-    advice = [p for p in prompts if policy.advice_marker_in(p)]
+    unplayable = []
+    for need in game.needs.values():
+        wording = " ".join([
+            need.rendered["title"], need.rendered["need_brief"],
+            need.rendered["exporter_prompt"],
+        ])
+        kind, phrase = policy.refusal_marker_in(wording)
+        if kind:
+            unplayable.append({"need": need.content_need_id, "kind": kind,
+                               "phrase": phrase})
     return _verdict(
-        "#13a", "import needs are orders for actual tradable things",
-        not refused and not advice,
-        "all %d needs in the pool declare one of spec #13a's kinds of tradable "
-        "thing (%s) and none of them, or of the %d prompts this game put in front "
-        "of exporting mayors, reads as a request for advice or civic problem "
-        "solving; this game's own orders covered %s"
-        % (len(game.content.needs), families, len(prompts), opened),
-        {"refused": refused or None, "advice_prompts": advice or None},
+        "#13a", "import needs are orders for everyday, relatable things",
+        not refused and not unplayable,
+        "all %d needs in the pool declare one of spec #13a's everyday kinds of "
+        "tradable thing (%s), and none of them -- nor any of the %d notices this "
+        "game actually opened -- reads as a request for advice, as civic "
+        "procurement, or as a job for a specialist; this game's own orders "
+        "covered %s across %s"
+        % (len(game.content.needs), families, len(game.needs), opened,
+           sorted({n.category for n in game.needs.values()})),
+        {"refused": refused or None, "unplayable_notices": unplayable or None},
     )
 
 

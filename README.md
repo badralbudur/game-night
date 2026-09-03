@@ -36,6 +36,7 @@ snapshot.
 | **M8** — one whole game, played by eight separate agents, with all thirty-five rules checked at once ([`playtest/`](playtest), [`engine/join.py`](engine/join.py)) | built — see [`docs/m8-integration.md`](docs/m8-integration.md) |
 | **M9** — the mayor orders their own import, the orders are actual trade, and a finished round publishes itself ([`engine/trade.py`](engine/trade.py), [`facilitator/`](facilitator)) | built — see [`docs/m9-imports-and-publication.md`](docs/m9-imports-and-publication.md) |
 | **M10** — the reading experience: the address opens the current issue, every page can be navigated, and the paper looks like one ([`hosting/page.py`](hosting/page.py), [`content/site.css`](content/site.css)) | built — see [`docs/m10-reading-experience.md`](docs/m10-reading-experience.md) |
+| **M11** — everyday imports: the whole seed bank is candy, drinks, books, games and small comforts, and the city is flavour rather than a job ([`content/import_needs.json`](content/import_needs.json), [`engine/trade.py`](engine/trade.py)) | built — see [`docs/m11-everyday-imports.md`](docs/m11-everyday-imports.md) |
 
 The engine covers the round timer and its lockstep, the city order queue and its
 two rotations, the import/export/winner cycle with every fallback, the import
@@ -48,10 +49,19 @@ Nothing draws a city's import for it. Before a city's turn comes round, its
 mayor files the order themselves — from a slate of eligible seeds or in their
 own words — and what they file is what opens (spec #13). A turn nobody has
 ordered for is held, and then simply lost; it is never filled with something
-that city did not ask for. What may be ordered is trade: food, materials,
-equipment, living things, cultural works or a specialist service, checked at
-every door a need can come in through, never a request for advice
-([`engine/trade.py`](engine/trade.py), spec #13a).
+that city did not ask for.
+
+What may be ordered is **everyday trade**: candy, soft drinks, snacks, bakes,
+coffee and tea, sauces, books, music, games, toys, clothes, plants, pets,
+kitchen things, stationery and small comforts — 48 seeded notices across 16
+categories, plus anything a mayor writes for themselves. The city is the
+player's persona and their scoring unit, not their job: there are no purchase
+orders, no budget lines and no stamped calculations in the pool, because a game
+night is not the place to need civic expertise. [`engine/trade.py`](engine/trade.py)
+enforces that at every door a need can come in through — the seeded list at
+load, a player's suggestion, and an importing mayor's freeform order — with
+three separate refusals: advice, civic procurement, and anything only a
+specialist could answer (spec #13a).
 
 The newspaper turns that into **The Daily Manifest**: one edition per completed
 round, written from the frames in [`content/newspaper.json`](content/newspaper.json),

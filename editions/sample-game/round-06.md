@@ -8,7 +8,7 @@ Weather: unsettled, like the minutes of the last session.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped energy & utilities, an empty quay and no boat, dice showing 6 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-06.svg)
+![A harbour scene in the Daily Manifest's colours, stamped small comforts, an empty quay and no boat, dice showing 6 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-06.svg)
 
 *Nothing on the quay, so Kampala built its own. The shed, pictured, is doing its best.*
 
@@ -18,17 +18,17 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *The classifieds desk has been busy. It has taken one advertisement.*
 
-### Ninety kilometres of insulated pipe
+### Four hundred hot water bottles, and the covers for them
 
-**PUBLIC NOTICE**, filed by the Mayor of Reykjavík under Energy & Utilities, which is where Reykjavík files most things.
+**PUBLIC NOTICE**, filed by the Mayor of Reykjavík under Small Comforts, which is where Reykjavík files most things.
 
-Reykjavík has more hot water underneath it than pipe to put it in, and the district heating main stops four streets short of the new housing in both directions. Wanted: pre-insulated pipe in six-metre lengths, valves, lagging, and welders who have worked in a trench in February.
+It is dark in Reykjavík by two in the afternoon for most of December, and the flats at the top of the hill are cold in a way that no amount of tea has ever settled. Wanted: hot water bottles -- four hundred, rubber, boring, the kind that outlive their owners -- knitted covers for all of them, and two hundred pairs of thick socks in case the covers run short.
 
-The office asks, and the paper repeats verbatim: *Ship Reykjavík the pipe, the fittings or the welders, and say how much of it fits on one lorry.*
+The office asks, and the paper repeats verbatim: *Ship Reykjavík four hundred hot water bottles and the covers for them, and say what the covers are knitted from.*
 
 Every other city hall may send exactly one offer, in whatever form it likes, by 9 September, 09:00 UTC. The offers arrive unsigned, and the Mayor of Reykjavík will read them that way.
 
-_The bill for this edition's lighting is being contested internally._
+_The paper's position on a wet Tuesday is that somebody should be sent for biscuits, and it will not be the paper._
 
 ## Sealed Bids
 
@@ -70,11 +70,11 @@ _The paper considers the matter open and expects correspondence._
 
 | # | City | Profit |
 | --- | --- | --- |
-| 1 | Kampala | 12 |
-| 2 | Valparaíso | 11 |
-| 3 | Bergen | 3 |
-| 4 | Hobart | 0 |
-| 5 | Reykjavík | 0 |
+| 1 | Kampala | 17 |
+| 2 | Valparaíso | 6 |
+| 3 | Reykjavík | 3 |
+| 4 | Bergen | 0 |
+| 5 | Hobart | 0 |
 
 Kampala is top of the column. The column is long and the game is not over.
 

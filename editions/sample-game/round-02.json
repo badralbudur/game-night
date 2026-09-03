@@ -21,19 +21,19 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "Windbreak for one avenue, bolted down"
+          "text": "Outfitting for a swimming club that swims in March"
         },
         {
           "kind": "para",
-          "text": "**PUBLIC NOTICE** from Hobart, paid for in municipal goodwill and printed here at length because the paper had the room."
+          "text": "**PUBLIC NOTICE** from Hobart, paid for in goodwill and one packet of biscuits, and printed here at length because the paper had the room."
         },
         {
           "kind": "para",
-          "text": "The wind comes down Hobart's main avenue at a speed that has removed four awnings, one election banner and the dignity of most residents between November and March. Purchase order: screens, baffles, slats, canvas, rope, planters heavy enough to stay put, and a crew to bolt it all down before the first gale."
+          "text": "Forty-one people swim off Hobart's beach every week of the year, including the weeks when that is a medically interesting decision. They currently share three towels. Wanted: robes, towels, neoprene, hats, gloves, and a bag that dries out between one Tuesday and the next."
         },
         {
           "kind": "para",
-          "text": "The notice ends with a question, which this paper considers the interesting part: *Ship Hobart the windbreak for a four-kilometre avenue, and the crew who fix it in place.*"
+          "text": "The notice ends with a question, which this paper considers the interesting part: *Ship Hobart the robes, the towels and the neoprene for forty-one all-year swimmers.*"
         },
         {
           "kind": "para",
@@ -41,12 +41,12 @@
         },
         {
           "kind": "aside",
-          "text": "Treating the sky as a procurement problem has never once worked, and city halls keep trying."
+          "text": "The paper has been wet since November and would like that noted somewhere permanent."
         }
       ],
       "provenance": {
         "need": "in-002",
-        "category": "weather_and_climate",
+        "category": "clothes",
         "rotation": 1,
         "spec": "#9, #13, #14"
       }
@@ -248,7 +248,7 @@
         "op": "OPEN",
         "need": "in-002",
         "city": "Hobart",
-        "category": "weather_and_climate",
+        "category": "clothes",
         "rotation": 1,
         "request_source": "seed"
       },
@@ -267,7 +267,7 @@
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped weather & climate, 2 crates on the quay, a boat at the mooring, a skyline of 4 city towers ranked by profit, and 2 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped clothes & outfitting, 2 crates on the quay, a boat at the mooring, a skyline of 4 city towers ranked by profit, and 2 pennants overhead, one per reply.",
     "cutline": "The offers, landed and unopened. Nobody in this picture knows who sent what, including the paper.",
     "extension": "svg",
     "mime": "image/svg+xml",
