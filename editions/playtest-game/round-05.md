@@ -8,7 +8,7 @@ Weather: unsettled, like the minutes of the last session.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped food & drink, 5 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 2 and 3, a skyline of 7 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-05.svg)
+![A harbour scene in the Daily Manifest's colours, stamped snacks & savouries, 5 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 2 and 3, a skyline of 7 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-05.svg)
 
 *5 crates, one ribbon, 5 in the ledger. A good day at the water.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *Today's notice, printed in full and without comment, followed immediately by comment.*
 
-### A signature dish, cooks included
+### Crisps in a flavour nobody here has met
 
 **PUBLIC NOTICE**, lodged at this paper's counter by the office of the Mayor of Kópavogur, who declined to elaborate.
 
-A travel magazine has listed Kópavogur as 'a city best experienced between meals.' The council has convened, and has money for one thing only: a dish. Kópavogur is buying cooks on secondment, the pans and griddles they insist on, the recipe under licence, and enough of the ingredients to get through the first month.
+The crisp shelf in Kópavogur offers salt, salt and vinegar, and a third bag that has been there since spring. The rest of the world, meanwhile, is out there putting prawn, paprika, seaweed and worse into packets. Wanted: forty cases of the crisps your city eats without thinking about it.
 
-The Mayor of Kópavogur would like an answer to this: *Send Kópavogur a cook, a recipe and the kit to make it — and say what is in the first crate.*
+The Mayor of Kópavogur would like an answer to this: *Ship Kópavogur forty cases of your own city's crisps, and say what is printed on the bag.*
 
 Offers close at the end of this round (15 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Kópavogur either.
 
@@ -44,15 +44,19 @@ One round to decide. A window that closes without a decision is not a disaster, 
 
 The Mayor of Hobart read 5 unsigned offers and marked one of them:
 
-> Answer it. We'll send a retired harbour signalman and a hand lamp that runs off a car battery, and his instruction is to stand on the headland, repeat the rhythm back once, and then go home and say nothing. It has been polite three times; sending an electrician would be the rude move.
+> Three hundred grow bags, three hundred pots of chives, six hundred packets of seed, forty dwarf apples that will sulk at you for a year, and thirty rhubarb crowns lifted out of gardens here where they had become a problem for their owners. Everything in the consignment was raised in a wind that regularly removes fence panels, so a balcony will feel like a holiday to it. The two that survive are chives and rhubarb: the chives because you can cut them to the soil in a gale and have them back in a fortnight, the rhubarb because nothing has ever successfully killed a rhubarb. Plant the tomatoes anyway. Everybody does.
+
+— *In the Mayor of Reykjavík's own words, printed exactly as they arrived at this desk.*
 
 Reykjavík sent it, and Reykjavík takes 5 — the dice said 2 and 3.
 
 Not chosen, and not attributed:
 
-- Answer it. We'll send a portable Aldis lamp, a full fuel can and a retired harbour pilot who reads lamp-rhythm the way other people read handwriting, to sit out on the point every clear night, repeat the pattern back exactly once when it comes, and write down what the light does next — three greetings left hanging isn't caution, it's bad manners.
-- As I said before: answer it. We are sending the brass signal lamp off our old lake ferry and the two boys at the pier who still know the code, on the strict condition that the harbourmaster's first message is GOOD EVENING and nothing else — anything longer and you have begun a correspondence you will not be able to end.
-- Signal back. We can send a serviceable lamp, a keeper willing to sit three nights, and the form — two long, one short, meaning received, no action required — and then it gets minuted and filed like anything else; we once bent a road four metres around a party that does not legally exist, and the paperwork we invented for it is still the calmest document in our archive. Nothing polite ever escalates once it has been answered in writing.
+- Three hundred grow bags, three hundred terracotta pots the colour of our roof tiles, and eleven hundred seed packets hand-labelled by the ladies of the Cerro Alegre seed swap, who argue about basil the way other people argue about football. The two that actually survive a balcony: cherry tomatoes of the *cherry amarillo* strain, which fruit in a bucket of poor soil and sulk beautifully but never die, and rosemary — take a cutting the size of a pencil, push it into sand, forget about it entirely, and in a year it will be a small shrub that outlives the lease. Everything else in the crate is optimism: eighty dwarf lemon whips, chard, oregano, and mint you must keep in its own pot or it will annex the balcony next door. We have also included three hundred saucers, because a balcony that drips onto the balcony below is how neighbourhoods learn to hate each other.
+- Three hundred grow bags sewn out of feed sacks by the ladies who sit outside the hardware shop, each one packed with a tin of cherry tomatoes already up two inches, and seed folded into little paper squares torn from exercise books — amaranth, basil, coriander for the brave, and pigeon pea if you want shade. Sixty dwarf pawpaw seedlings as well, which will fruit before anybody finishes discussing them. The two that actually survive a balcony are chilli and sukuma wiki, and I will tell you exactly why: the chilli enjoys being ignored, it gets hotter out of spite, and sukuma wiki you harvest one leaf at a time so it never dies, it only gets shorter and more apologetic. Everything else on a balcony is a hobby. Those two are food.
+- Three hundred grow bags, three hundred twenty-litre pots, nine hundred seed packets — chervil, dill, rocket, and a stubby outdoor tomato called Sub-Arctic Plenty, which is exactly what it sounds like — and forty dwarf apples on the smallest rootstock we could get. The two that actually survive a balcony are chives and rhubarb, so both go in bulk: six hundred chive clumps split out of one allotment over three weekends, and three hundred rhubarb crowns, which will outlive the balcony, the flat, and probably the building. Everything else on that list is optional entertainment; those two are the reason there will still be something edible up there in year four.
+
+— *Those are mayors writing, word for word. Which mayors is not this paper's news to print.*
 
 This paper is not saying who sent those, now or ever. Neither is the Mayor of Hobart, who does not know.
 

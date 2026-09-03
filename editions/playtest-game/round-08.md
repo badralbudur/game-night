@@ -8,7 +8,7 @@ Weather: clear enough to see the other side, which is new.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped weather & climate, an empty quay and no boat, dice showing 3 and 4, a skyline of 7 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-08.svg)
+![A harbour scene in the Daily Manifest's colours, stamped clothes & outfitting, an empty quay and no boat, dice showing 3 and 4, a skyline of 7 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-08.svg)
 
 *Nothing on the quay, so Naoshima built its own. The shed, pictured, is doing its best.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### Windbreak for one avenue, bolted down
+### Outfitting for a swimming club that swims in March
 
 **PUBLIC NOTICE**. The Mayor of Reykjavík has taken out an advertisement. This paper has read it three times and remains impressed.
 
-The wind comes down Reykjavík's main avenue at a speed that has removed four awnings, one election banner and the dignity of most residents between November and March. Purchase order: screens, baffles, slats, canvas, rope, planters heavy enough to stay put, and a crew to bolt it all down before the first gale.
+Forty-one people swim off Reykjavík's beach every week of the year, including the weeks when that is a medically interesting decision. They currently share three towels. Wanted: robes, towels, neoprene, hats, gloves, and a bag that dries out between one Tuesday and the next.
 
-The office asks, and the paper repeats verbatim: *Ship Reykjavík the windbreak for a four-kilometre avenue, and the crew who fix it in place.*
+The office asks, and the paper repeats verbatim: *Ship Reykjavík the robes, the towels and the neoprene for forty-one all-year swimmers.*
 
 The rules, as ever: one offer per city, anything at all, in by 18 September, 09:00 UTC, and nobody's name on anything.
 

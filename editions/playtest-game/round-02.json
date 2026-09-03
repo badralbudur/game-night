@@ -21,19 +21,19 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "Something for Northgate, worth the bus fare"
+          "text": "Postcards of somewhere else entirely"
         },
         {
           "kind": "para",
-          "text": "**PUBLIC NOTICE** from Valparaíso, paid for in municipal goodwill and printed here at length because the paper had the room."
+          "text": "**PUBLIC NOTICE** from Valparaíso, paid for in goodwill and one packet of biscuits, and printed here at length because the paper had the room."
         },
         {
           "kind": "para",
-          "text": "Everyone in Valparaíso agrees the Northgate district is the worst part of town. Nobody who says this has been to Northgate since 2009. Northgate, meanwhile, has quietly become quite good. Valparaíso has a building, a budget and no stock: it is buying plant, fittings, equipment or the staff to run one thing in Northgate that people from the other side of town would travel for."
+          "text": "Valparaíso's postcard rack shows the same view from the same hill, six times, and the shopkeeper has begun apologising for it unprompted. Wanted: postcards of your city -- forty thousand of them, printed, stamps not included -- and the one image on them that your own residents would argue about."
         },
         {
           "kind": "para",
-          "text": "The notice ends with a question, which this paper considers the interesting part: *Ship Valparaíso the plant, fittings or people for one thing in Northgate worth the bus fare.*"
+          "text": "The notice ends with a question, which this paper considers the interesting part: *Send Valparaíso forty thousand postcards of your own city, and name the image that starts the argument.*"
         },
         {
           "kind": "para",
@@ -41,12 +41,12 @@
         },
         {
           "kind": "aside",
-          "text": "What outsiders say about us when we leave the room is, unfortunately, printable."
+          "text": "This entire edition was written with a pen borrowed from the front counter and never returned."
         }
       ],
       "provenance": {
         "need": "in-002",
-        "category": "tourism_and_reputation",
+        "category": "stationery",
         "rotation": 1,
         "spec": "#9, #13, #14"
       }
@@ -116,7 +116,10 @@
         },
         {
           "kind": "para",
-          "text": "And then exactly one city hall, from the Mayor of Kópavogur: “The pool. Not the swimming — the hot tubs, in order, hottest last, where four hours is exactly long enough to learn everything worth knowing about this place from men who will tell you for free. Everyone assumes I'll drive them straight to the capital instead. It's eight minutes on the bus, they can manage that themselves later.”"
+          "text": "And then exactly one city hall, from the Mayor of Kópavogur: “The pool. Not the swimming — the hot tubs, in order, hottest last, where four hours is exactly long enough to learn everything worth knowing about this place from men who will tell you for free. Everyone assumes I'll drive them straight to the capital instead. It's eight minutes on the bus, they can manage that themselves later.”",
+          "player_spans": [
+            "The pool. Not the swimming — the hot tubs, in order, hottest last, where four hours is exactly long enough to learn everything worth knowing about this place from men who will tell you for free. Everyone assumes I'll drive them straight to the capital instead. It's eight minutes on the bus, they can manage that themselves later."
+          ]
         },
         {
           "kind": "aside",
@@ -261,16 +264,20 @@
       "colorful": true,
       "allow_pointed_humor": true,
       "disallow_snide_or_mean": true,
+      "forbidden_register_scope": {
+        "value": "newspaper_voice",
+        "means": "the register is run over the paper's own copy; passages a player typed are printed as written and marked as theirs (spec #30b)"
+      },
       "forbidden_register_terms": 33,
-      "spec": "#30",
-      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+      "spec": "#30, #30b",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose in the paper's own voice. A passage a mayor typed is printed as typed and attributed to them (#30b)."
     },
     "lockstep": [
       {
         "op": "OPEN",
         "need": "in-002",
         "city": "Valparaíso",
-        "category": "tourism_and_reputation",
+        "category": "stationery",
         "rotation": 1,
         "request_source": "seed"
       },
@@ -285,11 +292,11 @@
         "need": null
       }
     ],
-    "spec": "#25, #26, #28, #29, #30"
+    "spec": "#25, #26, #28, #29, #30, #30b"
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped tourism & reputation, 4 crates on the quay, a boat at the mooring, a skyline of 5 city towers ranked by profit, and 3 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped stationery & paper, 4 crates on the quay, a boat at the mooring, a skyline of 5 city towers ranked by profit, and 3 pennants overhead, one per reply.",
     "cutline": "The offers, landed and unopened. Nobody in this picture knows who sent what, including the paper.",
     "extension": "svg",
     "mime": "image/svg+xml",

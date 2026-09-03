@@ -8,7 +8,7 @@ Weather: unsettled, like the minutes of the last session.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped infrastructure & public works, 6 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 1 and 4, a skyline of 8 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-09.svg)
+![A harbour scene in the Daily Manifest's colours, stamped candy & sweets, 6 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 1 and 4, a skyline of 8 city towers ranked by profit, and 5 pennants overhead, one per reply.](round-09.svg)
 
 *One crate came off the boat with a ribbon on it. Kampala sent it. The others are not saying anything.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### The far side of a bridge, delivered
+### Nine hundred paper bags, and something to put in them
 
-**PUBLIC NOTICE** from Valparaíso, paid for in municipal goodwill and printed here at length because the paper had the room.
+**PUBLIC NOTICE** from Valparaíso, paid for in goodwill and one packet of biscuits, and printed here at length because the paper had the room.
 
-Valparaíso has a magnificent bridge. It was completed in the spring, under budget, and it lands in the overflow car park of a closed appliance showroom. The bridge is not for sale. Valparaíso is buying what goes on the end of it: a building's worth of fittings, market stalls, plant, stock, a whole going concern if one will fit on a lorry.
+Valparaíso has one sweet shop. It has been run by the same family for sixty years and it now sells exactly four things, all of them mints. The children of Valparaíso have organised. Wanted: boiled sweets, toffee, liquorice, chocolate, gum -- anything wrapped, by the jar or by the case -- and nine hundred paper bags to hand it out in.
 
-The Mayor of Valparaíso would like an answer to this: *Ship Valparaíso something worth crossing a bridge for, and say what comes off the lorry.*
+The Mayor of Valparaíso would like an answer to this: *Ship Valparaíso sweets by the jar or the case, and say what goes in the first bag.*
 
 The rules, as ever: one offer per city, anything at all, in by 19 September, 09:00 UTC, and nobody's name on anything.
 
@@ -44,15 +44,19 @@ The Mayor of Reykjavík has until the end of this round to choose. After that th
 
 The winning offer for Belgrade, reproduced exactly as it arrived:
 
-> Nine days of guaranteed sun, forty of our drying racks on the next cargo flight, and eleven women out of the produce market who can turn ninety thousand of anything into something that keeps until Christmas. They will want half the dried weight and a chair each in the shade, and they will not want instructions.
+> As I was saying — one paint tin, lid hammered down, six dozen simsim and coconut rocks from Mama Ssalongo, who has baked in an oil drum at the same market corner for thirty-one years and measures nothing. Sesame, grated coconut, brown sugar cooked to the stage she calls angry, and a knuckle of ginger, so they come out looking like gravel and taste like a fairground. Does it survive a dunk? It survives. Your tea will not survive — it goes cloudy, it goes sweet, it gives up entirely — but the biscuit comes out whole, and this is the only biscuit at your table that will make an allotment society respect it.
+
+— *In the Mayor of Kampala's own words, printed exactly as they arrived at this desk.*
 
 It came from Kampala, which takes 5 on the roll (1 and 4).
 
 Also offered, and declined:
 
-- Freeze them. We have eleven thousand cubic metres of trawler cold store sitting empty until the season turns, and a plum takes to a blast freezer better than anything we normally put in there. Ripe fruit is a problem that expires in nine days; frozen fruit is a problem you can have next year instead, in a month of your choosing, at a pace a town can actually drink.
-- Our fruit terminal handles an entire southern stone-fruit season, which means that this week our cold rooms are empty and eighty packers are painting their own houses out of boredom. Give us three days' notice and we'll put forty reefer containers on your siding with the crews already inside them — your plums leave as fruit, not as jam and not as brandy, and land in a hemisphere where it is February, it is dark at four, and a fresh plum sells for what a bottle of anything sells for.
-- Plums won't wait, so stop trying to eat them. We'll put two truck-bed fruit presses and the crew who run our own March glut on a plane, plus a distiller whose entire philosophy is that fruit you can't sell is fruit you haven't got in a barrel yet -- pressed inside four days, in cask by Sunday, and it becomes next year's problem instead of this week's.
+- One tin, and I will tell you now it is not going to be like the other eleven. Ours is a hard, plain, rusk-coloured square, sixty to the tin, made to be eaten with butter and a slice of cheese thicker than the biscuit itself, and it is called, without any ceremony at all, the food biscuit. It survives a dunk the way a paving slab survives rain: completely, and without becoming any nicer for it. Dunk one for the swimming club's satisfaction, then butter a second one properly and see which side of the argument you come down on.
+- One tin, kilo and a half, of *chilenitos*: two rounds of shortcrust barely thicker than a coin, glued with *manjar* — boiled milk caramel, dark, half a shade from burnt — and hatted with a dome of hard meringue. It does not survive a dunk. It does not survive being carried across a room. Dunk it and you will be holding a wet biscuit stump above a cup that has become dessert, which our position is that this was the intention all along and the swimming club will be the first to admit it. So the tin also contains a hundred *palitos de manjar*, finger-length caramel-filled tubes that are structurally serious, dunk twice, hold, and can be eaten one-handed while arguing about an allotment. Baked Tuesday by Señora Norma Ibarra, who has run the same oven for thirty-one years and asks only that you do not put them in the fridge.
+- One tin, ninety-six Anzac biscuits, baked in the football club canteen on a Thursday by the three women who have run that canteen since the ground had no lights: rolled oats, coconut, golden syrup, no egg, so they keep. They survive a dunk. They survive two dunks, a dropped tin and a wet Wednesday in a coat pocket, and the canteen considers the question mildly insulting. The tin is from the seventies, has a boat on it, and is not coming back, so keep your screws in it.
+
+— *Offers in their senders' own words. Whose words they are stays in the envelope, permanently.*
 
 Those arrived unsigned and will stay that way. A losing offer's city is nobody's business, permanently.
 

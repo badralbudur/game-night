@@ -21,19 +21,19 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "Planting stock that stands in salt"
+          "text": "Hens, and something to keep them in"
         },
         {
           "kind": "para",
-          "text": "**PUBLIC NOTICE**, filed by the Mayor of Kampala under Wildlife & Nature, which is where Kampala files most things."
+          "text": "**PUBLIC NOTICE**, filed by the Mayor of Kampala under Pets & Animal Company, which is where Kampala files most things."
         },
         {
           "kind": "para",
-          "text": "Every tree Kampala has planted along the seafront promenade has died within two winters, politely and in order, west to east. The promenade is now a row of very well-maintained stakes. Kampala is buying stock by the crate: rooted cuttings, whips, seedlings, pups, sets — anything that has already lived somewhere the spray reaches."
+          "text": "Kampala has an allotment with a nine-year waiting list and one corner of it that nobody has ever made anything of. The allotment society has voted, twice, for hens. Wanted: six hens of a breed that lays through a bad winter, a coop a fox has already failed at, feed, grit, and the two pages of instructions that actually matter."
         },
         {
           "kind": "para",
-          "text": "The Mayor of Kampala would like an answer to this: *Ship Kampala rooted stock that grows where the salt is, and say where yours has been standing.*"
+          "text": "The Mayor of Kampala would like an answer to this: *Ship Kampala six hens, a fox-proof coop, and the two pages of instructions that matter.*"
         },
         {
           "kind": "para",
@@ -46,7 +46,7 @@
       ],
       "provenance": {
         "need": "in-011",
-        "category": "wildlife_and_nature",
+        "category": "pets",
         "rotation": 2,
         "spec": "#9, #13, #14"
       }
@@ -89,7 +89,9 @@
         },
         {
           "kind": "quote",
-          "text": "Put the tip on the far side. A proper reuse yard — tipping face, weighbridge, a long shelf where anything still working goes out free, and a coffee urn nobody meters. People will not cross a bridge for a view, but they will cross one cheerfully carrying a broken chair, and they will cross back carrying somebody else's. We'll send the layout and two of our yard staff for the first season."
+          "text": "Twelve cases and one thousand paper bags, since nine hundred assumes no child tears one. Eight cases are liquorice inside chocolate in every arrangement worked out here in a hundred years — bars, buttons, drops, and one that is liquorice rolled in salt and then in chocolate, which is the one they will queue for twice. Two cases are lava bars, wafer and chocolate, meant to be snapped in half over a table. Two are boiled sweets loose in jars the size of buckets, and a scoop. The first bag goes to whoever has been behind that counter for sixty years: one of everything, laid in order of increasing salt, with a note saying start at the top and work down.",
+          "voice": "player",
+          "cite": "In the Mayor of Reykjavík's own words, printed exactly as they arrived at this desk."
         },
         {
           "kind": "para",
@@ -101,12 +103,14 @@
         },
         {
           "kind": "list",
-          "role": "declined_exports",
           "items": [
-            "Put a market on the far side and open it at four in the morning, so the bridge has traffic before anybody is awake enough to have an opinion about a showroom. We will seed it: thirty traders for one season, their airfare on us, on the condition that for the first year the bridge is the only permitted way in — a thing people are made to walk becomes a thing they say they chose.",
-            "Put a queue on the far side. Licence renewals, passport photographs, the tax window — and one genuinely excellent bakery beside it, so the crossing is resented for about four months and then defended in public by people who claim they always liked the walk.",
-            "One small building and nothing else. One room, one attendant, free, six days a week, with exactly one thing inside worth crossing for — and we'll lend you the thing for the first year while you find your own."
-          ]
+            "Forty jars of simsim-and-honey brittle, thirty cases of jaggery toffee twisted in waxed paper, twenty cases of tamarind balls rolled in chilli salt, and nine hundred paper bags folded out of last month's newspapers by a primary five class who put their initials on the bottom of every single one, so somewhere in the pile a child has signed the bag your children will be holding. In the first bag: brittle first, because it wins them over; toffee second, because it takes four minutes and buys the queue some quiet; and one tamarind ball last, unlabelled. That last one teaches them that a sweet shop can surprise you, which is what those children have actually organised about.",
+            "Six cases, and they are almost entirely liquorice: salted ropes, liquorice cut into coins, liquorice under milk chocolate, chocolate with liquorice hidden inside it, chocolate-covered puffed rice for the children who lose their nerve, and four jars of boiled barley sweets for the grandmothers who will be doing the actual handing out. Nine hundred white paper bags with a fold-over top are packed flat on the bottom of the crate. In the first bag: one bar of chocolate-wrapped liquorice, snapped in half through the wrapper before it went in, so the child has ten seconds to decide whether he has a friend. Tell them the first piece is confusing and the third one is not.",
+            "Six jars of shio-ame — hard salt candy boiled from seawater, twisted in wax paper, faintly savoury, the sort children complain about and then finish. Also a case of mikan-peel toffee, bitter at the edges, and a small jar of candied olive for the brave. The nine hundred paper bags are folded from last year's ferry timetables and old exhibition flyers, so every bag has a departure time or half a painting on it. First bag: one salt candy, one toffee, in the bag with the 6:05 sailing printed on it, for whoever gets through the door first."
+          ],
+          "voice": "player",
+          "cite": "Offers in their senders' own words. Whose words they are stays in the envelope, permanently.",
+          "role": "declined_exports"
         },
         {
           "kind": "para",
@@ -161,11 +165,17 @@
         },
         {
           "kind": "para",
-          "text": "One more, unaccompanied, from the Mayor of Reykjavík: “A gearbox housing off a snowplough, cracked in 2018 in a way our workshop still describes as impossible. It stops paper from moving and it stops me being confident, and both are useful.”"
+          "text": "One more, unaccompanied, from the Mayor of Reykjavík: “A gearbox housing off a snowplough, cracked in 2018 in a way our workshop still describes as impossible. It stops paper from moving and it stops me being confident, and both are useful.”",
+          "player_spans": [
+            "A gearbox housing off a snowplough, cracked in 2018 in a way our workshop still describes as impossible. It stops paper from moving and it stops me being confident, and both are useful."
+          ]
         },
         {
           "kind": "para",
-          "text": "A single delegation answered simply: “A tide table for 1994. Wrong year entirely, but it's in my father's handwriting, so it stays.” — the Mayor of Naoshima."
+          "text": "A single delegation answered simply: “A tide table for 1994. Wrong year entirely, but it's in my father's handwriting, so it stays.” — the Mayor of Naoshima.",
+          "player_spans": [
+            "A tide table for 1994. Wrong year entirely, but it's in my father's handwriting, so it stays."
+          ]
         },
         {
           "kind": "aside",
@@ -325,16 +335,20 @@
       "colorful": true,
       "allow_pointed_humor": true,
       "disallow_snide_or_mean": true,
+      "forbidden_register_scope": {
+        "value": "newspaper_voice",
+        "means": "the register is run over the paper's own copy; passages a player typed are printed as written and marked as theirs (spec #30b)"
+      },
       "forbidden_register_terms": 33,
-      "spec": "#30",
-      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+      "spec": "#30, #30b",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose in the paper's own voice. A passage a mayor typed is printed as typed and attributed to them (#30b)."
     },
     "lockstep": [
       {
         "op": "OPEN",
         "need": "in-011",
         "city": "Kampala",
-        "category": "wildlife_and_nature",
+        "category": "pets",
         "rotation": 2,
         "request_source": "seed"
       },
@@ -351,22 +365,22 @@
         "city": "Valparaíso"
       }
     ],
-    "spec": "#25, #26, #28, #29, #30"
+    "spec": "#25, #26, #28, #29, #30, #30b"
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped wildlife & nature, 6 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 6 and 5, a skyline of 8 city towers ranked by profit, and 5 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped pets & animal company, 6 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 6 and 5, a skyline of 8 city towers ranked by profit, and 5 pennants overhead, one per reply.",
     "cutline": "One crate came off the boat with a ribbon on it. Reykjavík sent it. The others are not saying anything.",
     "extension": "svg",
     "mime": "image/svg+xml",
     "palette": {
-      "paper": "#f3f7ec",
-      "ink": "#1a2415",
-      "sky": "#bfe08a",
-      "water": "#3f6b3a",
-      "accent": "#e4772e",
-      "spot": "#6a9a3c",
-      "spot_alt": "#a8c96a"
+      "paper": "#f7f2e6",
+      "ink": "#221d18",
+      "sky": "#f2c14e",
+      "water": "#3d6b7d",
+      "accent": "#e2571e",
+      "spot": "#8c4a2f",
+      "spot_alt": "#d9a441"
     },
     "colorful": true,
     "provenance": {

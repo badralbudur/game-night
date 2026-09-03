@@ -56,15 +56,35 @@
         },
         {
           "kind": "quote",
-          "text": "A hillside's worth of paint, in colours the council will argue about for years."
+          "text": "Two hundred waxed cotton raincoats, unbeautiful, tested annually by the actual weather.",
+          "voice": "player",
+          "cite": "The Mayor of Hobart wrote that, and the paper has changed nothing in it, as it never does."
         },
         {
           "kind": "para",
-          "text": "Valparaíso sent it, and Valparaíso takes 7 — the dice said 4 and 3."
+          "text": "Hobart sent it, and Hobart takes 7 — the dice said 4 and 3."
         },
         {
           "kind": "para",
-          "text": "Three offers matched, sentence for sentence, an offer already printed with its sender named. The paper is not going to pretend it cannot see that, and has left the text out."
+          "text": "Also offered, and declined:"
+        },
+        {
+          "kind": "list",
+          "items": [
+            "A market's worth of Saturday, transplanted whole, noise included.",
+            "Six thousand alfajores, packed in tins that families here reuse for thirty years."
+          ],
+          "voice": "player",
+          "cite": "Offers in their senders' own words. Whose words they are stays in the envelope, permanently.",
+          "role": "declined_exports"
+        },
+        {
+          "kind": "para",
+          "text": "Those arrived unsigned and will stay that way. A losing offer's city is nobody's business, permanently."
+        },
+        {
+          "kind": "para",
+          "text": "One offer matched, sentence for sentence, an offer already printed with its sender named. The paper is not going to pretend it cannot see that, and has left the text out."
         }
       ],
       "provenance": {
@@ -81,11 +101,11 @@
         },
         "awarded": [
           [
-            "Valparaíso",
+            "Hobart",
             "7"
           ]
         ],
-        "winner_city": "Valparaíso"
+        "winner_city": "Hobart"
       }
     },
     {
@@ -143,33 +163,37 @@
             [
               1,
               "Kampala",
-              "23.75"
+              "35.75"
             ],
             [
               2,
               "Valparaíso",
-              "20.75"
+              "17.75"
             ],
             [
               3,
-              "Bergen",
-              "12"
+              "Hobart",
+              "15.75"
             ],
             [
               4,
               "Reykjavík",
-              "9.75"
+              "5.75"
             ],
             [
               5,
-              "Hobart",
-              "8.75"
+              "Bergen",
+              "0"
             ]
           ]
         },
         {
           "kind": "para",
           "text": "Kampala leads, and has been gracious about it in a way this paper found slightly worse than gloating."
+        },
+        {
+          "kind": "para",
+          "text": "A city on zero is still a city. The column includes everybody, which is the point of a column."
         },
         {
           "kind": "note",
@@ -227,9 +251,13 @@
       "colorful": true,
       "allow_pointed_humor": true,
       "disallow_snide_or_mean": true,
+      "forbidden_register_scope": {
+        "value": "newspaper_voice",
+        "means": "the register is run over the paper's own copy; passages a player typed are printed as written and marked as theirs (spec #30b)"
+      },
       "forbidden_register_terms": 33,
-      "spec": "#30",
-      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+      "spec": "#30, #30b",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose in the paper's own voice. A passage a mayor typed is printed as typed and attributed to them (#30b)."
     },
     "lockstep": [
       {
@@ -248,12 +276,12 @@
         "city": "Bergen"
       }
     ],
-    "spec": "#25, #26, #28, #29, #30"
+    "spec": "#25, #26, #28, #29, #30, #30b"
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped education & knowledge, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 3, a skyline of 5 city towers ranked by profit.",
-    "cutline": "One crate came off the boat with a ribbon on it. Valparaíso sent it. The others are not saying anything.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped coffee, tea & cocoa, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 3, a skyline of 5 city towers ranked by profit.",
+    "cutline": "One crate came off the boat with a ribbon on it. Hobart sent it. The others are not saying anything.",
     "extension": "svg",
     "mime": "image/svg+xml",
     "palette": {

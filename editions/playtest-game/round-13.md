@@ -2,13 +2,13 @@
 
 *All the news that fits in the hold.*
 
-**Vol. I, No. 13** · Tuesday, 22 September 2026 · Price: one civic favour, redeemable at inconvenience
+**Vol. I, No. 13** · Tuesday, 22 September 2026 · Price: one biscuit, or the firm promise of one
 
 Weather: bright, briefly, and then a meeting.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped sport & recreation, 6 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 2, a skyline of 8 city towers ranked by profit, and 7 pennants overhead, one per reply.](round-13.svg)
+![A harbour scene in the Daily Manifest's colours, stamped toys & novelties, 6 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 2, a skyline of 8 city towers ranked by profit, and 7 pennants overhead, one per reply.](round-13.svg)
 
 *6 crates, one ribbon, 6 in the ledger. A good day at the water.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### A rivalry, in kind
+### Prizes for a fête, and nothing sensible
 
-**PUBLIC NOTICE**, filed by the Mayor of Naoshima under Sport & Recreation, which is where Naoshima files most things.
+**PUBLIC NOTICE**, filed by the Mayor of Naoshima under Toys & Novelties, which is where Naoshima files most things.
 
-Naoshima's team has no traditional rival. Matches are cordial. Attendance is stable. Something essential is missing and everyone is too polite to name it. Naoshima is buying the whole apparatus: a trophy heavy enough to be a nuisance to carry, a signed fixture in perpetuity, an away support that travels, drums, banners, and a grievance with a date on it.
+Naoshima's summer fête has eleven stalls and a prize table currently holding a tin of peaches. Wanted: prizes -- plastic, gaudy, faintly baffling -- five hundred of them, plus one single prize so good that grown adults will queue in the rain for a raffle ticket.
 
-The office asks, and the paper repeats verbatim: *Ship Naoshima the trophy, the fixture or the travelling support — and say who is expected to carry it home.*
+The office asks, and the paper repeats verbatim: *Send Naoshima five hundred small gaudy prizes and one absurdly good one, and say which is which.*
 
 Offers close at the end of this round (23 September, 09:00 UTC). One per city hall, freeform, sealed. Which city sent which will not be printed here, and will not reach the Mayor of Naoshima either.
 
@@ -44,15 +44,19 @@ One round to decide. A window that closes without a decision is not a disaster, 
 
 The Mayor of Kampala read 6 unsigned offers and marked one of them:
 
-> Stop replacing the trees; nothing with a trunk that thin has ever beaten salt. We'll send two crates of rooted bougainvillea, six hundred aloe pups and a sack of ice-plant cuttings torn off our own cliff faces — all of it grows in rubble on salt spray and none of it wants anything from you — planted at the foot of the stakes you have maintained so beautifully, so that in two years the stakes are trellises and the promenade is magenta from one end to the other.
+> Six hens, all *Araucana* — our own breed, from the south of this country, and the whole argument for them is that they were bred by people for whom a bad winter was Tuesday. They lay through cold, they lay blue-green eggs that make a child gasp, and they are absurd-looking in a way that will fix your unused corner faster than any fence. The coop is built from *roble* boards and old funicular decking by our carpenter Héctor Peña: raised forty centimetres, hardware cloth not chicken wire, buried in an apron half a metre out flat under the soil, and a fox in Playa Ancha spent three nights on it in June and got a sore nose and nothing else. Plus forty kilos of layer feed, ten of oyster grit, and two pages in Héctor's handwriting, which are: *page one — the apron must be flat and buried, a fox digs at the wall not the middle; latch with two moving parts because one moving part is a door. Page two — shut them in at dusk every single day forever, this is the whole job, everything else on the internet is a hobby.*
+
+— *That is the Mayor of Valparaíso writing, not this paper: a winning offer is reprinted word for word, spelling, temper and all.*
 
 Valparaíso sent it, and Valparaíso takes 6 — the dice said 4 and 2.
 
 Also offered, and declined:
 
-- Sea buckthorn — nine hundred rooted whips, and the warning that it is ugly for six years and then it is a hedge, a windbreak and a crop, in that order. Your trees didn't die of salt, they died in order: the west end took the wind for everyone and then it was the next one's turn. Plant the west two hundred metres as a thicket you never intend to admire, and let it take the beating on behalf of the rest.
-- Seven hundred seedlings out of our foreshore nursery -- she-oak, boobialla, coastal tea-tree -- all three already growing in sand that takes a face full of salt spray twice a day, and none of them needing a stake after the first year. Plant them closer together than looks sensible; the front row is meant to die for the rest, and the she-oaks make a noise in the wind you can claim you intended.
-- Stop planting trees on the front line. Take six hundred rooted cuttings of the salt rose that has colonised our own shore embankment — hideous for two years, an impassable four-foot hedge by year four, hips you can boil into jam — and put your trees in behind it in year five, where they will live.
+- Six hens of the old settlement breed, mixed colours because that is how they arrive — two grey, two speckled, one black, one that is several opinions at once — from Ragnheiður out at Kjalarnes, who has kept them thirty years and will part with these six only. The coop is built to hold a roof down in a forty-metre wind, which makes the fox a secondary engineering problem: half-inch welded mesh, buried a foot out in a skirt all round, and a door that latches twice. Twelve sacks of layer pellets, four of grit, four of crushed oyster shell. Page one is about light, not warmth: fourteen hours of it on a cheap timer, or they stop in November and you will spend a fortnight thinking they are ill. Page two is water, which will freeze long before any hen is cold, and ventilation, which you must leave open even when it feels wrong, because damp kills them and frost does not.
+- Six black Australorps, point of lay, a bird bred in this country specifically to keep laying while the weather is being unreasonable; ours went through last winter without a sulk. The coop is apple-crate hardwood under corrugated iron pitched steeper than it needs to be, wire skirt buried a foot out the whole way round, and a latch a clever animal cannot work: we have no foxes here, so it was built against quolls and devils, which is a harder examination and a compliment to your fox. Feed for eight weeks, a sack of shell grit, and the two pages, handwritten: page one is the buried skirt and shutting the door before dusk rather than after, page two is that a hen off the lay in the cold months is cold and not ill, and that your nine-year waiting list is about to acquire people who only want eggs.
+- Six pullets of our own landrace hen — small, scruffy, no two the same colour, and they lay straight through a black winter, which means your worst week will strike them as a rest. The coop is double-skinned plywood on legs with a wire apron eighteen inches out all round and buried, because a fox does not climb, it digs; the mesh is hardware cloth rather than chicken wire, and the latches are the twist sort that a paw cannot work. Also six months of layers' pellets, a sack of oyster grit, and a feeder a rat cannot get into. The two pages that matter: page one is water — how much, how often, and how to keep it from freezing or going green; page two is the door, which you shut at dusk every single day without exception, including the evening of the allotment society's annual dinner.
+
+— *Offers in their senders' own words. Whose words they are stays in the envelope, permanently.*
 
 Those arrived unsigned and will stay that way. A losing offer's city is nobody's business, permanently.
 

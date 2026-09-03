@@ -8,7 +8,7 @@ Weather: wind from the harbour, opinions from everywhere.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped labour & expertise, 6 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 2 and 5, a skyline of 8 city towers ranked by profit, and 6 pennants overhead, one per reply.](round-12.svg)
+![A harbour scene in the Daily Manifest's colours, stamped bakery & baked goods, 6 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 2 and 5, a skyline of 8 city towers ranked by profit, and 6 pennants overhead, one per reply.](round-12.svg)
 
 *One crate came off the boat with a ribbon on it. Reykjavík sent it. The others are not saying anything.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *The classifieds desk has been busy. It has taken one advertisement.*
 
-### Night care, ten till seven
+### Cake for a birthday nobody will admit to
 
 **PUBLIC NOTICE**, lodged at this paper's counter by the office of the Mayor of Kópavogur, who declined to elaborate.
 
-Kópavogur's biggest employers run around the clock. Kópavogur's childcare runs 8 to 6. The gap is currently covered by grandmothers, goodwill and a rota taped inside a locker door. Kópavogur is buying the night shift: carers on secondment, cots, blackout blinds, a licensed rota it can copy, and relief staff for the weeks somebody has flu.
+Kópavogur turns four hundred this year and has decided to mark it with cake and nothing else whatsoever. Wanted: cake -- the tall kind, the flat kind, the kind soaked in something -- plus the boxes to carry it in and enough icing to write four hundred years' worth of nonsense across the top.
 
-The notice ends with a question, which this paper considers the interesting part: *Send Kópavogur the carers, the cots and the paperwork for a room that opens at ten at night.*
+The notice ends with a question, which this paper considers the interesting part: *Send Kópavogur the cake, the boxes and the icing for a four-hundredth birthday.*
 
 The rules, as ever: one offer per city, anything at all, in by 22 September, 09:00 UTC, and nobody's name on anything.
 
@@ -44,19 +44,21 @@ One round to decide. A window that closes without a decision is not a disaster, 
 
 The winning offer for Hobart, reproduced exactly as it arrived:
 
-> The residents aren't asking for capacity, they're asking whether the street still belongs to them, and a study cannot say yes to that. Paint every household one numbered rectangle near its own door — theirs, by name, unenforced most of the time. We have the thermoplastic, the stencils and two line crews going spare in the spring, and after it's done the arithmetic can go on being right in private.
+> Thirty balls of the soft-seamed sort that will not go through a window, and thirty sticks of chalk you will not end up needing. The game is called yfir — 'over' — and it is played against a roof rather than a wall, which puts us, by my count, one storey ahead of you. Two teams stand either side of a house; you shout the name of the game, throw the ball over the ridge, and if the far side catches it they come round the corner at speed and the running begins. Coming to demonstrate: Sigrún Halldórsdóttir, sixty-eight, school caretaker for thirty-one years and the only authority anyone accepts on whether a throw counted. She has asked for an afternoon with some wind in it; a car park is fine.
+
+— *The Mayor of Reykjavík wrote that, and the paper has changed nothing in it, as it never does.*
 
 Reykjavík sent it, and Reykjavík takes 7 — the dice said 2 and 5.
 
 Also offered, and declined:
 
-- Send us the car park map and we will send you three of our boda stage chairmen, who allocate two hundred spaces a day out of a school exercise book with no lines painted on the ground and no appeals process. Your problem is not spaces, it is that nobody in your city can name the person who decided; give every street one chairman with a book and a face, and the arithmetic stops mattering within a month.
-- The residents aren't wrong, they're just gambling every time they set off. We'll pay for the boards on all four approaches: live count of free spaces, and underneath it — this is the part that actually works — the number that were free at this hour yesterday, and the day before. People will accept a full car park; what they can't stand is not knowing before they leave the house.
-- Your studies are counting spaces and your residents are counting the minutes they spend with the indicator on, and those are different quantities, so both sides can keep being right forever. Borrow forty of the men who stand on our corners waving cars into gaps you would swear were not there — put them in a vest, pay them a wage instead of a coin, one per contested block; the arithmetic doesn't move an inch, but nobody circles alone any more and the grievance quietly loses its object.
+- Thirty full sets of *palitroque* street bowling, which is what our hills do with a lane that has an unreasonable gradient: nine turned-wood pins painted in nine colours, three hardwood balls, a rolled canvas lane strip forty centimetres wide with chalk lines already printed on it, and a scoring board with a stub of chalk on a shoelace. Thirty sets of *trompos* too — wooden spinning tops with waxed cord, which is the game every child on Cerro Cordillera can already do and no adult can — and a hundred metres of *volantín* line with sixty diamond kites in tissue paper, because a car park with wind in it is a runway. Coming with the crates: Don Rubén Salcedo, seventy-four, who has stood at the top of Calle Templeman calling scores for four decades, plus his grandson Ignacio who will translate and will also beat every adult in the car park at *trompo* within an hour. Don Rubén asks for a chair, shade, and one glass of something at four o'clock; he will stay until dark.
+- The game is kati, and thirty sets are on the way: sixty balls wound from banana fibre and bound in strips of plastic bag until they bounce properly and hurt exactly the right amount, thirty sticks of chalk for the two safe circles, and thirty rubber-band ropes plaited from old inner tubes for when the kati players need a rest. Two throwers, one runner, the ball goes back and forth, and the runner scores by surviving — no wall required anywhere, which I understand is your situation. Coming with the crate: Sanyu, thirteen, unbeaten in her lane for three years, and Ssenyonga, who rides her there on his boda, umpires, and argues every call. Put them in a car park by two in the afternoon and by four you will have parents playing in work shoes. That is a promise, not a forecast.
+- Your children have two games with a wall; ours needs an entire building. It is called yfir: two teams on opposite sides of a house, a soft rubber ball thrown over the roof, and whoever catches it before it lands sprints round the corner while the other side guesses which corner. Thirty sets means ninety balls, because every roof keeps one; plus thirty boxes of chalk for marking the safe corners and thirty rolls of soft foam tape for the gutter that someone will otherwise write a letter about. Coming with the crate: Gunnhildur, 74, who has played since 1961 and can put a ball over a two-storey block without grazing it, and her grandson Sölvi, 15, who will spend the whole afternoon in the car park fetching and complaining.
+
+— *Offers in their senders' own words. Whose words they are stays in the envelope, permanently.*
 
 Those arrived unsigned and will stay that way. A losing offer's city is nobody's business, permanently.
-
-One offer arrived with a city written into the text. The paper has declined to reprint that and has burned the envelope with some ceremony.
 
 ## The Wire
 

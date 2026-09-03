@@ -21,19 +21,19 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "A night canteen, four till eight"
+          "text": "The thing you eat standing up at eleven at night"
         },
         {
           "kind": "para",
-          "text": "**PUBLIC NOTICE** from Trieste, paid for in municipal goodwill and printed here at length because the paper had the room."
+          "text": "**PUBLIC NOTICE** from Trieste, paid for in goodwill and one packet of biscuits, and printed here at length because the paper had the room."
         },
         {
           "kind": "para",
-          "text": "Trieste runs on people finishing work at 5am — the port, the bakery, the hospital, the fish market. Nothing is open for them, and what is open is designed for people who slept. Trieste is buying the canteen entire: urns, pots, a counter, the food to fill it, and cooks willing to work the wrong end of the night."
+          "text": "Trieste closes at ten and gets hungry at eleven, and has been doing so quietly for years without mentioning it to anybody. Wanted: the snack your city eats standing up, late -- frozen, dried, tinned, vacuum-packed, however it travels -- plus whatever it is traditionally eaten out of."
         },
         {
           "kind": "para",
-          "text": "The notice ends with a question, which this paper considers the interesting part: *Send Trieste the kit, the stock and the cooks for a counter that opens at four in the morning.*"
+          "text": "The notice ends with a question, which this paper considers the interesting part: *Ship Trieste your city's late-night snack, however it travels, and say what to eat it out of.*"
         },
         {
           "kind": "para",
@@ -46,7 +46,7 @@
       ],
       "provenance": {
         "need": "in-015",
-        "category": "food_and_drink",
+        "category": "snacks",
         "rotation": 2,
         "spec": "#9, #13, #14"
       }
@@ -89,7 +89,9 @@
         },
         {
           "kind": "quote",
-          "text": "A rival from overseas is a friendly with extra travel. The ones that work live twenty minutes away and use the same butcher — so split the club: give the half of the town on the wrong side of the harbour road the older kit, the worse pitch and a grievance about a disputed goal in 1974 that we will happily draft in convincing detail, and we'll send two veterans of our supporters' club for a fortnight to teach the drumming, the banners and exactly where the line sits."
+          "text": "Five hundred small ones out of one stall in our biggest market, bought in a single afternoon of hard bargaining: wind-up tin frogs, plastic combs shaped like fish, whistles that do a convincing bird, keyring torches, magnets of a bridge nobody there will recognise, glitter hair clips in colours that do not occur in nature, and one hundred and forty foil-wrapped chocolate coins that must not go anywhere warm. Gaudy, plastic, faintly baffling — correct on all three counts, and I checked. The one good prize is a red 96-bass piano accordion, forty years old, mother-of-pearl on the keys, in a hard case with a strap that has been sweated into by better musicians than me; a man who repairs them for a living will tune and re-wax it the week before it ships. In the case there is a card with three tunes on it, and the third one is easy on purpose. Grown adults will queue in the rain. Sell them two tickets each.",
+          "voice": "player",
+          "cite": "That is the Mayor of Belgrade writing, not this paper: a winning offer is reprinted word for word, spelling, temper and all."
         },
         {
           "kind": "para",
@@ -101,12 +103,14 @@
         },
         {
           "kind": "list",
-          "role": "declined_exports",
           "items": [
-            "We'll do it. Our lot are mediocre, well-travelled and famously ungracious about a draw — two legs a year, home and away, and we'll bring two hundred people who sing in a language nobody there can follow. The trophy is a ship's bell off a decommissioned tug, heavy enough to be a nuisance to carry home, which is the entire point of a trophy.",
-            "We volunteer. First we send the trophy — an appalling object, a metre of welded ship's brass on a plinth of harbour timber, too heavy for one man to carry and too ugly to display without an explanation — and a signed fixture, first Sunday of every March, alternating ports, in perpetuity. Then we send the grievance: some years ago one of your vessels took a record off us under circumstances we have described as theft ever since, and by the second match your own side will believe it too.",
-            "We'll do it. Our lot have never once been described as cordial on a field, we'll travel, and we'll take the same weekend every year -- home and away, and the trophy has to be an ugly object with a bad story attached, not a cup. Fair warning: nobody stays polite about us for long, which is what you said you wanted."
-          ]
+            "Five hundred plastic puffins on keyrings. They squeak, they are made nowhere near here and sold on every street here, and grown adults will complain about them and then take three. The one good prize is a hand-knitted wool sweater with the yoke pattern, undyed grey and cream, made by Guðrún Sigurjónsdóttir, seventy-four, of the Grafarvogur estate, who takes three weeks over one and has never sold a single one in her life. It will keep the rain off you for forty years, which the puffins will not do for eleven minutes. Draw that raffle last, and outdoors.",
+            "Five hundred small gaudy prizes, and every one of them is a thing our port already makes too many of: two hundred tin sardines with a hinged tail that clack when you shake them, hand-painted in nine colours; a hundred and fifty miniature funicular cars, wooden, the size of a matchbox, wheels that actually roll; a hundred rubber stray dogs, because we have thirty thousand real ones and the children over there deserve at least a hundred; and fifty enamel pins of a staircase going nowhere. All of it faintly baffling, which was the brief and is also our municipal character. And the one prize: a working hand-cranked barrel organ, *organillo*, restored by the Lizana family who have kept the last three in this country alive, with forty-one tunes on the barrel and a strap so a child can carry it — and whoever pulls the winning ticket is taught to play it, on the spot, in the rain, badly, in front of everybody. Grown adults will queue. They queue here.",
+            "Five hundred gaudy, sorted into eleven boxes so every stall gets a spread: wind-up plastic devils that jump sideways instead of forwards, glow bracelets, tin whistles we already regret, plastic magnifying glasses that genuinely work, and two hundred stickers of a mountain hidden in cloud that no child will understand and every child will want. The one good prize is a clinker-built rowing dinghy, nine foot six, celery-top pine on oak, built by hand down the valley at Franklin, with two oars, rowlocks and one coat of paint the colour of a wet morning. It floats, it is registered to nobody, and it should sit behind the prize table where people can put a hand on it. Grown adults will queue in the rain: ours did, and it was not even a raffle, it was just parked."
+          ],
+          "voice": "player",
+          "cite": "Those are mayors writing, word for word. Which mayors is not this paper's news to print.",
+          "role": "declined_exports"
         },
         {
           "kind": "para",
@@ -161,15 +165,24 @@
         },
         {
           "kind": "para",
-          "text": "One lone municipality — the Mayor of Naoshima — wrote only this: “The three-note chime the museum plays fifteen minutes before closing. Everyone here hears it as go home now, and I'd be pleased to have that follow me around.”"
+          "text": "One lone municipality — the Mayor of Naoshima — wrote only this: “The three-note chime the museum plays fifteen minutes before closing. Everyone here hears it as go home now, and I'd be pleased to have that follow me around.”",
+          "player_spans": [
+            "The three-note chime the museum plays fifteen minutes before closing. Everyone here hears it as go home now, and I'd be pleased to have that follow me around."
+          ]
         },
         {
           "kind": "para",
-          "text": "And then a single delegation, from the Mayor of Valparaíso: “A cueca on an accordion, played slightly too fast by a man who fully expects to be paid for it. I would prefer a brass section, obviously, but one works with the city one has.”"
+          "text": "And then a single delegation, from the Mayor of Valparaíso: “A cueca on an accordion, played slightly too fast by a man who fully expects to be paid for it. I would prefer a brass section, obviously, but one works with the city one has.”",
+          "player_spans": [
+            "A cueca on an accordion, played slightly too fast by a man who fully expects to be paid for it. I would prefer a brass section, obviously, but one works with the city one has."
+          ]
         },
         {
           "kind": "para",
-          "text": "One more, unaccompanied, from the Mayor of Trieste: “Not music — the hiss and knock of a portafilter being emptied. I suspect it follows me because I have almost always just come from a room where it was actually happening.”"
+          "text": "One more, unaccompanied, from the Mayor of Trieste: “Not music — the hiss and knock of a portafilter being emptied. I suspect it follows me because I have almost always just come from a room where it was actually happening.”",
+          "player_spans": [
+            "Not music — the hiss and knock of a portafilter being emptied. I suspect it follows me because I have almost always just come from a room where it was actually happening."
+          ]
         },
         {
           "kind": "aside",
@@ -329,16 +342,20 @@
       "colorful": true,
       "allow_pointed_humor": true,
       "disallow_snide_or_mean": true,
+      "forbidden_register_scope": {
+        "value": "newspaper_voice",
+        "means": "the register is run over the paper's own copy; passages a player typed are printed as written and marked as theirs (spec #30b)"
+      },
       "forbidden_register_terms": 33,
-      "spec": "#30",
-      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+      "spec": "#30, #30b",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose in the paper's own voice. A passage a mayor typed is printed as typed and attributed to them (#30b)."
     },
     "lockstep": [
       {
         "op": "OPEN",
         "need": "in-015",
         "city": "Trieste",
-        "category": "food_and_drink",
+        "category": "snacks",
         "rotation": 2,
         "request_source": "seed"
       },
@@ -355,11 +372,11 @@
         "city": "Naoshima"
       }
     ],
-    "spec": "#25, #26, #28, #29, #30"
+    "spec": "#25, #26, #28, #29, #30, #30b"
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped food & drink, 7 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 6 and 4, a skyline of 8 city towers ranked by profit, and 7 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped snacks & savouries, 7 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 6 and 4, a skyline of 8 city towers ranked by profit, and 7 pennants overhead, one per reply.",
     "cutline": "One crate came off the boat with a ribbon on it. Belgrade sent it. The others are not saying anything.",
     "extension": "svg",
     "mime": "image/svg+xml",

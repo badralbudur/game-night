@@ -8,7 +8,7 @@ Weather: clear enough to see the other side, which is new.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped culture & the arts, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 2, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-08.svg)
+![A harbour scene in the Daily Manifest's colours, stamped books & reading, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 2, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.](round-08.svg)
 
 *4 crates, one ribbon, 6 in the ledger. A good day at the water.*
 
@@ -18,13 +18,13 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *One city wants something. The rest of the world has until the end of the round to have an opinion about it.*
 
-### An object for an empty plinth
+### Something for the shelf by the door
 
 **PUBLIC NOTICE**. The Mayor of Valparaíso has taken out an advertisement. This paper has read it three times and remains impressed.
 
-The plinth in Valparaíso's central square has been empty for two years. The previous occupant turned out to have opinions. The plinth is a good plinth, it is rated to eleven tonnes, and the square feels the absence. Valparaíso is commissioning and buying the thing that stands on it — cast, carved, welded or grown, crated and shipped.
+Valparaíso put a bookcase in the ferry waiting room under an honesty rule -- take one, leave one -- and it is now four shelves of the same thriller. Wanted: paperbacks by the box, read, creased, annotated, anything but pristine. Two hundred of them, no two the same.
 
-The office asks, and the paper repeats verbatim: *Ship Valparaíso something to put on an eleven-tonne plinth, and name the material.*
+The office asks, and the paper repeats verbatim: *Ship Valparaíso two hundred second-hand paperbacks, no two alike, and say which one you nearly kept.*
 
 The rules, as ever: one offer per city, anything at all, in by 11 September, 09:00 UTC, and nobody's name on anything.
 
@@ -44,15 +44,19 @@ The Mayor of Hobart has until the end of this round to choose. After that the ru
 
 From the four sealed offers on the Mayor of Reykjavík's desk, one:
 
-> The southernmost bakery on the register, boxed, with its opening hours.
+> A crate of jam, the recipe, and the woman who will not permit you to alter the recipe.
+
+— *The Mayor of Hobart wrote that, and the paper has changed nothing in it, as it never does.*
 
 Hobart sent it, and Hobart takes 6 — the dice said 4 and 2.
 
 Also offered, and declined:
 
-- A fish counter with a two-hundred-year opinion about freshness.
-- A rolling programme of unscheduled municipal celebration.
-- The complete municipal songbook, including the verses nobody sings.
+- Fish soup in vacuum packs, and a two-hundred-year opinion about freshness.
+- Three hundred kites of feed sack and split cane, and the children who fly them best.
+- Nine hundred rooted bougainvillea cuttings, wrapped in yesterday's newspaper.
+
+— *Those are mayors writing, word for word. Which mayors is not this paper's news to print.*
 
 The paper would dearly love to say more. The paper has rules.
 
@@ -76,13 +80,15 @@ _The paper would like it noted that it asked a simple question._
 
 | # | City | Profit |
 | --- | --- | --- |
-| 1 | Kampala | 14.75 |
-| 2 | Valparaíso | 13.75 |
-| 3 | Hobart | 8.75 |
-| 4 | Bergen | 3 |
-| 5 | Reykjavík | 2.75 |
+| 1 | Kampala | 19.75 |
+| 2 | Hobart | 8.75 |
+| 3 | Valparaíso | 8.75 |
+| 4 | Reykjavík | 5.75 |
+| 5 | Bergen | 0 |
 
 Kampala is top of the column. The column is long and the game is not over.
+
+Several cities are still on nothing at all. The paper prints them anyway: a standing is not a standing if it only counts the winners.
 
 _Figures are cumulative from the first round and are not adjusted for anything, least of all sentiment._
 

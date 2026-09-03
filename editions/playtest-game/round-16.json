@@ -66,7 +66,9 @@
         },
         {
           "kind": "quote",
-          "text": "We are re-roofing our own market hall and have twelve glulam trusses coming out of it, eighteen metres clear span, sound and dry and ready in October — yours if you send the lorries. More usefully, we'll send the structural engineer who condemned them and have her put her name and stamp on the calculations for your span, because it isn't timber your expiring permits are short of, it's a signature."
+          "text": "One case: forty-eight paper packets of the pastille — salt liquorice and menthol, in green waxed paper, sold for a hundred years to people with a cough and eaten almost entirely by people without one. They taste like the back room of a chemist's and at least one member of your allotment society will leave the hall. Underneath, one proper tin of chest-sugar, which is the actual name of it, hard boiled sweets of barley and eucalyptus, once given to children for a chest and now given to children because it is Sunday. Wrappers all included, as asked. Keep the packets; the reading matter printed on the back is half of what you are getting.",
+          "voice": "player",
+          "cite": "That is the Mayor of Reykjavík writing, not this paper: a winning offer is reprinted word for word, spelling, temper and all."
         },
         {
           "kind": "para",
@@ -78,12 +80,14 @@
         },
         {
           "kind": "list",
-          "role": "declined_exports",
           "items": [
-            "We sit on a fault line, so every building we own is held up by something that was meant to be temporary in 1906 — the only real difference is that we stopped apologising for it and moved it into the budget under maintenance. We'll send four shipwrights and the yard foreman who reframe our roofs in laminated timber built to move rather than resist, Oregon pine enough for a span your size, and one piece of advice: name the scaffolding, give it a plaque and a line item, and it will outlast all three permits and very probably you.",
-            "Send us photographs of the trusses and we'll send three shipwrights. A roof is a hull upside down, and scarfing new timber into an old frame while the thing stays in use is the only job they've ever had -- fixed price agreed before the first cut, which will do more for your permits than the scaffolding ever did.",
-            "Sell the roof by the square metre and paint every buyer's name on the underside of it, in a good hand, big enough to read from the floor — we are sending Ronnie, who has lettered every shopfront on our main road for twenty years and can do eleven hundred names in a fortnight. People will not pay to fix a ceiling, but they will pay to be looked up at by their grandchildren, and a roof that everybody is named on gets its permits renewed by people who take it personally."
-          ]
+            "One case, ninety-six units, of *dulce de alcayota* — candied squash threads in syrup, gone amber and slightly translucent, which is what happens when a fruit nobody wants meets a grandmother with time. Twelve jars of it, plus sixty *empolvados* dusted in icing sugar, plus twenty-four bars of *dulce de membrillo*, quince paste cut in slabs and wrapped in waxed paper with a rubber band, which is precisely how it comes out of my aunt's cupboard and I have not improved on it. Wrapper and all, as asked: our own contribution to the frankly alarming category is a bag of *cochayuyo* candied in honey — that is seaweed, sea-stalk, chewed here for centuries, tastes medicinal because it *is* medicinal, and there is not an airport on this planet that would stock it. Send the empty jars back and we will refill them.",
+            "A case of what our grandmothers actually keep in the tin: hard-boiled leatherwood honey drops that taste of smoke and flowers and are not to all tastes, eucalyptus lozenges of the strictly medicinal school, which were given to us for coughs until we began getting coughs deliberately, and blackcurrant pastilles that stain a mouth purple for an hour. Two hundred twists, and the wrappers are cut from a stack of old ferry timetables, so the alarming ones can be identified afterwards by the 7:15 to Bellerive. The tin is included, has a thistle on it, and comes with no explanation.",
+            "One case, two hundred and forty twists, of Jjajja Nakato's tangawizi: ginger boiled down with honey and jaggery, a genuinely irresponsible amount of black pepper, and a suspicion of clove, pulled by hand and set hard as a pebble. Wrapper and all, as asked — waxed paper twisted at both ends, each one stamped with a crane by a rubber stamp she has had since before I was mayor of anything, and the whole lot arrives in her actual tin, with the dent in the lid, which I am told I may not keep. Faintly medicinal is generous: it cures nothing and clears everything, sinuses, arguments, and one uncle in 1974 whom she still cites as evidence. Do not put it in an airport. It would not survive the company."
+          ],
+          "voice": "player",
+          "cite": "Printed as written and attributed to nobody. The paper knows; the paper is not saying.",
+          "role": "declined_exports"
         },
         {
           "kind": "para",
@@ -146,15 +150,24 @@
         },
         {
           "kind": "para",
-          "text": "One lone municipality answered simply: “A charger for a Nokia I lost in 2011. It is in the drawer. It will never be needed. It is not going anywhere.” — the Mayor of Kampala."
+          "text": "One lone municipality answered simply: “A charger for a Nokia I lost in 2011. It is in the drawer. It will never be needed. It is not going anywhere.” — the Mayor of Kampala.",
+          "player_spans": [
+            "A charger for a Nokia I lost in 2011. It is in the drawer. It will never be needed. It is not going anywhere."
+          ]
         },
         {
           "kind": "para",
-          "text": "A single delegation — the Mayor of Naoshima — wrote only this: “A ticket punch from the old ferry gate. It doesn't punch anymore. It still clicks, and the click was always most of it.”"
+          "text": "A single delegation — the Mayor of Naoshima — wrote only this: “A ticket punch from the old ferry gate. It doesn't punch anymore. It still clicks, and the click was always most of it.”",
+          "player_spans": [
+            "A ticket punch from the old ferry gate. It doesn't punch anymore. It still clicks, and the click was always most of it."
+          ]
         },
         {
           "kind": "para",
-          "text": "And then exactly one city hall, from the Mayor of Valparaíso: “A tin of paint from a colour we stopped using in 1998. It has been solid for twenty years and has followed me through three offices, but if one house on that hill ever needs touching up I would like to be able to say what the colour was called.”"
+          "text": "And then exactly one city hall, from the Mayor of Valparaíso: “A tin of paint from a colour we stopped using in 1998. It has been solid for twenty years and has followed me through three offices, but if one house on that hill ever needs touching up I would like to be able to say what the colour was called.”",
+          "player_spans": [
+            "A tin of paint from a colour we stopped using in 1998. It has been solid for twenty years and has followed me through three offices, but if one house on that hill ever needs touching up I would like to be able to say what the colour was called."
+          ]
         },
         {
           "kind": "aside",
@@ -318,9 +331,13 @@
       "colorful": true,
       "allow_pointed_humor": true,
       "disallow_snide_or_mean": true,
+      "forbidden_register_scope": {
+        "value": "newspaper_voice",
+        "means": "the register is run over the paper's own copy; passages a player typed are printed as written and marked as theirs (spec #30b)"
+      },
       "forbidden_register_terms": 33,
-      "spec": "#30",
-      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+      "spec": "#30, #30b",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose in the paper's own voice. A passage a mayor typed is printed as typed and attributed to them (#30b)."
     },
     "lockstep": [
       {
@@ -341,22 +358,22 @@
         "city": "Belgrade"
       }
     ],
-    "spec": "#25, #26, #28, #29, #30"
+    "spec": "#25, #26, #28, #29, #30, #30b"
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped infrastructure & public works, 7 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 1 and 3, a skyline of 8 city towers ranked by profit, and 8 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped candy & sweets, 7 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 1 and 3, a skyline of 8 city towers ranked by profit, and 8 pennants overhead, one per reply.",
     "cutline": "One crate came off the boat with a ribbon on it. Reykjavík sent it. The others are not saying anything.",
     "extension": "svg",
     "mime": "image/svg+xml",
     "palette": {
-      "paper": "#f7f2e6",
-      "ink": "#221d18",
-      "sky": "#f2c14e",
-      "water": "#3d6b7d",
-      "accent": "#e2571e",
-      "spot": "#8c4a2f",
-      "spot_alt": "#d9a441"
+      "paper": "#fdf1f5",
+      "ink": "#2a1420",
+      "sky": "#f9c3d8",
+      "water": "#b03a63",
+      "accent": "#f2c14e",
+      "spot": "#e0578b",
+      "spot_alt": "#ffd4e3"
     },
     "colorful": true,
     "provenance": {

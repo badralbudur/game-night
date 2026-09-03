@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "A night canteen, four till eight"
+          "text": "The thing you eat standing up at eleven at night"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "Hobart runs on people finishing work at 5am — the port, the bakery, the hospital, the fish market. Nothing is open for them, and what is open is designed for people who slept. Hobart is buying the canteen entire: urns, pots, a counter, the food to fill it, and cooks willing to work the wrong end of the night."
+          "text": "Hobart closes at ten and gets hungry at eleven, and has been doing so quietly for years without mentioning it to anybody. Wanted: the snack your city eats standing up, late -- frozen, dried, tinned, vacuum-packed, however it travels -- plus whatever it is traditionally eaten out of."
         },
         {
           "kind": "para",
-          "text": "The Mayor of Hobart would like an answer to this: *Send Hobart the kit, the stock and the cooks for a counter that opens at four in the morning.*"
+          "text": "The Mayor of Hobart would like an answer to this: *Ship Hobart your city's late-night snack, however it travels, and say what to eat it out of.*"
         },
         {
           "kind": "para",
@@ -46,7 +46,7 @@
       ],
       "provenance": {
         "need": "in-007",
-        "category": "food_and_drink",
+        "category": "snacks",
         "rotation": 2,
         "spec": "#9, #13, #14"
       }
@@ -161,15 +161,24 @@
         },
         {
           "kind": "para",
-          "text": "A single delegation answered simply: “A funicular ticket, punched.” — the Mayor of Valparaíso."
+          "text": "A single delegation answered simply: “A funicular ticket, punched.” — the Mayor of Valparaíso.",
+          "player_spans": [
+            "A funicular ticket, punched."
+          ]
         },
         {
           "kind": "para",
-          "text": "Exactly one city hall — the Mayor of Kampala — wrote only this: “A recording of the market at seven in the morning.”"
+          "text": "Exactly one city hall — the Mayor of Kampala — wrote only this: “A recording of the market at seven in the morning.”",
+          "player_spans": [
+            "A recording of the market at seven in the morning."
+          ]
         },
         {
           "kind": "para",
-          "text": "And then one lone municipality, from the Mayor of Hobart: “A jar of jam and the recipe for the jam.”"
+          "text": "And then one lone municipality, from the Mayor of Hobart: “A jar of jam and the recipe for the jam.”",
+          "player_spans": [
+            "A jar of jam and the recipe for the jam."
+          ]
         },
         {
           "kind": "aside",
@@ -229,17 +238,17 @@
             [
               1,
               "Kampala",
-              "14.75"
+              "19.75"
             ],
             [
               2,
               "Valparaíso",
-              "13.75"
+              "8.75"
             ],
             [
               3,
-              "Bergen",
-              "3"
+              "Reykjavík",
+              "5.75"
             ],
             [
               4,
@@ -248,14 +257,18 @@
             ],
             [
               5,
-              "Reykjavík",
-              "2.75"
+              "Bergen",
+              "0"
             ]
           ]
         },
         {
           "kind": "para",
           "text": "Kampala leads, and has been gracious about it in a way this paper found slightly worse than gloating."
+        },
+        {
+          "kind": "para",
+          "text": "A city on zero is still a city. The column includes everybody, which is the point of a column."
         },
         {
           "kind": "note",
@@ -313,16 +326,20 @@
       "colorful": true,
       "allow_pointed_humor": true,
       "disallow_snide_or_mean": true,
+      "forbidden_register_scope": {
+        "value": "newspaper_voice",
+        "means": "the register is run over the paper's own copy; passages a player typed are printed as written and marked as theirs (spec #30b)"
+      },
       "forbidden_register_terms": 33,
-      "spec": "#30",
-      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+      "spec": "#30, #30b",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose in the paper's own voice. A passage a mayor typed is printed as typed and attributed to them (#30b)."
     },
     "lockstep": [
       {
         "op": "OPEN",
         "need": "in-007",
         "city": "Hobart",
-        "category": "food_and_drink",
+        "category": "snacks",
         "rotation": 2,
         "request_source": "seed"
       },
@@ -339,11 +356,11 @@
         "city": "Bergen"
       }
     ],
-    "spec": "#25, #26, #28, #29, #30"
+    "spec": "#25, #26, #28, #29, #30, #30b"
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped food & drink, 4 crates on the quay, 4 of them ribboned, a boat at the mooring, dice showing 5 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped snacks & savouries, 4 crates on the quay, 4 of them ribboned, a boat at the mooring, dice showing 5 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
     "cutline": "Every crate got a ribbon in the end. The crane operator has questions.",
     "extension": "svg",
     "mime": "image/svg+xml",

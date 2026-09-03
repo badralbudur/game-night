@@ -32,7 +32,7 @@ OFFERS = (
     "A clock tower mechanism, dismantled, with most of the instructions.",
     "Forty metres of bunting and the committee that deploys it.",
     "A retired harbourmaster, on loan, with strong opinions and a thermos.",
-    "Rain, in quantity, and the infrastructure to shrug at it.",
+    "Rain, in quantity, and the raincoats to shrug at it.",
     "A quiet room with a view of water, available Tuesdays.",
 )
 

@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "Plant for four hundred tonnes of seaweed"
+          "text": "Cordial, for two hundred jugs"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "The tide brings Bergen four hundred tonnes of seaweed a season. Burning it is illegal, burying it is unpopular, and the phrase 'municipal seaweed' now appears in eleven separate complaint letters. Bergen is buying the machinery that turns it into a product: balers, dryers, presses, tanks — or a standing order from somebody who wants the stuff."
+          "text": "Every summer Bergen sets out trestle tables along the water, and every summer it fills the jugs with water and a slice of lemon, which no one has ever once described as a treat. Wanted: cordial, syrup, squash, concentrate -- enough for two hundred jugs -- and the jugs too, if you have jugs going spare."
         },
         {
           "kind": "para",
-          "text": "The Mayor of Bergen would like an answer to this: *Ship Bergen the plant that makes seaweed into something, or the contract that takes it away by the tonne.*"
+          "text": "The Mayor of Bergen would like an answer to this: *Send Bergen enough cordial for two hundred jugs, and the jugs as well if you have them.*"
         },
         {
           "kind": "para",
@@ -46,7 +46,7 @@
       ],
       "provenance": {
         "need": "in-005",
-        "category": "water_and_waste",
+        "category": "soft_drinks",
         "rotation": 1,
         "spec": "#9, #13, #14"
       }
@@ -81,11 +81,13 @@
         },
         {
           "kind": "quote",
-          "text": "Rain. Enormous quantities of rain, and the civic infrastructure to shrug at it."
+          "text": "Wool socks in colours our grandmothers chose. A thousand pairs, all slightly wrong.",
+          "voice": "player",
+          "cite": "In the Mayor of Reykjavík's own words, printed exactly as they arrived at this desk."
         },
         {
           "kind": "para",
-          "text": "Bergen sent it, and Bergen takes 3 — the dice said 2 and 1."
+          "text": "Reykjavík sent it, and Reykjavík takes 3 — the dice said 2 and 1."
         },
         {
           "kind": "para",
@@ -93,11 +95,13 @@
         },
         {
           "kind": "list",
-          "role": "declined_exports",
           "items": [
-            "A market's worth of Saturday, transplanted whole, noise included.",
-            "Six weeks of the municipal brass band, and the sheet music for one more."
-          ]
+            "Rain, in quantity, and the raincoats to shrug at it.",
+            "A market's worth of Saturday, transplanted whole, noise included."
+          ],
+          "voice": "player",
+          "cite": "Those are mayors writing, word for word. Which mayors is not this paper's news to print.",
+          "role": "declined_exports"
         },
         {
           "kind": "para",
@@ -122,11 +126,11 @@
         },
         "awarded": [
           [
-            "Bergen",
+            "Reykjavík",
             "3"
           ]
         ],
-        "winner_city": "Bergen"
+        "winner_city": "Reykjavík"
       }
     },
     {
@@ -213,26 +217,26 @@
             [
               1,
               "Valparaíso",
-              "11"
+              "6"
             ],
             [
               2,
-              "Bergen",
-              "3"
+              "Kampala",
+              "5"
             ],
             [
               3,
-              "Hobart",
-              "0"
+              "Reykjavík",
+              "3"
             ],
             [
               4,
-              "Kampala",
+              "Bergen",
               "0"
             ],
             [
               5,
-              "Reykjavík",
+              "Hobart",
               "0"
             ]
           ]
@@ -301,16 +305,20 @@
       "colorful": true,
       "allow_pointed_humor": true,
       "disallow_snide_or_mean": true,
+      "forbidden_register_scope": {
+        "value": "newspaper_voice",
+        "means": "the register is run over the paper's own copy; passages a player typed are printed as written and marked as theirs (spec #30b)"
+      },
       "forbidden_register_terms": 33,
-      "spec": "#30",
-      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+      "spec": "#30, #30b",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose in the paper's own voice. A passage a mayor typed is printed as typed and attributed to them (#30b)."
     },
     "lockstep": [
       {
         "op": "OPEN",
         "need": "in-005",
         "city": "Bergen",
-        "category": "water_and_waste",
+        "category": "soft_drinks",
         "rotation": 1,
         "request_source": "seed"
       },
@@ -327,11 +335,11 @@
         "city": "Valparaíso"
       }
     ],
-    "spec": "#25, #26, #28, #29, #30"
+    "spec": "#25, #26, #28, #29, #30, #30b"
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped water & waste, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 2 and 1, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped soft drinks & fizz, 4 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 2 and 1, a skyline of 5 city towers ranked by profit, and 5 pennants overhead, one per reply.",
     "cutline": "4 crates, one ribbon, 3 in the ledger. A good day at the water.",
     "extension": "svg",
     "mime": "image/svg+xml",

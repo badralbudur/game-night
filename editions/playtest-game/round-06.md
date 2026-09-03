@@ -8,7 +8,7 @@ Weather: unsettled, like the minutes of the last session.
 
 _Published once per round by the Sister Cities desk. Mayors are named by city and office only._
 
-![A harbour scene in the Daily Manifest's colours, stamped transport & logistics, 5 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 4, a skyline of 7 city towers ranked by profit.](round-06.svg)
+![A harbour scene in the Daily Manifest's colours, stamped games & puzzles, 5 crates on the quay, 1 of them ribboned, a boat at the mooring, dice showing 4 and 4, a skyline of 7 city towers ranked by profit.](round-06.svg)
 
 *5 crates, one ribbon, 8 in the ledger. A good day at the water.*
 
@@ -18,17 +18,17 @@ _Published once per round by the Sister Cities desk. Mayors are named by city an
 
 *The classifieds desk has been busy. It has taken one advertisement.*
 
-### Haulage for a nineteen per cent gradient
+### Board games for a wet fortnight
 
-**PUBLIC NOTICE**, filed by the Mayor of Naoshima under Transport & Logistics, which is where Naoshima files most things.
+**PUBLIC NOTICE**, filed by the Mayor of Naoshima under Games & Puzzles, which is where Naoshima files most things.
 
-Deliveries to Naoshima's upper town stop at the bottom of a 19% gradient. From there everything — furniture, groceries, one piano — proceeds by arrangement, on foot, badly. Naoshima will buy winches, hoists, cargo bikes, a funicular in kit form, mules with their tack, or the crew that already does this somewhere steeper.
+It rains in Naoshima for a fortnight every autumn and the entire town goes indoors at once. The cupboard in the community hall holds one chess set with two black bishops. Wanted: board games by the crate -- playable in an hour, playable by six, playable by somebody who has not read the rules and is not going to.
 
-The office asks, and the paper repeats verbatim: *Ship Naoshima the machinery or the animals that get a piano up a nineteen per cent hill.*
+The office asks, and the paper repeats verbatim: *Ship Naoshima a crate of board games for a wet fortnight, and say which box to open first.*
 
 Every other city hall may send exactly one offer, in whatever form it likes, by 16 September, 09:00 UTC. The offers arrive unsigned, and the Mayor of Naoshima will read them that way.
 
-_The paper arrived late to its own deadline and has chosen not to explain how._
+_This office once played a game to settle an editorial dispute. The dispute is now about the game._
 
 ## Sealed Bids
 
@@ -44,15 +44,19 @@ One round to decide. A window that closes without a decision is not a disaster, 
 
 The Mayor of Kampala read 5 unsigned offers and marked one of them:
 
-> We'll ship four hundred metres of pontoon duckboard — the same bolt-together decking our stall-holders use to trade on a forty-degree hill — plus the carpenters who assemble it in a morning, so the market simply rises a foot and keeps selling straight through the four days. And we'll paint a gauge up the wall at the low end, marked and dated by year, so that in a decade the water isn't a failure, it's a record, and the children can argue about which flood was the famous one.
+> Sixteen crates, glass, returnable, all of it cold when it left. Twelve crates of *Bilz y Pap* — the pink one and the yellow one, and no living person can tell you what flavour either is meant to be; the label says only *sabor único*, a unique flavour, which is the most honest thing ever printed on a bottle. Two crates of *mote con huesillo* in bottle form, wheat and dried peach in syrup, labelled *más chilena que los porotos* — more Chilean than beans — and it is a drink you eat with a spoon at the end. Two crates of murta cordial from the south, whose label promises it is *digestivo y refrescante*, which we read as medicinal and therefore permission. And thirty-one bottle openers: eight of steel, twenty-two shaped like sardines, and one welded to a chain in the shape of our funicular, for the shop that keeps losing them.
+
+— *The Mayor of Valparaíso wrote that, and the paper has changed nothing in it, as it never does.*
 
 Valparaíso sent it, and Valparaíso takes 8 — the dice said 4 and 4.
 
 Not chosen, and not attributed:
 
-- We have more marine decking and float drums than we have coastline to put them on — enough for sixty square metres of pontoon and eight walkways. Bolt them down at the low end of Market Street so that when the water arrives the market rises with it and keeps trading for its four days, and the thing standing in public stops being a failure and starts being a season.
-- Send us your levels and we'll send back two diesel trash pumps, four hundred metres of lay-flat hose, and the bloke who cut the soak trenches under our own low corner. His rule is that water sitting for four days doesn't want draining, it wants somewhere better to be within a hundred metres -- so dig the low end on purpose, gravel the bottom, put reeds in it, and you've got a pond with a name instead of a puddle with a grudge.
-- Send the levels and we'll send the tiler who did our bathhouse floor. Slope the low end into a shallow black dish so that four days a year it's a mirror with the whole street in it, and the rest of the year it's the flattest place in the city to sit down.
+- Sixty crates, all glass. Twenty of malt — dark, thick, tastes of bread and molasses, and the label has claimed for the better part of a century that it is nourishing and good for nursing mothers, a claim which has never been withdrawn and, as far as I can establish, never tested. Twenty of orange soda, because the two are poured half and half into the same glass at Christmas here by people who will argue with you about the ratio and mean it. Twenty of rhubarb cordial, under-sweetened to a degree some find startling. Plus a box of two hundred flat stamped openers, because you are right, nobody ever sends the opener.
+- Sixty crates, all glass: sparkling apple pressed down the valley with nothing added, blackcurrant cordial thick enough to stand a spoon in, a pepperberry tonic that goes faintly numb at the back of the tongue, sarsaparilla, and a leatherwood honey soda that tastes the way a beehive smells. The label claims the water fell as rain on a mountain with nothing built on it and was in the bottle inside a day, which is true, and then claims it is the purest water in the world, which is a matter for lawyers. Four dozen openers, plain steel, each one spliced onto three feet of rope so it can be tied to the crate and stay tied to the crate.
+- Twelve crates of ramune, 240 bottles, glass, marble-stoppered — melon cream, yuzu, salted watermelon, lychee, and one the label calls 'Blue Hawaii' and then declines to elaborate. The yuzu label claims it settles the stomach after a rough ferry crossing, which we have tested extensively and choose to believe. You don't need an opener: the bottle comes with its own plastic plunger, you push the marble down through the neck, and the marble stays in there forever, which is the entire point. We put in thirty spare plungers anyway, because children lose them.
+
+— *Printed as written and attributed to nobody. The paper knows; the paper is not saying.*
 
 This paper is not saying who sent those, now or ever. Neither is the Mayor of Kampala, who does not know.
 

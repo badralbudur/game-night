@@ -21,19 +21,19 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "Ninety kilometres of insulated pipe"
+          "text": "Four hundred hot water bottles, and the covers for them"
         },
         {
           "kind": "para",
-          "text": "**PUBLIC NOTICE**, filed by the Mayor of Reykjavík under Energy & Utilities, which is where Reykjavík files most things."
+          "text": "**PUBLIC NOTICE**, filed by the Mayor of Reykjavík under Small Comforts, which is where Reykjavík files most things."
         },
         {
           "kind": "para",
-          "text": "Reykjavík has more hot water underneath it than pipe to put it in, and the district heating main stops four streets short of the new housing in both directions. Wanted: pre-insulated pipe in six-metre lengths, valves, lagging, and welders who have worked in a trench in February."
+          "text": "It is dark in Reykjavík by two in the afternoon for most of December, and the flats at the top of the hill are cold in a way that no amount of tea has ever settled. Wanted: hot water bottles -- four hundred, rubber, boring, the kind that outlive their owners -- knitted covers for all of them, and two hundred pairs of thick socks in case the covers run short."
         },
         {
           "kind": "para",
-          "text": "The office asks, and the paper repeats verbatim: *Ship Reykjavík the pipe, the fittings or the welders, and say how much of it fits on one lorry.*"
+          "text": "The office asks, and the paper repeats verbatim: *Ship Reykjavík four hundred hot water bottles and the covers for them, and say what the covers are knitted from.*"
         },
         {
           "kind": "para",
@@ -41,12 +41,12 @@
         },
         {
           "kind": "aside",
-          "text": "The bill for this edition's lighting is being contested internally."
+          "text": "The paper's position on a wet Tuesday is that somebody should be sent for biscuits, and it will not be the paper."
         }
       ],
       "provenance": {
         "need": "in-006",
-        "category": "energy_and_utilities",
+        "category": "small_comforts",
         "rotation": 2,
         "spec": "#9, #13, #14"
       }
@@ -144,7 +144,10 @@
         },
         {
           "kind": "para",
-          "text": "One lone municipality answered simply: “Golf. All of it.” — the Mayor of Hobart."
+          "text": "One lone municipality answered simply: “Golf. All of it.” — the Mayor of Hobart.",
+          "player_spans": [
+            "Golf. All of it."
+          ]
         },
         {
           "kind": "aside",
@@ -201,26 +204,26 @@
             [
               1,
               "Kampala",
-              "12"
+              "17"
             ],
             [
               2,
               "Valparaíso",
-              "11"
+              "6"
             ],
             [
               3,
-              "Bergen",
+              "Reykjavík",
               "3"
             ],
             [
               4,
-              "Hobart",
+              "Bergen",
               "0"
             ],
             [
               5,
-              "Reykjavík",
+              "Hobart",
               "0"
             ]
           ]
@@ -289,16 +292,20 @@
       "colorful": true,
       "allow_pointed_humor": true,
       "disallow_snide_or_mean": true,
+      "forbidden_register_scope": {
+        "value": "newspaper_voice",
+        "means": "the register is run over the paper's own copy; passages a player typed are printed as written and marked as theirs (spec #30b)"
+      },
       "forbidden_register_terms": 33,
-      "spec": "#30",
-      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+      "spec": "#30, #30b",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose in the paper's own voice. A passage a mayor typed is printed as typed and attributed to them (#30b)."
     },
     "lockstep": [
       {
         "op": "OPEN",
         "need": "in-006",
         "city": "Reykjavík",
-        "category": "energy_and_utilities",
+        "category": "small_comforts",
         "rotation": 2,
         "request_source": "freeform"
       },
@@ -315,22 +322,22 @@
         "city": "Kampala"
       }
     ],
-    "spec": "#25, #26, #28, #29, #30"
+    "spec": "#25, #26, #28, #29, #30, #30b"
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped energy & utilities, an empty quay and no boat, dice showing 6 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped small comforts, an empty quay and no boat, dice showing 6 and 6, a skyline of 5 city towers ranked by profit, and 4 pennants overhead, one per reply.",
     "cutline": "Nothing on the quay, so Kampala built its own. The shed, pictured, is doing its best.",
     "extension": "svg",
     "mime": "image/svg+xml",
     "palette": {
-      "paper": "#fdf6e0",
-      "ink": "#241f10",
-      "sky": "#ffe08a",
-      "water": "#7a5c1e",
-      "accent": "#e03e2f",
-      "spot": "#c99a1e",
-      "spot_alt": "#f0cf6a"
+      "paper": "#f5f5f0",
+      "ink": "#1b1f24",
+      "sky": "#c8d6dd",
+      "water": "#37525e",
+      "accent": "#e8541e",
+      "spot": "#5c7c8a",
+      "spot_alt": "#a3bcc6"
     },
     "colorful": true,
     "provenance": {

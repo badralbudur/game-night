@@ -21,7 +21,7 @@
         {
           "kind": "heading",
           "level": 3,
-          "text": "Windbreak for one avenue, bolted down"
+          "text": "Outfitting for a swimming club that swims in March"
         },
         {
           "kind": "para",
@@ -29,11 +29,11 @@
         },
         {
           "kind": "para",
-          "text": "The wind comes down Reykjavík's main avenue at a speed that has removed four awnings, one election banner and the dignity of most residents between November and March. Purchase order: screens, baffles, slats, canvas, rope, planters heavy enough to stay put, and a crew to bolt it all down before the first gale."
+          "text": "Forty-one people swim off Reykjavík's beach every week of the year, including the weeks when that is a medically interesting decision. They currently share three towels. Wanted: robes, towels, neoprene, hats, gloves, and a bag that dries out between one Tuesday and the next."
         },
         {
           "kind": "para",
-          "text": "The office asks, and the paper repeats verbatim: *Ship Reykjavík the windbreak for a four-kilometre avenue, and the crew who fix it in place.*"
+          "text": "The office asks, and the paper repeats verbatim: *Ship Reykjavík the robes, the towels and the neoprene for forty-one all-year swimmers.*"
         },
         {
           "kind": "para",
@@ -46,7 +46,7 @@
       ],
       "provenance": {
         "need": "in-008",
-        "category": "weather_and_climate",
+        "category": "clothes",
         "rotation": 2,
         "spec": "#9, #13, #14"
       }
@@ -144,7 +144,10 @@
         },
         {
           "kind": "para",
-          "text": "And then one lone municipality, from the Mayor of Kampala: “A boda stage chairman called Kizito, who has never held an office in his life and settles about forty disputes a day with no budget and no minutes. He taught me the entire job in one sentence: decide out loud, in front of everybody, and then do not move.”"
+          "text": "And then one lone municipality, from the Mayor of Kampala: “A boda stage chairman called Kizito, who has never held an office in his life and settles about forty disputes a day with no budget and no minutes. He taught me the entire job in one sentence: decide out loud, in front of everybody, and then do not move.”",
+          "player_spans": [
+            "A boda stage chairman called Kizito, who has never held an office in his life and settles about forty disputes a day with no budget and no minutes. He taught me the entire job in one sentence: decide out loud, in front of everybody, and then do not move."
+          ]
         },
         {
           "kind": "aside",
@@ -301,16 +304,20 @@
       "colorful": true,
       "allow_pointed_humor": true,
       "disallow_snide_or_mean": true,
+      "forbidden_register_scope": {
+        "value": "newspaper_voice",
+        "means": "the register is run over the paper's own copy; passages a player typed are printed as written and marked as theirs (spec #30b)"
+      },
       "forbidden_register_terms": 33,
-      "spec": "#30",
-      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+      "spec": "#30, #30b",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose in the paper's own voice. A passage a mayor typed is printed as typed and attributed to them (#30b)."
     },
     "lockstep": [
       {
         "op": "OPEN",
         "need": "in-008",
         "city": "Reykjavík",
-        "category": "weather_and_climate",
+        "category": "clothes",
         "rotation": 2,
         "request_source": "seed"
       },
@@ -327,11 +334,11 @@
         "city": "Naoshima"
       }
     ],
-    "spec": "#25, #26, #28, #29, #30"
+    "spec": "#25, #26, #28, #29, #30, #30b"
   },
   "image": {
     "kind": "edition",
-    "alt": "A harbour scene in the Daily Manifest's colours, stamped weather & climate, an empty quay and no boat, dice showing 3 and 4, a skyline of 7 city towers ranked by profit, and 5 pennants overhead, one per reply.",
+    "alt": "A harbour scene in the Daily Manifest's colours, stamped clothes & outfitting, an empty quay and no boat, dice showing 3 and 4, a skyline of 7 city towers ranked by profit, and 5 pennants overhead, one per reply.",
     "cutline": "Nothing on the quay, so Naoshima built its own. The shed, pictured, is doing its best.",
     "extension": "svg",
     "mime": "image/svg+xml",
