@@ -46,6 +46,8 @@ From the four sealed offers on the Mayor of Reykjavík's desk, one:
 
 > A crate of jam, the recipe, and the woman who will not permit you to alter the recipe.
 
+— *The Mayor of Hobart wrote that, and the paper has changed nothing in it, as it never does.*
+
 Hobart sent it, and Hobart takes 6 — the dice said 4 and 2.
 
 Also offered, and declined:
@@ -53,6 +55,8 @@ Also offered, and declined:
 - Fish soup in vacuum packs, and a two-hundred-year opinion about freshness.
 - Three hundred kites of feed sack and split cane, and the children who fly them best.
 - Nine hundred rooted bougainvillea cuttings, wrapped in yesterday's newspaper.
+
+— *Those are mayors writing, word for word. Which mayors is not this paper's news to print.*
 
 The paper would dearly love to say more. The paper has rules.
 

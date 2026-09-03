@@ -46,12 +46,16 @@ The winning offer for Hobart, reproduced exactly as it arrived:
 
 > Roast maize, chapati and a spice mix in unlabelled bags, because labels slow everything down.
 
+— *In the Mayor of Kampala's own words, printed exactly as they arrived at this desk.*
+
 It came from Kampala, which takes 9 on the roll (4 and 5).
 
 Also offered, and declined:
 
 - Seven brass instruments, tuned, and a procession route we are prepared to lend.
 - A crate of paperbacks about weather, read to destruction over one long winter.
+
+— *Offers in their senders' own words. Whose words they are stays in the envelope, permanently.*
 
 Those arrived unsigned and will stay that way. A losing offer's city is nobody's business, permanently.
 

@@ -49,11 +49,15 @@ The trade is finished, the ledger is closed, and 18 things are now permanently i
 
 > Four hundred apple crates out of the Huon Valley, second-hand, dovetailed by people who expected them to be dropped, lined with hessian and drilled for drainage, filled two parts leaf mould to one part washed river grit. Planted: eight house leeks and a fistful of creeping thyme per box, plus chives, because chives forgive. What they forgive is neglect, salt, wind off the water, a fortnight with nothing at all, being frozen solid, being watered with the cold end of somebody's tea, and being carried indoors in October by a resident who has decided they look cold. What they do not forgive is daily watering, so we have written that on the underside of every crate where it cannot get lost.
 
+— *The Mayor of Hobart's own words, unaltered. What they did after arriving is a separate matter, below.*
+
 Hobart wrote that. Reykjavík read it, wanted it, and took delivery of it against the notice titled "Window boxes for one long grey street".
 
 It has taken to Reykjavík magnificently, in every direction, and through one wall.
 
 > Forty thousand postcards, printed on card thick enough to stand up in a rack, and not one of them the view from the top of the mountain. The image is the town seen from the middle of the river on a grey afternoon, the mountain entirely inside a cloud, one ferry crossing left to right. Half our residents say this is a slander and we should have waited for a clear day; the other half say we have been waiting for a clear day since 1804 and this is the honest one. Both arguments are printed on the reverse in small type, so your shopkeeper has something to say instead of apologising.
+
+— *The offer as the Mayor of Hobart wrote it, which is how it was read and how it is printed here.*
 
 Hobart wrote that. Valparaíso read it, wanted it, and took delivery of it against the notice titled "Postcards of somewhere else entirely".
 
@@ -61,11 +65,15 @@ Valparaíso has written to everybody it has ever met. Several of them have writt
 
 > Sixteen crates, glass, returnable, all of it cold when it left. Twelve crates of *Bilz y Pap* — the pink one and the yellow one, and no living person can tell you what flavour either is meant to be; the label says only *sabor único*, a unique flavour, which is the most honest thing ever printed on a bottle. Two crates of *mote con huesillo* in bottle form, wheat and dried peach in syrup, labelled *más chilena que los porotos* — more Chilean than beans — and it is a drink you eat with a spoon at the end. Two crates of murta cordial from the south, whose label promises it is *digestivo y refrescante*, which we read as medicinal and therefore permission. And thirty-one bottle openers: eight of steel, twenty-two shaped like sardines, and one welded to a chain in the shape of our funicular, for the shop that keeps losing them.
 
+— *The Mayor of Valparaíso's own words, unaltered. What they did after arriving is a separate matter, below.*
+
 Sent by Valparaíso, chosen by Kampala, filed under Soft Drinks & Fizz, and now a permanent feature of somewhere it has never been before.
 
 Every fridge in Kampala is now one crate fuller than it was designed to be, and three doors no longer shut.
 
 > Forty cases. Twenty-eight of paprika, which is what gets eaten here without anyone deciding to, ten of plain salted, and two of a barbecue flavour that exists mainly so there is something to reject. The bag is red and yellow and has not been redesigned since about 1985, and on the back it prints the weight in grams, a nutritional table nobody has ever read, and the name of the village the potatoes were grown in — population three hundred, also the factory address, and if you ring the number on it you get somebody's mother. Open one case immediately. They do not travel forever and I would rather you ate them than stored them.
+
+— *The Mayor of Reykjavík's own words, unaltered. What they did after arriving is a separate matter, below.*
 
 Reykjavík wrote that. Kópavogur read it, wanted it, and took delivery of it against the notice titled "Crisps in a flavour nobody here has met".
 
@@ -106,6 +114,8 @@ From that pile, unattributed as ever:
 - One tin, and I will tell you now it is not going to be like the other eleven. Ours is a hard, plain, rusk-coloured square, sixty to the tin, made to be eaten with butter and a slice of cheese thicker than the biscuit itself, and it is called, without any ceremony at all, the food biscuit. It survives a dunk the way a paving slab survives rain: completely, and without becoming any nicer for it. Dunk one for the swimming club's satisfaction, then butter a second one properly and see which side of the argument you come down on.
 - One tin, kilo and a half, of *chilenitos*: two rounds of shortcrust barely thicker than a coin, glued with *manjar* — boiled milk caramel, dark, half a shade from burnt — and hatted with a dome of hard meringue. It does not survive a dunk. It does not survive being carried across a room. Dunk it and you will be holding a wet biscuit stump above a cup that has become dessert, which our position is that this was the intention all along and the swimming club will be the first to admit it. So the tin also contains a hundred *palitos de manjar*, finger-length caramel-filled tubes that are structurally serious, dunk twice, hold, and can be eaten one-handed while arguing about an allotment. Baked Tuesday by Señora Norma Ibarra, who has run the same oven for thirty-one years and asks only that you do not put them in the fridge.
 
+— *The unchosen, printed as written and signed by nobody at all.*
+
 Belgrade's own unchosen offers exist, are somewhere in Belgrade, and are nobody's business. The portrait draws the door and stops there.
 
 For the record, the Mayor of Belgrade, asked *The mayoral position on coriander, please. For the record.*: “Against, and for the record it is chemistry, not taste. It comes at me like the inside of a new plastic bucket, and I'm told that reaction is genetic, which I choose to read as science taking my side rather than excusing me.”
@@ -130,6 +140,8 @@ From that pile, unattributed as ever:
 
 - Three hundred grow bags, three hundred terracotta pots the colour of our roof tiles, and eleven hundred seed packets hand-labelled by the ladies of the Cerro Alegre seed swap, who argue about basil the way other people argue about football. The two that actually survive a balcony: cherry tomatoes of the *cherry amarillo* strain, which fruit in a bucket of poor soil and sulk beautifully but never die, and rosemary — take a cutting the size of a pencil, push it into sand, forget about it entirely, and in a year it will be a small shrub that outlives the lease. Everything else in the crate is optimism: eighty dwarf lemon whips, chard, oregano, and mint you must keep in its own pot or it will annex the balcony next door. We have also included three hundred saucers, because a balcony that drips onto the balcony below is how neighbourhoods learn to hate each other.
 - Three hundred grow bags sewn out of feed sacks by the ladies who sit outside the hardware shop, each one packed with a tin of cherry tomatoes already up two inches, and seed folded into little paper squares torn from exercise books — amaranth, basil, coriander for the brave, and pigeon pea if you want shade. Sixty dwarf pawpaw seedlings as well, which will fruit before anybody finishes discussing them. The two that actually survive a balcony are chilli and sukuma wiki, and I will tell you exactly why: the chilli enjoys being ignored, it gets hotter out of spite, and sukuma wiki you harvest one leaf at a time so it never dies, it only gets shorter and more apologetic. Everything else on a balcony is a hobby. Those two are food.
+
+— *Offers this city turned down, in the words they came in. No senders named, this year or any year.*
 
 Hobart's own unchosen offers exist, are somewhere in Hobart, and are nobody's business. The portrait draws the door and stops there.
 
@@ -156,6 +168,8 @@ Two offers, reprinted without a sender, because the writing deserves a second re
 - Sixty crates, all glass. Twenty of malt — dark, thick, tastes of bread and molasses, and the label has claimed for the better part of a century that it is nourishing and good for nursing mothers, a claim which has never been withdrawn and, as far as I can establish, never tested. Twenty of orange soda, because the two are poured half and half into the same glass at Christmas here by people who will argue with you about the ratio and mean it. Twenty of rhubarb cordial, under-sweetened to a degree some find startling. Plus a box of two hundred flat stamped openers, because you are right, nobody ever sends the opener.
 - Sixty crates, all glass: sparkling apple pressed down the valley with nothing added, blackcurrant cordial thick enough to stand a spoon in, a pepperberry tonic that goes faintly numb at the back of the tongue, sarsaparilla, and a leatherwood honey soda that tastes the way a beehive smells. The label claims the water fell as rain on a mountain with nothing built on it and was in the bottle inside a day, which is true, and then claims it is the purest water in the world, which is a matter for lawyers. Four dozen openers, plain steel, each one spliced onto three feet of rope so it can be tied to the crate and stay tied to the crate.
 
+— *Offers this city turned down, in the words they came in. No senders named, this year or any year.*
+
 What Kampala sent that nobody chose is not itemised here and cannot be: this paper has never known which offers were Kampala's, and the one ledger that does know is not something the last edition gets to open. There is a shed for it in the portrait, with the door shut.
 
 On the question *Name a thing everybody else loves that you have never understood.*, Kampala's answer was: “Camping. You own a bed. You own a roof. You paid for both of them, and then you drive out of town to sleep on the ground and tell me about it for a week.”
@@ -180,6 +194,8 @@ Two offers, reprinted without a sender, because the writing deserves a second re
 
 - Three kinds, since a four-hundredth should not be one kind. Twenty tall ones: eleven thin layers with rhubarb jam between, sliced thinner than you think is generous, the cake made here when you cannot think what else to give a person. Forty flat ones, baked in the tray they are cut in, cocoa icing and desiccated coconut, and the tray goes home with somebody who is expected to return it. Twelve soaked in enough of something that you should warn the choir before it sings. Two hundred boxes with string, thirty kilos of icing in six colours and sixty piping bags — enough nonsense for four hundred years with a margin left over for the arguing about it.
 - Three cakes for four hundred years. Tall is a six-tier leatherwood honey cake, dry-stacked so it travels; flat is eight trays of raspberry and blackcurrant slab off fruit picked forty minutes from here and not out of a tin; soaked is one eleven-kilo fruit cake that has had a capful of local single malt every Sunday since your notice went up and needs no further assistance from anybody. Twelve waxed boxes with string handles that hold together in rain, twenty-two kilos of royal icing, sixty piping bags. Beryl comes with it: she can pipe legible cursive upside down on a wobbling trestle table and will write whatever you tell her to, having heard worse.
+
+— *The unchosen, printed as written and signed by nobody at all.*
 
 Kópavogur's own unchosen offers exist, are somewhere in Kópavogur, and are nobody's business. The portrait draws the door and stops there.
 
@@ -206,6 +222,8 @@ From that pile, unattributed as ever:
 - Five hundred plastic puffins on keyrings. They squeak, they are made nowhere near here and sold on every street here, and grown adults will complain about them and then take three. The one good prize is a hand-knitted wool sweater with the yoke pattern, undyed grey and cream, made by Guðrún Sigurjónsdóttir, seventy-four, of the Grafarvogur estate, who takes three weeks over one and has never sold a single one in her life. It will keep the rain off you for forty years, which the puffins will not do for eleven minutes. Draw that raffle last, and outdoors.
 - Five hundred small gaudy prizes, and every one of them is a thing our port already makes too many of: two hundred tin sardines with a hinged tail that clack when you shake them, hand-painted in nine colours; a hundred and fifty miniature funicular cars, wooden, the size of a matchbox, wheels that actually roll; a hundred rubber stray dogs, because we have thirty thousand real ones and the children over there deserve at least a hundred; and fifty enamel pins of a staircase going nowhere. All of it faintly baffling, which was the brief and is also our municipal character. And the one prize: a working hand-cranked barrel organ, *organillo*, restored by the Lizana family who have kept the last three in this country alive, with forty-one tunes on the barrel and a strap so a child can carry it — and whoever pulls the winning ticket is taught to play it, on the spot, in the rain, badly, in front of everybody. Grown adults will queue. They queue here.
 
+— *The unchosen, printed as written and signed by nobody at all.*
+
 Naoshima's own unchosen offers exist, are somewhere in Naoshima, and are nobody's business. The portrait draws the door and stops there.
 
 For the record, the Mayor of Naoshima, asked *What compliment do you actually want to receive?*: “That a room I made decisions about was quiet. Not beautiful. Quiet.”
@@ -231,6 +249,8 @@ From that pile, unattributed as ever:
 - Four hundred window boxes, and every one of them is a decommissioned zinc gutter section off our hills, cut to ninety centimetres, hammered flat at the ends and painted by hand — no two the same colour, because we ran out of everything except confidence. Filled with compost cut with volcanic grit, and planted with nasturtium, geranium and the trailing succulent our grandmothers call *siempreviva*: it forgives drought, it forgives darkness, it forgives being ignored from October to March, and it forgives the man who tips his coffee dregs into it every morning because it rather enjoys that. Nine hundred metres of grey render is not a street, it is a primed canvas that nobody has had the nerve to sign. We are sending the nerve in four hundred pieces.
 - Four hundred window boxes, already loaded, and none of them bought: Ssalongo the tinsmith and his three nephews cut old jerrycans lengthwise, hammered the edges flat, drilled the drainage and painted every one a different colour, so your nine hundred metres of grey will look like a market stall from one end to the other. Eight tonnes of compost on top of that, coffee husk mixed with sweepings from a market that starts at four in the morning, and in each box: mother-in-law's tongue, aloe, and a spider plant cutting. What they forgive is everything — a fortnight's holiday, a dark window, cold glass, being watered with tea, being watered with nothing at all from March until whenever you remember. Aloe will forgive you so completely it will have had babies by the time you notice it.
 
+— *Offers this city turned down, in the words they came in. No senders named, this year or any year.*
+
 Reykjavík's own unchosen offers exist, are somewhere in Reykjavík, and are nobody's business. The portrait draws the door and stops there.
 
 On the question *Name a thing everybody else loves that you have never understood.*, Reykjavík's answer was: “Barbecue as an occasion. I understand the food. I have never understood standing outdoors in a group for ninety minutes, waiting on it, everyone agreeing the wind is part of the charm.”
@@ -253,6 +273,8 @@ From that pile, unattributed as ever:
 
 - Two hundred lamb sausages, vacuum-packed and frozen; twelve tubs of remoulade; six tins of sweet brown mustard; four kilos of crisp fried onion in sealed bags; and a sack of raw onion, which you chop small yourself. That is one snack, assembled in that order at a kiosk window at eleven at night, and it is eaten out of a folded paper napkin, standing up, with your back to whatever the wind is doing. Also two crates of dried fish in strips, vacuum-packed, and a pound of butter: no cooking, no plate, you tear a piece, butter it, and eat it out of your own hand. Both keep for months. Neither of them wants a table, which I understand is the whole point of eleven o'clock.
 - Three hundred curried scallop pies, frozen hard, packed in dry ice: shortcrust, a yellow sauce the exact colour of a wet raincoat, and scallops out of the channel rather than out of a bag from somewhere else. They are eaten standing on a wharf at eleven at night out of a flat white paper bag folded down twice, back to the wind, sauce running towards the wrist, which is the point rather than the fault. Two thousand bags in the crate, and four hundred wooden forks nobody will use. Twenty minutes in a real oven; whoever microwaves one has ended the exercise for everybody.
+
+— *The unchosen, printed as written and signed by nobody at all.*
 
 What Trieste sent that nobody chose is not itemised here and cannot be: this paper has never known which offers were Trieste's, and the one ledger that does know is not something the last edition gets to open. There is a shed for it in the portrait, with the door shut.
 
@@ -278,6 +300,8 @@ From that pile, unattributed as ever:
 
 - Forty thousand postcards, printed on a matte stock that will not curl in a damp rack. Thirty-eight thousand of them show the harbour, the church and the coloured roofs, which is what visitors buy and which nobody here argues about. The other two thousand show a wet street at half past eight on a January morning, steam coming up off the pavement where the hot-water pipes run underneath it, photographed from inside a bus shelter. Half the town says that is the only honest picture ever taken of us; the other half says it is a photograph of a puddle and some plumbing. They are both correct, which is why it is the one worth forty thousand of anything.
 - Forty thousand matte postcards, 100 by 150, card thick enough that a cheap pen doesn't skid. They are two crops of one photograph, twenty thousand each: the church hill at nine in the evening with the capital's skyline sitting behind it, and the identical shot cropped one centimetre higher, so the skyline is gone and there is only our own roofline and a great deal of sky. Our residents have not agreed since 1994 on which of those is the real picture of the town, and they will not settle it for your shopkeeper either. Which pile goes at the front of the rack is entirely his business, and he should know that either choice offends somebody.
+
+— *The unchosen, printed as written and signed by nobody at all.*
 
 What Valparaíso sent that nobody chose is not itemised here and cannot be: this paper has never known which offers were Valparaíso's, and the one ledger that does know is not something the last edition gets to open. There is a shed for it in the portrait, with the door shut.
 

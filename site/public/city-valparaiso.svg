@@ -8,28 +8,25 @@
 <circle cx="126.0" cy="128.0" r="38.0" fill="#e8542e" opacity="0.85"/>
 <text x="28.0" y="100.0" fill="#15231a" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="bold" text-anchor="start">Valparaíso</text>
 <text x="28.0" y="124.0" fill="#15231a" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" font-style="italic">second on 17.75</text>
-<rect x="306.0" y="241.0" width="59.0" height="83.0" rx="0" fill="#3f9663"/>
-<rect x="321.1" y="250.0" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
-<rect x="321.1" y="272.0" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
-<rect x="321.1" y="294.0" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
-<rect x="381.6" y="197.7" width="59.0" height="126.3" rx="0" fill="#8fcfa4"/>
-<rect x="396.7" y="206.7" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
-<rect x="396.7" y="228.7" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
-<rect x="396.7" y="250.7" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
-<rect x="396.7" y="272.7" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
-<rect x="396.7" y="294.7" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
-<rect x="457.2" y="224.7" width="59.0" height="99.3" rx="0" fill="#3f9663"/>
-<rect x="472.3" y="233.7" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
-<rect x="472.3" y="255.7" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
-<rect x="472.3" y="277.7" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
-<rect x="472.3" y="299.7" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
-<rect x="532.8" y="211.2" width="59.0" height="112.8" rx="0" fill="#8fcfa4"/>
-<rect x="547.9" y="220.2" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
-<rect x="547.9" y="242.2" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
-<rect x="547.9" y="264.2" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
-<rect x="547.9" y="286.2" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
-<rect x="547.9" y="308.2" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
-<text x="306.0" y="197.7" fill="#15231a" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="start">17.75</text>
+<rect x="306.0" y="251.4" width="59.0" height="72.6" rx="0" fill="#3f9663"/>
+<rect x="321.1" y="260.4" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
+<rect x="321.1" y="282.4" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
+<rect x="321.1" y="304.4" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
+<rect x="381.6" y="216.5" width="59.0" height="107.5" rx="0" fill="#8fcfa4"/>
+<rect x="396.7" y="225.5" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
+<rect x="396.7" y="247.5" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
+<rect x="396.7" y="269.5" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
+<rect x="396.7" y="291.5" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
+<rect x="457.2" y="238.2" width="59.0" height="85.8" rx="0" fill="#3f9663"/>
+<rect x="472.3" y="247.2" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
+<rect x="472.3" y="269.2" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
+<rect x="472.3" y="291.2" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
+<rect x="532.8" y="227.4" width="59.0" height="96.6" rx="0" fill="#8fcfa4"/>
+<rect x="547.9" y="236.4" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
+<rect x="547.9" y="258.4" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
+<rect x="547.9" y="280.4" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
+<rect x="547.9" y="302.4" width="12.1" height="9.0" rx="0" fill="#f1f7f1" opacity="0.75"/>
+<text x="306.0" y="216.5" fill="#15231a" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="start">17.75</text>
 <g transform="rotate(-4 526.0 116.0)">
 <rect x="396.0" y="82.0" width="262.0" height="68.0" rx="5" fill="none" opacity="0.75" stroke="#15231a" stroke-width="3"/>
 <text x="527.0" y="110.0" fill="#15231a" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" letter-spacing="1.2">GAMES &amp; PUZZLES</text>

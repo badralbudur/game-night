@@ -89,7 +89,9 @@
         },
         {
           "kind": "quote",
-          "text": "Forty thousand postcards, printed on card thick enough to stand up in a rack, and not one of them the view from the top of the mountain. The image is the town seen from the middle of the river on a grey afternoon, the mountain entirely inside a cloud, one ferry crossing left to right. Half our residents say this is a slander and we should have waited for a clear day; the other half say we have been waiting for a clear day since 1804 and this is the honest one. Both arguments are printed on the reverse in small type, so your shopkeeper has something to say instead of apologising."
+          "text": "Forty thousand postcards, printed on card thick enough to stand up in a rack, and not one of them the view from the top of the mountain. The image is the town seen from the middle of the river on a grey afternoon, the mountain entirely inside a cloud, one ferry crossing left to right. Half our residents say this is a slander and we should have waited for a clear day; the other half say we have been waiting for a clear day since 1804 and this is the honest one. Both arguments are printed on the reverse in small type, so your shopkeeper has something to say instead of apologising.",
+          "voice": "player",
+          "cite": "In the Mayor of Hobart's own words, printed exactly as they arrived at this desk."
         },
         {
           "kind": "para",
@@ -101,11 +103,13 @@
         },
         {
           "kind": "list",
-          "role": "declined_exports",
           "items": [
             "Forty thousand postcards, printed on a matte stock that will not curl in a damp rack. Thirty-eight thousand of them show the harbour, the church and the coloured roofs, which is what visitors buy and which nobody here argues about. The other two thousand show a wet street at half past eight on a January morning, steam coming up off the pavement where the hot-water pipes run underneath it, photographed from inside a bus shelter. Half the town says that is the only honest picture ever taken of us; the other half says it is a photograph of a puddle and some plumbing. They are both correct, which is why it is the one worth forty thousand of anything.",
             "Forty thousand matte postcards, 100 by 150, card thick enough that a cheap pen doesn't skid. They are two crops of one photograph, twenty thousand each: the church hill at nine in the evening with the capital's skyline sitting behind it, and the identical shot cropped one centimetre higher, so the skyline is gone and there is only our own roofline and a great deal of sky. Our residents have not agreed since 1994 on which of those is the real picture of the town, and they will not settle it for your shopkeeper either. Which pile goes at the front of the rack is entirely his business, and he should know that either choice offends somebody."
-          ]
+          ],
+          "voice": "player",
+          "cite": "Offers in their senders' own words. Whose words they are stays in the envelope, permanently.",
+          "role": "declined_exports"
         },
         {
           "kind": "para",
@@ -160,7 +164,10 @@
         },
         {
           "kind": "para",
-          "text": "Exactly one city hall answered simply: “Against, and for the record it is chemistry, not taste. It comes at me like the inside of a new plastic bucket, and I'm told that reaction is genetic, which I choose to read as science taking my side rather than excusing me.” — the Mayor of Belgrade."
+          "text": "Exactly one city hall answered simply: “Against, and for the record it is chemistry, not taste. It comes at me like the inside of a new plastic bucket, and I'm told that reaction is genetic, which I choose to read as science taking my side rather than excusing me.” — the Mayor of Belgrade.",
+          "player_spans": [
+            "Against, and for the record it is chemistry, not taste. It comes at me like the inside of a new plastic bucket, and I'm told that reaction is genetic, which I choose to read as science taking my side rather than excusing me."
+          ]
         },
         {
           "kind": "aside",
@@ -315,9 +322,13 @@
       "colorful": true,
       "allow_pointed_humor": true,
       "disallow_snide_or_mean": true,
+      "forbidden_register_scope": {
+        "value": "newspaper_voice",
+        "means": "the register is run over the paper's own copy; passages a player typed are printed as written and marked as theirs (spec #30b)"
+      },
       "forbidden_register_terms": 33,
-      "spec": "#30",
-      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+      "spec": "#30, #30b",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose in the paper's own voice. A passage a mayor typed is printed as typed and attributed to them (#30b)."
     },
     "lockstep": [
       {
@@ -341,7 +352,7 @@
         "city": "Valparaíso"
       }
     ],
-    "spec": "#25, #26, #28, #29, #30"
+    "spec": "#25, #26, #28, #29, #30, #30b"
   },
   "image": {
     "kind": "edition",

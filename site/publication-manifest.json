@@ -43,8 +43,8 @@
       "source": "hosting.page.edition_page(newest)",
       "why_public": "the one address every mayor holds, answering with the newest edition so a link handed out in round one opens today's paper (spec #26, #30a); the same issue keeps its own permanent page, which this one links (spec #27)",
       "content_type": "text/html; charset=utf-8",
-      "bytes": 18182,
-      "sha256": "5e83313962b91d519328b28978ee2deb308435855c6d9e30846bee988413ecc4"
+      "bytes": 19906,
+      "sha256": "d7ad91c61b93a66182f66011e59fe3ab7471aabf64e6ce26586f0798e0f52e52"
     },
     {
       "path": "archive.html",
@@ -81,8 +81,8 @@
       "source": "newspaper.build_edition(round=2)",
       "why_public": "the edition for round 2, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
       "content_type": "text/html; charset=utf-8",
-      "bytes": 7348,
-      "sha256": "c2a836854320e6a791319cc7297d16bbb724cbe40177e99223b6c0b9aa2b1a89",
+      "bytes": 7370,
+      "sha256": "b3e51acfa47fa26006e117009226183b948d54a26d193a85679e7c45e0086d4b",
       "round": 2
     },
     {
@@ -101,8 +101,8 @@
       "source": "newspaper.build_edition(round=3)",
       "why_public": "the edition for round 3, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
       "content_type": "text/html; charset=utf-8",
-      "bytes": 7954,
-      "sha256": "25a8cbc945c8a494310ec42ade012a3163ee23c717b9f987ce2e7e859e9aafa7",
+      "bytes": 8332,
+      "sha256": "47eadfe0bd44af4d10858b653ce247598d4051156eeb689302101fed2915ab33",
       "round": 3
     },
     {
@@ -121,8 +121,8 @@
       "source": "newspaper.build_edition(round=4)",
       "why_public": "the edition for round 4, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
       "content_type": "text/html; charset=utf-8",
-      "bytes": 7915,
-      "sha256": "ac8d0aab2e275a722c65f3ffc8aaeaa9220775d8183d4bf518d56be98932937e",
+      "bytes": 8253,
+      "sha256": "4ab28d65d4311568b8f433337b96b5bf38e2128deed046612a614c69380b1c65",
       "round": 4
     },
     {
@@ -141,8 +141,8 @@
       "source": "newspaper.build_edition(round=5)",
       "why_public": "the edition for round 5, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
       "content_type": "text/html; charset=utf-8",
-      "bytes": 7544,
-      "sha256": "9fba8e9c88aac70cc36496636646781ae48bd337df23565f94cc4ea7eb7b3999",
+      "bytes": 7859,
+      "sha256": "89c95f3b79c7f3eb21666aaa7aef7202474737244dd170155bcc2f40bd22a917",
       "round": 5
     },
     {
@@ -161,8 +161,8 @@
       "source": "newspaper.build_edition(round=6)",
       "why_public": "the edition for round 6, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
       "content_type": "text/html; charset=utf-8",
-      "bytes": 7611,
-      "sha256": "c010d814e9192cd08ab3175da3c1af883698e3246f7fbcdb950c643bf73d090a",
+      "bytes": 7633,
+      "sha256": "5ee598dcc27fc7ac0e91eeb22972953be0cc56a9ea5eb34bd4897be66b2c6251",
       "round": 6
     },
     {
@@ -181,8 +181,8 @@
       "source": "newspaper.build_edition(round=7)",
       "why_public": "the edition for round 7, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
       "content_type": "text/html; charset=utf-8",
-      "bytes": 7860,
-      "sha256": "de8bb518c0bda56d7085eaabf7008eecb07fee7dc6cc1e23ea9778745d3906a9",
+      "bytes": 7926,
+      "sha256": "a57c788b26cd73162c11627e392fb24612774aebbb859edb5ab05bcf92a5d69d",
       "round": 7
     },
     {
@@ -201,8 +201,8 @@
       "source": "newspaper.build_edition(round=8)",
       "why_public": "the edition for round 8, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
       "content_type": "text/html; charset=utf-8",
-      "bytes": 7797,
-      "sha256": "e2ca858cde3d6e1799cf15513e55d17d043538b043f1dd5827796bb391b44465",
+      "bytes": 8112,
+      "sha256": "eaa112cb2e154c8f6db3a11146f3d06acc34ed1572a0beef9ac56f83d6b216b0",
       "round": 8
     },
     {
@@ -221,8 +221,8 @@
       "source": "newspaper.build_edition(round=9)",
       "why_public": "the edition for round 9, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
       "content_type": "text/html; charset=utf-8",
-      "bytes": 7662,
-      "sha256": "89dbb70c75c2e09d7b974a6983e13f91a78c11bd83d67d7bfe9262c9bb14f77c",
+      "bytes": 7978,
+      "sha256": "a8f837a29da63beb44303225c0a58b97854cf79b81914719814d43a12d3cfbc2",
       "round": 9
     },
     {
@@ -241,8 +241,8 @@
       "source": "newspaper.build_edition(round=10)",
       "why_public": "the edition for round 10, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
       "content_type": "text/html; charset=utf-8",
-      "bytes": 8047,
-      "sha256": "9cc83065732428200e5f6bf149398c25e1fdda6c3fadc0702bcfc89de9bdeef2",
+      "bytes": 8650,
+      "sha256": "3f034e0329e1180b636130ad6d88b79fe73bd540baed6263866da46d61aa8732",
       "round": 10
     },
     {
@@ -251,8 +251,8 @@
       "source": "newspaper.imagery.make_image(round=10)",
       "why_public": "the one image this edition carries (spec #29); drawn from the round's own facts and from ballot positions only, never from who sent what",
       "content_type": "image/svg+xml; charset=utf-8",
-      "bytes": 14704,
-      "sha256": "1e62e5196605dd8a2778b8785f40c927e2618ca66ab64b3df8ed3d66040a750b",
+      "bytes": 13784,
+      "sha256": "973e9be618d51085d57038d27e7011fa26b8978686b7f97d4af25c9f48b86479",
       "round": 10
     },
     {
@@ -261,8 +261,8 @@
       "source": "newspaper.build_edition(round=11)",
       "why_public": "the edition for round 11, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
       "content_type": "text/html; charset=utf-8",
-      "bytes": 7015,
-      "sha256": "1cc6733f66571ad01a67f86c7d5927abea39bc1d97cbeddf7d6cd6e6bc900cbf",
+      "bytes": 7459,
+      "sha256": "52f703d2a3a3e201318dec9c1ae1d358494e2942332ea3c4bc2d8771008d4e74",
       "round": 11
     },
     {
@@ -271,8 +271,8 @@
       "source": "newspaper.imagery.make_image(round=11)",
       "why_public": "the one image this edition carries (spec #29); drawn from the round's own facts and from ballot positions only, never from who sent what",
       "content_type": "image/svg+xml; charset=utf-8",
-      "bytes": 15301,
-      "sha256": "27c6a4d5cd1889ff1a04c3574a173acda731dde8f0f0fa7f72513660044cdb2b",
+      "bytes": 14376,
+      "sha256": "20a1a666f8df3797d9066b7b2f2df5a15945361f9f73851c459c1e008cfc9ea9",
       "round": 11
     },
     {
@@ -281,8 +281,8 @@
       "source": "newspaper.build_edition(round=12)",
       "why_public": "the edition for round 12, at a permanent name so a link handed out in that round still works in the last one (spec #27)",
       "content_type": "text/html; charset=utf-8",
-      "bytes": 6516,
-      "sha256": "b0821f7ee795deb440ba67ad1fa21522b9a16c40862997c3a39ffec230ebfb08",
+      "bytes": 7015,
+      "sha256": "47613f955c785737aabc0f101c9e9345e98ddd499dc39c313825c2c09f7f78ce",
       "round": 12
     },
     {
@@ -291,8 +291,8 @@
       "source": "newspaper.imagery.make_image(round=12)",
       "why_public": "the one image this edition carries (spec #29); drawn from the round's own facts and from ballot positions only, never from who sent what",
       "content_type": "image/svg+xml; charset=utf-8",
-      "bytes": 14843,
-      "sha256": "b34e667461629c04cf4a7177cef5e31877f75fbc1c6939ca5e3e7844becb2dae",
+      "bytes": 13919,
+      "sha256": "241b27157a3794fe7c4defce6ee2ec918dfd5cb5fa6e974b0fee4837919a1ed0",
       "round": 12
     },
     {
@@ -301,8 +301,8 @@
       "source": "newspaper.build_final_edition",
       "why_public": "the last edition -- the crown, the consequences and a portrait of every city (spec #31, #32) -- at a permanent name beside the round editions, so the archive gains an issue rather than losing one (spec #27)",
       "content_type": "text/html; charset=utf-8",
-      "bytes": 17992,
-      "sha256": "811d9e3ce003c106fbeb21ac9cef51f5a0b3c48a80b637acaae4290d05f2d170"
+      "bytes": 19716,
+      "sha256": "168808abd0bace18a9c8076f275ca69cc7c20b8bf216f685cd88f7a5c2c3a63d"
     },
     {
       "path": "endgame.svg",
@@ -310,8 +310,8 @@
       "source": "newspaper.endgame.finale_scene",
       "why_public": "the closing illustration (spec #29, #31): final standings, the crown, and the world's unchosen offers as an unlabelled stack that names no sender",
       "content_type": "image/svg+xml; charset=utf-8",
-      "bytes": 16036,
-      "sha256": "81adceedce4aa77eb2a5c923106ab265e11c79867bbd082db60136472172a633"
+      "bytes": 15304,
+      "sha256": "4cbf4517e3055be0f48c9d992a12652d1ff2329a686826ee441fae985bc23a6f"
     },
     {
       "path": "city-bergen.svg",
@@ -319,8 +319,8 @@
       "source": "newspaper.endgame.city_scene(city='Bergen')",
       "why_public": "the portrait of Bergen (spec #32), drawn from that city's own notices, the offers the world kept from it, and the offers it declined -- the offers it *sent* and nobody chose are a shut door in the picture and a number nowhere in it (spec #21)",
       "content_type": "image/svg+xml; charset=utf-8",
-      "bytes": 7962,
-      "sha256": "51ddbb82880a17b9980510d57a4c4da6ce053f607199aad56912eb3a444f908d"
+      "bytes": 6805,
+      "sha256": "57ff41c5cfc0b558e4a8ce57aab1a09a6ce3bd16411e2ef43c6c0754cee6d4c6"
     },
     {
       "path": "city-hobart.svg",
@@ -328,8 +328,8 @@
       "source": "newspaper.endgame.city_scene(city='Hobart')",
       "why_public": "the portrait of Hobart (spec #32), drawn from that city's own notices, the offers the world kept from it, and the offers it declined -- the offers it *sent* and nobody chose are a shut door in the picture and a number nowhere in it (spec #21)",
       "content_type": "image/svg+xml; charset=utf-8",
-      "bytes": 9814,
-      "sha256": "75cd004b5482fdf7d0e1bede08e1076cc6c1326f0d2876fbaced6d0ce7a53656"
+      "bytes": 9630,
+      "sha256": "58bed4c698538d339749dceb770711d37b64a5a1a682d81813fd304606dd639e"
     },
     {
       "path": "city-kampala.svg",
@@ -337,8 +337,8 @@
       "source": "newspaper.endgame.city_scene(city='Kampala')",
       "why_public": "the portrait of Kampala (spec #32), drawn from that city's own notices, the offers the world kept from it, and the offers it declined -- the offers it *sent* and nobody chose are a shut door in the picture and a number nowhere in it (spec #21)",
       "content_type": "image/svg+xml; charset=utf-8",
-      "bytes": 10443,
-      "sha256": "cfa2b3f7c72254ae93846dd431e76d80b8201bd90c01dff2f505a6bf57a88980"
+      "bytes": 10907,
+      "sha256": "6fa8cd983d656b8d4220232cc5e2106df4d50c22084ff1a733ab747c9f82b524"
     },
     {
       "path": "city-reykjavik.svg",
@@ -346,8 +346,8 @@
       "source": "newspaper.endgame.city_scene(city='Reykjavík')",
       "why_public": "the portrait of Reykjavík (spec #32), drawn from that city's own notices, the offers the world kept from it, and the offers it declined -- the offers it *sent* and nobody chose are a shut door in the picture and a number nowhere in it (spec #21)",
       "content_type": "image/svg+xml; charset=utf-8",
-      "bytes": 8645,
-      "sha256": "b9ae47d1d8b58d10f365a96ae8453caf8453ba7ca52fe854932bc91a8bd4eabc"
+      "bytes": 8555,
+      "sha256": "6d7e437e6688f6bcf69ea02213e46ee239b86e17bba022c99bbe28e12b0265c5"
     },
     {
       "path": "city-valparaiso.svg",
@@ -355,8 +355,8 @@
       "source": "newspaper.endgame.city_scene(city='Valparaíso')",
       "why_public": "the portrait of Valparaíso (spec #32), drawn from that city's own notices, the offers the world kept from it, and the offers it declined -- the offers it *sent* and nobody chose are a shut door in the picture and a number nowhere in it (spec #21)",
       "content_type": "image/svg+xml; charset=utf-8",
-      "bytes": 10476,
-      "sha256": "011ac7eaf466abc82138957631f01f15dc691b0230df1e390c85b479ab1761d0"
+      "bytes": 10202,
+      "sha256": "5734ce0f17cf4a1dffac541ac43e1ba8c1ca544db194c11e2b11a5000e20846c"
     },
     {
       "path": "archive.json",
@@ -364,8 +364,8 @@
       "source": "hosting.build.curated_archive",
       "why_public": "the same editions for a reader that is not a browser, assembled from an allowlist of fields so a later milestone cannot widen it by accident",
       "content_type": "application/json; charset=utf-8",
-      "bytes": 143027,
-      "sha256": "3b679131bed313946654327bf85d12a2852b9cde9e732fe1546775dc4e042a71"
+      "bytes": 150055,
+      "sha256": "11b372a11867de7ab9288d25a4c393467b120d0af56147e06198cf2d0abccd56"
     },
     {
       "path": "style.css",
@@ -373,8 +373,8 @@
       "source": "content/site.css",
       "why_public": "presentation only; it carries no game state and reaches no other origin",
       "content_type": "text/css; charset=utf-8",
-      "bytes": 15934,
-      "sha256": "2689f1f7a968bc270fc523e1ca489a4668ce4f5e9d15b733f9bb16db0f975f50"
+      "bytes": 17227,
+      "sha256": "11be03d564ea5822ffd1779dea758cf414a466846bee9ca9143fb1ce5125fb47"
     },
     {
       "path": "robots.txt",

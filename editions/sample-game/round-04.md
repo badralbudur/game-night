@@ -46,12 +46,16 @@ The winning offer for Hobart, reproduced exactly as it arrived:
 
 > Roast maize, chapati and a spice mix in unlabelled bags, because labels slow everything down.
 
+— *In the Mayor of Kampala's own words, printed exactly as they arrived at this desk.*
+
 The sender, now nameable because they won: Kampala. Profit: 5, on 2 and 3.
 
 Also offered, and declined:
 
 - Salted liquorice, forty cases, which visitors have twice described as a prank.
 - Six thousand alfajores, packed in tins that families here reuse for thirty years.
+
+— *Offers in their senders' own words. Whose words they are stays in the envelope, permanently.*
 
 This paper is not saying who sent those, now or ever. Neither is the Mayor of Hobart, who does not know.
 

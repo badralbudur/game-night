@@ -46,6 +46,8 @@ From the four sealed offers on the Mayor of Reykjavík's desk, one:
 
 > Four hundred apple crates out of the Huon Valley, second-hand, dovetailed by people who expected them to be dropped, lined with hessian and drilled for drainage, filled two parts leaf mould to one part washed river grit. Planted: eight house leeks and a fistful of creeping thyme per box, plus chives, because chives forgive. What they forgive is neglect, salt, wind off the water, a fortnight with nothing at all, being frozen solid, being watered with the cold end of somebody's tea, and being carried indoors in October by a resident who has decided they look cold. What they do not forgive is daily watering, so we have written that on the underside of every crate where it cannot get lost.
 
+— *That is the Mayor of Hobart writing, not this paper: a winning offer is reprinted word for word, spelling, temper and all.*
+
 It came from Hobart, which takes 3 on the roll (1 and 2).
 
 The offers that did not win, printed here because they deserve to be read:
@@ -53,6 +55,8 @@ The offers that did not win, printed here because they deserve to be read:
 - Four hundred window boxes, and every one of them is a decommissioned zinc gutter section off our hills, cut to ninety centimetres, hammered flat at the ends and painted by hand — no two the same colour, because we ran out of everything except confidence. Filled with compost cut with volcanic grit, and planted with nasturtium, geranium and the trailing succulent our grandmothers call *siempreviva*: it forgives drought, it forgives darkness, it forgives being ignored from October to March, and it forgives the man who tips his coffee dregs into it every morning because it rather enjoys that. Nine hundred metres of grey render is not a street, it is a primed canvas that nobody has had the nerve to sign. We are sending the nerve in four hundred pieces.
 - Four hundred window boxes, already loaded, and none of them bought: Ssalongo the tinsmith and his three nephews cut old jerrycans lengthwise, hammered the edges flat, drilled the drainage and painted every one a different colour, so your nine hundred metres of grey will look like a market stall from one end to the other. Eight tonnes of compost on top of that, coffee husk mixed with sweepings from a market that starts at four in the morning, and in each box: mother-in-law's tongue, aloe, and a spider plant cutting. What they forgive is everything — a fortnight's holiday, a dark window, cold glass, being watered with tea, being watered with nothing at all from March until whenever you remember. Aloe will forgive you so completely it will have had babies by the time you notice it.
 - Four hundred larch boxes, planed and pre-drilled, screws in the crate, because a box merely hung in your wind becomes a hazard to pedestrians. The compost is a sixty-forty mix of leafmould and lava grit, and in each box: three houseleeks, one clump of wild thyme lifted off a hillside, and eight arctic poppy seeds scattered on top. It forgives four weeks unwatered, a north wind straight off the water, February darkness, and an owner who goes to Tenerife and tells nobody. What it does not forgive is being loved — tell the four hundred residents to water it once a fortnight and then leave it entirely alone.
+
+— *Offers in their senders' own words. Whose words they are stays in the envelope, permanently.*
 
 The paper would dearly love to say more. The paper has rules.
 

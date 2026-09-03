@@ -161,15 +161,24 @@
         },
         {
           "kind": "para",
-          "text": "A single delegation answered simply: “A funicular ticket, punched.” — the Mayor of Valparaíso."
+          "text": "A single delegation answered simply: “A funicular ticket, punched.” — the Mayor of Valparaíso.",
+          "player_spans": [
+            "A funicular ticket, punched."
+          ]
         },
         {
           "kind": "para",
-          "text": "Exactly one city hall — the Mayor of Kampala — wrote only this: “A recording of the market at seven in the morning.”"
+          "text": "Exactly one city hall — the Mayor of Kampala — wrote only this: “A recording of the market at seven in the morning.”",
+          "player_spans": [
+            "A recording of the market at seven in the morning."
+          ]
         },
         {
           "kind": "para",
-          "text": "And then one lone municipality, from the Mayor of Hobart: “A jar of jam and the recipe for the jam.”"
+          "text": "And then one lone municipality, from the Mayor of Hobart: “A jar of jam and the recipe for the jam.”",
+          "player_spans": [
+            "A jar of jam and the recipe for the jam."
+          ]
         },
         {
           "kind": "aside",
@@ -317,9 +326,13 @@
       "colorful": true,
       "allow_pointed_humor": true,
       "disallow_snide_or_mean": true,
+      "forbidden_register_scope": {
+        "value": "newspaper_voice",
+        "means": "the register is run over the paper's own copy; passages a player typed are printed as written and marked as theirs (spec #30b)"
+      },
       "forbidden_register_terms": 33,
-      "spec": "#30",
-      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+      "spec": "#30, #30b",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose in the paper's own voice. A passage a mayor typed is printed as typed and attributed to them (#30b)."
     },
     "lockstep": [
       {
@@ -343,7 +356,7 @@
         "city": "Bergen"
       }
     ],
-    "spec": "#25, #26, #28, #29, #30"
+    "spec": "#25, #26, #28, #29, #30, #30b"
   },
   "image": {
     "kind": "edition",

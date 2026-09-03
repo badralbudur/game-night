@@ -44,15 +44,19 @@ The Mayor of Kampala has until the end of this round to choose. After that the r
 
 From the four sealed offers on the Mayor of Valparaíso's desk, one:
 
-> Cinnamon buns, three hundred a morning, frozen, ready for an oven you already own.
+> Two hundred paperbacks from the stall by the taxi park, no two alike, and the one I nearly kept is a stupid little book about drainage that I have now read four times.
 
-The sender, now nameable because they won: Bergen. Profit: 7, on 4 and 3.
+— *The Mayor of Kampala wrote that, and the paper has changed nothing in it, as it never does.*
+
+The sender, now nameable because they won: Kampala. Profit: 7, on 4 and 3.
 
 Not chosen, and not attributed:
 
+- Cinnamon buns, three hundred a morning, frozen, ready for an oven you already own.
 - Board games for a wet fortnight, forty boxes, every piece counted twice.
-- A market's worth of Saturday, transplanted whole, noise included.
 - Salted liquorice, forty cases, which visitors have twice described as a prank.
+
+— *Offers in their senders' own words. Whose words they are stays in the envelope, permanently.*
 
 The paper would dearly love to say more. The paper has rules.
 
@@ -80,13 +84,15 @@ _This paper has no position on the question and every position on the arithmetic
 
 | # | City | Profit |
 | --- | --- | --- |
-| 1 | Kampala | 28.75 |
+| 1 | Kampala | 35.75 |
 | 2 | Hobart | 8.75 |
 | 3 | Valparaíso | 8.75 |
-| 4 | Bergen | 7 |
-| 5 | Reykjavík | 5.75 |
+| 4 | Reykjavík | 5.75 |
+| 5 | Bergen | 0 |
 
 Kampala leads, and has been gracious about it in a way this paper found slightly worse than gloating.
+
+Several cities are still on nothing at all. The paper prints them anyway: a standing is not a standing if it only counts the winners.
 
 _Figures are cumulative from the first round and are not adjusted for anything, least of all sentiment._
 

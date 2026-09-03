@@ -36,7 +36,7 @@ snapshot.
 | **M8** — one whole game, played by eight separate agents, with all thirty-five rules checked at once ([`playtest/`](playtest), [`engine/join.py`](engine/join.py)) | built — see [`docs/m8-integration.md`](docs/m8-integration.md) |
 | **M9** — the mayor orders their own import, the orders are actual trade, and a finished round publishes itself ([`engine/trade.py`](engine/trade.py), [`facilitator/`](facilitator)) | built — see [`docs/m9-imports-and-publication.md`](docs/m9-imports-and-publication.md) |
 | **M10** — the reading experience: the address opens the current issue, every page can be navigated, and the paper looks like one ([`hosting/page.py`](hosting/page.py), [`content/site.css`](content/site.css)) | built — see [`docs/m10-reading-experience.md`](docs/m10-reading-experience.md) |
-| **M11** — everyday imports: the whole seed bank is candy, drinks, books, games and small comforts, and the city is flavour rather than a job ([`content/import_needs.json`](content/import_needs.json), [`engine/trade.py`](engine/trade.py)) | built — see [`docs/m11-everyday-imports.md`](docs/m11-everyday-imports.md) |
+| **M11** — everyday imports: the whole seed bank is candy, drinks, books, games and small comforts, the city is flavour rather than a job, and a mayor's own words print as typed ([`content/import_needs.json`](content/import_needs.json), [`engine/trade.py`](engine/trade.py), [`newspaper/voice.py`](newspaper/voice.py)) | built — see [`docs/m11-everyday-imports.md`](docs/m11-everyday-imports.md) |
 
 The engine covers the round timer and its lockstep, the city order queue and its
 two rotations, the import/export/winner cycle with every fallback, the import
@@ -70,7 +70,15 @@ the arithmetic actually licenses, and one image per edition. Nobody has to run
 anything for it to come out — [`facilitator/`](facilitator) hangs on the
 engine's round-completed hook, so a round *ending* renders the edition,
 publishes it, rebuilds the site and hands the facilitator a notice to post to
-the group. Run the tests with:
+the group.
+
+Two voices print in that paper and it says which is which. The desk's own copy
+is held to spec #30 — funny, colourful, pointed, never mean, with a mechanical
+floor under the last of those. A mayor's offer is not the desk's copy: it prints
+exactly as typed, cited to that mayor's office when it won and to nobody at all
+when it did not, and no word in it can rewrite it, redact it or stop an edition
+going out (spec #30b, [`newspaper/voice.py`](newspaper/voice.py)). Run the tests
+with:
 
 ```
 python3 run_tests.py
@@ -123,9 +131,9 @@ python3 -m playtest.run --check      # the report only; writes nothing
 It publishes to its own private address at [`site/playtest/`](site/playtest) —
 spec #27 makes an address an append-only archive, so a second game gets a second
 address rather than overwriting the first — and it checks spec #1–#35, plus the
-lettered sub-rules #13a and #30a, against the finished game, its editions and
+lettered sub-rules #13a, #30a and #30b, against the finished game, its editions and
 its published bytes in one pass:
-[`playtest/conformance.json`](playtest/conformance.json), 30 passing, 4 handed to
+[`playtest/conformance.json`](playtest/conformance.json), 31 passing, 4 handed to
 the Evaluator with the material to judge, 3 that are not decidable from game
 state and say so. Its editions are published by the facilitator's desk as each
 round ends, not by the script afterwards, which is the difference spec #26 turns

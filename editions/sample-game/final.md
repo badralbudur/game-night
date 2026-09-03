@@ -18,21 +18,21 @@ _The last edition of this paper. Mayors are named by city and office only, and n
 
 *The final figures, certified by this paper's accountants, who have asked to be described as exhausted.*
 
-**The crown goes to Kampala.** 28.75, cumulative, from the first notice to the last.
+**The crown goes to Kampala.** 35.75, cumulative, from the first notice to the last.
 
-Valparaíso finished 11 behind — a gap this paper considers both narrow and, now, permanent.
+Valparaíso finished 18 behind — a gap this paper considers both narrow and, now, permanent.
 
-Three of Kampala's offers were chosen over the run of the game, which is a good year at the water.
+Four of Kampala's offers were chosen over the run of the game, which is a good year at the water.
 
 Kampala also took a full roll for solving its own problem, the world having sent it nothing whatsoever that round.
 
 | # | City | Final profit |
 | --- | --- | --- |
-| 1 | Kampala | 28.75 |
+| 1 | Kampala | 35.75 |
 | 2 | Valparaíso | 17.75 |
 | 3 | Hobart | 15.75 |
-| 4 | Bergen | 7 |
-| 5 | Reykjavík | 5.75 |
+| 4 | Reykjavík | 5.75 |
+| 5 | Bergen | 0 |
 
 _Final figures, cumulative from the first round, unadjusted for luck, weather, or the strength of anybody's feelings._
 
@@ -48,11 +48,15 @@ The trade is finished, the ledger is closed, and 12 things are now permanently i
 
 > Four hundred metres of bunting in the colours the hills painted themselves, ladders included.
 
+— *The Mayor of Valparaíso's own words, unaltered. What they did after arriving is a separate matter, below.*
+
 Valparaíso wrote that. Reykjavík read it, wanted it, and took delivery of it against the notice titled "Window boxes for one long grey street".
 
 It has taken to Reykjavík magnificently, in every direction, and through one wall.
 
 > Roast maize, chapati and a spice mix in unlabelled bags, because labels slow everything down.
+
+— *The offer as the Mayor of Kampala wrote it, which is how it was read and how it is printed here.*
 
 Kampala wrote that. Hobart read it, wanted it, and took delivery of it against the notice titled "Outfitting for a swimming club that swims in March".
 
@@ -60,11 +64,15 @@ Everybody in Hobart is warm, visible from a distance, and has entirely stopped m
 
 > Wool socks in colours our grandmothers chose. A thousand pairs, all slightly wrong.
 
+— *The offer as the Mayor of Reykjavík wrote it, which is how it was read and how it is printed here.*
+
 Reykjavík wrote that. Valparaíso read it, wanted it, and took delivery of it against the notice titled "Board games for a wet fortnight".
 
 There is a league in Valparaíso now. There is also, already, a disputed result.
 
 > Two hundred waxed cotton raincoats, unbeautiful, tested annually by the actual weather.
+
+— *The Mayor of Hobart's own words, unaltered. What they did after arriving is a separate matter, below.*
 
 Hobart wrote that. Bergen read it, wanted it, and took delivery of it against the notice titled "Cordial, for two hundred jugs".
 
@@ -86,15 +94,15 @@ _No city hall has accepted responsibility for any of the above, which this paper
 
 ### Bergen
 
-![A portrait of Bergen in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 1 ribboned crates for the offers the world kept, 3 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.](city-bergen.svg)
+![A portrait of Bergen in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 3 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.](city-bergen.svg)
 
 *The portrait of Bergen: notices, ribbons, leftovers, and one closed door.*
 
-Bergen, fourth on 7, drawn here from its own record and nobody else's.
+Bergen, fifth on 0, drawn here from its own record and nobody else's.
 
 Bergen's notices this game: Cordial, for two hundred jugs and Coffee that does not taste of the urn. Two in total, each one a thing it wanted and could not get at home.
 
-The world kept this, from Bergen: *Cinnamon buns, three hundred a morning, frozen, ready for an oven you already own.* — chosen in Valparaíso.
+Nothing in this paper's whole arrivals column came from Bergen. The column is the poorer for it and has said so.
 
 Bergen's deliberation once outlasted its own window, and 4 cities were paid for it.
 
@@ -102,9 +110,12 @@ Three offers reached Bergen and went unchosen. Bergen kept the pile anyway — b
 
 From that pile, unattributed as ever:
 
+- A market's worth of Saturday, transplanted whole, noise included.
 - Six thousand alfajores, packed in tins that families here reuse for thirty years.
 
-Kept in the crate: two offers matching, sentence for sentence, an offer credited by name elsewhere in this edition — the same words having won somewhere and lost here.
+— *Offers this city turned down, in the words they came in. No senders named, this year or any year.*
+
+Kept in the crate: one offer matching, sentence for sentence, an offer credited by name elsewhere in this edition — the same words having won somewhere and lost here.
 
 Bergen's own unchosen offers exist, are somewhere in Bergen, and are nobody's business. The portrait draws the door and stops there.
 
@@ -131,23 +142,25 @@ From that pile, unattributed as ever:
 - Salted liquorice, forty cases, which visitors have twice described as a prank.
 - Six thousand alfajores, packed in tins that families here reuse for thirty years.
 
+— *Offers this city turned down, in the words they came in. No senders named, this year or any year.*
+
 Hobart's own unchosen offers exist, are somewhere in Hobart, and are nobody's business. The portrait draws the door and stops there.
 
 For the record, the Mayor of Hobart, asked *What was the last thing that made you laugh out loud, on your own?*: “A dog on the ferry who clearly commutes.”
 
 ### Kampala
 
-![A portrait of Kampala in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 3 ribboned crates for the offers the world kept, 3 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.](city-kampala.svg)
+![A portrait of Kampala in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 4 ribboned crates for the offers the world kept, 3 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.](city-kampala.svg)
 
 *The portrait of Kampala: notices, ribbons, leftovers, and one closed door.*
 
-Kampala finishes first, on 28.75, and looks — the illustrator is firm about this — exactly like a city that finished first on 28.75.
+Kampala finishes first, on 35.75, and looks — the illustrator is firm about this — exactly like a city that finished first on 35.75.
 
 Kampala came to the world two times, over Biscuits, by the tin, for a hall with three bookings and Prizes for a fête, and nothing sensible.
 
-Three times this game, a city read an unsigned offer and it turned out to be Kampala's.
+Four times this game, a city read an unsigned offer and it turned out to be Kampala's.
 
-Chosen, in Hobart, from Kampala: *Roast maize, chapati and a spice mix in unlabelled bags, because labels slow everything down.*
+Chosen, in Valparaíso, from Kampala: *Two hundred paperbacks from the stall by the taxi park, no two alike, and the one I nearly kept is a stupid little book about drainage that I have now read four times.*
 
 When nobody answered Kampala's notice, Kampala built the answer itself. The shed is in the picture.
 
@@ -157,6 +170,8 @@ Two offers, reprinted without a sender, because the writing deserves a second re
 
 - Rain, in quantity, and the raincoats to shrug at it.
 - Apples, forty cases, in six varieties nobody off this island has heard of.
+
+— *Offers this city turned down, in the words they came in. No senders named, this year or any year.*
 
 Also withheld: one offer reading word for word like something this paper has already credited to a city elsewhere in today's edition. An unattributed reprint would be a riddle with the answer two columns up.
 
@@ -170,7 +185,7 @@ On the question *Best thing you have ever eaten standing up?*, Kampala's answer 
 
 *Reykjavík at the end of the game, with 4 declined offers behind it and the shed door shut on the rest.*
 
-Fifth: Reykjavík, 5.75, and a harbour that has seen things this year.
+Fourth: Reykjavík, 5.75, and a harbour that has seen things this year.
 
 Reykjavík came to the world two times, over Window boxes for one long grey street and Four hundred hot water bottles, and the covers for them.
 
@@ -184,6 +199,8 @@ From that pile, unattributed as ever:
 
 - Apples, forty cases, in six varieties nobody off this island has heard of.
 - Fish soup in vacuum packs, and a two-hundred-year opinion about freshness.
+
+— *Offers this city turned down, in the words they came in. No senders named, this year or any year.*
 
 Reykjavík's own unchosen offers exist, are somewhere in Reykjavík, and are nobody's business. The portrait draws the door and stops there.
 
@@ -209,6 +226,8 @@ From that pile, unattributed as ever:
 
 - Rain, in quantity, and the raincoats to shrug at it.
 - A market's worth of Saturday, transplanted whole, noise included.
+
+— *The unchosen, printed as written and signed by nobody at all.*
 
 Withheld as well: one offer that wrote a city into the text. The rule outlives the game.
 

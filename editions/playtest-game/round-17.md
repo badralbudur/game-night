@@ -32,6 +32,8 @@ The winning offer for Trieste, reproduced exactly as it arrived:
 
 > *Chorrillana*, disassembled for travel, thirty portions: vacuum-packed strips of beef, sliced onion in its own bag, and the potatoes cut into batons and blanched and frozen because that is the only honest way to move a chip across an ocean. Thirty eggs travel separately and go on top at the last second, still soft, and the whole thing is fried in one pan and tipped out in one heap — this is the food of eleven at night, standing, in a bar with a tiled floor and a man playing guitar at nobody. You eat it out of the pan. Not a plate: the shallow steel pan it was cooked in, set straight down on the counter with four forks in it and no one appointed to divide it fairly, which is the entire tradition. We are sending thirty pans, and a bottle of *pisco* to be drunk by whoever is still standing at one.
 
+— *In the Mayor of Valparaíso's own words, printed exactly as they arrived at this desk.*
+
 The sender, now nameable because they won: Valparaíso. Profit: 10, on 6 and 4.
 
 Not chosen, and not attributed:
@@ -39,6 +41,8 @@ Not chosen, and not attributed:
 - Two hundred lamb sausages, vacuum-packed and frozen; twelve tubs of remoulade; six tins of sweet brown mustard; four kilos of crisp fried onion in sealed bags; and a sack of raw onion, which you chop small yourself. That is one snack, assembled in that order at a kiosk window at eleven at night, and it is eaten out of a folded paper napkin, standing up, with your back to whatever the wind is doing. Also two crates of dried fish in strips, vacuum-packed, and a pound of butter: no cooking, no plate, you tear a piece, butter it, and eat it out of your own hand. Both keep for months. Neither of them wants a table, which I understand is the whole point of eleven o'clock.
 - Three hundred curried scallop pies, frozen hard, packed in dry ice: shortcrust, a yellow sauce the exact colour of a wet raincoat, and scallops out of the channel rather than out of a bag from somewhere else. They are eaten standing on a wharf at eleven at night out of a flat white paper bag folded down twice, back to the wind, sauce running towards the wrist, which is the point rather than the fault. Two thousand bags in the crate, and four hundred wooden forks nobody will use. Twenty minutes in a real oven; whoever microwaves one has ended the exercise for everybody.
 - The snack is the rolex, eaten standing at eleven at night at a stall with one bulb, and it travels better than anyone expects: six hundred chapatis vacuum-packed in stacks of six and still soft, eight kilos of the cabbage-tomato-onion-chilli mix sealed in tubs, and a tin of the spice, because eggs are the one thing anybody can find for themselves at that hour. What you eat it out of is a torn triangle of yesterday's newspaper, one hand, no plate, ever — a plate turns it into dinner and ruins the whole institution — so I have sent a bale of last week's papers to see the first three hundred done properly. And Tonny is in the crate too, or rather beside it, with his oil drum and his flat blade; he rolls one in forty seconds and he will not tell you what is in the spice tin. You have been hungry at eleven for years without mentioning it. Mention it.
+
+— *Printed as written and attributed to nobody. The paper knows; the paper is not saying.*
 
 Those arrived unsigned and will stay that way. A losing offer's city is nobody's business, permanently.
 

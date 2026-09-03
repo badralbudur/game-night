@@ -15,7 +15,8 @@
     "the_crown": ["{city}", "{mayor}", "{profit}", "{city_list}", "{n_winners}", "{runner_up}", "{margin}", "{n_cities}", "{n_others}", "{n_needs}", "{rounds}", "{wins}", "{wins_word}"],
     "consequences": ["{city}", "{to_city}", "{from_city}", "{export}", "{title}", "{category_label}", "{n_cities}", "{n_arrivals}", "{excess}", "{excess_word}", "{flavours}"],
     "the_excess": ["{city}", "{mayor}", "{profit}", "{rank}", "{rank_word}", "{to_city}", "{export}", "{title}", "{titles}", "{category_label}", "{count}", "{count_word}", "{counted}", "{flavour}", "{question}", "{answer}", "{n_imports}", "{n_imports_word}", "{n_cities}"],
-    "endgame_imagery": ["{city}", "{count}", "{profit}", "{excess}", "{n_cities}"]
+    "endgame_imagery": ["{city}", "{count}", "{profit}", "{excess}", "{n_cities}"],
+    "player_voice": ["{mayor}"]
   },
 
   "_pointed_note": "A frame may be written either as a plain string or as {\"line\": \"...\", \"pointed\": true}. Spec #30 allows humour that is pointed rather than uniformly laudatory, and config.newspaper.tone.allow_pointed_humor decides whether this particular game wants it; frames marked pointed are dropped when it is false, and every family keeps at least one unpointed frame so nothing can be left with nothing to say. 'Pointed' here means the joke has a target -- an institution, a decision, the paper itself. A joke whose target is a person is not pointed, it is mean, and it does not belong in this file at any setting (see tone.forbidden_register).",
@@ -780,8 +781,30 @@
     ]
   },
 
+  "player_voice": {
+    "_comment": "Spec #30b. Two voices print in this paper. The desk's own is held to the tone rules below; the mayors' is reprinted exactly as it was typed, because an export is free-form (spec #15) and the paper's job is to carry it, not to improve it. These are the lines that tell a reader which is which, and they are content rather than code for the usual reason: how a paper says 'these are not our words' is a writing decision. A winning offer is quoted under its mayor's office, since winning makes the sender nameable; a declined offer is quoted under a line that says plainly the paper is not naming anybody, which is spec #21 and outranks any wish to give credit. The declined families take no substitutions at all -- not even {mayor} -- which is the cheapest possible way to make a slip impossible.",
+    "winner_quote": [
+      "In {mayor}'s own words, printed exactly as they arrived at this desk.",
+      "That is {mayor} writing, not this paper: a winning offer is reprinted word for word, spelling, temper and all.",
+      "{mayor} wrote that, and the paper has changed nothing in it, as it never does."
+    ],
+    "declined_quote": [
+      "Offers in their senders' own words. Whose words they are stays in the envelope, permanently.",
+      "Printed as written and attributed to nobody. The paper knows; the paper is not saying.",
+      "Those are mayors writing, word for word. Which mayors is not this paper's news to print."
+    ],
+    "twist_quote": [
+      "The offer as {mayor} wrote it, which is how it was read and how it is printed here.",
+      "{mayor}'s own words, unaltered. What they did after arriving is a separate matter, below."
+    ],
+    "excess_quote": [
+      "Offers this city turned down, in the words they came in. No senders named, this year or any year.",
+      "The unchosen, printed as written and signed by nobody at all."
+    ]
+  },
+
   "tone": {
-    "_comment": "Spec #30: funny, fun, colorful, allowed to be pointed, never snide or mean. The first three are judged by a human or a judging role; this block is the mechanical half. forbidden_register is run over every rendered edition when config.newspaper.tone.disallow_snide_or_mean is true, and an edition that trips it does not publish. It is deliberately a list of words that can only be doing one job in a sentence: attacking somebody. It is a floor, not a ceiling -- passing it is not the same as being kind.",
+    "_comment": "Spec #30: funny, fun, colorful, allowed to be pointed, never snide or mean. The first three are judged by a human or a judging role; this block is the mechanical half. forbidden_register is run over every rendered edition when config.newspaper.tone.disallow_snide_or_mean is true, and an edition that trips it does not publish. It runs over the paper's own voice: config.newspaper.tone.forbidden_register_scope is newspaper_voice, and the passages player_voice above marks as a mayor's are subtracted before the scan, so a mayor's word choice never blocks an edition or gets rewritten (spec #30b). It is deliberately a list of words that can only be doing one job in a sentence: attacking somebody. It is a floor, not a ceiling -- passing it is not the same as being kind.",
     "forbidden_register": [
       "idiot", "idiotic", "stupid", "stupidity", "moron", "cretin", "imbecile",
       "pathetic", "useless", "worthless", "incompetent", "clueless", "hopeless case",

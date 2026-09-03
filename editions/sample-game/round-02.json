@@ -108,7 +108,11 @@
         },
         {
           "kind": "para",
-          "text": "The only two delegations to reply, so this paper declines to speak for the world. Kampala says: “Roast maize from a woman on Jinja Road who has never once been wrong.” Valparaíso says: “An empanada from a window on Cerro Alegre, eaten walking.”"
+          "text": "The only two delegations to reply, so this paper declines to speak for the world. Kampala says: “Roast maize from a woman on Jinja Road who has never once been wrong.” Valparaíso says: “An empanada from a window on Cerro Alegre, eaten walking.”",
+          "player_spans": [
+            "An empanada from a window on Cerro Alegre, eaten walking.",
+            "Roast maize from a woman on Jinja Road who has never once been wrong."
+          ]
         },
         {
           "kind": "para",
@@ -239,9 +243,13 @@
       "colorful": true,
       "allow_pointed_humor": true,
       "disallow_snide_or_mean": true,
+      "forbidden_register_scope": {
+        "value": "newspaper_voice",
+        "means": "the register is run over the paper's own copy; passages a player typed are printed as written and marked as theirs (spec #30b)"
+      },
       "forbidden_register_terms": 33,
-      "spec": "#30",
-      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+      "spec": "#30, #30b",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose in the paper's own voice. A passage a mayor typed is printed as typed and attributed to them (#30b)."
     },
     "lockstep": [
       {
@@ -263,7 +271,7 @@
         "need": null
       }
     ],
-    "spec": "#25, #26, #28, #29, #30"
+    "spec": "#25, #26, #28, #29, #30, #30b"
   },
   "image": {
     "kind": "edition",

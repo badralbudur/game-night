@@ -4,7 +4,8 @@ This is the fixture behind ``editions/sample-game/`` and behind the newspaper
 tests. It is deliberately not a happy path: it contains a mayor who joins in
 round 3, a notice nobody answers at all, an importing mayor who lets their
 picking window lapse, mayors whose two game actions crowd the question out of
-their check-in, and an export that names its own city. Those are the rounds where
+their check-in, an export that names its own city, and an export whose own
+wording trips the paper's editorial register. Those are the rounds where
 the paper has to say something careful, and a sample edition that only showed the
 easy round would prove very little.
 
@@ -114,6 +115,28 @@ SIGNED_OFFER = (
     "A crate of Hobart apples with the word Hobart stamped into every single one.",
 )
 
+#: The one offer in this game whose own wording the paper would never write, so
+#: the sample exercises spec #30b: a mayor's export is player voice, printed as
+#: typed even when it trips the editorial register, and cited to the mayor who
+#: wrote it rather than absorbed into the paper's voice.
+#:
+#: "Stupid" here is aimed at a book about drainage, which is the case
+#: ``content/newspaper.json``'s own note on the register describes -- a word a
+#: kinder paper might use innocently -- and it is the whole reason the register
+#: cannot be allowed to bind players: the alternative is a round that will not
+#: publish because one mayor was rude about a municipal handbook.
+#:
+#: It is deliberately the longest offer on its ballot, since the scripted mayor
+#: picks by length (see :func:`_pick_winners`), so it wins and is quoted rather
+#: than reprinted anonymously. The declined-offer side of #30b is proved in
+#: ``tests/test_player_voice.py``, where a game can be built to order.
+BLUNT_OFFER = (
+    "m-kmp",
+    "Two hundred paperbacks from the stall by the taxi park, no two alike, and "
+    "the one I nearly kept is a stupid little book about drainage that I have "
+    "now read four times.",
+)
+
 #: The round-by-round deviations. Everything not listed here is a cooperative
 #: round: everybody exports, every importing mayor picks, everybody who is
 #: offered the question answers it.
@@ -131,6 +154,10 @@ PLAN = {
     6: {"skip_picks": True},
     # One mayor simply does not check in.
     7: {"skip_exports": ("m-vlp",)},
+    # An offer whose own wording trips the paper's editorial register, sent to
+    # Valparaíso's second notice. It wins, and the paper prints it as written
+    # and cites it to the mayor who wrote it (spec #30b).
+    8: {"blunt_offer": True},
 }
 
 #: Questions this seed draws that are deliberately left unanswered, so the paper
@@ -381,6 +408,9 @@ def _submit_exports(game, step, offer_index):
         city = game.players[player_id].city
         if step.get("signed_offer") and player_id == SIGNED_OFFER[0]:
             game.submit_export(player_id, SIGNED_OFFER[1])
+            continue
+        if step.get("blunt_offer") and player_id == BLUNT_OFFER[0]:
+            game.submit_export(player_id, BLUNT_OFFER[1])
             continue
         offers = OFFERS[city]
         index = offer_index.get(city, 0)

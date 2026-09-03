@@ -36,6 +36,8 @@ From the seven sealed offers on the Mayor of Belgrade's desk, one:
 
 > One case: forty-eight paper packets of the pastille — salt liquorice and menthol, in green waxed paper, sold for a hundred years to people with a cough and eaten almost entirely by people without one. They taste like the back room of a chemist's and at least one member of your allotment society will leave the hall. Underneath, one proper tin of chest-sugar, which is the actual name of it, hard boiled sweets of barley and eucalyptus, once given to children for a chest and now given to children because it is Sunday. Wrappers all included, as asked. Keep the packets; the reading matter printed on the back is half of what you are getting.
 
+— *That is the Mayor of Reykjavík writing, not this paper: a winning offer is reprinted word for word, spelling, temper and all.*
+
 The sender, now nameable because they won: Reykjavík. Profit: 4, on 1 and 3.
 
 Also offered, and declined:
@@ -43,6 +45,8 @@ Also offered, and declined:
 - One case, ninety-six units, of *dulce de alcayota* — candied squash threads in syrup, gone amber and slightly translucent, which is what happens when a fruit nobody wants meets a grandmother with time. Twelve jars of it, plus sixty *empolvados* dusted in icing sugar, plus twenty-four bars of *dulce de membrillo*, quince paste cut in slabs and wrapped in waxed paper with a rubber band, which is precisely how it comes out of my aunt's cupboard and I have not improved on it. Wrapper and all, as asked: our own contribution to the frankly alarming category is a bag of *cochayuyo* candied in honey — that is seaweed, sea-stalk, chewed here for centuries, tastes medicinal because it *is* medicinal, and there is not an airport on this planet that would stock it. Send the empty jars back and we will refill them.
 - A case of what our grandmothers actually keep in the tin: hard-boiled leatherwood honey drops that taste of smoke and flowers and are not to all tastes, eucalyptus lozenges of the strictly medicinal school, which were given to us for coughs until we began getting coughs deliberately, and blackcurrant pastilles that stain a mouth purple for an hour. Two hundred twists, and the wrappers are cut from a stack of old ferry timetables, so the alarming ones can be identified afterwards by the 7:15 to Bellerive. The tin is included, has a thistle on it, and comes with no explanation.
 - One case, two hundred and forty twists, of Jjajja Nakato's tangawizi: ginger boiled down with honey and jaggery, a genuinely irresponsible amount of black pepper, and a suspicion of clove, pulled by hand and set hard as a pebble. Wrapper and all, as asked — waxed paper twisted at both ends, each one stamped with a crane by a rubber stamp she has had since before I was mayor of anything, and the whole lot arrives in her actual tin, with the dent in the lid, which I am told I may not keep. Faintly medicinal is generous: it cures nothing and clears everything, sinuses, arguments, and one uncle in 1974 whom she still cites as evidence. Do not put it in an airport. It would not survive the company.
+
+— *Printed as written and attributed to nobody. The paper knows; the paper is not saying.*
 
 This paper is not saying who sent those, now or ever. Neither is the Mayor of Belgrade, who does not know.
 

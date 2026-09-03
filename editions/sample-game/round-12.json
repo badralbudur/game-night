@@ -56,7 +56,9 @@
         },
         {
           "kind": "quote",
-          "text": "Two hundred waxed cotton raincoats, unbeautiful, tested annually by the actual weather."
+          "text": "Two hundred waxed cotton raincoats, unbeautiful, tested annually by the actual weather.",
+          "voice": "player",
+          "cite": "The Mayor of Hobart wrote that, and the paper has changed nothing in it, as it never does."
         },
         {
           "kind": "para",
@@ -68,10 +70,13 @@
         },
         {
           "kind": "list",
-          "role": "declined_exports",
           "items": [
+            "A market's worth of Saturday, transplanted whole, noise included.",
             "Six thousand alfajores, packed in tins that families here reuse for thirty years."
-          ]
+          ],
+          "voice": "player",
+          "cite": "Offers in their senders' own words. Whose words they are stays in the envelope, permanently.",
+          "role": "declined_exports"
         },
         {
           "kind": "para",
@@ -79,7 +84,7 @@
         },
         {
           "kind": "para",
-          "text": "Two offers matched, sentence for sentence, an offer already printed with its sender named. The paper is not going to pretend it cannot see that, and has left the text out."
+          "text": "One offer matched, sentence for sentence, an offer already printed with its sender named. The paper is not going to pretend it cannot see that, and has left the text out."
         }
       ],
       "provenance": {
@@ -158,7 +163,7 @@
             [
               1,
               "Kampala",
-              "28.75"
+              "35.75"
             ],
             [
               2,
@@ -172,19 +177,23 @@
             ],
             [
               4,
-              "Bergen",
-              "7"
+              "Reykjavík",
+              "5.75"
             ],
             [
               5,
-              "Reykjavík",
-              "5.75"
+              "Bergen",
+              "0"
             ]
           ]
         },
         {
           "kind": "para",
           "text": "Kampala leads, and has been gracious about it in a way this paper found slightly worse than gloating."
+        },
+        {
+          "kind": "para",
+          "text": "A city on zero is still a city. The column includes everybody, which is the point of a column."
         },
         {
           "kind": "note",
@@ -242,9 +251,13 @@
       "colorful": true,
       "allow_pointed_humor": true,
       "disallow_snide_or_mean": true,
+      "forbidden_register_scope": {
+        "value": "newspaper_voice",
+        "means": "the register is run over the paper's own copy; passages a player typed are printed as written and marked as theirs (spec #30b)"
+      },
       "forbidden_register_terms": 33,
-      "spec": "#30",
-      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+      "spec": "#30, #30b",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose in the paper's own voice. A passage a mayor typed is printed as typed and attributed to them (#30b)."
     },
     "lockstep": [
       {
@@ -263,7 +276,7 @@
         "city": "Bergen"
       }
     ],
-    "spec": "#25, #26, #28, #29, #30"
+    "spec": "#25, #26, #28, #29, #30, #30b"
   },
   "image": {
     "kind": "edition",

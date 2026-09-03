@@ -46,6 +46,8 @@ The winning offer for Belgrade, reproduced exactly as it arrived:
 
 > As I was saying — one paint tin, lid hammered down, six dozen simsim and coconut rocks from Mama Ssalongo, who has baked in an oil drum at the same market corner for thirty-one years and measures nothing. Sesame, grated coconut, brown sugar cooked to the stage she calls angry, and a knuckle of ginger, so they come out looking like gravel and taste like a fairground. Does it survive a dunk? It survives. Your tea will not survive — it goes cloudy, it goes sweet, it gives up entirely — but the biscuit comes out whole, and this is the only biscuit at your table that will make an allotment society respect it.
 
+— *In the Mayor of Kampala's own words, printed exactly as they arrived at this desk.*
+
 It came from Kampala, which takes 5 on the roll (1 and 4).
 
 Also offered, and declined:
@@ -53,6 +55,8 @@ Also offered, and declined:
 - One tin, and I will tell you now it is not going to be like the other eleven. Ours is a hard, plain, rusk-coloured square, sixty to the tin, made to be eaten with butter and a slice of cheese thicker than the biscuit itself, and it is called, without any ceremony at all, the food biscuit. It survives a dunk the way a paving slab survives rain: completely, and without becoming any nicer for it. Dunk one for the swimming club's satisfaction, then butter a second one properly and see which side of the argument you come down on.
 - One tin, kilo and a half, of *chilenitos*: two rounds of shortcrust barely thicker than a coin, glued with *manjar* — boiled milk caramel, dark, half a shade from burnt — and hatted with a dome of hard meringue. It does not survive a dunk. It does not survive being carried across a room. Dunk it and you will be holding a wet biscuit stump above a cup that has become dessert, which our position is that this was the intention all along and the swimming club will be the first to admit it. So the tin also contains a hundred *palitos de manjar*, finger-length caramel-filled tubes that are structurally serious, dunk twice, hold, and can be eaten one-handed while arguing about an allotment. Baked Tuesday by Señora Norma Ibarra, who has run the same oven for thirty-one years and asks only that you do not put them in the fridge.
 - One tin, ninety-six Anzac biscuits, baked in the football club canteen on a Thursday by the three women who have run that canteen since the ground had no lights: rolled oats, coconut, golden syrup, no egg, so they keep. They survive a dunk. They survive two dunks, a dropped tin and a wet Wednesday in a coat pocket, and the canteen considers the question mildly insulting. The tin is from the seventies, has a boat on it, and is not coming back, so keep your screws in it.
+
+— *Offers in their senders' own words. Whose words they are stays in the envelope, permanently.*
 
 Those arrived unsigned and will stay that way. A losing offer's city is nobody's business, permanently.
 

@@ -89,7 +89,9 @@
         },
         {
           "kind": "quote",
-          "text": "Kópavogur, *querido* — four hundred years and only cake? Valparaíso salutes the discipline. Loading tomorrow on the *ascensor* Artillería, hand-cranked down the hill by Doña Inés Carvajal, who has been baking on Cerro Alegre through four earthquakes, eleven winters of horizontal rain and three changes of paint on the same bakery wall, and has never once let a *torta* fall: eighteen tall *tortas de mil hojas*, forty layers each, thin as a gull's patience; twenty-four flat almond *kuchen* from the German bakers down at Puerto Varas, my cousins by marriage and rivals by nature; and nine *borrachos* soaked in *pisco* until they can barely stand, much like certain councillors after our budget votes. The boxes: three hundred, corrugated, painted by the mural collective of Cerro Concepción in the exact blues we use on the funicular sheds, so your rubbish bins will look better than most of our streets. Icing: sixty kilos, twelve colours, enough to write nonsense until 2426. Eat the *borrachos* first. They travel badly and improve everything."
+          "text": "Kópavogur, *querido* — four hundred years and only cake? Valparaíso salutes the discipline. Loading tomorrow on the *ascensor* Artillería, hand-cranked down the hill by Doña Inés Carvajal, who has been baking on Cerro Alegre through four earthquakes, eleven winters of horizontal rain and three changes of paint on the same bakery wall, and has never once let a *torta* fall: eighteen tall *tortas de mil hojas*, forty layers each, thin as a gull's patience; twenty-four flat almond *kuchen* from the German bakers down at Puerto Varas, my cousins by marriage and rivals by nature; and nine *borrachos* soaked in *pisco* until they can barely stand, much like certain councillors after our budget votes. The boxes: three hundred, corrugated, painted by the mural collective of Cerro Concepción in the exact blues we use on the funicular sheds, so your rubbish bins will look better than most of our streets. Icing: sixty kilos, twelve colours, enough to write nonsense until 2426. Eat the *borrachos* first. They travel badly and improve everything.",
+          "voice": "player",
+          "cite": "In the Mayor of Valparaíso's own words, printed exactly as they arrived at this desk."
         },
         {
           "kind": "para",
@@ -101,12 +103,14 @@
         },
         {
           "kind": "list",
-          "role": "declined_exports",
           "items": [
             "Three kinds, since a four-hundredth should not be one kind. Twenty tall ones: eleven thin layers with rhubarb jam between, sliced thinner than you think is generous, the cake made here when you cannot think what else to give a person. Forty flat ones, baked in the tray they are cut in, cocoa icing and desiccated coconut, and the tray goes home with somebody who is expected to return it. Twelve soaked in enough of something that you should warn the choir before it sings. Two hundred boxes with string, thirty kilos of icing in six colours and sixty piping bags — enough nonsense for four hundred years with a margin left over for the arguing about it.",
             "Three cakes for four hundred years. Tall is a six-tier leatherwood honey cake, dry-stacked so it travels; flat is eight trays of raspberry and blackcurrant slab off fruit picked forty minutes from here and not out of a tin; soaked is one eleven-kilo fruit cake that has had a capful of local single malt every Sunday since your notice went up and needs no further assistance from anybody. Twelve waxed boxes with string handles that hold together in rain, twenty-two kilos of royal icing, sixty piping bags. Beryl comes with it: she can pipe legible cursive upside down on a wobbling trestle table and will write whatever you tell her to, having heard worse.",
             "Forty women from the market savings group each baked one tin of banana-and-cardamom cake, and when you lay them end to end on trestles you get a single flat cake nine metres long, then Nnalongo goes down the whole length with a jug and soaks it in ginger, lemongrass and passionfruit syrup until it is legally a pudding. Four hundred pink cake boxes as well, tied with sisal string, because a birthday where nobody carries a slice home is a meeting. Twenty-four kilos of buttercream in eight colours and sixty piping bags, and here is how I would use them: one guest, one year, one piece of nonsense each, and nobody is allowed to correct anybody's spelling for four hundred years."
-          ]
+          ],
+          "voice": "player",
+          "cite": "Printed as written and attributed to nobody. The paper knows; the paper is not saying.",
+          "role": "declined_exports"
         },
         {
           "kind": "para",
@@ -325,9 +329,13 @@
       "colorful": true,
       "allow_pointed_humor": true,
       "disallow_snide_or_mean": true,
+      "forbidden_register_scope": {
+        "value": "newspaper_voice",
+        "means": "the register is run over the paper's own copy; passages a player typed are printed as written and marked as theirs (spec #30b)"
+      },
       "forbidden_register_terms": 33,
-      "spec": "#30",
-      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+      "spec": "#30, #30b",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose in the paper's own voice. A passage a mayor typed is printed as typed and attributed to them (#30b)."
     },
     "lockstep": [
       {
@@ -351,7 +359,7 @@
         "city": "Kópavogur"
       }
     ],
-    "spec": "#25, #26, #28, #29, #30"
+    "spec": "#25, #26, #28, #29, #30, #30b"
   },
   "image": {
     "kind": "edition",

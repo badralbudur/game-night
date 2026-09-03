@@ -7,20 +7,19 @@
 <rect x="0.0" y="58.0" width="900.0" height="266.0" rx="0" fill="#bfe08a"/>
 <circle cx="126.0" cy="128.0" r="38.0" fill="#e4772e" opacity="0.85"/>
 <text x="28.0" y="100.0" fill="#1a2415" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="bold" text-anchor="start">Reykjavík</text>
-<text x="28.0" y="124.0" fill="#1a2415" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" font-style="italic">fifth on 5.75</text>
-<rect x="306.0" y="276.8" width="59.0" height="47.2" rx="0" fill="#6a9a3c"/>
-<rect x="321.1" y="285.8" width="12.1" height="9.0" rx="0" fill="#f3f7ec" opacity="0.75"/>
-<rect x="321.1" y="307.8" width="12.1" height="9.0" rx="0" fill="#f3f7ec" opacity="0.75"/>
-<rect x="381.6" y="262.8" width="59.0" height="61.2" rx="0" fill="#a8c96a"/>
-<rect x="396.7" y="271.8" width="12.1" height="9.0" rx="0" fill="#f3f7ec" opacity="0.75"/>
-<rect x="396.7" y="293.8" width="12.1" height="9.0" rx="0" fill="#f3f7ec" opacity="0.75"/>
-<rect x="457.2" y="271.5" width="59.0" height="52.5" rx="0" fill="#6a9a3c"/>
-<rect x="472.3" y="280.5" width="12.1" height="9.0" rx="0" fill="#f3f7ec" opacity="0.75"/>
-<rect x="472.3" y="302.5" width="12.1" height="9.0" rx="0" fill="#f3f7ec" opacity="0.75"/>
-<rect x="532.8" y="267.2" width="59.0" height="56.8" rx="0" fill="#a8c96a"/>
-<rect x="547.9" y="276.2" width="12.1" height="9.0" rx="0" fill="#f3f7ec" opacity="0.75"/>
-<rect x="547.9" y="298.2" width="12.1" height="9.0" rx="0" fill="#f3f7ec" opacity="0.75"/>
-<text x="306.0" y="262.8" fill="#1a2415" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="start">5.75</text>
+<text x="28.0" y="124.0" fill="#1a2415" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" font-style="italic">fourth on 5.75</text>
+<rect x="306.0" y="280.2" width="59.0" height="43.8" rx="0" fill="#6a9a3c"/>
+<rect x="321.1" y="289.2" width="12.1" height="9.0" rx="0" fill="#f3f7ec" opacity="0.75"/>
+<rect x="381.6" y="268.9" width="59.0" height="55.1" rx="0" fill="#a8c96a"/>
+<rect x="396.7" y="277.9" width="12.1" height="9.0" rx="0" fill="#f3f7ec" opacity="0.75"/>
+<rect x="396.7" y="299.9" width="12.1" height="9.0" rx="0" fill="#f3f7ec" opacity="0.75"/>
+<rect x="457.2" y="275.9" width="59.0" height="48.1" rx="0" fill="#6a9a3c"/>
+<rect x="472.3" y="284.9" width="12.1" height="9.0" rx="0" fill="#f3f7ec" opacity="0.75"/>
+<rect x="472.3" y="306.9" width="12.1" height="9.0" rx="0" fill="#f3f7ec" opacity="0.75"/>
+<rect x="532.8" y="272.4" width="59.0" height="51.6" rx="0" fill="#a8c96a"/>
+<rect x="547.9" y="281.4" width="12.1" height="9.0" rx="0" fill="#f3f7ec" opacity="0.75"/>
+<rect x="547.9" y="303.4" width="12.1" height="9.0" rx="0" fill="#f3f7ec" opacity="0.75"/>
+<text x="306.0" y="268.9" fill="#1a2415" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="start">5.75</text>
 <g transform="rotate(-4 526.0 116.0)">
 <rect x="396.0" y="82.0" width="262.0" height="68.0" rx="5" fill="none" opacity="0.75" stroke="#1a2415" stroke-width="3"/>
 <text x="527.0" y="110.0" fill="#1a2415" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" letter-spacing="1.2">PLANTS &amp; CUTTINGS</text>

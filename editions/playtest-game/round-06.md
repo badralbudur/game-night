@@ -46,6 +46,8 @@ The Mayor of Kampala read 5 unsigned offers and marked one of them:
 
 > Sixteen crates, glass, returnable, all of it cold when it left. Twelve crates of *Bilz y Pap* — the pink one and the yellow one, and no living person can tell you what flavour either is meant to be; the label says only *sabor único*, a unique flavour, which is the most honest thing ever printed on a bottle. Two crates of *mote con huesillo* in bottle form, wheat and dried peach in syrup, labelled *más chilena que los porotos* — more Chilean than beans — and it is a drink you eat with a spoon at the end. Two crates of murta cordial from the south, whose label promises it is *digestivo y refrescante*, which we read as medicinal and therefore permission. And thirty-one bottle openers: eight of steel, twenty-two shaped like sardines, and one welded to a chain in the shape of our funicular, for the shop that keeps losing them.
 
+— *The Mayor of Valparaíso wrote that, and the paper has changed nothing in it, as it never does.*
+
 Valparaíso sent it, and Valparaíso takes 8 — the dice said 4 and 4.
 
 Not chosen, and not attributed:
@@ -53,6 +55,8 @@ Not chosen, and not attributed:
 - Sixty crates, all glass. Twenty of malt — dark, thick, tastes of bread and molasses, and the label has claimed for the better part of a century that it is nourishing and good for nursing mothers, a claim which has never been withdrawn and, as far as I can establish, never tested. Twenty of orange soda, because the two are poured half and half into the same glass at Christmas here by people who will argue with you about the ratio and mean it. Twenty of rhubarb cordial, under-sweetened to a degree some find startling. Plus a box of two hundred flat stamped openers, because you are right, nobody ever sends the opener.
 - Sixty crates, all glass: sparkling apple pressed down the valley with nothing added, blackcurrant cordial thick enough to stand a spoon in, a pepperberry tonic that goes faintly numb at the back of the tongue, sarsaparilla, and a leatherwood honey soda that tastes the way a beehive smells. The label claims the water fell as rain on a mountain with nothing built on it and was in the bottle inside a day, which is true, and then claims it is the purest water in the world, which is a matter for lawyers. Four dozen openers, plain steel, each one spliced onto three feet of rope so it can be tied to the crate and stay tied to the crate.
 - Twelve crates of ramune, 240 bottles, glass, marble-stoppered — melon cream, yuzu, salted watermelon, lychee, and one the label calls 'Blue Hawaii' and then declines to elaborate. The yuzu label claims it settles the stomach after a rough ferry crossing, which we have tested extensively and choose to believe. You don't need an opener: the bottle comes with its own plastic plunger, you push the marble down through the neck, and the marble stays in there forever, which is the entire point. We put in thirty spare plungers anyway, because children lose them.
+
+— *Printed as written and attributed to nobody. The paper knows; the paper is not saying.*
 
 This paper is not saying who sent those, now or ever. Neither is the Mayor of Kampala, who does not know.
 

@@ -42,12 +42,16 @@ The Mayor of Valparaíso read 4 unsigned offers and marked one of them:
 
 > Wool socks in colours our grandmothers chose. A thousand pairs, all slightly wrong.
 
+— *In the Mayor of Reykjavík's own words, printed exactly as they arrived at this desk.*
+
 Reykjavík sent it, and Reykjavík takes 3 — the dice said 2 and 1.
 
 Not chosen, and not attributed:
 
 - Rain, in quantity, and the raincoats to shrug at it.
 - A market's worth of Saturday, transplanted whole, noise included.
+
+— *Those are mayors writing, word for word. Which mayors is not this paper's news to print.*
 
 This paper is not saying who sent those, now or ever. Neither is the Mayor of Valparaíso, who does not know.
 

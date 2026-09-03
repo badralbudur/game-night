@@ -11,6 +11,7 @@ milestone to move a line the game had already been built against twice.
 | #13, #33 | the mayor-facing slate offers everyday orders, and the seed bank is one | `engine/game.py`'s `import_choice_offer`, `content/import_needs.json` |
 | #15 | an offer is still free-form and still binds nothing | unchanged, deliberately |
 | #26, #30 | the paper speaks the same language as the game | `content/newspaper.json`, `newspaper/sample.py` |
+| #30b | a mayor's own words print as typed, cited to them; the desk's copy stays gated | `newspaper/voice.py`, `newspaper/tone.py`, `content/newspaper.json`'s `player_voice` |
 | #32 | the endgame stops describing solved problems | `content/newspaper.json`'s endgame frames |
 
 ---
@@ -150,10 +151,11 @@ answering what they were asked — a fixture that passes while lying about its
 own provenance.
 
 So the briefs were regenerated from the new pool and the game was played again,
-seat by seat. The result: 17 editions, `playtest/conformance.json` at **30
+seat by seat. The result: 17 editions, `playtest/conformance.json` at **31
 passing, 4 handed to the Evaluator with the material to judge, 3 not decidable
-from game state**, and `#13a` now reporting all six everyday families across
-ten of the sixteen categories.
+from game state** (the thirty-first is `#30b`, added in section 8 below), and
+`#13a` now reporting all six everyday families across ten of the sixteen
+categories.
 
 ## 7. What re-recording found: verbatim text meets the tone gate
 
@@ -180,19 +182,92 @@ round-12 offer was then reissued by its own session under the corrected brief,
 which is the only way it could have been: spec #34 does not let the Generator
 write a player's lines.
 
-### One thing this did not fix
+### What that collision turned out to be: a spec question, now answered
 
-In a *live* game the same collision is still possible: a mayor submits a
-free-form offer containing a register word (spec #15 says exports are
-free-form, and nothing screens them at submission), it wins, and the edition
-refuses to publish — which now means the round cannot complete. The recorded
-game no longer trips it and the briefs make it unlikely, but "unlikely" is not
-the same as "structurally impossible", and everywhere else in this deliverable
-that distinction has been the whole point.
+The first attempt at this milestone stopped here, with the collision recorded
+and escalated rather than settled. In a *live* game the same thing could still
+happen: a mayor submits a free-form offer containing a register word (spec #15
+says exports are free-form, and nothing screens them at submission), it wins,
+and the edition refuses to publish — which means the round cannot complete. The
+recorded game no longer tripped it and the briefs made it unlikely, but
+"unlikely" is not "structurally impossible", and everywhere else in this
+deliverable that distinction has been the whole point.
 
-Fixing it properly means deciding *what a live game should do* with an offer
-the paper will not print — refuse the submission at the door with a message,
-publish around it, or something else — and that is a spec question rather than
-a content one, since spec #15 makes the offer free-form and spec #30 makes the
-edition clean. It is recorded here and reported to the Coordinator rather than
-settled inside this milestone.
+The user decision of 2026-09-03 — spec **#30b** — answers it, and answers it the
+other way round from the direction the code was leaning:
+
+> A player's freeform export is player voice, not newspaper editorial voice. If
+> its exact text would trip the editorial tone gate, publication still proceeds:
+> do not reject, rewrite, redact, or halt the game because of it. Present it
+> clearly as player-entered text — a winning export may be quoted as the winning
+> mayor's statement. The paper's own copy remains subject to #30, and #21 still
+> prohibits identifying a non-winning export's origin.
+
+So the fix was not a screen at the submission door, and not a rewrite. It was
+noticing that the register had been enforcing an *editorial* standard against
+somebody who is not the editor.
+
+## 8. Two voices in one paper (spec #30b)
+
+The paper now says whose words a passage is, and the register only grades its
+own. Four pieces:
+
+**`newspaper/voice.py` — the declaration.** An edition marks a mayor's words in
+one of two shapes. A block that is *wholly* a player's text (the winning offer
+quoted in Arrivals, the declined reprints, the twist article's quotes) carries
+`voice: "player"` and a `cite`. A paper sentence that quotes a player *inside*
+itself ("the world kept this, from Bergen: *…*", an outlier's answer on The Wire,
+a city's own reply in The Excess) carries `player_spans` naming the exact
+substrings that are not the paper's. Both shapes are read off the assembled
+payload rather than reported by the writers, for the same reason the redaction
+check walks the payload: a check that trusts a list is a check that misses the
+department somebody adds next.
+
+**`newspaper/tone.py` — the subtraction.** `TonePolicy.check` masks the declared
+spans out of the rendered text and then runs the register. The words still
+publish, byte for byte; the sentences around them are still held to spec #30.
+`config.newspaper.tone.forbidden_register_scope` states the scope in the one
+place config lives, and implements exactly one value — `newspaper_voice` —
+refusing any other with #30b quoted at it, the same way `publish_cadence` and
+`player_identity_style` refuse a value this paper does not implement. There is
+no setting that re-arms the gate against players, because #30b does not leave one
+available.
+
+**The exemption is verified, not asserted.** Before the tone gate runs,
+`voice.assert_spans_are_player_text` checks every declared span against what
+players actually typed in this game — exports (spec #15) and mayoral answers
+(spec #24), compared on the same normalisation the reprint rules use. A
+department that marked its own line as a mayor's, by mistake or to get a joke
+past the register, fails there rather than publishing. Without that check #30b
+would be a hole in #30 instead of a boundary on it, and the two tests in
+`tests/test_player_voice.py` that try both kinds of laundering are the ones worth
+reading first.
+
+**The page says which is which.** Every player-voice block prints with its cite:
+in Markdown an em-dashed italic line under the quotation, on the page a
+`figure.player-voice` with a `figcaption` (`content/site.css`). The cites are
+copy, in `content/newspaper.json`'s `player_voice` block, because "these are not
+our words" is a writing decision — and the two families that cite a *declined*
+offer take no substitutions at all, not even `{mayor}`, which is the cheapest
+possible way to keep spec #21 from ever being one typo away. A winning offer is
+cited to its mayor's office, since winning already makes the sender nameable
+(#18, #20).
+
+The committed sample run carries a case a reader can open: `BLUNT_OFFER` in
+`newspaper/sample.py` is an offer whose one word about a municipal handbook the
+paper would never write in its own voice, sent to Valparaíso's second notice,
+long enough to win the ballot, printed exactly as typed and cited to the Mayor of
+Kampala. It sits beside `SIGNED_OFFER`, which has been in that fixture since M5
+for the same reason: a rule about publication is best demonstrated in published
+bytes.
+
+`playtest/briefing.py` changed direction with the rule. A brief used to hand
+every mayor the paper's register and tell them to stay out of it; it now tells
+them their wording is theirs, is never rewritten, and cannot block a round —
+and passes the register along as what the *paper* will not say, which is worth
+knowing if you are writing for it. The eight briefs in `playtest/_briefs/` are
+left as they were: they are the record of what each session was actually handed
+(spec #34), and editing them would falsify that record rather than update it.
+The recorded game itself contains no register term in any offer, so
+`playtest/conformance.json`'s `#30b` finding says so in as many words and points
+at the sample run and the tests for the case it did not exercise.

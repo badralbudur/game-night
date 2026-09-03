@@ -46,11 +46,15 @@ From the two sealed offers on the Mayor of Reykjavík's desk, one:
 
 > Four hundred metres of bunting in the colours the hills painted themselves, ladders included.
 
+— *That is the Mayor of Valparaíso writing, not this paper: a winning offer is reprinted word for word, spelling, temper and all.*
+
 It came from Valparaíso, which takes 6 on the roll (5 and 1).
 
 The offers that did not win, printed here because they deserve to be read:
 
 - Apples, forty cases, in six varieties nobody off this island has heard of.
+
+— *Offers in their senders' own words. Whose words they are stays in the envelope, permanently.*
 
 The paper would dearly love to say more. The paper has rules.
 

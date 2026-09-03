@@ -1,7 +1,7 @@
 {
-  "checked": 37,
+  "checked": 38,
   "counts": {
-    "pass": 30,
+    "pass": 31,
     "process": 3,
     "judged": 4
   },
@@ -1359,7 +1359,8 @@
           "funny": true,
           "colorful": true,
           "allow_pointed_humor": true,
-          "disallow_snide_or_mean": true
+          "disallow_snide_or_mean": true,
+          "forbidden_register_scope": "newspaper_voice"
         },
         "sample": [
           {
@@ -1459,6 +1460,17 @@
             "text": "This paper is called The Daily Manifest and publishes once per round. The two facts are only occasionally the same fact."
           }
         ]
+      }
+    },
+    {
+      "spec": "#30b",
+      "title": "a mayor's own words are printed as typed and marked as theirs",
+      "status": "pass",
+      "detail": "71 quoted passages across 18 editions, every one byte-identical to what a player typed and every one cited (config.newspaper.tone.forbidden_register_scope='newspaper_voice', so the register grades the paper's copy and not a mayor's). none of them contains a term from the paper's own forbidden register, so this recording did not need the exemption; the committed sample run (newspaper/sample.py) carries an offer that does, and tests/test_player_voice.py proves the publish-anyway, no-rewrite and no-blocking behaviour directly",
+      "evidence": {
+        "passages": 71,
+        "register_terms_in_player_passages": 0,
+        "declined_passages_cited_without_a_city": true
       }
     },
     {

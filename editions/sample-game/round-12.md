@@ -32,15 +32,20 @@ The winning offer for Bergen, reproduced exactly as it arrived:
 
 > Two hundred waxed cotton raincoats, unbeautiful, tested annually by the actual weather.
 
+— *The Mayor of Hobart wrote that, and the paper has changed nothing in it, as it never does.*
+
 Hobart sent it, and Hobart takes 7 — the dice said 4 and 3.
 
 Also offered, and declined:
 
+- A market's worth of Saturday, transplanted whole, noise included.
 - Six thousand alfajores, packed in tins that families here reuse for thirty years.
+
+— *Offers in their senders' own words. Whose words they are stays in the envelope, permanently.*
 
 Those arrived unsigned and will stay that way. A losing offer's city is nobody's business, permanently.
 
-Two offers matched, sentence for sentence, an offer already printed with its sender named. The paper is not going to pretend it cannot see that, and has left the text out.
+One offer matched, sentence for sentence, an offer already printed with its sender named. The paper is not going to pretend it cannot see that, and has left the text out.
 
 ## The Wire
 
@@ -60,13 +65,15 @@ _This paper has no position on the question and every position on the arithmetic
 
 | # | City | Profit |
 | --- | --- | --- |
-| 1 | Kampala | 28.75 |
+| 1 | Kampala | 35.75 |
 | 2 | Valparaíso | 17.75 |
 | 3 | Hobart | 15.75 |
-| 4 | Bergen | 7 |
-| 5 | Reykjavík | 5.75 |
+| 4 | Reykjavík | 5.75 |
+| 5 | Bergen | 0 |
 
 Kampala leads, and has been gracious about it in a way this paper found slightly worse than gloating.
+
+A city on zero is still a city. The column includes everybody, which is the point of a column.
 
 _Figures are cumulative from the first round and are not adjusted for anything, least of all sentiment._
 

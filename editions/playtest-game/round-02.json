@@ -116,7 +116,10 @@
         },
         {
           "kind": "para",
-          "text": "And then exactly one city hall, from the Mayor of Kópavogur: “The pool. Not the swimming — the hot tubs, in order, hottest last, where four hours is exactly long enough to learn everything worth knowing about this place from men who will tell you for free. Everyone assumes I'll drive them straight to the capital instead. It's eight minutes on the bus, they can manage that themselves later.”"
+          "text": "And then exactly one city hall, from the Mayor of Kópavogur: “The pool. Not the swimming — the hot tubs, in order, hottest last, where four hours is exactly long enough to learn everything worth knowing about this place from men who will tell you for free. Everyone assumes I'll drive them straight to the capital instead. It's eight minutes on the bus, they can manage that themselves later.”",
+          "player_spans": [
+            "The pool. Not the swimming — the hot tubs, in order, hottest last, where four hours is exactly long enough to learn everything worth knowing about this place from men who will tell you for free. Everyone assumes I'll drive them straight to the capital instead. It's eight minutes on the bus, they can manage that themselves later."
+          ]
         },
         {
           "kind": "aside",
@@ -261,9 +264,13 @@
       "colorful": true,
       "allow_pointed_humor": true,
       "disallow_snide_or_mean": true,
+      "forbidden_register_scope": {
+        "value": "newspaper_voice",
+        "means": "the register is run over the paper's own copy; passages a player typed are printed as written and marked as theirs (spec #30b)"
+      },
       "forbidden_register_terms": 33,
-      "spec": "#30",
-      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+      "spec": "#30, #30b",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose in the paper's own voice. A passage a mayor typed is printed as typed and attributed to them (#30b)."
     },
     "lockstep": [
       {
@@ -285,7 +292,7 @@
         "need": null
       }
     ],
-    "spec": "#25, #26, #28, #29, #30"
+    "spec": "#25, #26, #28, #29, #30, #30b"
   },
   "image": {
     "kind": "edition",

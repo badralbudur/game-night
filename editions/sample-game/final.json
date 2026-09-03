@@ -57,7 +57,7 @@
   "city_images": [
     {
       "kind": "city_portrait",
-      "alt": "A portrait of Bergen in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 1 ribboned crates for the offers the world kept, 3 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.",
+      "alt": "A portrait of Bergen in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 3 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.",
       "cutline": "The portrait of Bergen: notices, ribbons, leftovers, and one closed door.",
       "extension": "svg",
       "mime": "image/svg+xml",
@@ -145,7 +145,7 @@
     },
     {
       "kind": "city_portrait",
-      "alt": "A portrait of Kampala in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 3 ribboned crates for the offers the world kept, 3 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.",
+      "alt": "A portrait of Kampala in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 4 ribboned crates for the offers the world kept, 3 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.",
       "cutline": "The portrait of Kampala: notices, ribbons, leftovers, and one closed door.",
       "extension": "svg",
       "mime": "image/svg+xml",
@@ -287,15 +287,15 @@
         },
         {
           "kind": "para",
-          "text": "**The crown goes to Kampala.** 28.75, cumulative, from the first notice to the last."
+          "text": "**The crown goes to Kampala.** 35.75, cumulative, from the first notice to the last."
         },
         {
           "kind": "para",
-          "text": "Valparaíso finished 11 behind — a gap this paper considers both narrow and, now, permanent."
+          "text": "Valparaíso finished 18 behind — a gap this paper considers both narrow and, now, permanent."
         },
         {
           "kind": "para",
-          "text": "Three of Kampala's offers were chosen over the run of the game, which is a good year at the water."
+          "text": "Four of Kampala's offers were chosen over the run of the game, which is a good year at the water."
         },
         {
           "kind": "para",
@@ -312,7 +312,7 @@
             [
               1,
               "Kampala",
-              "28.75"
+              "35.75"
             ],
             [
               2,
@@ -326,13 +326,13 @@
             ],
             [
               4,
-              "Bergen",
-              "7"
+              "Reykjavík",
+              "5.75"
             ],
             [
               5,
-              "Reykjavík",
-              "5.75"
+              "Bergen",
+              "0"
             ]
           ]
         },
@@ -355,7 +355,7 @@
         ],
         "shared": false,
         "profit_visible": true,
-        "wins_by_the_crown": 3,
+        "wins_by_the_crown": 4,
         "spec": "#31"
       }
     },
@@ -373,7 +373,9 @@
         },
         {
           "kind": "quote",
-          "text": "Four hundred metres of bunting in the colours the hills painted themselves, ladders included."
+          "text": "Four hundred metres of bunting in the colours the hills painted themselves, ladders included.",
+          "voice": "player",
+          "cite": "The Mayor of Valparaíso's own words, unaltered. What they did after arriving is a separate matter, below."
         },
         {
           "kind": "para",
@@ -385,7 +387,9 @@
         },
         {
           "kind": "quote",
-          "text": "Roast maize, chapati and a spice mix in unlabelled bags, because labels slow everything down."
+          "text": "Roast maize, chapati and a spice mix in unlabelled bags, because labels slow everything down.",
+          "voice": "player",
+          "cite": "The offer as the Mayor of Kampala wrote it, which is how it was read and how it is printed here."
         },
         {
           "kind": "para",
@@ -397,7 +401,9 @@
         },
         {
           "kind": "quote",
-          "text": "Wool socks in colours our grandmothers chose. A thousand pairs, all slightly wrong."
+          "text": "Wool socks in colours our grandmothers chose. A thousand pairs, all slightly wrong.",
+          "voice": "player",
+          "cite": "The offer as the Mayor of Reykjavík wrote it, which is how it was read and how it is printed here."
         },
         {
           "kind": "para",
@@ -409,7 +415,9 @@
         },
         {
           "kind": "quote",
-          "text": "Two hundred waxed cotton raincoats, unbeautiful, tested annually by the actual weather."
+          "text": "Two hundred waxed cotton raincoats, unbeautiful, tested annually by the actual weather.",
+          "voice": "player",
+          "cite": "The Mayor of Hobart's own words, unaltered. What they did after arriving is a separate matter, below."
         },
         {
           "kind": "para",
@@ -465,12 +473,12 @@
         {
           "kind": "figure",
           "image": "city-bergen.svg",
-          "alt": "A portrait of Bergen in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 1 ribboned crates for the offers the world kept, 3 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.",
+          "alt": "A portrait of Bergen in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 3 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.",
           "caption": "The portrait of Bergen: notices, ribbons, leftovers, and one closed door."
         },
         {
           "kind": "para",
-          "text": "Bergen, fourth on 7, drawn here from its own record and nobody else's."
+          "text": "Bergen, fifth on 0, drawn here from its own record and nobody else's."
         },
         {
           "kind": "para",
@@ -478,7 +486,7 @@
         },
         {
           "kind": "para",
-          "text": "The world kept this, from Bergen: *Cinnamon buns, three hundred a morning, frozen, ready for an oven you already own.* — chosen in Valparaíso."
+          "text": "Nothing in this paper's whole arrivals column came from Bergen. The column is the poorer for it and has said so."
         },
         {
           "kind": "para",
@@ -494,14 +502,17 @@
         },
         {
           "kind": "list",
-          "role": "declined_exports",
           "items": [
+            "A market's worth of Saturday, transplanted whole, noise included.",
             "Six thousand alfajores, packed in tins that families here reuse for thirty years."
-          ]
+          ],
+          "voice": "player",
+          "cite": "Offers this city turned down, in the words they came in. No senders named, this year or any year.",
+          "role": "declined_exports"
         },
         {
           "kind": "para",
-          "text": "Kept in the crate: two offers matching, sentence for sentence, an offer credited by name elsewhere in this edition — the same words having won somewhere and lost here."
+          "text": "Kept in the crate: one offer matching, sentence for sentence, an offer credited by name elsewhere in this edition — the same words having won somewhere and lost here."
         },
         {
           "kind": "para",
@@ -509,7 +520,10 @@
         },
         {
           "kind": "para",
-          "text": "Asked *What is on the mayoral desk that has absolutely no business being there?*, the Mayor of Bergen said: “A barometer that has been wrong since April.” This paper has thought about that a good deal since."
+          "text": "Asked *What is on the mayoral desk that has absolutely no business being there?*, the Mayor of Bergen said: “A barometer that has been wrong since April.” This paper has thought about that a good deal since.",
+          "player_spans": [
+            "A barometer that has been wrong since April."
+          ]
         },
         {
           "kind": "heading",
@@ -536,7 +550,10 @@
         },
         {
           "kind": "para",
-          "text": "Bergen looked at a desk of unsigned offers and took Hobart's: *Two hundred waxed cotton raincoats, unbeautiful, tested annually by the actual weather.*"
+          "text": "Bergen looked at a desk of unsigned offers and took Hobart's: *Two hundred waxed cotton raincoats, unbeautiful, tested annually by the actual weather.*",
+          "player_spans": [
+            "Two hundred waxed cotton raincoats, unbeautiful, tested annually by the actual weather."
+          ]
         },
         {
           "kind": "para",
@@ -548,11 +565,13 @@
         },
         {
           "kind": "list",
-          "role": "declined_exports",
           "items": [
             "Salted liquorice, forty cases, which visitors have twice described as a prank.",
             "Six thousand alfajores, packed in tins that families here reuse for thirty years."
-          ]
+          ],
+          "voice": "player",
+          "cite": "Offers this city turned down, in the words they came in. No senders named, this year or any year.",
+          "role": "declined_exports"
         },
         {
           "kind": "para",
@@ -560,7 +579,10 @@
         },
         {
           "kind": "para",
-          "text": "For the record, the Mayor of Hobart, asked *What was the last thing that made you laugh out loud, on your own?*: “A dog on the ferry who clearly commutes.”"
+          "text": "For the record, the Mayor of Hobart, asked *What was the last thing that made you laugh out loud, on your own?*: “A dog on the ferry who clearly commutes.”",
+          "player_spans": [
+            "A dog on the ferry who clearly commutes."
+          ]
         },
         {
           "kind": "heading",
@@ -570,12 +592,12 @@
         {
           "kind": "figure",
           "image": "city-kampala.svg",
-          "alt": "A portrait of Kampala in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 3 ribboned crates for the offers the world kept, 3 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.",
+          "alt": "A portrait of Kampala in the Daily Manifest's colours, rubber stamps for the 2 notices it opened, 4 ribboned crates for the offers the world kept, 3 plain crates for the offers it declined, none of them marked with a sender, and a shed with the door shut, for the offers it sent that nobody chose and that this paper does not count.",
           "caption": "The portrait of Kampala: notices, ribbons, leftovers, and one closed door."
         },
         {
           "kind": "para",
-          "text": "Kampala finishes first, on 28.75, and looks — the illustrator is firm about this — exactly like a city that finished first on 28.75."
+          "text": "Kampala finishes first, on 35.75, and looks — the illustrator is firm about this — exactly like a city that finished first on 35.75."
         },
         {
           "kind": "para",
@@ -583,11 +605,14 @@
         },
         {
           "kind": "para",
-          "text": "Three times this game, a city read an unsigned offer and it turned out to be Kampala's."
+          "text": "Four times this game, a city read an unsigned offer and it turned out to be Kampala's."
         },
         {
           "kind": "para",
-          "text": "Chosen, in Hobart, from Kampala: *Roast maize, chapati and a spice mix in unlabelled bags, because labels slow everything down.*"
+          "text": "Chosen, in Valparaíso, from Kampala: *Two hundred paperbacks from the stall by the taxi park, no two alike, and the one I nearly kept is a stupid little book about drainage that I have now read four times.*",
+          "player_spans": [
+            "Two hundred paperbacks from the stall by the taxi park, no two alike, and the one I nearly kept is a stupid little book about drainage that I have now read four times."
+          ]
         },
         {
           "kind": "para",
@@ -603,11 +628,13 @@
         },
         {
           "kind": "list",
-          "role": "declined_exports",
           "items": [
             "Rain, in quantity, and the raincoats to shrug at it.",
             "Apples, forty cases, in six varieties nobody off this island has heard of."
-          ]
+          ],
+          "voice": "player",
+          "cite": "Offers this city turned down, in the words they came in. No senders named, this year or any year.",
+          "role": "declined_exports"
         },
         {
           "kind": "para",
@@ -619,7 +646,10 @@
         },
         {
           "kind": "para",
-          "text": "On the question *Best thing you have ever eaten standing up?*, Kampala's answer was: “Roast maize from a woman on Jinja Road who has never once been wrong.”"
+          "text": "On the question *Best thing you have ever eaten standing up?*, Kampala's answer was: “Roast maize from a woman on Jinja Road who has never once been wrong.”",
+          "player_spans": [
+            "Roast maize from a woman on Jinja Road who has never once been wrong."
+          ]
         },
         {
           "kind": "heading",
@@ -634,7 +664,7 @@
         },
         {
           "kind": "para",
-          "text": "Fifth: Reykjavík, 5.75, and a harbour that has seen things this year."
+          "text": "Fourth: Reykjavík, 5.75, and a harbour that has seen things this year."
         },
         {
           "kind": "para",
@@ -646,7 +676,10 @@
         },
         {
           "kind": "para",
-          "text": "Valparaíso looked at a desk of unsigned offers and took Reykjavík's: *Wool socks in colours our grandmothers chose. A thousand pairs, all slightly wrong.*"
+          "text": "Valparaíso looked at a desk of unsigned offers and took Reykjavík's: *Wool socks in colours our grandmothers chose. A thousand pairs, all slightly wrong.*",
+          "player_spans": [
+            "Wool socks in colours our grandmothers chose. A thousand pairs, all slightly wrong."
+          ]
         },
         {
           "kind": "para",
@@ -658,11 +691,13 @@
         },
         {
           "kind": "list",
-          "role": "declined_exports",
           "items": [
             "Apples, forty cases, in six varieties nobody off this island has heard of.",
             "Fish soup in vacuum packs, and a two-hundred-year opinion about freshness."
-          ]
+          ],
+          "voice": "player",
+          "cite": "Offers this city turned down, in the words they came in. No senders named, this year or any year.",
+          "role": "declined_exports"
         },
         {
           "kind": "para",
@@ -670,7 +705,10 @@
         },
         {
           "kind": "para",
-          "text": "On the question *What is on the mayoral desk that has absolutely no business being there?*, Reykjavík's answer was: “A pebble from a beach that no longer exists.”"
+          "text": "On the question *What is on the mayoral desk that has absolutely no business being there?*, Reykjavík's answer was: “A pebble from a beach that no longer exists.”",
+          "player_spans": [
+            "A pebble from a beach that no longer exists."
+          ]
         },
         {
           "kind": "heading",
@@ -697,7 +735,10 @@
         },
         {
           "kind": "para",
-          "text": "The world kept this, from Valparaíso: *A brass band with its own van, its own repertoire, and no intention of stopping at ninety minutes.* — chosen in Bergen."
+          "text": "The world kept this, from Valparaíso: *A brass band with its own van, its own repertoire, and no intention of stopping at ninety minutes.* — chosen in Bergen.",
+          "player_spans": [
+            "A brass band with its own van, its own repertoire, and no intention of stopping at ninety minutes."
+          ]
         },
         {
           "kind": "para",
@@ -709,11 +750,13 @@
         },
         {
           "kind": "list",
-          "role": "declined_exports",
           "items": [
             "Rain, in quantity, and the raincoats to shrug at it.",
             "A market's worth of Saturday, transplanted whole, noise included."
-          ]
+          ],
+          "voice": "player",
+          "cite": "The unchosen, printed as written and signed by nobody at all.",
+          "role": "declined_exports"
         },
         {
           "kind": "para",
@@ -725,7 +768,10 @@
         },
         {
           "kind": "para",
-          "text": "On the question *Best thing you have ever eaten standing up?*, Valparaíso's answer was: “An empanada from a window on Cerro Alegre, eaten walking.”"
+          "text": "On the question *Best thing you have ever eaten standing up?*, Valparaíso's answer was: “An empanada from a window on Cerro Alegre, eaten walking.”",
+          "player_spans": [
+            "An empanada from a window on Cerro Alegre, eaten walking."
+          ]
         },
         {
           "kind": "aside",
@@ -789,9 +835,13 @@
       "colorful": true,
       "allow_pointed_humor": true,
       "disallow_snide_or_mean": true,
+      "forbidden_register_scope": {
+        "value": "newspaper_voice",
+        "means": "the register is run over the paper's own copy; passages a player typed are printed as written and marked as theirs (spec #30b)"
+      },
       "forbidden_register_terms": 33,
-      "spec": "#30",
-      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+      "spec": "#30, #30b",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose in the paper's own voice. A passage a mayor typed is printed as typed and attributed to them (#30b)."
     },
     "ended_round": 12,
     "excess_policy": {

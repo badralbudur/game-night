@@ -46,6 +46,8 @@ The Mayor of Hobart read 5 unsigned offers and marked one of them:
 
 > Three hundred grow bags, three hundred pots of chives, six hundred packets of seed, forty dwarf apples that will sulk at you for a year, and thirty rhubarb crowns lifted out of gardens here where they had become a problem for their owners. Everything in the consignment was raised in a wind that regularly removes fence panels, so a balcony will feel like a holiday to it. The two that survive are chives and rhubarb: the chives because you can cut them to the soil in a gale and have them back in a fortnight, the rhubarb because nothing has ever successfully killed a rhubarb. Plant the tomatoes anyway. Everybody does.
 
+— *In the Mayor of Reykjavík's own words, printed exactly as they arrived at this desk.*
+
 Reykjavík sent it, and Reykjavík takes 5 — the dice said 2 and 3.
 
 Not chosen, and not attributed:
@@ -53,6 +55,8 @@ Not chosen, and not attributed:
 - Three hundred grow bags, three hundred terracotta pots the colour of our roof tiles, and eleven hundred seed packets hand-labelled by the ladies of the Cerro Alegre seed swap, who argue about basil the way other people argue about football. The two that actually survive a balcony: cherry tomatoes of the *cherry amarillo* strain, which fruit in a bucket of poor soil and sulk beautifully but never die, and rosemary — take a cutting the size of a pencil, push it into sand, forget about it entirely, and in a year it will be a small shrub that outlives the lease. Everything else in the crate is optimism: eighty dwarf lemon whips, chard, oregano, and mint you must keep in its own pot or it will annex the balcony next door. We have also included three hundred saucers, because a balcony that drips onto the balcony below is how neighbourhoods learn to hate each other.
 - Three hundred grow bags sewn out of feed sacks by the ladies who sit outside the hardware shop, each one packed with a tin of cherry tomatoes already up two inches, and seed folded into little paper squares torn from exercise books — amaranth, basil, coriander for the brave, and pigeon pea if you want shade. Sixty dwarf pawpaw seedlings as well, which will fruit before anybody finishes discussing them. The two that actually survive a balcony are chilli and sukuma wiki, and I will tell you exactly why: the chilli enjoys being ignored, it gets hotter out of spite, and sukuma wiki you harvest one leaf at a time so it never dies, it only gets shorter and more apologetic. Everything else on a balcony is a hobby. Those two are food.
 - Three hundred grow bags, three hundred twenty-litre pots, nine hundred seed packets — chervil, dill, rocket, and a stubby outdoor tomato called Sub-Arctic Plenty, which is exactly what it sounds like — and forty dwarf apples on the smallest rootstock we could get. The two that actually survive a balcony are chives and rhubarb, so both go in bulk: six hundred chive clumps split out of one allotment over three weekends, and three hundred rhubarb crowns, which will outlive the balcony, the flat, and probably the building. Everything else on that list is optional entertainment; those two are the reason there will still be something edible up there in year four.
+
+— *Those are mayors writing, word for word. Which mayors is not this paper's news to print.*
 
 This paper is not saying who sent those, now or ever. Neither is the Mayor of Hobart, who does not know.
 

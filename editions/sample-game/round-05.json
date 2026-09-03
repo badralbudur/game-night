@@ -81,7 +81,9 @@
         },
         {
           "kind": "quote",
-          "text": "Wool socks in colours our grandmothers chose. A thousand pairs, all slightly wrong."
+          "text": "Wool socks in colours our grandmothers chose. A thousand pairs, all slightly wrong.",
+          "voice": "player",
+          "cite": "In the Mayor of Reykjavík's own words, printed exactly as they arrived at this desk."
         },
         {
           "kind": "para",
@@ -93,11 +95,13 @@
         },
         {
           "kind": "list",
-          "role": "declined_exports",
           "items": [
             "Rain, in quantity, and the raincoats to shrug at it.",
             "A market's worth of Saturday, transplanted whole, noise included."
-          ]
+          ],
+          "voice": "player",
+          "cite": "Those are mayors writing, word for word. Which mayors is not this paper's news to print.",
+          "role": "declined_exports"
         },
         {
           "kind": "para",
@@ -301,9 +305,13 @@
       "colorful": true,
       "allow_pointed_humor": true,
       "disallow_snide_or_mean": true,
+      "forbidden_register_scope": {
+        "value": "newspaper_voice",
+        "means": "the register is run over the paper's own copy; passages a player typed are printed as written and marked as theirs (spec #30b)"
+      },
       "forbidden_register_terms": 33,
-      "spec": "#30",
-      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose."
+      "spec": "#30, #30b",
+      "note": "The funny/colourful/pointed half of #30 is a judged criterion; the snide-or-mean half has a mechanical floor, checked over this edition's finished prose in the paper's own voice. A passage a mayor typed is printed as typed and attributed to them (#30b)."
     },
     "lockstep": [
       {
@@ -327,7 +335,7 @@
         "city": "Valparaíso"
       }
     ],
-    "spec": "#25, #26, #28, #29, #30"
+    "spec": "#25, #26, #28, #29, #30, #30b"
   },
   "image": {
     "kind": "edition",

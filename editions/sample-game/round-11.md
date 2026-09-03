@@ -36,12 +36,16 @@ From the four sealed offers on the Mayor of Kampala's desk, one:
 
 > Four hundred metres of bunting in the colours the hills painted themselves, ladders included.
 
+— *In the Mayor of Valparaíso's own words, printed exactly as they arrived at this desk.*
+
 Valparaíso sent it, and Valparaíso takes 9 — the dice said 3 and 6.
 
 Also offered, and declined:
 
 - Rain, in quantity, and the raincoats to shrug at it.
 - Apples, forty cases, in six varieties nobody off this island has heard of.
+
+— *Offers in their senders' own words. Whose words they are stays in the envelope, permanently.*
 
 This paper is not saying who sent those, now or ever. Neither is the Mayor of Kampala, who does not know.
 
@@ -69,13 +73,15 @@ _This paper has no position on the question and every position on the arithmetic
 
 | # | City | Profit |
 | --- | --- | --- |
-| 1 | Kampala | 28.75 |
+| 1 | Kampala | 35.75 |
 | 2 | Valparaíso | 17.75 |
 | 3 | Hobart | 8.75 |
-| 4 | Bergen | 7 |
-| 5 | Reykjavík | 5.75 |
+| 4 | Reykjavík | 5.75 |
+| 5 | Bergen | 0 |
 
 Kampala is top of the column. The column is long and the game is not over.
+
+A city on zero is still a city. The column includes everybody, which is the point of a column.
 
 _Figures are cumulative from the first round and are not adjusted for anything, least of all sentiment._
 
